@@ -2,12 +2,11 @@
 """English versions of the interface pictures that carry Korean text.
 
     images.py GRF OUTDIR     redraw the pictures listed in images.json and
-                             write them under OUTDIR as loose files
+                             write them under OUTDIR, to look at
 
 Every picture is rebuilt from the original inside the game archive: the
 Korean label is wiped and the English one drawn in the same place and style.
-The translated client reads loose files under data/ before the archive, so
-OUTDIR is the game folder, or a folder whose contents are copied into it."""
+data.py packs the results into the archive the translated client loads."""
 import io, json, os, sys
 from PIL import Image
 from grf import Grf
@@ -156,15 +155,20 @@ def patches(g, save):
                 paint(im, pts, tuple(op['colour']))
         save(p['file'], im)
 
-def main(grf, out):
-    g = Grf(grf); n = [0]
+def build(g):
+    """{name in the archive: BMP file} for every picture in images.json."""
+    out = {}
     def save(name, im):
-        dst = os.path.join(out, *name.split('/'))
-        os.makedirs(os.path.dirname(dst), exist_ok=True)
-        im.save(dst, 'BMP'); n[0] += 1
+        buf = io.BytesIO(); im.save(buf, 'BMP')
+        out[g.find(name)[0]] = buf.getvalue()
     buttons(g, save); bars(g, save); patches(g, save)
-    print(n[0], 'pictures written under', out)
+    return out
 
 if __name__ == '__main__':
     if len(sys.argv) != 3: sys.exit(__doc__)
-    main(sys.argv[1], sys.argv[2])
+    files = build(Grf(sys.argv[1]))
+    for name, data in files.items():
+        dst = os.path.join(sys.argv[2], *name.decode('cp949').split('\\'))
+        os.makedirs(os.path.dirname(dst), exist_ok=True)
+        open(dst, 'wb').write(data)
+    print(len(files), 'pictures written under', sys.argv[2])

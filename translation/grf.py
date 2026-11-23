@@ -1,4 +1,5 @@
-"""Reader for GRF 0x102/0x103 archives (single-round DES variant on names and data).
+"""GRF archives: reads 0x102/0x103 (single-round DES variant on names and data) and 0x200,
+writes 0x200.
 
    grf.py list GRF                 summary by extension and directory
    grf.py names GRF [REGEX]        entry names with sizes
@@ -83,8 +84,15 @@ class Grf:
         self.f=open(path,'rb'); self.d=d=mmap.mmap(self.f.fileno(),0,access=mmap.ACCESS_READ)
         assert d[:15]==b'Master of Magic'
         toff,seed,cnt,self.ver=struct.unpack_from('<IIII',d,30)
-        assert 0x101<=self.ver<0x104, hex(self.ver)
+        assert 0x101<=self.ver<0x104 or self.ver==0x200, hex(self.ver)
         t=d[46+toff:]; o=0; self.ents=[]
+        if self.ver==0x200:
+            csz,usz=struct.unpack_from('<II',t,0); t=zlib.decompress(t[8:8+csz])
+            for _ in range(cnt-seed-7):
+                z=t.index(b'\0',o); a,b,declen,typ,pos=struct.unpack_from('<IIIBI',t,z+1)
+                if typ&1: self.ents.append((t[o:z],a,b,declen,None,pos+46))
+                o=z+18
+            return
         for _ in range(cnt-seed-7):
             ln=struct.unpack_from('<I',t,o)[0]; o2=o+ln+4
             a,b,declen,typ,pos=struct.unpack_from('<IIIBI',t,o2)
@@ -101,10 +109,22 @@ class Grf:
         return self._index.get(name.replace('/','\\').lower())
     def read(self,e):
         name,srclen,aligned,declen,cyc,pos=e
-        raw=decode_data(self.d[pos:pos+aligned],cyc==0,cyc)
+        raw=self.d[pos:pos+aligned] if cyc is None else decode_data(self.d[pos:pos+aligned],cyc==0,cyc)
         data=zlib.decompress(raw[:srclen])
         assert len(data)==declen,name
         return data
+
+def pack(path,files):
+    """Write a 0x200 archive from {name as the client asks for it (bytes, backslashes): contents}."""
+    body=bytearray(); table=bytearray()
+    for name in sorted(files):
+        z=zlib.compress(files[name],9); pad=-len(z)%8
+        table+=name+b'\0'+struct.pack('<IIIBI',len(z),len(z)+pad,len(files[name]),1,len(body))
+        body+=z+bytes(pad)
+    zt=zlib.compress(bytes(table),9)
+    with open(path,'wb') as f:
+        f.write(b'Master of Magic\0'+bytes(range(1,15))+struct.pack('<IIII',len(body),0,len(files)+7,0x200))
+        f.write(body); f.write(struct.pack('<II',len(zt),len(table))); f.write(zt)
 
 if __name__=='__main__':
     g=Grf(sys.argv[2]); cmd=sys.argv[1]

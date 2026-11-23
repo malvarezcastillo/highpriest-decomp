@@ -890,6 +890,8 @@ int APIENTRY WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance,
 		g_fileMgr.AddPak("data.grf");
 	g_session.m_isCheckToPcbang = (strstr(lpCmdLine, "pc") != NULL);
 	g_fileMgr.AddPak("data_hp.grf");
+	if (GetFileAttributesA("data_en.grf") != 0xFFFFFFFF)
+		g_fileMgr.AddPak("data_en.grf");
 
 
 
