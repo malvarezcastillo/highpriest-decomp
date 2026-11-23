@@ -11,17 +11,45 @@ The source covers the game and the libraries the original linked statically: the
 
 ## This branch: English translation
 
-The `translation` branch replaces the Korean text compiled into the executable with English, so its build no longer equals the original and `make check` fails by design; use `make`. `main` is the byte-identical source.
+The `translation` branch puts the game into English: the text compiled into the executable, and the pictures and tables of the game data that the minigame shows. Its build no longer equals the original and `make check` fails by design; use `make`. `main` is the byte-identical source.
 
-What is translated: the minigame's dialogue, menus, hints, shop, endings and credits; the client's built-in message table (`src/MsgStrings.cpp`); the interface, error and debug strings scattered through the other sources; and the crash dialog in `src/res/SimpleAssert.rc`. Names follow the international (iRO) client: Guillotine Fist, Occult Impaction, Mastersmith, Swordman, Hatii, Zeny. The emotion commands take their iRO forms (`/swt`, `/gg`, `/no1`).
+### Playing it
 
-What stays Korean, on purpose: 2,727 literals that are not text for the player. Most name files inside the game data (sprites, textures, sounds, palettes); the rest are the Korean chat commands, comparison keys, font names and GameGuard's encrypted strings. The author's credit line keeps his name in Hangul.
+The [english-2026-11-23 release](https://github.com/malvarezcastillo/highpriest-decomp/releases/tag/english-2026-11-23) has the game ready to play on Windows (`HighPriest-English.zip`: unpack, run `HighPriest.exe`) and, for a game already installed from the original installer, the files that change (`HighPriest-English-patch.zip`). To make them from source:
 
-What the executable cannot cover: item, skill, monster and map names and descriptions, and any text drawn into pictures, come from the game data, which this repository does not contain.
+```bash
+make                                   # build/HighPriest.exe, in English
+python3 translation/data.py GAME/data_hp.grf GAME/data_en.grf GAME/skin/default
+cp build/HighPriest.exe GAME/
+```
 
-`translation/strings/` lists every Korean string literal of `main` by source file and position, with its English text or the reason it is kept. `translation/tr.py apply` rewrites the literals from those tables, `translation/tr.py status` checks that every entry is accounted for and that printf conversions match, and `translation/tr.py extract` rebuilds the list from `main`. Three changes were made by hand because they are not string literals or needed room: the daughter's default name in `src/UIWindowMgr.cpp` (a list of character constants), the local text buffers of the `HP_*.cpp` sources (100 to 256 bytes) and the save-slot difficulty buffer in `src/HP_SaveLoad.cpp`.
+`GAME` is the folder the [original installer](https://github.com/malvarezcastillo/highpriest-decomp/releases/tag/installer-2008-11-05) creates. `data.py` needs Python 3 with Pillow. It writes `data_en.grf`, a small archive the translated client loads on top of `data_hp.grf` when it is there, so the game's own archive stays untouched. The repository holds only the translations and the scripts: every English file is made from its original in `data_hp.grf`.
 
-The English has been compiled and checked against buffer sizes and box widths in the code, but not yet seen running: that needs the game data.
+### What is translated
+
+- In the executable: the minigame's dialogue, menus, hints, shop, endings and credits; the client's built-in message table (`src/MsgStrings.cpp`); the interface, error and debug strings scattered through the other sources; and the crash dialog in `src/res/SimpleAssert.rc`.
+- In `data_en.grf`: 155 interface pictures with text drawn into them (every button in each of its states, the bars of the Esc menu, the titles of the message and character windows, the tabs of the inventory, status and option windows and the labels of the option window); the names of all 565 skills; the descriptions of the 48 skills and the names and descriptions of the 56 items the minigame uses.
+
+Names follow the international (iRO) client: Guillotine Fist, Occult Impaction, Mastersmith, Swordman, Hatii, Zeny, Blank Eyes. The emotion commands take their iRO forms (`/swt`, `/gg`, `/no1`). Where the minigame renamed a skill or an item the new name is translated instead: Aco Smash, Aco Kaboom, Aco Tornado, Grrr, Toy Chain.
+
+### What stays Korean
+
+- 2,727 literals in the source that are not text for the player. Most name files inside the game data (sprites, textures, sounds, palettes); the rest are the Korean chat commands, comparison keys, font names and GameGuard's encrypted strings. The author's credit line keeps his name in Hangul.
+- Game data the minigame does not reach: the descriptions of the other items and skills of the full game, which its tables still carry; the monster and pet speech, map name and quest tables; and the pictures of screens it never opens (login, character select, mail, auction, the chat-room and shortcut windows, loading screens).
+- The save slots that come with the installer, which carry Korean names.
+- In `skin/default`, three pictures (`btn_edit*.bmp`) that differ from the archive's own.
+
+The client still asks Windows for a Korean font (Gulim). Without any font that covers the Korean character set every string draws as boxes, the English ones too; a Windows with Korean language support, or a Wine prefix after `winetricks fakekorean`, has one.
+
+### How it is made
+
+`translation/strings/` lists every Korean string literal of `main` by source file and position, with its English text or the reason it is kept. `translation/tr.py apply` rewrites the literals from those tables, `translation/tr.py status` checks that every entry is accounted for and that printf conversions match, and `translation/tr.py extract` rebuilds the list from `main`.
+
+`translation/images.py` redraws the pictures listed in `images.json`: it wipes the Korean label of the original and draws the English one in the same place and style, with the glyphs in `font.json`. `translation/tables.py` puts the text of `tables.json` into the game's name and description tables; the item descriptions are stored with letters mirrored, as the client expects. `translation/grf.py` reads the game's archive (version 0x102) and writes the new one (0x200), and `translation/data.py` runs them all.
+
+Changes made by hand, because they are not string literals or needed room: the daughter's default name in `src/UIWindowMgr.cpp` (a list of character constants); the local text buffers of the `HP_*.cpp` sources (100 to 256 bytes); the save-slot difficulty buffer in `src/HP_SaveLoad.cpp`; the position of the difficulty value in the character window (`src/window/UIFrameWnd.cpp`); and the loading of `data_en.grf` in `src/WinMain.cpp`.
+
+The English build has been played under Wine 9.0 from the title screen through character creation, the day menu, the inventory, equipment, skill and option windows, a battle and the shop. It has not been played through to an ending, and not yet run on Windows.
 
 ## Building
 
@@ -72,6 +100,7 @@ They are in 22 files; `grep -rlE 'RAG_(BUDGET|ENTROPY|SYMBOL)' src --exclude='ra
 - `src/`: the reconstruction. `src/library/` holds the sources of statically linked libraries, `src/imports/` the definitions of the import libraries, `src/res/` the resources.
 - `vendor/`: Visual C++ runtime sources that `src/library/` includes.
 - `tools/`: the compilers and SDK files the build reads ([docs/toolchain.md](docs/toolchain.md)), and `tools/stamp.py`.
+- `translation/`: the English text and the scripts that apply it (this branch only).
 - `docs/`: the toolchain's provenance and the compiler notes.
 - `build/`: outputs, untracked.
 
