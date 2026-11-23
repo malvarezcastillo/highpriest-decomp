@@ -4075,8 +4075,8 @@ m_roomInfo = *info;
 		{
 		std::string wMsg = (const char*)val1;
 		int len = strlen((const char*)val1);
-		int enterPos = wMsg.find(")\xb4\xd4\xc0\xcc \xc0\xd4\xc0\xe5 \xc7\xcf\xbf\xb4\xbd\xc0\xb4\xcf\xb4\xd9.");
-		int exitPos = wMsg.find(")\xb4\xd4\xc0\xcc \xc5\xf0\xc0\xe5 \xc7\xcf\xbf\xb4\xbd\xc0\xb4\xcf\xb4\xd9.");
+		int enterPos = wMsg.find(") has entered.");
+		int exitPos = wMsg.find(") has left.");
 		int colonPos = wMsg.find(" :");
 		if (enterPos > 0 && enterPos < len) {
 			memcpy(talkerName, (const char*)val1 + 1, enterPos - 1);

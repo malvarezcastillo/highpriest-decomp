@@ -3339,1237 +3339,1649 @@
   "en": "If adopted, you can't be reborn, stats can't go above 80, and your HP and SP are reduced. Is that OK?"
  },
  "929:16": {
-  "ko": "모든 나쁜 상태이상이 제거 되었습니다."
+  "ko": "모든 나쁜 상태이상이 제거 되었습니다.",
+  "en": "All abnormal status effects have been removed."
  },
  "930:16": {
-  "ko": "1분간 모든 상태이상에 대해 면역이 됩니다."
+  "ko": "1분간 모든 상태이상에 대해 면역이 됩니다.",
+  "en": "You are immune to all status ailments for 1 minute."
  },
  "931:16": {
-  "ko": "1분간 최대 생명력이 크게 늘어납니다."
+  "ko": "1분간 최대 생명력이 크게 늘어납니다.",
+  "en": "Max HP is greatly increased for 1 minute."
  },
  "932:16": {
-  "ko": "1분간 최대 마법력이 크게 늘어납니다."
+  "ko": "1분간 최대 마법력이 크게 늘어납니다.",
+  "en": "Max SP is greatly increased for 1 minute."
  },
  "933:16": {
-  "ko": "1분간 모든 능력이 크게 상승합니다."
+  "ko": "1분간 모든 능력이 크게 상승합니다.",
+  "en": "All stats are greatly raised for 1 minute."
  },
  "934:16": {
-  "ko": "1분간 사용하는 무기에 성스러운 속성이 부여됩니다."
+  "ko": "1분간 사용하는 무기에 성스러운 속성이 부여됩니다.",
+  "en": "Your weapon is blessed with Holy power for 1 minute."
  },
  "935:16": {
-  "ko": "1분간 사용하는 갑옷에 성스러운 속성이 부여됩니다."
+  "ko": "1분간 사용하는 갑옷에 성스러운 속성이 부여됩니다.",
+  "en": "Your armor is blessed with Holy power for 1 minute."
  },
  "936:16": {
-  "ko": "10초간 방어력이 크게 상승합니다."
+  "ko": "10초간 방어력이 크게 상승합니다.",
+  "en": "DEF is greatly increased for 10 seconds."
  },
  "937:16": {
-  "ko": "1분간 공격력이 크게 증가합니다."
+  "ko": "1분간 공격력이 크게 증가합니다.",
+  "en": "ATK is greatly increased for 1 minute."
  },
  "938:17": {
-  "ko": "1분간 명중률과 회피율이 크게 상승합니다."
+  "ko": "1분간 명중률과 회피율이 크게 상승합니다.",
+  "en": "HIT and FLEE are greatly raised for 1 minute."
  },
  "939:14": {
-  "ko": "아이를 한번 입양했던 부부는 추가 입양이 불가능합니다."
+  "ko": "아이를 한번 입양했던 부부는 추가 입양이 불가능합니다.",
+  "en": "A couple that has adopted once cannot adopt again."
  },
  "940:14": {
-  "ko": "부부가 둘다 레벨70이 넘어야 아이를 입양할수있습니다."
+  "ko": "부부가 둘다 레벨70이 넘어야 아이를 입양할수있습니다.",
+  "en": "Both spouses must be over level 70 to adopt a child."
  },
  "941:25": {
-  "ko": "[POINT] 블랙스미스 랭킹포인트가 %d 상승해서 %d 포인트가 되었습니다."
+  "ko": "[POINT] 블랙스미스 랭킹포인트가 %d 상승해서 %d 포인트가 되었습니다.",
+  "en": "[POINT] Blacksmith ranking points +%d. You now have %d points."
  },
  "942:24": {
-  "ko": "[POINT] 알케미스트 랭킹포인트가 %d 상승해서 %d 포인트가 되었습니다."
+  "ko": "[POINT] 알케미스트 랭킹포인트가 %d 상승해서 %d 포인트가 되었습니다.",
+  "en": "[POINT] Alchemist ranking points +%d. You now have %d points."
  },
  "947:27": {
-  "ko": "/notalkmsg2 : 채팅내용을 채팅창에 표시하지 않습니다 (길드말 포함) On Off"
+  "ko": "/notalkmsg2 : 채팅내용을 채팅창에 표시하지 않습니다 (길드말 포함) On Off",
+  "en": "/notalkmsg2 : Hide chat messages in the chat window (incl. guild chat) On Off"
  },
  "948:22": {
-  "ko": "채팅내용을 채팅창에 표시합니다 [/nm2 ON]"
+  "ko": "채팅내용을 채팅창에 표시합니다 [/nm2 ON]",
+  "en": "Chat is shown in the chat window [/nm2 ON]"
  },
  "949:23": {
-  "ko": "채팅내용을 채팅창에 표시하지않습니다 (길드말 포함) [/nm2 OFF]"
+  "ko": "채팅내용을 채팅창에 표시하지않습니다 (길드말 포함) [/nm2 OFF]",
+  "en": "Chat is hidden in the chat window (incl. guild chat) [/nm2 OFF]"
  },
  "950:23": {
-  "ko": "제련가능한 아이템"
+  "ko": "제련가능한 아이템",
+  "en": "Refinable Items"
  },
  "951:29": {
-  "ko": "제련한 무기 : %s"
+  "ko": "제련한 무기 : %s",
+  "en": "Refined weapon: %s"
  },
  "952:25": {
-  "ko": "제련한 무기 : %s"
+  "ko": "제련한 무기 : %s",
+  "en": "Refined weapon: %s"
  },
  "953:31": {
-  "ko": "무기제련스킬의 레벨이 부족해서 %s 제련을 할수없습니다."
+  "ko": "무기제련스킬의 레벨이 부족해서 %s 제련을 할수없습니다.",
+  "en": "Your Weapon Refine skill level is too low to refine %s."
  },
  "954:34": {
-  "ko": "제련에 필요한 아이템 (%s) 이 없으므로 제련할수없습니다."
+  "ko": "제련에 필요한 아이템 (%s) 이 없으므로 제련할수없습니다.",
+  "en": "You cannot refine without the required item (%s)."
  },
  "955:18": {
-  "ko": "완벽하게 코팅되어있어서 풀스트립이 통하지 않습니다."
+  "ko": "완벽하게 코팅되어있어서 풀스트립이 통하지 않습니다.",
+  "en": "Full Strip has no effect: the target is fully coated."
  },
  "956:14": {
-  "ko": "결혼한 캐릭터는 입양시킬수 없습니다."
+  "ko": "결혼한 캐릭터는 입양시킬수 없습니다.",
+  "en": "Married characters cannot be adopted."
  },
  "957:19": {
-  "ko": "친구로 등록된 이름과 비슷하지만 등록된 이름이 아닙니다. 아는사람인지 확인하십시요."
+  "ko": "친구로 등록된 이름과 비슷하지만 등록된 이름이 아닙니다. 아는사람인지 확인하십시요.",
+  "en": "This name looks like one on your Friend List but is not on it. Make sure you know this person."
  },
  "958:19": {
-  "ko": "/hi 또는 /hi 문장 : 친구로 등록된 캐릭터들에게 인사를 합니다."
+  "ko": "/hi 또는 /hi 문장 : 친구로 등록된 캐릭터들에게 인사를 합니다.",
+  "en": "/hi or /hi message : Greet everyone on your Friend List."
  },
  "959:25": {
-  "ko": "길드원의 이름과 비슷하지만 길드원이 아닙니다. 길드원인지 확인하십시요."
+  "ko": "길드원의 이름과 비슷하지만 길드원이 아닙니다. 길드원인지 확인하십시요.",
+  "en": "This name looks like a guild member's but is not one. Make sure this is a guild member."
  },
  "960:22": {
-  "ko": "9999만제니 이상 입력하셔도 가격은 9999만제니로 판매됩니다."
+  "ko": "9999만제니 이상 입력하셔도 가격은 9999만제니로 판매됩니다.",
+  "en": "Prices over 99,990,000 Zeny will be sold at 99,990,000 Zeny."
  },
  "961:25": {
-  "ko": "친구의 귓속말은 [ Friend ] , 길드원은 [ Member ] 로 표시됩니다."
+  "ko": "친구의 귓속말은 [ Friend ] , 길드원은 [ Member ] 로 표시됩니다.",
+  "en": "Whispers from friends show [ Friend ], from guild members [ Member ]."
  },
  "962:25": {
-  "ko": "( From 캐릭터이름 : ) 이라고 표시 되는 귓속말은 친구나 길드원이 아닙니다."
+  "ko": "( From 캐릭터이름 : ) 이라고 표시 되는 귓속말은 친구나 길드원이 아닙니다.",
+  "en": "Whispers shown as ( From Name : ) are not from friends or guild members."
  },
  "963:27": {
-  "ko": "/blacksmith : 블랙스미스의 상위 10위권 랭킹을 보여줍니다."
+  "ko": "/blacksmith : 블랙스미스의 상위 10위권 랭킹을 보여줍니다.",
+  "en": "/blacksmith : Show the top 10 Blacksmith ranking."
  },
  "964:26": {
-  "ko": "/alchemist : 알케미스트의 상위 10위권 랭킹을 보여줍니다."
+  "ko": "/alchemist : 알케미스트의 상위 10위권 랭킹을 보여줍니다.",
+  "en": "/alchemist : Show the top 10 Alchemist ranking."
  },
  "965:21": {
-  "ko": "ALT+Y : 여러가지 명령어를 쉽게 쓸수있는 윈도우가 열립니다."
+  "ko": "ALT+Y : 여러가지 명령어를 쉽게 쓸수있는 윈도우가 열립니다.",
+  "en": "ALT+Y : Open a window for using various commands easily."
  },
  "966:22": {
-  "ko": "[POINT] 태권미션 랭킹포인트가 %d 상승해서 %d 포인트가 되었습니다."
+  "ko": "[POINT] 태권미션 랭킹포인트가 %d 상승해서 %d 포인트가 되었습니다.",
+  "en": "[POINT] Taekwon Mission ranking points +%d. You now have %d points."
  },
  "967:24": {
-  "ko": "[태권미션] Target Monster : %s (%d%%)"
+  "ko": "[태권미션] Target Monster : %s (%d%%)",
+  "en": "[Taekwon Mission] Target Monster : %s (%d%%)"
  },
  "968:19": {
-  "ko": "게임가드 초기화 에러 : %lu"
+  "ko": "게임가드 초기화 에러 : %lu",
+  "en": "GameGuard init error : %lu"
  },
  "969:25": {
-  "ko": "스피드핵이 감지되었습니다."
+  "ko": "스피드핵이 감지되었습니다.",
+  "en": "A speed hack has been detected."
  },
  "970:24": {
-  "ko": "불법 프로그램 (%s) 가 발견되었습니다"
+  "ko": "불법 프로그램 (%s) 가 발견되었습니다",
+  "en": "An illegal program (%s) has been detected."
  },
  "971:23": {
-  "ko": "게임이나 게임가드가 변조되었습니다."
+  "ko": "게임이나 게임가드가 변조되었습니다.",
+  "en": "The game or GameGuard has been modified."
  },
  "972:20": {
-  "ko": "게임가드가 실행 중 입니다. 잠시 후에 다시 실행해보시기 바랍니다."
+  "ko": "게임가드가 실행 중 입니다. 잠시 후에 다시 실행해보시기 바랍니다.",
+  "en": "GameGuard is already running. Please try again in a moment."
  },
  "973:19": {
-  "ko": "게임이 중복 실행되었거나 게임가드가 이미 실행 중 입니다. 게임 종료 후 다시 실행해보시기 바랍니다."
+  "ko": "게임이 중복 실행되었거나 게임가드가 이미 실행 중 입니다. 게임 종료 후 다시 실행해보시기 바랍니다.",
+  "en": "The game is already running, or GameGuard is already running. Close the game and try again."
  },
  "974:19": {
-  "ko": "게임가드 초기화 에러입니다. 재부팅 후 다시 실행해보거나 충돌할 수 있는 다른 프로그램들을 종료한 후 실행해 보시기 바랍니다."
+  "ko": "게임가드 초기화 에러입니다. 재부팅 후 다시 실행해보거나 충돌할 수 있는 다른 프로그램들을 종료한 후 실행해 보시기 바랍니다.",
+  "en": "GameGuard initialization error. Reboot and try again, or close any programs that may conflict and try again."
  },
  "975:21": {
-  "ko": "바이러스 및 해킹툴 검사 모듈 로딩에 실패 했습니다. 메모리 부족이거나 바이러스에 의한 감염일 수 있습니다."
+  "ko": "바이러스 및 해킹툴 검사 모듈 로딩에 실패 했습니다. 메모리 부족이거나 바이러스에 의한 감염일 수 있습니다.",
+  "en": "Failed to load the virus and hacking tool scan module. Memory may be low or the PC may be infected."
  },
  "976:19": {
-  "ko": "호문클루스 정보"
+  "ko": "호문클루스 정보",
+  "en": "Homunculus Info"
  },
  "977:24": {
-  "ko": "호문클루스 스킬목록"
+  "ko": "호문클루스 스킬목록",
+  "en": "Homunculus Skills"
  },
  "978:24": {
-  "ko": "호문클루스의 이름은 영문 23, 한글 11자 이내로 정해 주세요."
+  "ko": "호문클루스의 이름은 영문 23, 한글 11자 이내로 정해 주세요.",
+  "en": "Homunculus names must be up to 23 English or 11 Korean characters."
  },
  "979:35": {
-  "ko": "이름은 단 한번만 바꿀수 있습니다. 호문클루스의 이름을 ^0000ff^0000ff %s^000000^000000 로 수정합니다. 계속 하시겠습니까?"
+  "ko": "이름은 단 한번만 바꿀수 있습니다. 호문클루스의 이름을 ^0000ff^0000ff %s^000000^000000 로 수정합니다. 계속 하시겠습니까?",
+  "en": "A Homunculus can only be renamed once. Rename your Homunculus to ^0000ff^0000ff %s^000000^000000? Continue?"
  },
  "980:17": {
-  "ko": "지금은 부재중~"
+  "ko": "지금은 부재중~",
+  "en": "I'm away~"
  },
  "981:18": {
-  "ko": "[자동응답] "
+  "ko": "[자동응답] ",
+  "en": "[Auto Reply] "
  },
  "982:20": {
-  "ko": "부재시 타인의 귓말에 자동응답합니다."
+  "ko": "부재시 타인의 귓말에 자동응답합니다.",
+  "en": "Auto reply to whispers while away is on."
  },
  "983:21": {
-  "ko": "부재시 타인의 귓말에 자동응답하지 않습니다."
+  "ko": "부재시 타인의 귓말에 자동응답하지 않습니다.",
+  "en": "Auto reply to whispers while away is off."
  },
  "984:23": {
-  "ko": "자동 응답 메시지를 입력하세요."
+  "ko": "자동 응답 메시지를 입력하세요.",
+  "en": "Enter your auto reply message."
  },
  "985:22": {
-  "ko": "/번쩍"
+  "ko": "/번쩍",
+  "en": "/fsh"
  },
  "986:24": {
-  "ko": "/빙빙"
+  "ko": "/빙빙",
+  "en": "/spin"
  },
  "987:21": {
-  "ko": "/하아"
+  "ko": "/하아",
+  "en": "/sigh"
  },
  "988:20": {
-  "ko": "/덤덤"
+  "ko": "/덤덤",
+  "en": "/dum"
  },
  "989:23": {
-  "ko": "/시끌"
+  "ko": "/시끌",
+  "en": "/crwd"
  },
  "990:20": {
-  "ko": "/좌절"
+  "ko": "/좌절",
+  "en": "/desp"
  },
  "991:21": {
-  "ko": "/주사위"
+  "ko": "/주사위",
+  "en": "/dice"
  },
  "992:28": {
-  "ko": "/pk : 학살자의 상위 10위권 랭킹을 보여줍니다."
+  "ko": "/pk : 학살자의 상위 10위권 랭킹을 보여줍니다.",
+  "en": "/pk : Show the top 10 Slayer ranking."
  },
  "993:21": {
-  "ko": "[POINT] 학살자 랭킹포인트가 %d 상승해서 %d 포인트가 되었습니다."
+  "ko": "[POINT] 학살자 랭킹포인트가 %d 상승해서 %d 포인트가 되었습니다.",
+  "en": "[POINT] Slayer ranking points +%d. You now have %d points."
  },
  "994:21": {
-  "ko": "진화 가능"
+  "ko": "진화 가능",
+  "en": "Can Evolve"
  },
  "995:21": {
-  "ko": "^ff0000^ff0000호문클루스를 삭제합니다.^000000^000000 삭제하실 경우 지금까지 키운 내역이 모두 삭제됩니다. 계속하시겠습니까?"
+  "ko": "^ff0000^ff0000호문클루스를 삭제합니다.^000000^000000 삭제하실 경우 지금까지 키운 내역이 모두 삭제됩니다. 계속하시겠습니까?",
+  "en": "^ff0000^ff0000Your Homunculus will be deleted.^000000^000000 All the growth you have raised it to will be lost. Continue?"
  },
  "996:20": {
-  "ko": "호문의 상태를 파일에 저장합니다."
+  "ko": "호문의 상태를 파일에 저장합니다.",
+  "en": "Homunculus status is saved to a file."
  },
  "997:21": {
-  "ko": "호문의 상태를 파일에 저장하지 않습니다."
+  "ko": "호문의 상태를 파일에 저장하지 않습니다.",
+  "en": "Homunculus status is not saved to a file."
  },
  "1048:27": {
-  "ko": "비밀번호가 지정되어 있지 않습니다. 새로운 비밀번호를 지정하시겠습니까?"
+  "ko": "비밀번호가 지정되어 있지 않습니다. 새로운 비밀번호를 지정하시겠습니까?",
+  "en": "No password has been set. Do you want to set a new password?"
  },
  "1049:31": {
-  "ko": "비밀번호를 3회 틀려셨습니다. 나중에 다시 시도해 주세요."
+  "ko": "비밀번호를 3회 틀려셨습니다. 나중에 다시 시도해 주세요.",
+  "en": "You entered the wrong password 3 times. Please try again later."
  },
  "1050:33": {
-  "ko": "비밀번호 변경이 실패하였습니다."
+  "ko": "비밀번호 변경이 실패하였습니다.",
+  "en": "Failed to change the password."
  },
  "1051:27": {
-  "ko": "비밀번호는 4자리 이상 8자리이하여야만 합니다."
+  "ko": "비밀번호는 4자리 이상 8자리이하여야만 합니다.",
+  "en": "The password must be 4 to 8 characters long."
  },
  "1052:23": {
-  "ko": "비밀번호"
+  "ko": "비밀번호",
+  "en": "Password"
  },
  "1053:27": {
-  "ko": "신규 비밀번호"
+  "ko": "신규 비밀번호",
+  "en": "New Password"
  },
  "1054:29": {
-  "ko": "확인 비밀번호"
+  "ko": "확인 비밀번호",
+  "en": "Confirm Password"
  },
  "1055:33": {
-  "ko": "비밀번호 변경이 완료되었습니다."
+  "ko": "비밀번호 변경이 완료되었습니다.",
+  "en": "Password changed successfully."
  },
  "1056:32": {
-  "ko": "비밀번호가 서로 다릅니다."
+  "ko": "비밀번호가 서로 다릅니다.",
+  "en": "The passwords do not match."
  },
  "1057:29": {
-  "ko": "비밀번호 입력"
+  "ko": "비밀번호 입력",
+  "en": "Enter Password"
  },
  "1058:21": {
-  "ko": "호문이 아사 직전입니다! 먹이를 주지 않으면 가출하게됩니다."
+  "ko": "호문이 아사 직전입니다! 먹이를 주지 않으면 가출하게됩니다.",
+  "en": "Your Homunculus is starving! Feed it or it will run away."
  },
  "1059:18": {
   "ko": "경험치",
   "en": "EXP"
  },
  "1060:21": {
-  "ko": "[EVENT] 이벤트에 당첨되셨습니다. 게임내에서 아이템을 지급받으십시요."
+  "ko": "[EVENT] 이벤트에 당첨되셨습니다. 게임내에서 아이템을 지급받으십시요.",
+  "en": "[EVENT] You won the event! Collect your item in the game."
  },
  "1061:13": {
-  "ko": "싫어함"
+  "ko": "싫어함",
+  "en": "Hate"
  },
  "1062:17": {
-  "ko": "매우싫어함"
+  "ko": "매우싫어함",
+  "en": "Hate with passion"
  },
  "1063:24": {
-  "ko": "호문클루스가 사용자 인공지능으로 동작합니다."
+  "ko": "호문클루스가 사용자 인공지능으로 동작합니다.",
+  "en": "The Homunculus now runs on the user AI."
  },
  "1064:25": {
-  "ko": "호문클루스가 기본 인공지능으로 동작합니다."
+  "ko": "호문클루스가 기본 인공지능으로 동작합니다.",
+  "en": "The Homunculus now runs on the default AI."
  },
  "1065:18": {
-  "ko": "편지목록"
+  "ko": "편지목록",
+  "en": "Mail List"
  },
  "1066:19": {
-  "ko": "편지쓰기"
+  "ko": "편지쓰기",
+  "en": "Write Mail"
  },
  "1067:18": {
-  "ko": "편지읽기"
+  "ko": "편지읽기",
+  "en": "Read Mail"
  },
  "1068:25": {
-  "ko": "한번 지정하시면 변경이 불가능합니다!     이 맵으로 지정하시겠습니까?"
+  "ko": "한번 지정하시면 변경이 불가능합니다!     이 맵으로 지정하시겠습니까?",
+  "en": "Once set, it cannot be changed!     Do you want to designate this map?"
  },
  "1069:30": {
-  "ko": "메일 아이템을 수령했습니다."
+  "ko": "메일 아이템을 수령했습니다.",
+  "en": "Received the mail item."
  },
  "1070:30": {
-  "ko": "메일 아이템을 수령하지 못했습니다."
+  "ko": "메일 아이템을 수령하지 못했습니다.",
+  "en": "Failed to receive the mail item."
  },
  "1071:26": {
-  "ko": "메일 보내기가 성공하였습니다."
+  "ko": "메일 보내기가 성공하였습니다.",
+  "en": "Mail sent successfully."
  },
  "1072:28": {
-  "ko": "메일 보내기가 실패하였습니다. 받는 사람이 존재하지 않습니다."
+  "ko": "메일 보내기가 실패하였습니다. 받는 사람이 존재하지 않습니다.",
+  "en": "Failed to send the mail. The recipient does not exist."
  },
  "1073:19": {
-  "ko": "[태양과 달과 별의 천사] 지정했던 장소들과 몬스터들이 초기화됐습니다!"
+  "ko": "[태양과 달과 별의 천사] 지정했던 장소들과 몬스터들이 초기화됐습니다!",
+  "en": "[Solar, Lunar and Stellar Angel] Designated places and monsters have been reset!"
  },
  "1074:26": {
-  "ko": "경매 등록이 실패했습니다."
+  "ko": "경매 등록이 실패했습니다.",
+  "en": "Failed to register the auction."
  },
  "1075:25": {
-  "ko": "경매 등록이 성공했습니다."
+  "ko": "경매 등록이 성공했습니다.",
+  "en": "Auction registered."
  },
  "1076:27": {
-  "ko": "해당 경매가 취소되었습니다."
+  "ko": "해당 경매가 취소되었습니다.",
+  "en": "The auction has been cancelled."
  },
  "1077:33": {
-  "ko": "입찰자가 있는 경매는 취소할 수 없습니다."
+  "ko": "입찰자가 있는 경매는 취소할 수 없습니다.",
+  "en": "An auction with bidders cannot be cancelled."
  },
  "1078:28": {
-  "ko": "메일 삭제가 성공하였습니다."
+  "ko": "메일 삭제가 성공하였습니다.",
+  "en": "Mail deleted successfully."
  },
  "1079:28": {
-  "ko": "메일 삭제가 실패하였습니다."
+  "ko": "메일 삭제가 실패하였습니다.",
+  "en": "Failed to delete the mail."
  },
  "1080:36": {
-  "ko": "던지는 단검이 장착되었습니다."
+  "ko": "던지는 단검이 장착되었습니다.",
+  "en": "Throwing daggers have been equipped."
  },
  "1081:21": {
-  "ko": "%s 님이 로그인했습니다."
+  "ko": "%s 님이 로그인했습니다.",
+  "en": "%s has logged in."
  },
  "1082:22": {
-  "ko": "%s 님이 로그아웃했습니다."
+  "ko": "%s 님이 로그아웃했습니다.",
+  "en": "%s has logged out."
  },
  "1083:25": {
-  "ko": "/loginout : 길드원과 친구들의 접속관련 메세지를 보여줍니다. On Off"
+  "ko": "/loginout : 길드원과 친구들의 접속관련 메세지를 보여줍니다. On Off",
+  "en": "/loginout : Show login and logout messages for guild members and friends. On Off"
  },
  "1084:20": {
-  "ko": "친구들의 접속관련 메세지를 대화창에 표시합니다. [/li ON]"
+  "ko": "친구들의 접속관련 메세지를 대화창에 표시합니다. [/li ON]",
+  "en": "Friends' login messages are shown in the chat window. [/li ON]"
  },
  "1085:21": {
-  "ko": "친구들의 접속관련 메세지를 대화창에 표시하지않습니다.  [/li OFF]"
+  "ko": "친구들의 접속관련 메세지를 대화창에 표시하지않습니다.  [/li OFF]",
+  "en": "Friends' login messages are hidden in the chat window.  [/li OFF]"
  },
  "1086:33": {
-  "ko": "이미 실행중입니다."
+  "ko": "이미 실행중입니다.",
+  "en": "Already running."
  },
  "1087:32": {
-  "ko": "매크로 사용이 감지되었습니다."
+  "ko": "매크로 사용이 감지되었습니다.",
+  "en": "Macro use has been detected."
  },
  "1088:36": {
-  "ko": "스피드해킹이 감지되었습니다."
+  "ko": "스피드해킹이 감지되었습니다.",
+  "en": "Speed hacking has been detected."
  },
  "1089:34": {
-  "ko": "API 후킹이 감지되었습니다."
+  "ko": "API 후킹이 감지되었습니다.",
+  "en": "API hooking has been detected."
  },
  "1090:34": {
-  "ko": "메시지 후킹이 감지되었습니다."
+  "ko": "메시지 후킹이 감지되었습니다.",
+  "en": "Message hooking has been detected."
  },
  "1091:40": {
-  "ko": "모듈이 변조 또는 손상되었거나 버전이 일치하지 않습니다."
+  "ko": "모듈이 변조 또는 손상되었거나 버전이 일치하지 않습니다.",
+  "en": "A module is modified or damaged, or its version does not match."
  },
  "1092:20": {
-  "ko": "(태국)귀하는 게임방 과금으로 로그인 하셨습니다."
+  "ko": "(태국)귀하는 게임방 과금으로 로그인 하셨습니다.",
+  "en": "(Thailand) You are logged in with Internet cafe billing."
  },
  "1093:18": {
-  "ko": "이전"
+  "ko": "이전",
+  "en": "Prev"
  },
  "1094:18": {
-  "ko": "다음"
+  "ko": "다음",
+  "en": "Next"
  },
  "1095:16": {
-  "ko": "경매"
+  "ko": "경매",
+  "en": "Auction"
  },
  "1096:21": {
-  "ko": "물품보기"
+  "ko": "물품보기",
+  "en": "View Items"
  },
  "1097:20": {
-  "ko": "등록하기"
+  "ko": "등록하기",
+  "en": "Register"
  },
  "1098:21": {
-  "ko": "판매 진행상태"
+  "ko": "판매 진행상태",
+  "en": "Selling Status"
  },
  "1099:20": {
-  "ko": "구매 진행상태"
+  "ko": "구매 진행상태",
+  "en": "Buying Status"
  },
  "1100:14": {
-  "ko": "아이템"
+  "ko": "아이템",
+  "en": "Item"
  },
  "1101:19": {
-  "ko": "아이템명"
+  "ko": "아이템명",
+  "en": "Item Name"
  },
  "1102:19": {
-  "ko": "가격 / 즉시구입가격"
+  "ko": "가격 / 즉시구입가격",
+  "en": "Price / Buy Now Price"
  },
  "1103:15": {
-  "ko": "판매자"
+  "ko": "판매자",
+  "en": "Seller"
  },
  "1104:14": {
-  "ko": "구매자"
+  "ko": "구매자",
+  "en": "Buyer"
  },
  "1105:20": {
-  "ko": "종료시간"
+  "ko": "종료시간",
+  "en": "End Time"
  },
  "1106:18": {
-  "ko": "%m월 %d일 %H시"
+  "ko": "%m월 %d일 %H시",
+  "en": "%m/%d %H:00"
  },
  "1107:17": {
-  "ko": "시간설정"
+  "ko": "시간설정",
+  "en": "Set Time"
  },
  "1108:15": {
-  "ko": "수수료"
+  "ko": "수수료",
+  "en": "Fee"
  },
  "1109:28": {
-  "ko": "검색 된 아이템이 없습니다."
+  "ko": "검색 된 아이템이 없습니다.",
+  "en": "No items were found."
  },
  "1110:33": {
-  "ko": "현재 판매중인 아이템이 없습니다."
+  "ko": "현재 판매중인 아이템이 없습니다.",
+  "en": "You are not selling any items."
  },
  "1111:32": {
-  "ko": "현재 구매중인 아이템이 없습니다."
+  "ko": "현재 구매중인 아이템이 없습니다.",
+  "en": "You are not bidding on any items."
  },
  "1112:32": {
-  "ko": "경매정보가 정확하지 않습니다."
+  "ko": "경매정보가 정확하지 않습니다.",
+  "en": "Invalid auction information."
  },
  "1113:34": {
-  "ko": "경매에 등록할 아이템 정보가 없습니다."
+  "ko": "경매에 등록할 아이템 정보가 없습니다.",
+  "en": "There is no item information to auction."
  },
  "1114:26": {
-  "ko": "이미 등록된 경매입니다."
+  "ko": "이미 등록된 경매입니다.",
+  "en": "Auction already registered."
  },
  "1115:14": {
-  "ko": "제시가격"
+  "ko": "제시가격",
+  "en": "Offer Price"
  },
  "1116:15": {
-  "ko": "구입희망가격"
+  "ko": "구입희망가격",
+  "en": "Bid Price"
  },
  "1117:15": {
-  "ko": "즉시구입가격"
+  "ko": "즉시구입가격",
+  "en": "Buy Now Price"
  },
  "1118:15": {
-  "ko": "현재소지제니"
+  "ko": "현재소지제니",
+  "en": "Current Zeny"
  },
  "1119:15": {
-  "ko": "현재최고가격"
+  "ko": "현재최고가격",
+  "en": "Highest Bid"
  },
  "1120:15": {
-  "ko": "이전입찰가격"
+  "ko": "이전입찰가격",
+  "en": "Previous Bid"
  },
  "1121:15": {
-  "ko": "추가입찰가격"
+  "ko": "추가입찰가격",
+  "en": "Additional Bid"
  },
  "1122:24": {
-  "ko": "구입하시겠습니까?"
+  "ko": "구입하시겠습니까?",
+  "en": "Buy this item?"
  },
  "1123:25": {
-  "ko": "이 가격에 판매하시겠습니까?"
+  "ko": "이 가격에 판매하시겠습니까?",
+  "en": "Sell at this price?"
  },
  "1124:20": {
-  "ko": "입찰하기"
+  "ko": "입찰하기",
+  "en": "Bid"
  },
  "1125:21": {
-  "ko": "즉시구매하기"
+  "ko": "즉시구매하기",
+  "en": "Buy Now"
  },
  "1126:21": {
-  "ko": "경매종료하기"
+  "ko": "경매종료하기",
+  "en": "End Auction"
  },
  "1127:23": {
-  "ko": "재입찰하기"
+  "ko": "재입찰하기",
+  "en": "Rebid"
  },
  "1128:24": {
-  "ko": "해당 경매에 대한 입찰이 성공했습니다."
+  "ko": "해당 경매에 대한 입찰이 성공했습니다.",
+  "en": "Your bid on this auction succeeded."
  },
  "1129:25": {
-  "ko": "해당 경매에 대한 입찰이 실패했습니다."
+  "ko": "해당 경매에 대한 입찰이 실패했습니다.",
+  "en": "Your bid on this auction failed."
  },
  "1130:31": {
-  "ko": "제니가 충분하지 않습니다."
+  "ko": "제니가 충분하지 않습니다.",
+  "en": "You do not have enough Zeny."
  },
  "1131:14": {
-  "ko": "방어구"
+  "ko": "방어구",
+  "en": "Armor"
  },
  "1132:13": {
-  "ko": "카드"
+  "ko": "카드",
+  "en": "Card"
  },
  "1133:12": {
-  "ko": "기타"
+  "ko": "기타",
+  "en": "Etc"
  },
  "1134:20": {
-  "ko": "경매번호"
+  "ko": "경매번호",
+  "en": "Auction No."
  },
  "1135:23": {
-  "ko": "검색"
+  "ko": "검색",
+  "en": "Search"
  },
  "1136:33": {
-  "ko": "해당 경매를 종료했습니다."
+  "ko": "해당 경매를 종료했습니다.",
+  "en": "The auction has been ended."
  },
  "1137:34": {
-  "ko": "해당 경매를 종료 할 수 없습니다."
+  "ko": "해당 경매를 종료 할 수 없습니다.",
+  "en": "This auction cannot be ended."
  },
  "1138:32": {
-  "ko": "경매 번호가 정확하지 않습니다."
+  "ko": "경매 번호가 정확하지 않습니다.",
+  "en": "The auction number is incorrect."
  },
  "1139:15": {
-  "ko": "받는이"
+  "ko": "받는이",
+  "en": "To"
  },
  "1140:15": {
-  "ko": "제 목"
+  "ko": "제 목",
+  "en": "Title"
  },
  "1141:17": {
-  "ko": "새 메일이 도착하였습니다."
+  "ko": "새 메일이 도착하였습니다.",
+  "en": "You have new mail."
  },
  "1142:23": {
-  "ko": "검색중입니다."
+  "ko": "검색중입니다.",
+  "en": "Searching..."
  },
  "1143:25": {
-  "ko": "더 이상 경매 등록할 수 없습니다. 경매 등록은 최대 5개까지 가능합니다."
+  "ko": "더 이상 경매 등록할 수 없습니다. 경매 등록은 최대 5개까지 가능합니다.",
+  "en": "You cannot register more auctions. You can register up to 5 auctions."
  },
  "1144:24": {
-  "ko": "더 이상 경매 물품에 입찰할 수 없습니다. 경매 물품 입찰은 최대 5개까지 가능합니다."
+  "ko": "더 이상 경매 물품에 입찰할 수 없습니다. 경매 물품 입찰은 최대 5개까지 가능합니다.",
+  "en": "You cannot bid on more auction items. You can bid on up to 5 items at once."
  },
  "1145:26": {
-  "ko": "삭제하려는 메일에 수령하지 않은 아이템이 있습니다."
+  "ko": "삭제하려는 메일에 수령하지 않은 아이템이 있습니다.",
+  "en": "The mail you want to delete has an item you have not received."
  },
  "1146:24": {
-  "ko": "메일 제목을 입력하여 주십시오."
+  "ko": "메일 제목을 입력하여 주십시오.",
+  "en": "Please enter a title for the mail."
  },
  "1147:25": {
-  "ko": "/shopping : 클릭 한번으로 상점을 열고 상점이름 오른쪽 클릭으로 상점을 닫습니다 On Off"
+  "ko": "/shopping : 클릭 한번으로 상점을 열고 상점이름 오른쪽 클릭으로 상점을 닫습니다 On Off",
+  "en": "/shopping : Open a shop with one click and close it by right-clicking its name On Off"
  },
  "1148:20": {
-  "ko": "클릭 한번으로 상점을 열고 상점이름을 오른쪽 클릭해서 상점을 닫을수있습니다. [/sh ON]"
+  "ko": "클릭 한번으로 상점을 열고 상점이름을 오른쪽 클릭해서 상점을 닫을수있습니다. [/sh ON]",
+  "en": "Open a shop with one click and close it by right-clicking the shop name. [/sh ON]"
  },
  "1149:21": {
-  "ko": "더블클릭 으로 상점을 열게됩니다.  [/sh OFF]"
+  "ko": "더블클릭 으로 상점을 열게됩니다.  [/sh OFF]",
+  "en": "Shops are opened by double-clicking.  [/sh OFF]"
  },
  "1150:25": {
-  "ko": "메일을 보내려면, 제니 입력을 완료해야 합니다."
+  "ko": "메일을 보내려면, 제니 입력을 완료해야 합니다.",
+  "en": "To send mail, you must finish entering the Zeny."
  },
  "1151:24": {
-  "ko": "경매 수수료가 부족합니다."
+  "ko": "경매 수수료가 부족합니다.",
+  "en": "Not enough Zeny for the fee."
  },
  "1152:23": {
-  "ko": "상태보기"
+  "ko": "상태보기",
+  "en": "Status"
  },
  "1153:22": {
-  "ko": "먹이주기"
+  "ko": "먹이주기",
+  "en": "Feed"
  },
  "1154:22": {
-  "ko": "대기"
+  "ko": "대기",
+  "en": "Stand By"
  },
  "1155:26": {
-  "ko": "슈퍼노비스(남)"
+  "ko": "슈퍼노비스(남)",
+  "en": "Super Novice (M)"
  },
  "1156:26": {
-  "ko": "슈퍼노비스(여)"
+  "ko": "슈퍼노비스(여)",
+  "en": "Super Novice (F)"
  },
  "1157:22": {
-  "ko": "태권소년"
+  "ko": "태권소년",
+  "en": "Taekwon Boy"
  },
  "1158:22": {
-  "ko": "태권소녀"
+  "ko": "태권소녀",
+  "en": "Taekwon Girl"
  },
  "1159:19": {
-  "ko": "권성(남)"
+  "ko": "권성(남)",
+  "en": "Taekwon Master (M)"
  },
  "1160:19": {
-  "ko": "권성(여)"
+  "ko": "권성(여)",
+  "en": "Taekwon Master (F)"
  },
  "1161:22": {
-  "ko": "소울링커(남)"
+  "ko": "소울링커(남)",
+  "en": "Soul Linker (M)"
  },
  "1162:22": {
-  "ko": "소울링커(여)"
+  "ko": "소울링커(여)",
+  "en": "Soul Linker (F)"
  },
  "1163:25": {
-  "ko": "PC방요금제로 2개이상의 계정이 접속되고있습니다. 확인후 다시 사용하시기 바랍니다."
+  "ko": "PC방요금제로 2개이상의 계정이 접속되고있습니다. 확인후 다시 사용하시기 바랍니다.",
+  "en": "Two or more accounts are connected under one PC cafe plan. Please check and try again."
  },
  "1164:18": {
-  "ko": "귀하는 월정액 요금제 사용자 입니다. (남은기간 : %d일)"
+  "ko": "귀하는 월정액 요금제 사용자 입니다. (남은기간 : %d일)",
+  "en": "You are on a monthly flat-rate plan. (Days left : %d)"
  },
  "1165:18": {
-  "ko": "귀하는 정량 요금제 사용자 입니다. (남은시간 : %d시간 %분 %초)"
+  "ko": "귀하는 정량 요금제 사용자 입니다. (남은시간 : %d시간 %분 %초)",
+  "en": "You are on a metered plan. (Time left : %d hr %d min %d sec)",
+  "format": false,
+  "note": "the Korean format lacks the d of two conversions; the code passes three numbers"
  },
  "1166:29": {
-  "ko": "해당 아이템은 메일에 첨부 할수 없는 아이템입니다."
+  "ko": "해당 아이템은 메일에 첨부 할수 없는 아이템입니다.",
+  "en": "This item cannot be attached to mail."
  },
  "1167:35": {
-  "ko": "더이상 아이템을 가질수 없습니다. 아이템은 메일로 보관하겠습니다."
+  "ko": "더이상 아이템을 가질수 없습니다. 아이템은 메일로 보관하겠습니다.",
+  "en": "You cannot carry any more items. The item will be kept in your mail."
  },
  "1168:15": {
-  "ko": "남성"
+  "ko": "남성",
+  "en": "Male"
  },
  "1169:15": {
-  "ko": "여성"
+  "ko": "여성",
+  "en": "Female"
  },
  "1170:19": {
-  "ko": "새로운 유저입니다"
+  "ko": "새로운 유저입니다",
+  "en": "You are a new user."
  },
  "1171:18": {
-  "ko": "E-mail은 캐릭터를 지울때 필요합니다."
+  "ko": "E-mail은 캐릭터를 지울때 필요합니다.",
+  "en": "Your E-mail is needed to delete a character."
  },
  "1172:19": {
-  "ko": "정확한 형식으로 입력해 주세요."
+  "ko": "정확한 형식으로 입력해 주세요.",
+  "en": "Please use the correct format."
  },
  "1173:22": {
-  "ko": "이 키를 사용하세요"
+  "ko": "이 키를 사용하세요",
+  "en": "Use this key"
  },
  "1174:25": {
-  "ko": "정확한 카드 패스워드를 다시 입력해주세요"
+  "ko": "정확한 카드 패스워드를 다시 입력해주세요",
+  "en": "Please re-enter the correct card password."
  },
  "1175:14": {
-  "ko": "PT정보"
+  "ko": "PT정보",
+  "en": "PT Info"
  },
  "1176:14": {
-  "ko": "PT_ID는 %s"
+  "ko": "PT_ID는 %s",
+  "en": "PT_ID is %s"
  },
  "1177:14": {
-  "ko": "NUM_ID는 %s"
+  "ko": "NUM_ID는 %s",
+  "en": "NUM_ID is %s"
  },
  "1178:14": {
-  "ko": "잊지않게 주의하세요"
+  "ko": "잊지않게 주의하세요",
+  "en": "Do not forget them."
  },
  "1209:18": {
-  "ko": "30포인트를 받으시겠습니까?"
+  "ko": "30포인트를 받으시겠습니까?",
+  "en": "Receive 30 points?"
  },
  "1210:18": {
-  "ko": "30포인트(5시간)이 충전되었습니다"
+  "ko": "30포인트(5시간)이 충전되었습니다",
+  "en": "30 points (5 hours) have been charged."
  },
  "1211:33": {
-  "ko": "감정되지 않은 아이템은 경매에 등록할 수 없습니다."
+  "ko": "감정되지 않은 아이템은 경매에 등록할 수 없습니다.",
+  "en": "Unidentified items cannot be put up for auction."
  },
  "1212:34": {
-  "ko": "소비 아이템은 경매에 등록할 수 없습니다."
+  "ko": "소비 아이템은 경매에 등록할 수 없습니다.",
+  "en": "Consumable items cannot be put up for auction."
  },
  "1213:30": {
-  "ko": "메일창을 열려면 카트창을 닫아 주십시요."
+  "ko": "메일창을 열려면 카트창을 닫아 주십시요.",
+  "en": "Close the Cart window to open the Mail window."
  },
  "1214:22": {
-  "ko": "카트창을 열려면 메일창을 닫아 주십시요."
+  "ko": "카트창을 열려면 메일창을 닫아 주십시요.",
+  "en": "Close the Mail window to open the Cart window."
  },
  "1215:37": {
-  "ko": "탄환이 장착되었습니다."
+  "ko": "탄환이 장착되었습니다.",
+  "en": "Bullets have been equipped."
  },
  "1216:28": {
-  "ko": "메일이 반송되었습니다."
+  "ko": "메일이 반송되었습니다.",
+  "en": "The mail has been returned."
  },
  "1217:28": {
-  "ko": "메일이 존재하지 않습니다."
+  "ko": "메일이 존재하지 않습니다.",
+  "en": "The mail does not exist."
  },
  "1218:28": {
-  "ko": "한시간 동안, 동일한 IP로 접속한 유저가 30건 이상입니다. 확인후 다시 사용하시기 바랍니다."
+  "ko": "한시간 동안, 동일한 IP로 접속한 유저가 30건 이상입니다. 확인후 다시 사용하시기 바랍니다.",
+  "en": "30 or more users have connected from the same IP within one hour. Please check and try again."
  },
  "1219:24": {
-  "ko": "한시간 동안, 동일한 IP로 10번 이상 접속되었습니다. 확인후 다시 사용하시기 바랍니다."
+  "ko": "한시간 동안, 동일한 IP로 10번 이상 접속되었습니다. 확인후 다시 사용하시기 바랍니다.",
+  "en": "This IP has connected 10 or more times within one hour. Please check and try again."
  },
  "1220:26": {
-  "ko": "게임을 재시작 하십시오 "
+  "ko": "게임을 재시작 하십시오 ",
+  "en": "Please restart the game. "
  },
  "1221:29": {
-  "ko": "용병정보 - 아쳐타입"
+  "ko": "용병정보 - 아쳐타입",
+  "en": "Mercenary Info - Archer"
  },
  "1222:31": {
-  "ko": "용병정보 - 검사타입"
+  "ko": "용병정보 - 검사타입",
+  "en": "Mercenary Info - Sword"
  },
  "1223:29": {
-  "ko": "용병정보 - 창병타입"
+  "ko": "용병정보 - 창병타입",
+  "en": "Mercenary Info - Spear"
  },
  "1224:18": {
-  "ko": "삭제시간"
+  "ko": "삭제시간",
+  "en": "Expires In"
  },
  "1225:21": {
-  "ko": "신뢰도"
+  "ko": "신뢰도",
+  "en": "Loyalty"
  },
  "1226:22": {
-  "ko": "소환횟수"
+  "ko": "소환횟수",
+  "en": "Summons"
  },
  "1228:21": {
-  "ko": "펫이 배가 고파서 당신을 원망하고 있다는 느낌이 든다."
+  "ko": "펫이 배가 고파서 당신을 원망하고 있다는 느낌이 든다.",
+  "en": "You feel your pet resenting you because it is hungry."
  },
  "1229:21": {
-  "ko": "[POINT] 테이밍미션 랭킹포인트가 %d 상승해서 %d 포인트가 되었습니다."
+  "ko": "[POINT] 테이밍미션 랭킹포인트가 %d 상승해서 %d 포인트가 되었습니다.",
+  "en": "[POINT] Taming Mission ranking points +%d. You now have %d points."
  },
  "1230:23": {
-  "ko": "[테이밍미션] Target Monster : %s"
+  "ko": "[테이밍미션] Target Monster : %s",
+  "en": "[Taming Mission] Target Monster : %s"
  },
  "1231:24": {
-  "ko": "/hunting : 사냥 목록을 보여줍니다."
+  "ko": "/hunting : 사냥 목록을 보여줍니다.",
+  "en": "/hunting : Show the hunting list."
  },
  "1232:18": {
-  "ko": "[천사의질문] 소녀에게 가르쳐주시어요. %s는 몇 스킬 찍으셨나요?"
+  "ko": "[천사의질문] 소녀에게 가르쳐주시어요. %s는 몇 스킬 찍으셨나요?",
+  "en": "[Angel's Question] Please teach me. How many levels of %s have you learned?"
  },
  "1233:18": {
-  "ko": "[천사의질문] 소녀에게 가르쳐주시어요. 소지하시고있는 제니를 십만으로 나누면 얼마가 되시나요?"
+  "ko": "[천사의질문] 소녀에게 가르쳐주시어요. 소지하시고있는 제니를 십만으로 나누면 얼마가 되시나요?",
+  "en": "[Angel's Question] Please teach me. How much is your Zeny divided by 100,000?"
  },
  "1234:18": {
-  "ko": "[천사의질문] 소녀에게 가르쳐주시어요. 오늘이 몇일이신지 아시나요?"
+  "ko": "[천사의질문] 소녀에게 가르쳐주시어요. 오늘이 몇일이신지 아시나요?",
+  "en": "[Angel's Question] Please teach me. Do you know today's date?"
  },
  "1235:18": {
-  "ko": "[천사의질문] 소녀에게 가르쳐주시어요. %s은 지금 몇이신가요?"
+  "ko": "[천사의질문] 소녀에게 가르쳐주시어요. %s은 지금 몇이신가요?",
+  "en": "[Angel's Question] Please teach me. What is your %s right now?"
  },
  "1236:18": {
-  "ko": "[천사의질문] A는 1이고 Z는 26이어요. 슈노, 태권계열, 무낙계열을 담당하고있는 SiYeon씨의 알파벳을 더하면 몇이 되나요?"
+  "ko": "[천사의질문] A는 1이고 Z는 26이어요. 슈노, 태권계열, 무낙계열을 담당하고있는 SiYeon씨의 알파벳을 더하면 몇이 되나요?",
+  "en": "[Angel's Question] A is 1 and Z is 26. What is the sum of the letters of SiYeon, who handles Super Novice, Taekwon and Munak?"
  },
  "1237:18": {
-  "ko": "[천사의질문] A는 1이고 Z는 26이어요. 귀엽고 어여쁜 라그나로크의 히로인 Munak의 알파벳을 더하면 몇이 되나요?"
+  "ko": "[천사의질문] A는 1이고 Z는 26이어요. 귀엽고 어여쁜 라그나로크의 히로인 Munak의 알파벳을 더하면 몇이 되나요?",
+  "en": "[Angel's Question] A is 1 and Z is 26. What is the sum of the letters of Munak, Ragnarok's cute and lovely heroine?"
  },
  "1238:18": {
-  "ko": "[천사의질문] A는 1이고 Z는 26이어요. 제가 어여뻐하는 Bongun의 알파벳을 더하면 몇이 되나요?"
+  "ko": "[천사의질문] A는 1이고 Z는 26이어요. 제가 어여뻐하는 Bongun의 알파벳을 더하면 몇이 되나요?",
+  "en": "[Angel's Question] A is 1 and Z is 26. What is the sum of the letters of Bongun, whom I adore?"
  },
  "1239:18": {
-  "ko": "[천사의질문] A는 1이고 Z는 26이어요. 저희가 존재하는 온라인세계 Ragnarok의 알파벳을 더하면 몇이 되나요?"
+  "ko": "[천사의질문] A는 1이고 Z는 26이어요. 저희가 존재하는 온라인세계 Ragnarok의 알파벳을 더하면 몇이 되나요?",
+  "en": "[Angel's Question] A is 1 and Z is 26. What is the sum of the letters of Ragnarok, the online world we live in?"
  },
  "1240:18": {
-  "ko": "[천사의질문] A는 1이고 Z는 26이어요. 언제나 Online상태인 천사동료들은 큰힘이 되어주죠. Online의 알파벳을 더하면 몇이 되나요?"
+  "ko": "[천사의질문] A는 1이고 Z는 26이어요. 언제나 Online상태인 천사동료들은 큰힘이 되어주죠. Online의 알파벳을 더하면 몇이 되나요?",
+  "en": "[Angel's Question] A is 1 and Z is 26. Fellow angels, always Online, are a great help. What is the sum of the letters of Online?"
  },
  "1241:18": {
-  "ko": "[천사의질문] A는 1이고 Z는 26이어요. 죽음도 두려워하지않는 기사들을 상징하는 단어인 Death의 알파벳을 더하면 몇이 되나요?"
+  "ko": "[천사의질문] A는 1이고 Z는 26이어요. 죽음도 두려워하지않는 기사들을 상징하는 단어인 Death의 알파벳을 더하면 몇이 되나요?",
+  "en": "[Angel's Question] A is 1 and Z is 26. What is the sum of the letters of Death, the word for knights who fear not even death?"
  },
  "1242:18": {
-  "ko": "[천사의질문] A는 1이고 Z는 26이어요. 기사들은 너무 멋진다고 생각해요. Knight의 알파벳을 더하면 몇이 되나요?"
+  "ko": "[천사의질문] A는 1이고 Z는 26이어요. 기사들은 너무 멋진다고 생각해요. Knight의 알파벳을 더하면 몇이 되나요?",
+  "en": "[Angel's Question] A is 1 and Z is 26. I think knights are so cool. What is the sum of the letters of Knight?"
  },
  "1243:18": {
-  "ko": "[천사의질문] A는 1이고 Z는 26이어요. 중력을 뜻하는 단어인 Gravity의 알파벳을 더하면 몇이 되나요?"
+  "ko": "[천사의질문] A는 1이고 Z는 26이어요. 중력을 뜻하는 단어인 Gravity의 알파벳을 더하면 몇이 되나요?",
+  "en": "[Angel's Question] A is 1 and Z is 26. What is the sum of the letters of Gravity, the word for gravity?"
  },
  "1244:18": {
-  "ko": "[천사의질문] A는 1이고 Z는 26이어요. 어둠속에서도 밝게 사는게 중요하지요. Dark의 알파벳을 더하면 몇이 되나요?"
+  "ko": "[천사의질문] A는 1이고 Z는 26이어요. 어둠속에서도 밝게 사는게 중요하지요. Dark의 알파벳을 더하면 몇이 되나요?",
+  "en": "[Angel's Question] A is 1 and Z is 26. It is important to live brightly even in the dark. What is the sum of the letters of Dark?"
  },
  "1245:18": {
-  "ko": "[천사의질문] A는 1이고 Z는 26이어요. 뭐든지 수집하는 Collector의 알파벳을 더하면 몇이 되나요?"
+  "ko": "[천사의질문] A는 1이고 Z는 26이어요. 뭐든지 수집하는 Collector의 알파벳을 더하면 몇이 되나요?",
+  "en": "[Angel's Question] A is 1 and Z is 26. What is the sum of the letters of Collector, one who collects anything?"
  },
  "1246:18": {
-  "ko": "[천사의대답] 소녀에게 정확한 사실을 가르쳐주셔서 감사하옵니다."
+  "ko": "[천사의대답] 소녀에게 정확한 사실을 가르쳐주셔서 감사하옵니다.",
+  "en": "[Angel's Answer] Thank you for teaching me the correct facts."
  },
  "1247:18": {
-  "ko": "[천사의대답] 사랑스러우신 분이시군요. 소녀 감탄했사옵니다."
+  "ko": "[천사의대답] 사랑스러우신 분이시군요. 소녀 감탄했사옵니다.",
+  "en": "[Angel's Answer] What a lovely person you are. I am impressed."
  },
  "1248:18": {
-  "ko": "[천사의대답] 소녀 실망했사옵니다."
+  "ko": "[천사의대답] 소녀 실망했사옵니다.",
+  "en": "[Angel's Answer] I am disappointed."
  },
  "1249:20": {
-  "ko": "[POINT] 랭킹포인트가 %d 상승해서 %d 포인트가 되었습니다."
+  "ko": "[POINT] 랭킹포인트가 %d 상승해서 %d 포인트가 되었습니다.",
+  "en": "[POINT] Ranking points +%d. You now have %d points."
  },
  "1250:19": {
-  "ko": "[%s]의 소지 캐시 : %d 캐시"
+  "ko": "[%s]의 소지 캐시 : %d 캐시",
+  "en": "[%s]'s Cash : %d Cash"
  },
  "1251:34": {
-  "ko": "선택하지 않은 캐릭터는 삭제 됩니다. 완료하시겠습니까?"
+  "ko": "선택하지 않은 캐릭터는 삭제 됩니다. 완료하시겠습니까?",
+  "en": "Unselected characters will be deleted. Finish?"
  },
  "1252:32": {
-  "ko": "9개 이상 선택하실 수 없습니다."
+  "ko": "9개 이상 선택하실 수 없습니다.",
+  "en": "You cannot select more than 9."
  },
  "1253:31": {
-  "ko": "캐릭터명을 '%s' (으)로 변경하시겠습니까?"
+  "ko": "캐릭터명을 '%s' (으)로 변경하시겠습니까?",
+  "en": "Change the character name to '%s'?"
  },
  "1254:28": {
-  "ko": "캐릭터명이 성공적으로 변경되었습니다."
+  "ko": "캐릭터명이 성공적으로 변경되었습니다.",
+  "en": "The character name was changed successfully."
  },
  "1255:28": {
-  "ko": "캐릭터명 변경이 실패하였습니다."
+  "ko": "캐릭터명 변경이 실패하였습니다.",
+  "en": "Failed to change the character name."
  },
  "1256:29": {
-  "ko": "한 번에 한 종류의 아이템만 구매할 수 있습니다."
+  "ko": "한 번에 한 종류의 아이템만 구매할 수 있습니다.",
+  "en": "You can only buy one kind of item at a time."
  },
  "1257:29": {
-  "ko": "캐릭터가 한개도 선택되지 않았습니다.  반드시 한개 이상의 캐릭터를 선택하여야 합니다."
+  "ko": "캐릭터가 한개도 선택되지 않았습니다.  반드시 한개 이상의 캐릭터를 선택하여야 합니다.",
+  "en": "No character is selected.  You must select at least one character."
  },
  "1258:29": {
-  "ko": "이미 캐릭터명을 변경한 적이 있습니다. 더 이상 변경 할 수 없습니다."
+  "ko": "이미 캐릭터명을 변경한 적이 있습니다. 더 이상 변경 할 수 없습니다.",
+  "en": "You have already changed the character name. It cannot be changed again."
  },
  "1259:25": {
-  "ko": "사용자 정보가 정확하지 않습니다."
+  "ko": "사용자 정보가 정확하지 않습니다.",
+  "en": "The user information is incorrect."
  },
  "1260:29": {
-  "ko": "다른 사용자가 같은 캐릭터 명을 먼저 사용하였습니다. 다른 캐릭터명을 사용하여 주십시요."
+  "ko": "다른 사용자가 같은 캐릭터 명을 먼저 사용하였습니다. 다른 캐릭터명을 사용하여 주십시요.",
+  "en": "Another user has already taken this character name. Please use a different name."
  },
  "1261:25": {
-  "ko": "파티장 권한이 없어 파티원을 소환하지 못했습니다."
+  "ko": "파티장 권한이 없어 파티원을 소환하지 못했습니다.",
+  "en": "Only the party leader can summon party members."
  },
  "1262:31": {
-  "ko": "현재 맵에는 소환될 파티원이 존재하지 않습니다."
+  "ko": "현재 맵에는 소환될 파티원이 존재하지 않습니다.",
+  "en": "There are no party members to summon on this map."
  },
  "1263:24": {
-  "ko": "이 지역에선 보스몬스터의 흔적을 찾을 수가 없습니다."
+  "ko": "이 지역에선 보스몬스터의 흔적을 찾을 수가 없습니다.",
+  "en": "No trace of a boss monster can be found in this area."
  },
  "1264:35": {
-  "ko": "보스 몬스터 '%s'(이)가  %d시간 %d분 후에 등장합니다."
+  "ko": "보스 몬스터 '%s'(이)가  %d시간 %d분 후에 등장합니다.",
+  "en": "Boss monster '%s' will appear in %d hour(s) %d min."
  },
  "1265:33": {
-  "ko": "보스 몬스터 '%s'의 위치가 미니맵에 표시됩니다."
+  "ko": "보스 몬스터 '%s'의 위치가 미니맵에 표시됩니다.",
+  "en": "Boss monster '%s' is shown on the minimap."
  },
  "1266:34": {
-  "ko": "'%s'를 개봉 하시겠습니까?  한번 개봉된 아이템은 창고 저장 외의 다른 이동은 불가하며 임대 아이템은 창고 저장도 불가합니다. 한정 아이템은 거래 및 이동이 가능 합니다. 동일한 아이템을 중복 사용하더라도 효과가 중첩되지 않습니다."
+  "ko": "'%s'를 개봉 하시겠습니까?  한번 개봉된 아이템은 창고 저장 외의 다른 이동은 불가하며 임대 아이템은 창고 저장도 불가합니다. 한정 아이템은 거래 및 이동이 가능 합니다. 동일한 아이템을 중복 사용하더라도 효과가 중첩되지 않습니다.",
+  "en": "Open '%s'?  Once opened, the item can only be moved to Storage; rental items cannot even be stored. Limited items can be traded and moved. Using the same item again does not stack its effect."
  },
  "1267:26": {
-  "ko": "NPC가 존재하지 않아 구매가 실패하였습니다."
+  "ko": "NPC가 존재하지 않아 구매가 실패하였습니다.",
+  "en": "The purchase failed because the NPC does not exist."
  },
  "1268:29": {
-  "ko": "부분 유료화 시스템이 정상 작동하지 않아 구매가 실패하였습니다."
+  "ko": "부분 유료화 시스템이 정상 작동하지 않아 구매가 실패하였습니다.",
+  "en": "The purchase failed because the item mall system is not working properly."
  },
  "1269:31": {
-  "ko": "교환중에는 아이템을 구매 할 수 없습니다."
+  "ko": "교환중에는 아이템을 구매 할 수 없습니다.",
+  "en": "You cannot buy items while trading."
  },
  "1270:30": {
-  "ko": "아이템 정보가 정확하지 않아 구매가 실패하였습니다."
+  "ko": "아이템 정보가 정확하지 않아 구매가 실패하였습니다.",
+  "en": "The purchase failed because the item information is incorrect."
  },
  "1271:17": {
-  "ko": " STR이 향상되었습니다."
+  "ko": " STR이 향상되었습니다.",
+  "en": " STR has increased."
  },
  "1272:17": {
-  "ko": " STR이 원래대로 돌아왔습니다."
+  "ko": " STR이 원래대로 돌아왔습니다.",
+  "en": " STR has returned to normal."
  },
  "1273:17": {
-  "ko": " AGI이 향상되었습니다."
+  "ko": " AGI이 향상되었습니다.",
+  "en": " AGI has increased."
  },
  "1274:17": {
-  "ko": " AGI이 원래대로 돌아왔습니다."
+  "ko": " AGI이 원래대로 돌아왔습니다.",
+  "en": " AGI has returned to normal."
  },
  "1275:17": {
-  "ko": " VIT이 향상되었습니다."
+  "ko": " VIT이 향상되었습니다.",
+  "en": " VIT has increased."
  },
  "1276:17": {
-  "ko": " VIT이 원래대로 돌아왔습니다."
+  "ko": " VIT이 원래대로 돌아왔습니다.",
+  "en": " VIT has returned to normal."
  },
  "1277:17": {
-  "ko": " INT이 향상되었습니다."
+  "ko": " INT이 향상되었습니다.",
+  "en": " INT has increased."
  },
  "1278:17": {
-  "ko": " INT이 원래대로 돌아왔습니다."
+  "ko": " INT이 원래대로 돌아왔습니다.",
+  "en": " INT has returned to normal."
  },
  "1279:17": {
-  "ko": " DEX이 향상되었습니다."
+  "ko": " DEX이 향상되었습니다.",
+  "en": " DEX has increased."
  },
  "1280:17": {
-  "ko": " DEX이 원래대로 돌아왔습니다."
+  "ko": " DEX이 원래대로 돌아왔습니다.",
+  "en": " DEX has returned to normal."
  },
  "1281:17": {
-  "ko": " LUK이 향상되었습니다."
+  "ko": " LUK이 향상되었습니다.",
+  "en": " LUK has increased."
  },
  "1282:17": {
-  "ko": " LUK이 원래대로 돌아왔습니다."
+  "ko": " LUK이 원래대로 돌아왔습니다.",
+  "en": " LUK has returned to normal."
  },
  "1283:23": {
-  "ko": " 회피율이 향상되었습니다."
+  "ko": " 회피율이 향상되었습니다.",
+  "en": " FLEE has increased."
  },
  "1284:23": {
-  "ko": " 회피율이 원래대로 돌아왔습니다."
+  "ko": " 회피율이 원래대로 돌아왔습니다.",
+  "en": " FLEE has returned to normal."
  },
  "1285:17": {
-  "ko": " 명중률이 향상되었습니다."
+  "ko": " 명중률이 향상되었습니다.",
+  "en": " HIT has increased."
  },
  "1286:17": {
-  "ko": " 명중률이 원래대로 돌아왔습니다."
+  "ko": " 명중률이 원래대로 돌아왔습니다.",
+  "en": " HIT has returned to normal."
  },
  "1287:34": {
-  "ko": " 크리티컬 확률이 향상되었습니다."
+  "ko": " 크리티컬 확률이 향상되었습니다.",
+  "en": " Critical rate has increased."
  },
  "1288:34": {
-  "ko": " 크리티컬 확률이 원래대로 돌아왔습니다."
+  "ko": " 크리티컬 확률이 원래대로 돌아왔습니다.",
+  "en": " Critical rate has returned to normal."
  },
  "1289:16": {
-  "ko": " 몬스터 사냥을 통해 얻을 수 있는 경험치가 30분간 1.5배로 증가합니다."
+  "ko": " 몬스터 사냥을 통해 얻을 수 있는 경험치가 30분간 1.5배로 증가합니다.",
+  "en": " EXP gained from hunting monsters is increased by 1.5x for 30 minutes."
  },
  "1290:22": {
-  "ko": " 30분내 사망시 1회에 한해 경험치 감소가 일어나지 않습니다."
+  "ko": " 30분내 사망시 1회에 한해 경험치 감소가 일어나지 않습니다.",
+  "en": " If you die within 30 minutes, you lose no EXP (once)."
  },
  "1291:20": {
-  "ko": " 몬스터 사냥을 통해 얻을 수 있는 기본 아이템의 드롭률이 30분간 2배로 증가합니다."
+  "ko": " 몬스터 사냥을 통해 얻을 수 있는 기본 아이템의 드롭률이 30분간 2배로 증가합니다.",
+  "en": " The drop rate of normal items from monsters is doubled for 30 minutes."
  },
  "1292:19": {
-  "ko": " 10분간 맵 내에 출현 가능한 보스 몬스터에 대한 정보를 안내해 드립니다."
+  "ko": " 10분간 맵 내에 출현 가능한 보스 몬스터에 대한 정보를 안내해 드립니다.",
+  "en": " Shows information on boss monsters that can appear on the map for 10 minutes."
  },
  "1293:22": {
-  "ko": " 정말로 '%s'아이템을 구매하시겠습니까?, %d캐시가 차감됩니다."
+  "ko": " 정말로 '%s'아이템을 구매하시겠습니까?, %d캐시가 차감됩니다.",
+  "en": " Do you really want to buy '%s'? %d Cash will be deducted."
  },
  "1294:28": {
-  "ko": " 캐시가 부족합니다."
+  "ko": " 캐시가 부족합니다.",
+  "en": " Not enough Cash."
  },
  "1295:30": {
-  "ko": " ^ff0000파기일시: %s^000000"
+  "ko": " ^ff0000파기일시: %s^000000",
+  "en": " ^ff0000Expires: %s^000000"
  },
  "1296:39": {
-  "ko": " '%s'아이템의 사용시간이 %d분 남았습니다."
+  "ko": " '%s'아이템의 사용시간이 %d분 남았습니다.",
+  "en": " '%s' has %d minutes of use left."
  },
  "1297:44": {
-  "ko": " 1분 후, '%s'아이템이 인벤토리에서 삭제됩니다."
+  "ko": " 1분 후, '%s'아이템이 인벤토리에서 삭제됩니다.",
+  "en": " '%s' will be deleted from your inventory in 1 minute."
  },
  "1298:30": {
-  "ko": " '%s'아이템이 인벤토리에서 삭제되었습니다."
+  "ko": " '%s'아이템이 인벤토리에서 삭제되었습니다.",
+  "en": " '%s' has been deleted from your inventory."
  },
  "1300:19": {
-  "ko": "%m월 %d일 %H시 %M분"
+  "ko": "%m월 %d일 %H시 %M분",
+  "en": "%m/%d %H:%M"
  },
  "1301:36": {
-  "ko": "보스 몬스터 '%s'(이)가 잠시 후에 등장합니다."
+  "ko": "보스 몬스터 '%s'(이)가 잠시 후에 등장합니다.",
+  "en": "Boss monster '%s' will appear shortly."
  },
  "1302:22": {
-  "ko": "용병 스킬목록"
+  "ko": "용병 스킬목록",
+  "en": "Mercenary Skills"
  },
  "1303:22": {
-  "ko": "블랙젬스톤 1개와 백만제니를 소모하는 마법의 실행에 동의합니까?"
+  "ko": "블랙젬스톤 1개와 백만제니를 소모하는 마법의 실행에 동의합니까?",
+  "en": "Agree to cast the magic that uses 1 Black Gemstone and 1,000,000 Zeny?"
  },
  "1304:24": {
-  "ko": "[POINT] 콜렉터랭킹 포인트가 %d 상승해서 %d 포인트가 되었습니다."
+  "ko": "[POINT] 콜렉터랭킹 포인트가 %d 상승해서 %d 포인트가 되었습니다.",
+  "en": "[POINT] Collector ranking points +%d. You now have %d points."
  },
  "1305:26": {
-  "ko": "[콜렉터랭킹] Target Item : %s"
+  "ko": "[콜렉터랭킹] Target Item : %s",
+  "en": "[Collector Ranking] Target Item : %s"
  },
  "1306:19": {
-  "ko": "용병 사용시간이 만료되었습니다."
+  "ko": "용병 사용시간이 만료되었습니다.",
+  "en": "The mercenary's contract has expired."
  },
  "1307:16": {
-  "ko": "용병이 사망하였습니다."
+  "ko": "용병이 사망하였습니다.",
+  "en": "The mercenary has died."
  },
  "1308:19": {
-  "ko": "용병이 해고되었습니다."
+  "ko": "용병이 해고되었습니다.",
+  "en": "The mercenary was fired."
  },
  "1309:20": {
-  "ko": "용병이 도망갔습니다."
+  "ko": "용병이 도망갔습니다.",
+  "en": "The mercenary ran away."
  },
  "1310:40": {
-  "ko": " '%s'아이템의 사용시간이 %d초 남았습니다."
+  "ko": " '%s'아이템의 사용시간이 %d초 남았습니다.",
+  "en": " '%s' has %d seconds of use left."
  },
  "1311:21": {
-  "ko": "PC방 프리미엄 서비스 : 경험치 %d%% 증가, 사망 페널티 %d%% 감소, 드롭율 %d%% 증가"
+  "ko": "PC방 프리미엄 서비스 : 경험치 %d%% 증가, 사망 페널티 %d%% 감소, 드롭율 %d%% 증가",
+  "en": "PC Cafe Premium Service : EXP +%d%%, Death Penalty -%d%%, Drop Rate +%d%%"
  },
  "1312:26": {
-  "ko": "24시간 이후에 시도하세요"
+  "ko": "24시간 이후에 시도하세요",
+  "en": "Try again after 24 hours."
  },
  "1313:22": {
-  "ko": "용병이 사용자 인공지능으로 동작합니다."
+  "ko": "용병이 사용자 인공지능으로 동작합니다.",
+  "en": "The mercenary now runs on the user AI."
  },
  "1314:23": {
-  "ko": "용병이 기본 인공지능으로 동작합니다."
+  "ko": "용병이 기본 인공지능으로 동작합니다.",
+  "en": "The mercenary now runs on the default AI."
  },
  "1315:23": {
-  "ko": " %s님의"
+  "ko": " %s님의",
+  "en": " %s's"
  },
  "1316:26": {
-  "ko": "%s님이 %s 아이템을 획득하셨습니다."
+  "ko": "%s님이 %s 아이템을 획득하셨습니다.",
+  "en": "%s has obtained %s."
  },
  "1317:22": {
-  "ko": "공개 채팅 메시지 표시"
+  "ko": "공개 채팅 메시지 표시",
+  "en": "Show public chat messages"
  },
  "1318:25": {
-  "ko": "귓속말 채팅 메시지 표시"
+  "ko": "귓속말 채팅 메시지 표시",
+  "en": "Show whisper messages"
  },
  "1319:23": {
-  "ko": "파티 채팅 메시지 표시"
+  "ko": "파티 채팅 메시지 표시",
+  "en": "Show party chat messages"
  },
  "1320:23": {
-  "ko": "길드 채팅 메시지 표시"
+  "ko": "길드 채팅 메시지 표시",
+  "en": "Show guild chat messages"
  },
  "1321:26": {
-  "ko": "아이템 획득/드롭 메시지 표시"
+  "ko": "아이템 획득/드롭 메시지 표시",
+  "en": "Show item get/drop messages"
  },
  "1322:23": {
-  "ko": "장비 장착/해제 메시지 표시"
+  "ko": "장비 장착/해제 메시지 표시",
+  "en": "Show equip/unequip messages"
  },
  "1323:31": {
-  "ko": "상태이상 메시지 표시"
+  "ko": "상태이상 메시지 표시",
+  "en": "Show status messages"
  },
  "1324:32": {
-  "ko": "파티원의 주요 아이템 획득 메시지 표시"
+  "ko": "파티원의 주요 아이템 획득 메시지 표시",
+  "en": "Show party members' item messages"
  },
  "1325:37": {
-  "ko": "파티원의 상태이상 메시지 표시"
+  "ko": "파티원의 상태이상 메시지 표시",
+  "en": "Show party members' status messages"
  },
  "1326:28": {
-  "ko": "스킬 사용 실패 메시지 표시"
+  "ko": "스킬 사용 실패 메시지 표시",
+  "en": "Show skill failure messages"
  },
  "1327:29": {
-  "ko": "파티 설정 메시지 표시"
+  "ko": "파티 설정 메시지 표시",
+  "en": "Show party setup messages"
  },
  "1328:31": {
-  "ko": "장비 손상 메시지 표시"
+  "ko": "장비 손상 메시지 표시",
+  "en": "Show equip damage messages"
  },
  "1329:31": {
-  "ko": "배틀 메시지 창 표시 정보"
+  "ko": "배틀 메시지 창 표시 정보",
+  "en": "Battle Message Window Options"
  },
  "1330:23": {
-  "ko": "[%s]의 소지 한코인 : %d 한코인"
+  "ko": "[%s]의 소지 한코인 : %d 한코인",
+  "en": "[%s]'s Hancoin : %d Hancoin"
  },
  "1331:16": {
-  "ko": "일반 메시지"
+  "ko": "일반 메시지",
+  "en": "General Msgs"
  },
  "1332:16": {
-  "ko": "배틀 메시지"
+  "ko": "배틀 메시지",
+  "en": "Battle Msgs"
  },
  "1333:22": {
-  "ko": "휴대폰 인증."
+  "ko": "휴대폰 인증.",
+  "en": "Phone Verification."
  },
  "1334:18": {
-  "ko": "읽기"
+  "ko": "읽기",
+  "en": "Read"
  },
  "1335:22": {
-  "ko": "자동낭독"
+  "ko": "자동낭독",
+  "en": "Auto Read"
  },
  "1336:18": {
-  "ko": "책갈피"
+  "ko": "책갈피",
+  "en": "Bookmark"
  },
  "1337:18": {
-  "ko": "이전페이지"
+  "ko": "이전페이지",
+  "en": "Prev Page"
  },
  "1338:18": {
-  "ko": "다음페이지"
+  "ko": "다음페이지",
+  "en": "Next Page"
  },
  "1339:19": {
-  "ko": "닫기"
+  "ko": "닫기",
+  "en": "Close"
  },
  "1340:22": {
-  "ko": "%s 장비가 손상되었습니다."
+  "ko": "%s 장비가 손상되었습니다.",
+  "en": "Your %s has been damaged."
  },
  "1341:28": {
-  "ko": "%s님의 %s 손상되었습니다."
+  "ko": "%s님의 %s 손상되었습니다.",
+  "en": "%s's %s has been damaged."
  },
  "1342:23": {
-  "ko": "무기가"
+  "ko": "무기가",
+  "en": "weapon"
  },
  "1343:21": {
-  "ko": "갑옷이"
+  "ko": "갑옷이",
+  "en": "armor"
  },
  "1344:32": {
-  "ko": "스킬레벨이 부족합니다. 파티가입 불능"
+  "ko": "스킬레벨이 부족합니다. 파티가입 불능",
+  "en": "Skill level too low. Cannot join a party."
  },
  "1345:20": {
-  "ko": "[%s]의 무료 캐시 : %d 캐시"
+  "ko": "[%s]의 무료 캐시 : %d 캐시",
+  "en": "[%s]'s Free Cash : %d Cash"
  },
  "1346:23": {
-  "ko": "무료 캐시 사용 : "
+  "ko": "무료 캐시 사용 : ",
+  "en": "Use Free Cash : "
  },
  "1347:13": {
-  "ko": "캐시"
+  "ko": "캐시",
+  "en": "Cash"
  },
  "1349:30": {
-  "ko": "그라비티 회원 정보동의를 하셔야 사용할수있습니다."
+  "ko": "그라비티 회원 정보동의를 하셔야 사용할수있습니다.",
+  "en": "You must agree to Gravity's member info terms to use this."
  },
  "1350:27": {
-  "ko": "이용약관에 동의를 하셔야 본 서비스를 이용하실 수 있습니다."
+  "ko": "이용약관에 동의를 하셔야 본 서비스를 이용하실 수 있습니다.",
+  "en": "You must agree to the Terms of Service to use this service."
  },
  "1351:22": {
-  "ko": "존재하지 않는 한게임 ID이거나 잘못된 ID입니다."
+  "ko": "존재하지 않는 한게임 ID이거나 잘못된 ID입니다.",
+  "en": "This Hangame ID does not exist or is invalid."
  },
  "1352:23": {
-  "ko": " 정말로 '%s'아이템을 구매하시겠습니까?, 일반 %d캐시, 무료 %d캐시가 차감됩니다."
+  "ko": " 정말로 '%s'아이템을 구매하시겠습니까?, 일반 %d캐시, 무료 %d캐시가 차감됩니다.",
+  "en": " Do you really want to buy '%s'? %d Cash and %d Free Cash will be deducted."
  },
  "1353:25": {
-  "ko": "%d시간이 경과하였습니다."
+  "ko": "%d시간이 경과하였습니다.",
+  "en": "%d hour(s) have passed."
  },
  "1354:25": {
-  "ko": "%d시간 %d분이 경과하였습니다."
+  "ko": "%d시간 %d분이 경과하였습니다.",
+  "en": "%d hour(s) %d min have passed."
  },
  "1355:21": {
-  "ko": "게임을 종료하세요, 경험치 및 모든게 50%로 조정됩니다"
+  "ko": "게임을 종료하세요, 경험치 및 모든게 50%로 조정됩니다",
+  "en": "Please quit the game. EXP and everything are now at 50%"
  },
  "1356:21": {
-  "ko": "불건전 시간대에 접어들었습니다. 게임을 종료하세요, 경험치 및 모든게 0%로 조정됩니다"
+  "ko": "불건전 시간대에 접어들었습니다. 게임을 종료하세요, 경험치 및 모든게 0%로 조정됩니다",
+  "en": "You have entered unhealthy play time. Please quit the game. EXP and everything are now at 0%"
  },
  "1357:17": {
-  "ko": "퀘스트 목록"
+  "ko": "퀘스트 목록",
+  "en": "Quest List"
  },
  "1359:44": {
-  "ko": "메모리얼던젼 '%s'의 예약이 알수없는 이유로 실패 하였습니다."
+  "ko": "메모리얼던젼 '%s'의 예약이 알수없는 이유로 실패 하였습니다.",
+  "en": "Reservation for Memorial Dungeon '%s' failed for an unknown reason."
  },
  "1360:46": {
-  "ko": "메모리얼던젼 '%s'의 예약이 예약중복으로 실패 하였습니다."
+  "ko": "메모리얼던젼 '%s'의 예약이 예약중복으로 실패 하였습니다.",
+  "en": "Reservation for Memorial Dungeon '%s' failed: duplicate reservation."
  },
  "1361:42": {
-  "ko": "메모리얼던젼 '%s'의 예약이 권한문제로 실패 하였습니다."
+  "ko": "메모리얼던젼 '%s'의 예약이 권한문제로 실패 하였습니다.",
+  "en": "Reservation for Memorial Dungeon '%s' failed: no permission."
  },
  "1362:42": {
-  "ko": "메모리얼던젼 '%s'의 예약이 중복생성요청으로 실패하였습니다."
+  "ko": "메모리얼던젼 '%s'의 예약이 중복생성요청으로 실패하였습니다.",
+  "en": "Reservation for Memorial Dungeon '%s' failed: duplicate create request."
  },
  "1363:42": {
-  "ko": "메모리얼던젼 '%s'의 예약취소가 실패 하였습니다."
+  "ko": "메모리얼던젼 '%s'의 예약취소가 실패 하였습니다.",
+  "en": "Failed to cancel the Memorial Dungeon '%s' reservation."
  },
  "1364:23": {
-  "ko": "상대방이 파티 초대 거부 상태입니다."
+  "ko": "상대방이 파티 초대 거부 상태입니다.",
+  "en": "That player is refusing party invitations."
  },
  "1365:28": {
-  "ko": "모든 파티 초대를 거부합니다."
+  "ko": "모든 파티 초대를 거부합니다.",
+  "en": "Refusing all party invitations."
  },
  "1366:28": {
-  "ko": "모든 파티 초대를 수락합니다."
+  "ko": "모든 파티 초대를 수락합니다.",
+  "en": "Accepting all party invitations."
  },
  "1367:23": {
-  "ko": "착용하시면 이 아이템은 영구 귀속됩니다. 착용하시겠습니까?"
+  "ko": "착용하시면 이 아이템은 영구 귀속됩니다. 착용하시겠습니까?",
+  "en": "Once equipped, this item will be bound to you forever. Equip it?"
  },
  "1368:25": {
-  "ko": "%s 아이템이 귀속되었습니다."
+  "ko": "%s 아이템이 귀속되었습니다.",
+  "en": "%s is now bound to you."
  },
  "1369:26": {
-  "ko": "캐시가 부족합니다. 무료 캐시 포인트를 입력해 주시기 바랍니다."
+  "ko": "캐시가 부족합니다. 무료 캐시 포인트를 입력해 주시기 바랍니다.",
+  "en": "Not enough Cash. Please enter Free Cash points."
  },
  "1370:24": {
-  "ko": "파티 가입요청"
+  "ko": "파티 가입요청",
+  "en": "Party Join Request"
  },
  "1371:28": {
-  "ko": "공성 정보 메시지 표시"
+  "ko": "공성 정보 메시지 표시",
+  "en": "Show siege info messages"
  },
  "1372:45": {
-  "ko": "메모리얼던젼 '%s'의 예약이 취소 되었습니다."
+  "ko": "메모리얼던젼 '%s'의 예약이 취소 되었습니다.",
+  "en": "Memorial Dungeon '%s' reservation cancelled."
  },
  "1373:29": {
-  "ko": "메모리얼던젼 '%s' 생성에 실패하였습니다. 다시 시도 하세요."
+  "ko": "메모리얼던젼 '%s' 생성에 실패하였습니다. 다시 시도 하세요.",
+  "en": "Failed to create Memorial Dungeon '%s'. Please try again."
  },
  "1374:30": {
-  "ko": "이 장소에서는 사용할 수 없는 스킬입니다."
+  "ko": "이 장소에서는 사용할 수 없는 스킬입니다.",
+  "en": "This skill cannot be used here."
  },
  "1375:32": {
-  "ko": "이 장소에서는 사용할 수 없는 아이템입니다."
+  "ko": "이 장소에서는 사용할 수 없는 아이템입니다.",
+  "en": "This item cannot be used here."
  },
  "1376:21": {
-  "ko": "메모리얼 던전"
+  "ko": "메모리얼 던전",
+  "en": "Memorial Dungeon"
  },
  "1377:29": {
-  "ko": "%s 대기중"
+  "ko": "%s 대기중",
+  "en": "%s Waiting"
  },
  "1378:27": {
-  "ko": "%s 입장 가능"
+  "ko": "%s 입장 가능",
+  "en": "%s Ready"
  },
  "1379:24": {
-  "ko": "%s 진행중"
+  "ko": "%s 진행중",
+  "en": "%s In Progress"
  },
  "1380:26": {
-  "ko": "시간 안에 입장하지 않아 메모리얼 던전이 사라졌습니다."
+  "ko": "시간 안에 입장하지 않아 메모리얼 던전이 사라졌습니다.",
+  "en": "You did not enter in time, so the Memorial Dungeon has vanished."
  },
  "1381:26": {
-  "ko": "이용하시려면 이용 신청을 처음부터 다시 해주시기 바랍니다."
+  "ko": "이용하시려면 이용 신청을 처음부터 다시 해주시기 바랍니다.",
+  "en": "To use it, please apply again from the beginning."
  },
  "1382:30": {
-  "ko": "대기 순위 : ^ff0000%d^000000"
+  "ko": "대기 순위 : ^ff0000%d^000000",
+  "en": "Queue Position : ^ff0000%d^000000"
  },
  "1383:28": {
-  "ko": "^ff0000%s^000000 내에 입장하지 않을 경우 신청하신 던전이 삭제 됩니다."
+  "ko": "^ff0000%s^000000 내에 입장하지 않을 경우 신청하신 던전이 삭제 됩니다.",
+  "en": "The requested dungeon will be deleted if you do not enter within ^ff0000%s^000000."
  },
  "1384:29": {
-  "ko": "던전 미션 제한 시간 : "
+  "ko": "던전 미션 제한 시간 : ",
+  "en": "Mission time limit : "
  },
  "1385:28": {
-  "ko": "메모리얼 던전 예약이 취소되었습니다."
+  "ko": "메모리얼 던전 예약이 취소되었습니다.",
+  "en": "Memorial Dungeon reservation cancelled."
  },
  "1386:35": {
-  "ko": "메모리얼 던전이 유지 시간 제한에 의해 파괴되었습니다."
+  "ko": "메모리얼 던전이 유지 시간 제한에 의해 파괴되었습니다.",
+  "en": "The Memorial Dungeon was destroyed: its time limit ran out."
  },
  "1387:36": {
-  "ko": "메모리얼 던전이 입장 시간 제한에 의해 파괴되었습니다."
+  "ko": "메모리얼 던전이 입장 시간 제한에 의해 파괴되었습니다.",
+  "en": "The Memorial Dungeon was destroyed: the entry time limit ran out."
  },
  "1388:37": {
-  "ko": "메모리얼 던전이 삭제 되었습니다."
+  "ko": "메모리얼 던전이 삭제 되었습니다.",
+  "en": "The Memorial Dungeon has been deleted."
  },
  "1389:27": {
-  "ko": "메모리얼 던전에 시스템 오류가 발생하였습니다. 정상적인 게임 진행을 위해 재접속을 해주십시오."
+  "ko": "메모리얼 던전에 시스템 오류가 발생하였습니다. 정상적인 게임 진행을 위해 재접속을 해주십시오.",
+  "en": "A system error occurred in the Memorial Dungeon. Please reconnect to continue playing normally."
  },
  "1390:24": {
-  "ko": "사용할 수 없는 슬롯입니다."
+  "ko": "사용할 수 없는 슬롯입니다.",
+  "en": "This slot cannot be used."
  },
  "1391:19": {
-  "ko": "Base Level이 15를 넘었습니다."
+  "ko": "Base Level이 15를 넘었습니다.",
+  "en": "Base Level has exceeded 15."
  },
  "1392:25": {
-  "ko": "Job Level이 15를 넘었습니다."
+  "ko": "Job Level이 15를 넘었습니다.",
+  "en": "Job Level has exceeded 15."
  },
  "1393:15": {
-  "ko": "해당슬롯 캐릭터에 직업군의 상인이므로 게임을 할 수 없습니다."
+  "ko": "해당슬롯 캐릭터에 직업군의 상인이므로 게임을 할 수 없습니다.",
+  "en": "The character in this slot is a Merchant class, so you cannot play it."
  },
  "1394:15": {
-  "ko": "추후 사용예정"
+  "ko": "추후 사용예정",
+  "en": "Reserved"
  },
  "1395:35": {
-  "ko": "만들수 있는 케릭터 슬롯이 아닙니다."
+  "ko": "만들수 있는 케릭터 슬롯이 아닙니다.",
+  "en": "You cannot create a character in this slot."
  },
  "1396:36": {
-  "ko": "삭제할 수 없는 케릭터 입니다."
+  "ko": "삭제할 수 없는 케릭터 입니다.",
+  "en": "This character cannot be deleted."
  },
  "1397:33": {
-  "ko": "상대방의 장비창이 공개되어 있지 않습니다."
+  "ko": "상대방의 장비창이 공개되어 있지 않습니다.",
+  "en": "That player's equipment window is not public."
  },
  "1398:32": {
-  "ko": "장비창을 공개하지 않습니다."
+  "ko": "장비창을 공개하지 않습니다.",
+  "en": "Equipment is private."
  },
  "1399:32": {
-  "ko": "장비창을 공개합니다."
+  "ko": "장비창을 공개합니다.",
+  "en": "Equipment is public."
  },
  "1400:27": {
-  "ko": "(%s)님 장비창 보기"
+  "ko": "(%s)님 장비창 보기",
+  "en": "View (%s)'s Equipment"
  },
  "1401:31": {
-  "ko": "%s의 장착아이템"
+  "ko": "%s의 장착아이템",
+  "en": "%s's Equipment"
  },
  "1402:26": {
-  "ko": "장비창 공개"
+  "ko": "장비창 공개",
+  "en": "Show Equip"
  },
  "1403:29": {
-  "ko": "프리미엄 서비스를 이용해 주시기 바랍니다."
+  "ko": "프리미엄 서비스를 이용해 주시기 바랍니다.",
+  "en": "Please use the Premium Service."
  },
  "1404:25": {
-  "ko": "무료 사용자는 최대 50000제니까지 소유할 수 있습니다."
+  "ko": "무료 사용자는 최대 50000제니까지 소유할 수 있습니다.",
+  "en": "Free users can hold up to 50,000 Zeny."
  },
  "1405:22": {
-  "ko": "전장채팅 상태가 되었습니다."
+  "ko": "전장채팅 상태가 되었습니다.",
+  "en": "Battlefield chat is on."
  },
  "1406:23": {
-  "ko": "전장채팅 상태가 해제되었습니다."
+  "ko": "전장채팅 상태가 해제되었습니다.",
+  "en": "Battlefield chat is off."
  },
  "1407:30": {
-  "ko": "용병정보 - 몬스터타입"
+  "ko": "용병정보 - 몬스터타입",
+  "en": "Mercenary Info - Monster"
  },
  "1408:15": {
-  "ko": "전체 맵 보기"
+  "ko": "전체 맵 보기",
+  "en": "World Map"
  },
  "1409:27": {
-  "ko": "메모리얼던젼이 CLOSE 상태입니다."
+  "ko": "메모리얼던젼이 CLOSE 상태입니다.",
+  "en": "The Memorial Dungeon is CLOSED."
  },
  "1410:19": {
-  "ko": "^ff0000^ff0000용병을 삭제합니다.^000000^000000 삭제하실 경우 지금까지 키운 내역이 모두 삭제됩니다. 계속하시겠습니까?"
+  "ko": "^ff0000^ff0000용병을 삭제합니다.^000000^000000 삭제하실 경우 지금까지 키운 내역이 모두 삭제됩니다. 계속하시겠습니까?",
+  "en": "^ff0000^ff0000Your mercenary will be deleted.^000000^000000 All the growth you have raised it to will be lost. Continue?"
  },
  "1411:26": {
-  "ko": "메모리얼던젼이 OPEN 상태입니다."
+  "ko": "메모리얼던젼이 OPEN 상태입니다.",
+  "en": "The Memorial Dungeon is OPEN."
  },
  "1412:20": {
-  "ko": "위의 계정은 아직 통신 안전 키에 연결되지 않았습니다.  먼저 안전 키를 해제하신 뒤 게임에 접속해 주십시오."
+  "ko": "위의 계정은 아직 통신 안전 키에 연결되지 않았습니다.  먼저 안전 키를 해제하신 뒤 게임에 접속해 주십시오.",
+  "en": "This account is not linked to a phone security key yet.  Please release the security key before logging in."
  },
  "1413:31": {
-  "ko": "한 아이피로 접속 가능한 유저수를 초과하였습니다."
+  "ko": "한 아이피로 접속 가능한 유저수를 초과하였습니다.",
+  "en": "Too many users are connected from one IP address."
  },
  "1414:17": {
-  "ko": "새로운 퀘스트를 받았습니다"
+  "ko": "새로운 퀘스트를 받았습니다",
+  "en": "You have received a new quest."
  },
  "1415:29": {
-  "ko": "^777777습득조건 : "
+  "ko": "^777777습득조건 : ",
+  "en": "^777777Requirement : "
  },
  "1416:28": {
-  "ko": "스킬 설명 보기"
+  "ko": "스킬 설명 보기",
+  "en": "Skill Description"
  },
  "1417:23": {
-  "ko": "사용된 스킬 포인트는 다시 되돌릴 수 없습니다. 적용하시겠습니까?"
+  "ko": "사용된 스킬 포인트는 다시 되돌릴 수 없습니다. 적용하시겠습니까?",
+  "en": "Used skill points cannot be returned. Apply them?"
  },
  "1418:26": {
-  "ko": "노비스·1차직업"
+  "ko": "노비스·1차직업",
+  "en": "Novice/1st Job"
  },
  "1419:26": {
-  "ko": "2차·전승직업"
+  "ko": "2차·전승직업",
+  "en": "2nd/Trans Job"
  },
  "1420:13": {
-  "ko": "불법프로그램을 사용하였거나            혹은 해킹을 시도한 계정입니다.                블럭시간 : %s"
+  "ko": "불법프로그램을 사용하였거나            혹은 해킹을 시도한 계정입니다.                블럭시간 : %s",
+  "en": "This account has used an illegal program     or attempted hacking.                Block time : %s"
  },
  "1421:13": {
-  "ko": "불법프로그램이 실행, 바이러스 감염, 또는 해킹툴이 설치되어 있을 가능성이 있습니다. 정상 클라이언트를 실행하여 주시기 바랍니다. 함께 만드는 밝은 라그나로크가 될 수 있도록 노력하고 있습니다."
+  "ko": "불법프로그램이 실행, 바이러스 감염, 또는 해킹툴이 설치되어 있을 가능성이 있습니다. 정상 클라이언트를 실행하여 주시기 바랍니다. 함께 만드는 밝은 라그나로크가 될 수 있도록 노력하고 있습니다.",
+  "en": "An illegal program may be running, the PC may be infected with a virus, or a hacking tool may be installed. Please run the official client. We are working to keep Ragnarok a fair game for all."
  },
  "1422:21": {
-  "ko": "당신은 지금 건강한 게임 시간 대에 있습니다, 즐거운 게임이 되시길 바랍니다"
+  "ko": "당신은 지금 건강한 게임 시간 대에 있습니다, 즐거운 게임이 되시길 바랍니다",
+  "en": "You are now in healthy play time. Enjoy the game."
  },
  "1423:23": {
-  "ko": " 몬스터 사냥을 통해 얻을 수 있는 Job경험치가 30분간 1.5배로 증가합니다."
+  "ko": " 몬스터 사냥을 통해 얻을 수 있는 Job경험치가 30분간 1.5배로 증가합니다.",
+  "en": " Job EXP gained from hunting monsters is increased by 1.5x for 30 minutes."
  },
  "1424:21": {
-  "ko": " 몬스터 사냥을 통해 얻을 수 있는 경험치가 30분간 1.25배로 증가합니다."
+  "ko": " 몬스터 사냥을 통해 얻을 수 있는 경험치가 30분간 1.25배로 증가합니다.",
+  "en": " EXP gained from hunting monsters is increased by 1.25x for 30 minutes."
  },
  "1425:21": {
-  "ko": " 몬스터 사냥을 통해 얻을 수 있는 경험치가 30분간 2배로 증가합니다."
+  "ko": " 몬스터 사냥을 통해 얻을 수 있는 경험치가 30분간 2배로 증가합니다.",
+  "en": " EXP gained from hunting monsters is doubled for 30 minutes."
  },
  "1426:21": {
-  "ko": " 몬스터 사냥을 통해 얻을 수 있는 경험치가 60분간 1.5배로 증가합니다."
+  "ko": " 몬스터 사냥을 통해 얻을 수 있는 경험치가 60분간 1.5배로 증가합니다.",
+  "en": " EXP gained from hunting monsters is increased by 1.5x for 60 minutes."
  },
  "1482:7": {
-  "ko": "다음 한글 메시지에 해당하는 번역 스크립트가 없습니다.\n ID:%d,메시지명:%s"
+  "ko": "다음 한글 메시지에 해당하는 번역 스크립트가 없습니다.\n ID:%d,메시지명:%s",
+  "en": "No translation script exists for the following Korean message.\n ID:%d, message name:%s"
  }
 }
