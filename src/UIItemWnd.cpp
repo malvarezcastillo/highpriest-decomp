@@ -884,7 +884,7 @@ void UIItemShopWnd::OnMouseHover(int x, int y)
 				sprintf(tmp, "Koin");
 			} else if (g_serviceType == ServiceKorea) {
 				if (g_isGravityID)
-					sprintf(tmp, "\xc7\xd1\xc4\xda\xc0\xce");
+					sprintf(tmp, "Hancoin");
 				else
 					sprintf(tmp, MsgStr(MSI_CASH));
 			} else {
@@ -1241,7 +1241,7 @@ int UIItemShopWnd::SendMsg(UIWindow* sender, int message, int val1, int val2, in
 			DRAG_INFO* dragInfo = gameMode->GetDragInfo();
 			ITEM_INFO itemInfo;
 			itemInfo.CopyItemInfo(dragInfo);
-			Trace("player\xbc\xa5\xc0\xb8\xb7\xce m_itemName == %s itemIndex == %d itemNum = %d",
+			Trace("To player shop: m_itemName == %s itemIndex == %d itemNum = %d",
 				itemInfo.m_itemName.c_str(), itemInfo.m_itemIndex, itemInfo.m_num);
 			g_session.AddShopItemFromSell(itemInfo);
 			g_session.DecSellItem(itemInfo);
@@ -2025,7 +2025,7 @@ void UIItemPurchaseWnd::OnMouseHover(int x, int y)
 				sprintf(tmp, "Koin");
 			} else if (g_serviceType == ServiceKorea) {
 				if (g_isGravityID)
-					sprintf(tmp, "\xc7\xd1\xc4\xda\xc0\xce");
+					sprintf(tmp, "Hancoin");
 				else
 					sprintf(tmp, MsgStr(MSI_CASH));
 			} else {
@@ -2219,7 +2219,7 @@ void UIItemPurchaseWnd::OnDraw()
 					sprintf(tmp, "Koin");
 				} else if (g_serviceType == ServiceKorea) {
 					if (g_isGravityID)
-						sprintf(tmp, "\xc7\xd1\xc4\xda\xc0\xce");
+						sprintf(tmp, "Hancoin");
 					else
 						sprintf(tmp, MsgStr(MSI_CASH));
 				} else {
@@ -2270,9 +2270,9 @@ int UIItemPurchaseWnd::SendMsg(UIWindow* sender, int message, int val1, int val2
 				sprintf(text, "Total : %d Koin", 0);
 			} else if (g_serviceType == ServiceKorea) {
 				if (g_isGravityID)
-					sprintf(text, "Total : %d \xc7\xd1\xc4\xda\xc0\xce", 0);
+					sprintf(text, "Total : %d Hancoin", 0);
 				else
-					sprintf(text, "Total : %d \xc4\xb3\xbd\xc3", 0);
+					sprintf(text, "Total : %d Cash", 0);
 			} else {
 				sprintf(text, "Total : %d Point", 0);
 			}
@@ -2510,9 +2510,9 @@ int UIItemPurchaseWnd::SendMsg(UIWindow* sender, int message, int val1, int val2
 				sprintf(text, "Total : %s Koin", GetNumberText(totalPrice, moneyTxt));
 			} else if (g_serviceType == ServiceKorea) {
 				if (g_isGravityID)
-					sprintf(text, "Total : %s \xc7\xd1\xc4\xda\xc0\xce", GetNumberText(totalPrice, moneyTxt));
+					sprintf(text, "Total : %s Hancoin", GetNumberText(totalPrice, moneyTxt));
 				else
-					sprintf(text, "Total : %s \xc4\xb3\xbd\xc3", GetNumberText(totalPrice, moneyTxt));
+					sprintf(text, "Total : %s Cash", GetNumberText(totalPrice, moneyTxt));
 			} else {
 				sprintf(text, "Total : %s Point", GetNumberText(totalPrice, moneyTxt));
 			}
@@ -6826,7 +6826,7 @@ int UIMerchantShopMakeWnd::SendMsg(UIWindow* sender, int message, int val1, int 
 
 				if (g_windowMgr.GetChatRoomWnd() || g_windowMgr.GetChatRoomMakeWnd()) {
 					g_windowMgr.ErrorMsg(
-						"\xbb\xf3\xc1\xa1\xb0\xfa \xc3\xa4\xc6\xc3\xb9\xe6\xc0\xbb \xb5\xbf\xbd\xc3\xbf\xa1 \xbf\xad\xbc\xf6 \xbe\xf8\xbd\xc0\xb4\xcf\xb4\xd9.",
+						"Can't open a shop and a chat room at once.",
 						0, TRUE, FALSE, 0);
 					g_windowMgr.DeleteWindow(WID_MERCHANTSHOPMAKEWND);
 					break;

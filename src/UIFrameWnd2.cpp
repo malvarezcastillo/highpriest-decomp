@@ -3572,30 +3572,30 @@ int UIItemCollectionWnd::SendMsg(UIWindow *sender, int message, int val1, int va
 			petString.insert(petString.end(), pet);
 
 			if (m_isPetNameModified)
-				pet = "\xc0\xcc\xb8\xa7 \xba\xaf\xb0\xe6\xb5\xca";
+				pet = "Renamed";
 			else
-				pet = "\xc0\xcc\xb8\xa7 \xba\xaf\xb0\xe6\xb5\xc7\xc1\xf6\xbe\xca\xc0\xbd";
+				pet = "Not Renamed";
 			petString.insert(petString.end(), pet);
 
 			_itoa(m_petLevel, str, 10);
-			pet = "\xb7\xb9\xba\xa7 : ";
+			pet = "Level : ";
 			pet += str;
 			petString.insert(petString.end(), pet);
 
 			g_session.GetPetHungryStateText(m_petFullness, str);
-			pet = "\xb8\xb8\xba\xb9\xb5\xb5 : ";
+			pet = "Hunger : ";
 			pet += str;
 			petString.insert(petString.end(), pet);
 
 			g_session.GetPetFriendlyStateText(m_petRelationship, str);
-			pet = "\xc4\xa3\xb9\xd0\xb5\xb5 : ";
+			pet = "Intimacy : ";
 			pet += str;
 			petString.insert(petString.end(), pet);
 
 			if (m_petITID)
-				pet = "\xbe\xc7\xbc\xbc\xbb\xe7\xb8\xae : \xc0\xe5\xc2\xf8\xb5\xca";
+				pet = "Accessory : Equipped";
 			else
-				pet = "\xbe\xc7\xbc\xbc\xbb\xe7\xb8\xae : \xc0\xe5\xc2\xf8\xbe\xc8\xb5\xca";
+				pet = "Accessory : Unequipped";
 			petString.insert(petString.end(), pet);
 		}
 
@@ -8284,7 +8284,7 @@ void UIProhibitListWnd::OnDraw()
 			}
 
 			int logDate = g_session.m_chatProhibitLog[c].logDate;
-			sprintf(msg, "ProhibitTime : %d\xba\xd0   LogTime : %d\xb3\xe2 %d\xbf\xf9 %d\xc0\xcf   %d\xbd\xc3 %d\xba\xd0 %d\xc3\xca",
+			sprintf(msg, "ProhibitTime : %d min   LogTime : %d/%d/%d   %d:%d:%d",
 				g_session.m_chatProhibitLog[c].prohibitTime,
 				(logDate >> 16) & 0xffff, (logDate >> 8) & 0xff, logDate & 0xff,
 				(g_session.m_chatProhibitLog[c].logTime >> 16) & 0xff, (g_session.m_chatProhibitLog[c].logTime >> 8) & 0xff, g_session.m_chatProhibitLog[c].logTime & 0xff);
@@ -9762,7 +9762,7 @@ int UIMailListWnd::SendMsg(UIWindow* sender, int message, int val1, int val2, in
 				if (numBadSentenceLine > 0) {
 					g_windowMgr.SendMsg(
 						UIM_PUSHINTOCHATHISTORY,
-						(int)"\xba\xd2\xb7\xae\xb4\xdc\xbe\xee\xb0\xa1 \xb0\xcb\xc3\xe2\xb5\xc7\xbe\xee \xb8\xde\xc0\xcf\xc0\xbb \xba\xb8\xb3\xbe\xbc\xf6 \xbe\xf8\xbd\xc0\xb4\xcf\xb4\xd9.",
+						(int)"Can't send mail: inappropriate word detected.",
 						0xff, 0, 0);
 					break;
 				}

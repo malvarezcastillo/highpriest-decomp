@@ -2661,15 +2661,15 @@ void UIMakeCharWnd::OnDraw()
 			img->width, img->height, clip->flags, img->isHalfW + 1, img->isHalfH + 1);
 	}
 
-	sprintf(text1, "\xb5\xb7\xb9\xfa\xb1\xe2 \xb3\xad\xc0\xcc\xb5\xb5  =");
+	sprintf(text1, "Income Diff.  =");
 	TextOutA(211, 159, text1, 0, 0, 12, 0xf5cdcd);
 	TextOutA(210, 158, text1, 0, 0, 12, 0xcd6969);
 
 	short y = (short)(int)(g_sinTable[m_stateCnt % 360] * 5.0f + 158.0f);
 	if (g_curHardness == 1)
-		sprintf(text1, "\xf1\xe9");
+		sprintf(text1, "Normal");
 	else
-		sprintf(text1, "\xf9\xbb");
+		sprintf(text1, "Easy");
 
 	TextOutA(310, y + 1, text1, 0, 0, 16, 0xf5cdcd);
 	TextOutA(309, y, text1, 0, 0, 16, 0xcd6969);

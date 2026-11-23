@@ -483,8 +483,8 @@ bool	CTexture :: Create(DWORD w, DWORD h, PixelFormat pf)
 		g_3dDevice.GetD3DDevice()->EnumTextureFormats(TextureSearchCallback, &pf);
 
 	if (g_texPixelFormat[pf].dwSize != sizeof(DDPIXELFORMAT))
-		ErrorMsg("GFC \xb8\xa6 \xb1\xb8\xb5\xbf\xc7\xd2 \xbc\xf6 \xbe\xf8\xb4\xc2 "
-			"\xba\xf1\xb5\xf0\xbf\xc0\xbd\xc3\xbd\xba\xc5\xdb\xc0\xd4\xb4\xcf\xb4\xd9");
+		ErrorMsg("This video system cannot run GFC"
+);
 
 	DDSURFACEDESC2 ddsd = { sizeof(DDSURFACEDESC2), 0 };
 	ddsd.dwFlags = g_ddsdFlagMipmap | DDSD_CAPS | DDSD_HEIGHT | DDSD_WIDTH |

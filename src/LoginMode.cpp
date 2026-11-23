@@ -453,13 +453,13 @@ void CLoginMode::OnChangeState(int state)
 			if (m_serverInfo[i].property == SERVERPROPERTY_NEW) sprintf(serverName, MsgStr(MSI_SERVER_PROPERTY_NEW));
 
 			if (!strcmp((char *)m_serverInfo[i].name, "\xc5\xd7\xc0\xcf\xb8\xb5"))
-				sprintf(serverName + strlen(serverName), "%s - %s", m_serverInfo[i].name, "\xb8\xae\xb5\xf0\xbe\xc6+\xc6\xe6\xb8\xb1");
+				sprintf(serverName + strlen(serverName), "%s - %s", m_serverInfo[i].name, "Lydia+Fenrir");
 			else if (!strcmp((char *)m_serverInfo[i].name, "\xb1\xdb\xb6\xf3\xb8\xae\xbd\xba"))
-				sprintf(serverName + strlen(serverName), "%s - %s", m_serverInfo[i].name, "\xbe\xc6\xc0\xcc\xb8\xae\xbd\xba+\xc5\xe4\xb8\xa3");
+				sprintf(serverName + strlen(serverName), "%s - %s", m_serverInfo[i].name, "Iris+Thor");
 			else if (!strcmp((char *)m_serverInfo[i].name, "\xbc\xd2\xb8\xb0"))
-				sprintf(serverName + strlen(serverName), "%s - %s", m_serverInfo[i].name, "\xb7\xce\xc5\xb0+\xb9\xdf\xb5\xce\xb8\xa3");
+				sprintf(serverName + strlen(serverName), "%s - %s", m_serverInfo[i].name, "Loki+Baldur");
 			else if (!strcmp((char *)m_serverInfo[i].name, "\xb5\xf0\xc6\xf7\xb8\xa3\xc5\xd7"))
-				sprintf(serverName + strlen(serverName), "%s - %s", m_serverInfo[i].name, "\xc4\xc9\xc0\xcc\xbe\xc6\xbd\xba+\xbf\xc0\xb5\xf2");
+				sprintf(serverName + strlen(serverName), "%s - %s", m_serverInfo[i].name, "Chaos+Odin");
 			else
 				sprintf(serverName + strlen(serverName), (char *)m_serverInfo[i].name);
 
@@ -1236,7 +1236,7 @@ void CLoginMode::Ac_Refuse_Login(const char *buf)
 		if (g_serviceType == ServiceKorea) {
 			++g_passwordWrong;
 			if (g_passwordWrong >= 3) {
-				if (g_windowMgr.ErrorMsg("\xba\xf1\xb9\xd0\xb9\xf8\xc8\xa3\xb8\xa6 3\xc8\xb8 \xc0\xdf\xb8\xf8\xc0\xd4\xb7\xc2\xc7\xcf\xbf\xb4\xbd\xc0\xb4\xcf\xb4\xd9. \xba\xf1\xb9\xd0\xb9\xf8\xc8\xa3\xb8\xa6 \xc8\xae\xc0\xce\xc7\xd8\xc1\xd6\xbc\xbc\xbf\xe4.              \xc5\xac\xb6\xf3\xc0\xcc\xbe\xf0\xc6\xae \xbd\xc7\xc7\xe0\xc0\xbb \xc1\xbe\xb7\xe1\xc7\xd5\xb4\xcf\xb4\xd9.",
+				if (g_windowMgr.ErrorMsg("Wrong password entered 3 times. Please check your password.              The client will now close.",
 						ME_OK, TRUE, TRUE, 0) == ID_OK) {
 					if (!g_isGravityID) {
 						ShellExecute(g_hMainWnd, "open", "http://ragnarok.co.kr", NULL, NULL, SW_SHOWNORMAL);
@@ -1319,7 +1319,7 @@ void CLoginMode::Ac_Refuse_Login(const char *buf)
 		break;
 	case REFUSE_NOT_CHANGED_PASSWD:
 		if (g_serviceType == ServiceKorea) {
-			if (g_windowMgr.ErrorMsg("\xba\xf1\xb9\xd0 \xb9\xf8\xc8\xa3 \xba\xaf\xb0\xe6 \xc8\xc4, \xb4\xd9\xbd\xc3 \xc1\xa2\xbc\xd3 \xc7\xd8\xc1\xd6\xbd\xc3\xb1\xe2 \xb9\xd9\xb6\xf8\xb4\xcf\xb4\xd9.",
+			if (g_windowMgr.ErrorMsg("Please log in again after changing your password.",
 					ME_OK, TRUE, TRUE, 0) == ID_OK) {
 				ShellExecute(g_hMainWnd, "open",
 					"http://www.ragnarok.co.kr/setNewPW/password_change_agreement.asp",

@@ -60,7 +60,8 @@
   "keep": "file name in the game data"
  },
  "887:18": {
-  "ko": "한코인"
+  "ko": "한코인",
+  "en": "Hancoin"
  },
  "926:8": {
   "ko": "유저인터페이스\\basic_interface\\titlebar_left.bmp",
@@ -107,7 +108,8 @@
   "keep": "file name in the game data"
  },
  "1244:9": {
-  "ko": "player샵으로 m_itemName == %s itemIndex == %d itemNum = %d"
+  "ko": "player샵으로 m_itemName == %s itemIndex == %d itemNum = %d",
+  "en": "To player shop: m_itemName == %s itemIndex == %d itemNum = %d"
  },
  "1364:22": {
   "ko": "유저인터페이스\\btn_resize.bmp",
@@ -174,7 +176,8 @@
   "keep": "file name in the game data"
  },
  "2028:18": {
-  "ko": "한코인"
+  "ko": "한코인",
+  "en": "Hancoin"
  },
  "2089:53": {
   "ko": "유저인터페이스\\basic_interface\\titlebar_left.bmp",
@@ -221,19 +224,24 @@
   "keep": "file name in the game data"
  },
  "2222:19": {
-  "ko": "한코인"
+  "ko": "한코인",
+  "en": "Hancoin"
  },
  "2273:19": {
-  "ko": "Total : %d 한코인"
+  "ko": "Total : %d 한코인",
+  "en": "Total : %d Hancoin"
  },
  "2275:19": {
-  "ko": "Total : %d 캐시"
+  "ko": "Total : %d 캐시",
+  "en": "Total : %d Cash"
  },
  "2513:19": {
-  "ko": "Total : %s 한코인"
+  "ko": "Total : %s 한코인",
+  "en": "Total : %s Hancoin"
  },
  "2515:19": {
-  "ko": "Total : %s 캐시"
+  "ko": "Total : %s 캐시",
+  "en": "Total : %s Cash"
  },
  "2579:22": {
   "ko": "유저인터페이스\\btn_resize.bmp",
@@ -596,6 +604,7 @@
   "keep": "file name in the game data"
  },
  "6829:6": {
-  "ko": "상점과 채팅방을 동시에 열수 없습니다."
+  "ko": "상점과 채팅방을 동시에 열수 없습니다.",
+  "en": "Can't open a shop and a chat room at once."
  }
 }

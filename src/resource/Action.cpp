@@ -471,7 +471,7 @@ bool	CRmaRes :: Load(const char *fName)
 				}
 
 				if (m_actionList[actNum].startFrame != -1)
-					ErrorMsg("\xc1\xdf\xba\xb9\xb5\xc7\xb4\xc2 \xbe\xd7\xbc\xc7\xc0\xcc \xc0\xd6\xc0\xbd");
+					ErrorMsg("Duplicate action found");
 				m_actionList[actNum].motionSpeed = atoi(a[2].c_str());
 				m_actionList[actNum].startFrame = atoi(a[3].c_str());
 				m_actionList[actNum].endFrame = atoi(a[4].c_str());

@@ -156,10 +156,12 @@
   "keep": "comparison key or registry path"
  },
  "3084:24": {
-  "ko": "매치되는 에러코드 없음."
+  "ko": "매치되는 에러코드 없음.",
+  "en": "No matching error code."
  },
  "4736:8": {
-  "ko": "PACKET_ZC_ACK_CREATE_CHATROOM 잘못된 결과 p->result==%d"
+  "ko": "PACKET_ZC_ACK_CREATE_CHATROOM 잘못된 결과 p->result==%d",
+  "en": "PACKET_ZC_ACK_CREATE_CHATROOM invalid result p->result==%d"
  },
  "5680:11": {
   "ko": "effect\\T_피링.wav",
@@ -178,36 +180,47 @@
   "keep": "file name in the game data"
  },
  "10147:20": {
-  "ko": "귀하는 혼합요금제 사용자 입니다. (종료일시 : %04d/%02d/%02d , 남은시간 : %d 시간 %d 분 %d 초)"
+  "ko": "귀하는 혼합요금제 사용자 입니다. (종료일시 : %04d/%02d/%02d , 남은시간 : %d 시간 %d 분 %d 초)",
+  "en": "You are on a combined plan. (Ends: %04d/%02d/%02d , Time left: %d h %d min %d sec)"
  },
  "10155:20": {
-  "ko": "귀하는 정액요금제 사용자 입니다. (종료일시 : %04d/%02d/%02d )"
+  "ko": "귀하는 정액요금제 사용자 입니다. (종료일시 : %04d/%02d/%02d )",
+  "en": "You are on a flat-rate plan. (Ends: %04d/%02d/%02d )"
  },
  "10160:20": {
-  "ko": "귀하는 정량요금제 사용자 입니다. (남은시간 : %d 시간 %d 분 %d 초)"
+  "ko": "귀하는 정량요금제 사용자 입니다. (남은시간 : %d 시간 %d 분 %d 초)",
+  "en": "You are on a metered plan. (Time left: %d h %d min %d sec)"
  },
  "10165:20": {
-  "ko": "귀하는 무료요금제 사용자 입니다."
+  "ko": "귀하는 무료요금제 사용자 입니다.",
+  "en": "You are on a free plan."
  },
  "10168:19": {
-  "ko": "PC방의 요금제 정보는 요청할 수 없습니다."
+  "ko": "PC방의 요금제 정보는 요청할 수 없습니다.",
+  "en": "Internet cafe plan info cannot be requested."
  },
  "10171:19": {
-  "ko": "귀하는 사크라이 2시간 무료요금제 사용자 입니다."
+  "ko": "귀하는 사크라이 2시간 무료요금제 사용자 입니다.",
+  "en": "You are on the Sakray 2-hour free plan."
  },
  "10174:19": {
-  "ko": "과금정보 요청에 실패 했습니다."
+  "ko": "과금정보 요청에 실패 했습니다.",
+  "en": "Failed to request billing info."
  },
  "10200:19": {
-  "ko": "개인 정액제 시간이 %d분 %d초 남았습니다."
+  "ko": "개인 정액제 시간이 %d분 %d초 남았습니다.",
+  "en": "Personal flat-rate time left: %d min %d sec."
  },
  "10203:19": {
-  "ko": "개인 정량제 시간이 %d분 %d초 남았습니다."
+  "ko": "개인 정량제 시간이 %d분 %d초 남았습니다.",
+  "en": "Personal metered time left: %d min %d sec."
  },
  "11889:15": {
-  "ko": "[ 해당 GID의 몹이 존재한다 ]"
+  "ko": "[ 해당 GID의 몹이 존재한다 ]",
+  "en": "[ A mob with this GID exists ]"
  },
  "13357:13": {
-  "ko": "=========== 학살자 RANK =============="
+  "ko": "=========== 학살자 RANK ==============",
+  "en": "=========== KILLER RANK =============="
  }
 }

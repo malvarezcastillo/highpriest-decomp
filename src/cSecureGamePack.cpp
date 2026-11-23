@@ -53,7 +53,7 @@ cSecureGamePack::~cSecureGamePack()
 			if (cleanup)
 				cleanup(SGP_VERSION);
 			::FreeLibrary(::GetModuleHandleA(SGP_DLL));
-			::OutputDebugStringA("Secure Game Pack\xc0\xcc \xc1\xa4\xbb\xf3\xc0\xfb\xc0\xb8\xb7\xce \xc7\xd8\xc1\xa6\xc7\xcf\xbf\xb4\xbd\xc0\xb4\xcf\xb4\xd9");
+			::OutputDebugStringA("Secure Game Pack was unloaded successfully");
 		}
 	}
 }
@@ -84,7 +84,7 @@ bool cSecureGamePack::InitSecureGamePack()
 	if (pfn == 0)
 	{
 		::MessageBoxA(g_hMainWnd,
-					  "IMESCHLP.dll\xc0\xbb \xb7\xce\xb5\xe5\xc7\xcf\xb4\xc2\xb5\xa5 \xbd\xc7\xc6\xd0",
+					  "Failed to load IMESCHLP.dll",
 					  ":::Warning:::",
 					  MB_ICONINFORMATION);
 		return 0;
@@ -119,7 +119,7 @@ bool cSecureGamePack::InitSecureGamePack()
 						return 0;
 					}
 				}
-				::OutputDebugStringA("Secure Game Pack\xc0\xcc \xc1\xa4\xbb\xf3\xc0\xfb\xc0\xb8\xb7\xce \xbd\xc7\xc7\xe0\xb5\xc7\xbe\xfa\xbd\xc0\xb4\xcf\xb4\xd9");
+				::OutputDebugStringA("Secure Game Pack started successfully");
 			}
 			break;
 		}
@@ -131,7 +131,7 @@ bool cSecureGamePack::InitSecureGamePack()
 			if (pError)
 			{
 				sprintf(strMsg,
-						"\xb3\xbb\xba\xce\xc0\xfb\xc0\xce \xbf\xc0\xb7\xf9\xb0\xa1 \xb9\xdf\xbb\xfd\xc7\xcf\xbf\xa9 \xb4\xf5 \xc0\xcc\xbb\xf3 \xc1\xf8\xc7\xe0\xc7\xd2 \xbc\xf6 \xbe\xf8\xbd\xc0\xb4\xcf\xb4\xd9     \n\n\xbf\xa1\xb7\xaf \xc4\xda\xb5\xe5: 0x%08X, 0x%08X",
+						"An internal error occurred; cannot continue.     \n\nError code: 0x%08X, 0x%08X",
 						rc,
 						pError());
 				::MessageBoxA(g_hMainWnd, strMsg, ":::Warning:::", MB_OK);
@@ -199,7 +199,7 @@ void cSecureGamePack::DestroySecureGamePack()
 			if (cleanup)
 				cleanup(SGP_VERSION);
 			::FreeLibrary(::GetModuleHandleA(SGP_DLL));
-			::OutputDebugStringA("Secure Game Pack\xc0\xcc \xc1\xa4\xbb\xf3\xc0\xfb\xc0\xb8\xb7\xce \xc7\xd8\xc1\xa6\xc7\xcf\xbf\xb4\xbd\xc0\xb4\xcf\xb4\xd9");
+			::OutputDebugStringA("Secure Game Pack was unloaded successfully");
 		}
 	}
 }

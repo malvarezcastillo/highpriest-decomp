@@ -54,12 +54,12 @@ bool CImfRes::Load(const char *fName)
 	CFile fp;
 	if(!fp.Open(fName, CFile::modeRead))
 	{
-		Trace("\xbe\xdf, %s \xc6\xc4\xc0\xcf\xc0\xcc \xbe\xf8\xb4\xc2\xb0\xc5 \xb0\xb0\xbe\xd6.", fName);
+		Trace("Hey, file %s seems missing.", fName);
 		return false;
 	}
 	fp.Read(&Ver, sizeof(float));
 	if(Ver < (float)SPRLAYER_VER) {
-		Trace("%s \xc0\xd0\xb1\xe2 \xbd\xc7\xc6\xd0! \xc0\xcc\xc0\xfc \xb9\xf6\xc0\xfc\xc0\xc7 \xc6\xf7\xb8\xcb\xc0\xd3. \xbb\xf5 \xb9\xf6\xc0\xfc\xc0\xb8\xb7\xce \xb4\xd9\xbd\xc3 \xc0\xfa\xc0\xe5\xc7\xd1 \xc8\xc4 \xba\xce\xb8\xa6\xb0\xcd.", fName);
+		Trace("Failed to read %s! Old format. Re-save it in the new version, then load it.", fName);
 		return false;
 	}
 	fp.Read(&Sum, sizeof(int));

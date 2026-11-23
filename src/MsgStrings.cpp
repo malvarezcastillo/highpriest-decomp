@@ -194,7 +194,7 @@ IdMsgString g_idMsgStrings[1387] = {
 	{ MSI_EXPLAIN_TIP7, "[Alt] + [=] : Fix wide letter spacing." },
 	{ MSI_EXPLAIN_TIP8, "[F10] : Resize chat window  [Alt] + [F10] : Chat window On Off" },
 	{ MSI_EXPLAIN_TIP9, "How to whisper: type the character's name in the left box of the chat window and your message in the right box. Press TAB to switch between the boxes." },
-	{ MSI_EXPLAIN_TIP10, "/! /? /\xb1\xe2\xbb\xdd /\xc7\xcf\xc6\xae /\xb6\xa1 /\xbe\xc6\xc7\xcf /\xc2\xa5\xc1\xf5 /\xc8\xad /\xb5\xb7 /... /\xb0\xa1\xc0\xa7 /\xb9\xd9\xc0\xa7 /\xba\xb8 : Alt + (1~9) Ctrl + (-=\\) \xbf\xa1 \xb4\xeb\xc0\xc0\xb5\xc7\xb4\xc2 \xb8\xed\xb7\xc9\xbe\xee \xc0\xd4\xb4\xcf\xb4\xd9." },
+	{ MSI_EXPLAIN_TIP10, "/! /? /ho /heart /swt /ic /an /ag /$ /... /gawi /bawi /bo : The commands for Alt + (1~9) Ctrl + (-=\\)." },
 	{ MSI_EXPLAIN_TIP11, "To talk to your party, put '%' at the start of your message. (e.g. \"%Hello\")" },
 	{ MSI_NOT_ENOUGH_SKILLLEVE1, "Skill level too low. Cannot trade." },
 	{ MSI_NOT_ENOUGH_SKILLLEVE2, "Skill level too low. Cannot use emotions." },

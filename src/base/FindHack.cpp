@@ -184,7 +184,7 @@ int FindHack2()
 		pGameGuard = new CNPGameLib("RagnarokJPTest");
 		break;
 	default:
-		Trace("\xb0\xd4\xc0\xd3\xb0\xa1\xb5\xe5\xb8\xa6 \xbd\xc7\xc7\xe0\xc7\xcf\xc1\xf6 \xbe\xca\xb4\xc2 \xb1\xb9\xb0\xa1\xc0\xd4\xb4\xcf\xb4\xd9.\n");
+		Trace("GameGuard does not run in this country.\n");
 		return NPGAMEMON_SUCCESS;
 	}
 	return pGameGuard->Init();
@@ -638,7 +638,7 @@ int NKCStartKeycrypt()
 		char szErrMsg[1024];
 
 		if ((dwError & NPK_ERROR_BASE) == NPK_ERROR_BASE) {
-			strcpy(szErrMsg, "ADMIN\xc0\xb8\xb7\xce\xb8\xb8 \xbd\xc7\xc7\xe0\xb5\xcb\xb4\xcf\xb4\xd9.");
+			strcpy(szErrMsg, "Runs as ADMIN only.");
 		} else {
 			HLOCAL hlocal = NULL;
 

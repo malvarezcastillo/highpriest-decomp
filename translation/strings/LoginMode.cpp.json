@@ -12,33 +12,39 @@
   "keep": "comparison key or registry path"
  },
  "456:78": {
-  "ko": "리디아+펜릴"
+  "ko": "리디아+펜릴",
+  "en": "Lydia+Fenrir"
  },
  "457:50": {
   "ko": "글라리스",
   "keep": "comparison key or registry path"
  },
  "458:78": {
-  "ko": "아이리스+토르"
+  "ko": "아이리스+토르",
+  "en": "Iris+Thor"
  },
  "459:50": {
   "ko": "소린",
   "keep": "comparison key or registry path"
  },
  "460:78": {
-  "ko": "로키+발두르"
+  "ko": "로키+발두르",
+  "en": "Loki+Baldur"
  },
  "461:50": {
   "ko": "디포르테",
   "keep": "comparison key or registry path"
  },
  "462:78": {
-  "ko": "케이아스+오딘"
+  "ko": "케이아스+오딘",
+  "en": "Chaos+Odin"
  },
  "1239:29": {
-  "ko": "비밀번호를 3회 잘못입력하였습니다. 비밀번호를 확인해주세요.              클라이언트 실행을 종료합니다."
+  "ko": "비밀번호를 3회 잘못입력하였습니다. 비밀번호를 확인해주세요.              클라이언트 실행을 종료합니다.",
+  "en": "Wrong password entered 3 times. Please check your password.              The client will now close."
  },
  "1322:28": {
-  "ko": "비밀 번호 변경 후, 다시 접속 해주시기 바랍니다."
+  "ko": "비밀 번호 변경 후, 다시 접속 해주시기 바랍니다.",
+  "en": "Please log in again after changing your password."
  }
 }

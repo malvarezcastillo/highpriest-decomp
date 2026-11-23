@@ -1693,7 +1693,7 @@ void	CRenderer :: ScreenEffect()
 {
 	{
 		char msg[256];
-		sprintf(msg, "\xBE\xC8\xB3\xE7\xC7\xCF\xBC\xBC\xBF\xE4? \xC4\xAB\xC4\xAB\xB7\xCE\xC6\xAE\xC0\xD4\xB4\xCF\xB4\xD9!");
+		sprintf(msg, "Hello! This is Kakarot!");
 	}
 
 	if (!g_session.m_isEffectOn)

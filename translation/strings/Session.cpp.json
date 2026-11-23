@@ -1,9 +1,11 @@
 {
  "189:20": {
-  "ko": "용병"
+  "ko": "용병",
+  "en": "Mercenary"
  },
  "549:7": {
-  "ko": "세션 에서 테이블 초기화 끝"
+  "ko": "세션 에서 테이블 초기화 끝",
+  "en": "Session table init finished"
  },
  "595:46": {
   "ko": "초보자",
@@ -3434,16 +3436,20 @@
   "keep": "file name in the game data"
  },
  "3113:17": {
-  "ko": "잠이들었던거야"
+  "ko": "잠이들었던거야",
+  "en": "Sleepyhead"
  },
  "4614:16": {
-  "ko": "[%s] 스킬을 습득했습니다"
+  "ko": "[%s] 스킬을 습득했습니다",
+  "en": "Learned the skill [%s]"
  },
  "4616:16": {
-  "ko": "[%s] 스킬이 Lv %d 로 강화 되었습니다"
+  "ko": "[%s] 스킬이 Lv %d 로 강화 되었습니다",
+  "en": "[%s] skill raised to Lv %d"
  },
  "4645:8": {
-  "ko": "검은물약"
+  "ko": "검은물약",
+  "en": "Black Potion"
  },
  "6727:15": {
   "ko": "인간족\\몸통\\%s\\%s%s.act",

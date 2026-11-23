@@ -1,8 +1,10 @@
 {
  "57:8": {
-  "ko": "야, %s 파일이 없는거 같애."
+  "ko": "야, %s 파일이 없는거 같애.",
+  "en": "Hey, file %s seems missing."
  },
  "62:8": {
-  "ko": "%s 읽기 실패! 이전 버전의 포맷임. 새 버전으로 다시 저장한 후 부를것."
+  "ko": "%s 읽기 실패! 이전 버전의 포맷임. 새 버전으로 다시 저장한 후 부를것.",
+  "en": "Failed to read %s! Old format. Re-save it in the new version, then load it."
  }
 }

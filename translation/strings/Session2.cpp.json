@@ -380,10 +380,12 @@
   "keep": "file name in the game data"
  },
  "4156:24": {
-  "ko": "에러발생. 클라이언트 담당자 에게 에러 사실을 통보 하세요. 위치 - CPlayer :: GetMonsterSkillInfo"
+  "ko": "에러발생. 클라이언트 담당자 에게 에러 사실을 통보 하세요. 위치 - CPlayer :: GetMonsterSkillInfo",
+  "en": "An error occurred. Notify the client developer of this error. Location - CPlayer :: GetMonsterSkillInfo"
  },
  "4157:24": {
-  "ko": "action 또는 loopType 이 존재하지 않음."
+  "ko": "action 또는 loopType 이 존재하지 않음.",
+  "en": "action or loopType does not exist."
  },
  "4405:9": {
   "ko": "몬스터\\BAPHOMET_뼉다구모자.act",
@@ -722,51 +724,67 @@
   "keep": "word looked up in the pet talk data"
  },
  "4739:14": {
-  "ko": "배고픔"
+  "ko": "배고픔",
+  "en": "Very Hungry"
  },
  "4741:14": {
-  "ko": "출출함"
+  "ko": "출출함",
+  "en": "Hungry"
  },
  "4743:14": {
-  "ko": "보통"
+  "ko": "보통",
+  "en": "Neutral"
  },
  "4745:14": {
-  "ko": "배부름"
+  "ko": "배부름",
+  "en": "Satisfied"
  },
  "4747:14": {
-  "ko": "아주 배부름"
+  "ko": "아주 배부름",
+  "en": "Stuffed"
  },
  "4749:14": {
-  "ko": "몰라요."
+  "ko": "몰라요.",
+  "en": "Unknown."
  },
  "4755:14": {
-  "ko": "서먹서먹함"
+  "ko": "서먹서먹함",
+  "en": "Awkward"
  },
  "4757:14": {
-  "ko": "어색함"
+  "ko": "어색함",
+  "en": "Shy"
  },
  "4759:14": {
-  "ko": "보통"
+  "ko": "보통",
+  "en": "Neutral"
  },
  "4761:14": {
-  "ko": "친함"
+  "ko": "친함",
+  "en": "Cordial"
  },
  "4763:14": {
-  "ko": "절친함"
+  "ko": "절친함",
+  "en": "Loyal"
  },
  "4765:14": {
-  "ko": "저는 모릅니다아아아."
+  "ko": "저는 모릅니다아아아.",
+  "en": "I don't knooow."
  },
  "5424:15": {
-  "ko": "%d분채금\t%d년 %d월 %d일\t%d시 %d분 %d초"
+  "ko": "%d분채금\t%d년 %d월 %d일\t%d시 %d분 %d초",
+  "en": "%d min chat ban\t%d/%d/%d\t%d:%d:%d"
  },
  "5463:24": {
-  "ko": "채팅 로그 삭제 안함 : 마이너스 된 시간이 기존의 채팅 금지 시간보다 짧습니다."
+  "ko": "채팅 로그 삭제 안함 : 마이너스 된 시간이 기존의 채팅 금지 시간보다 짧습니다.",
+  "en": "Chat log not deleted: the time subtracted is shorter than the current chat ban."
  },
  "5466:24": {
-  "ko": "채팅 로그 삭제 성공"
+  "ko": "채팅 로그 삭제 성공",
+  "en": "Chat log deleted"
  },
  "5469:23": {
-  "ko": "채팅 로그 삭제 실패 : 채팅 금지를 준 기록이 없습니다."
+  "ko": "채팅 로그 삭제 실패 : 채팅 금지를 준 기록이 없습니다.",
+  "en": "Chat log deletion failed: no chat ban record found."
  }
 }

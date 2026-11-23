@@ -252,25 +252,32 @@
   "keep": "file name in the game data"
  },
  "3575:10": {
-  "ko": "이름 변경됨"
+  "ko": "이름 변경됨",
+  "en": "Renamed"
  },
  "3577:10": {
-  "ko": "이름 변경되지않음"
+  "ko": "이름 변경되지않음",
+  "en": "Not Renamed"
  },
  "3581:9": {
-  "ko": "레벨 : "
+  "ko": "레벨 : ",
+  "en": "Level : "
  },
  "3586:9": {
-  "ko": "만복도 : "
+  "ko": "만복도 : ",
+  "en": "Hunger : "
  },
  "3591:9": {
-  "ko": "친밀도 : "
+  "ko": "친밀도 : ",
+  "en": "Intimacy : "
  },
  "3596:10": {
-  "ko": "악세사리 : 장착됨"
+  "ko": "악세사리 : 장착됨",
+  "en": "Accessory : Equipped"
  },
  "3598:10": {
-  "ko": "악세사리 : 장착안됨"
+  "ko": "악세사리 : 장착안됨",
+  "en": "Accessory : Unequipped"
  },
  "3696:27": {
   "ko": "유저인터페이스\\basic_interface\\sys_",
@@ -769,7 +776,8 @@
   "keep": "file name in the game data"
  },
  "8287:16": {
-  "ko": "ProhibitTime : %d분   LogTime : %d년 %d월 %d일   %d시 %d분 %d초"
+  "ko": "ProhibitTime : %d분   LogTime : %d년 %d월 %d일   %d시 %d분 %d초",
+  "en": "ProhibitTime : %d min   LogTime : %d/%d/%d   %d:%d:%d"
  },
  "8391:2": {
   "ko": "책갈피",
@@ -880,7 +888,8 @@
   "keep": "file name in the game data"
  },
  "9765:11": {
-  "ko": "불량단어가 검출되어 메일을 보낼수 없습니다."
+  "ko": "불량단어가 검출되어 메일을 보낼수 없습니다.",
+  "en": "Can't send mail: inappropriate word detected."
  },
  "9968:27": {
   "ko": "유저인터페이스\\basic_interface\\close2",

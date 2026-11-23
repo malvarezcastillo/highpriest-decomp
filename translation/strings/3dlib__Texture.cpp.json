@@ -1,5 +1,6 @@
 {
  "486:11": {
-  "ko": "GFC 를 구동할 수 없는 비디오시스템입니다"
+  "ko": "GFC 를 구동할 수 없는 비디오시스템입니다",
+  "en": "This video system cannot run GFC"
  }
 }

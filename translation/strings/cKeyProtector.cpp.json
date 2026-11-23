@@ -1,29 +1,38 @@
 {
  "27:21": {
-  "ko": "키보드 보안 정지"
+  "ko": "키보드 보안 정지",
+  "en": "Key security off"
  },
  "30:21": {
-  "ko": "키보드 보안 정지 실패"
+  "ko": "키보드 보안 정지 실패",
+  "en": "Key security stop failed"
  },
  "59:22": {
-  "ko": "키보드 보안 DLL을 을 성공적으로 Load 하였습니다.\n"
+  "ko": "키보드 보안 DLL을 을 성공적으로 Load 하였습니다.\n",
+  "en": "Key security DLL loaded successfully.\n"
  },
  "62:22": {
-  "ko": "키보드 보안을 Load하는데 실패하였습니다.\n"
+  "ko": "키보드 보안을 Load하는데 실패하였습니다.\n",
+  "en": "Failed to load key security.\n"
  },
  "66:21": {
-  "ko": "키보드 보안 DLL을 로드하는데 실패하였습니다.\n"
+  "ko": "키보드 보안 DLL을 로드하는데 실패하였습니다.\n",
+  "en": "Failed to load the key security DLL.\n"
  },
  "81:22": {
-  "ko": "키보드 보안 스타트"
+  "ko": "키보드 보안 스타트",
+  "en": "Key security started"
  },
  "83:22": {
-  "ko": "키보드 보안 스타트 실패"
+  "ko": "키보드 보안 스타트 실패",
+  "en": "Key security start failed"
  },
  "98:22": {
-  "ko": "키보드 보안 정지"
+  "ko": "키보드 보안 정지",
+  "en": "Key security off"
  },
  "100:22": {
-  "ko": "키보드 보안 정지 실패"
+  "ko": "키보드 보안 정지 실패",
+  "en": "Key security stop failed"
  }
 }

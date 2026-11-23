@@ -894,7 +894,7 @@ void	CWorld :: OnEnterFrame()
 	C3dWorldRes *world = (C3dWorldRes *)g_resMgr().Get(rswName.c_str(), false);
 	if (world == NULL)
 	{
-		ErrorMsg("world\xBF\xA1 NULL\xB0\xAA\xC0\xCC \xB5\xE9\xBE\xEE\xBF\xD4\xBD\xC0\xB4\xCF\xB4\xD9");
+		ErrorMsg("NULL was passed for world");
 		return;
 	}
 
@@ -911,28 +911,28 @@ void	CWorld :: OnEnterFrame()
 
 	if (world->m_attrFile.empty())
 	{
-		ErrorMsg("attr \xC6\xC4\xC0\xCF\xC0\xCC rsw \xB3\xBB\xBF\xA1 \xC1\xF6\xC1\xA4\xB5\xC7\xBE\xEE \xC0\xD6\xC1\xF6 \xBE\xCA\xBD\xC0\xB4\xCF\xB4\xD9");
+		ErrorMsg("No attr file is specified in the rsw");
 		return;
 	}
 
 	m_attr = (C3dAttr *)g_resMgr().Get(world->m_attrFile.c_str(), false);
 	if (m_attr == NULL)
 	{
-		ErrorMsg("attr \xC6\xC4\xC0\xCF \xC0\xD0\xB1\xE2\xBF\xA1 \xBD\xC7\xC6\xD0");
+		ErrorMsg("Failed to read attr file");
 		return;
 	}
 	m_attr->m_zoom = 5;
 
 	if (world->m_gndFile.empty())
 	{
-		ErrorMsg("gnd \xC6\xC4\xC0\xCF\xC0\xCC rsw \xB3\xBB\xBF\xA1 \xC1\xF6\xC1\xA4\xB5\xC7\xBE\xEE \xC0\xD6\xC1\xF6 \xBE\xCA\xBD\xC0\xB4\xCF\xB4\xD9");
+		ErrorMsg("No gnd file is specified in the rsw");
 		return;
 	}
 
 	CGndRes *ground = (CGndRes *)g_resMgr().Get(world->m_gndFile.c_str(), false);
 	if (ground == NULL)
 	{
-		ErrorMsg("ground\xBF\xA1 NULL\xC0\xCC \xB5\xE9\xBE\xEE\xBF\xD4\xBD\xC0\xB4\xCF\xB4\xD9.");
+		ErrorMsg("NULL was passed for ground.");
 		return;
 	}
 
@@ -940,7 +940,7 @@ void	CWorld :: OnEnterFrame()
 		m_ground = new C3dGround15;
 	else
 	{
-		ErrorMsg("\xB8\xCA\xC0\xCC \xBF\xBE \xB9\xF6\xC1\xAF\xC0\xD4\xB4\xCF\xB4\xD9");
+		ErrorMsg("Map is an old version");
 		return;
 	}
 

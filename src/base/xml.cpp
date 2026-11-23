@@ -137,7 +137,7 @@ bool	XMLDocument :: ReadDocument(const char* document, const char* end)
 {
 	if ( m_root.GetChild() )
 	{
-		Trace("\xc0\xcc\xc0\xfc XMLDocument\xb8\xa6 \xbb\xe8\xc1\xa6\xc7\xd5\xb4\xcf\xb4\xd9.!!");
+		Trace("Deleting the previous XMLDocument.!!");
 		Clear();
 	}
 	int size = end - document;

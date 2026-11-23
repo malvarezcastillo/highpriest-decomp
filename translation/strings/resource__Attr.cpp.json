@@ -1,5 +1,6 @@
 {
  "59:11": {
-  "ko": "Block Attr 이 지원되지 않는 옛버젼의 GAT 파일입니다. 새 버젼의 RPGSTUDIO 에서 교정하세요"
+  "ko": "Block Attr 이 지원되지 않는 옛버젼의 GAT 파일입니다. 새 버젼의 RPGSTUDIO 에서 교정하세요",
+  "en": "This GAT file is an old version without Block Attr support. Fix it in a newer RPGSTUDIO"
  }
 }

@@ -1,8 +1,10 @@
 {
  "216:11": {
-  "ko": "잘못된 포맷의 모델파일임."
+  "ko": "잘못된 포맷의 모델파일임.",
+  "en": "Invalid model file format."
  },
  "225:11": {
-  "ko": "지원되지 않는 버젼입니다. 내용물이 깨져있을 수 있습니다"
+  "ko": "지원되지 않는 버젼입니다. 내용물이 깨져있을 수 있습니다",
+  "en": "Unsupported version. The contents may be corrupted."
  }
 }

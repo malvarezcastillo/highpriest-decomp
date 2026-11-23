@@ -186,7 +186,7 @@ void	CSession :: Init()
 	InitHomunTargetInfo();
 
 	m_merJob = -1;
-	sprintf(m_merName, "\xbf\xeb\xba\xb4");
+	sprintf(m_merName, "Mercenary");
 	m_merAtk = 0;
 	m_merMatk = 0;
 	m_merHit = 0;
@@ -546,7 +546,7 @@ void	CSession :: InitTable()
 	InitWhenServerMove();
 
 	InitShortCutTextFromReg();
-	Trace("\xbc\xbc\xbc\xc7 \xbf\xa1\xbc\xad \xc5\xd7\xc0\xcc\xba\xed \xc3\xca\xb1\xe2\xc8\xad \xb3\xa1");
+	Trace("Session table init finished");
 
 	m_initMapPos = 0;
 	m_maxNum = -1;
@@ -3110,7 +3110,7 @@ void	CSession :: InitVariables()
 	m_gold			= randNum;
 	m_level			= randNum;
 	m_joblevel		= randNum;
-	strcpy(m_cName, "\xc0\xe1\xc0\xcc\xb5\xe9\xbe\xfa\xb4\xf8\xb0\xc5\xbe\xdf");
+	strcpy(m_cName, "Sleepyhead");
 
 	m_str;
 	m_agi;
@@ -4611,9 +4611,9 @@ void CSession::GainSkill(int skillID, short LV, bool F1)
 
 	if (F1 == 1) {
 		if (LV == 1)
-			sprintf(msg, "[%s] \xbd\xba\xc5\xb3\xc0\xbb \xbd\xc0\xb5\xe6\xc7\xdf\xbd\xc0\xb4\xcf\xb4\xd9", skillInfo.GetName());
+			sprintf(msg, "Learned the skill [%s]", skillInfo.GetName());
 		else
-			sprintf(msg, "[%s] \xbd\xba\xc5\xb3\xc0\xcc Lv %d \xb7\xce \xb0\xad\xc8\xad \xb5\xc7\xbe\xfa\xbd\xc0\xb4\xcf\xb4\xd9", skillInfo.GetName(), int(LV));
+			sprintf(msg, "[%s] skill raised to Lv %d", skillInfo.GetName(), int(LV));
 		g_windowMgr.SendMsg(UIM_PUSHINTOCHATHISTORY, int(msg), 0xffc8c8, 0, 0);
 	}
 }
@@ -4642,7 +4642,7 @@ const char *	CSession :: GetItemName(int index)
 		}
 	}
 
-	return	"\xb0\xcb\xc0\xba\xb9\xb0\xbe\xe0";
+	return	"Black Potion";
 
 }
 

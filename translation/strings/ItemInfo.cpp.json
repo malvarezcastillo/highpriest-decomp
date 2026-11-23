@@ -1,8 +1,10 @@
 {
  "53:42": {
-  "ko": "item.txt 스크립트를 확인해주세요."
+  "ko": "item.txt 스크립트를 확인해주세요.",
+  "en": "Please check the item.txt script."
  },
  "496:36": {
-  "ko": "사과"
+  "ko": "사과",
+  "en": "Apple"
  }
 }

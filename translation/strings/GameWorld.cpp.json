@@ -1,20 +1,26 @@
 {
  "897:11": {
-  "ko": "world에 NULL값이 들어왔습니다"
+  "ko": "world에 NULL값이 들어왔습니다",
+  "en": "NULL was passed for world"
  },
  "914:11": {
-  "ko": "attr 파일이 rsw 내에 지정되어 있지 않습니다"
+  "ko": "attr 파일이 rsw 내에 지정되어 있지 않습니다",
+  "en": "No attr file is specified in the rsw"
  },
  "921:11": {
-  "ko": "attr 파일 읽기에 실패"
+  "ko": "attr 파일 읽기에 실패",
+  "en": "Failed to read attr file"
  },
  "928:11": {
-  "ko": "gnd 파일이 rsw 내에 지정되어 있지 않습니다"
+  "ko": "gnd 파일이 rsw 내에 지정되어 있지 않습니다",
+  "en": "No gnd file is specified in the rsw"
  },
  "935:11": {
-  "ko": "ground에 NULL이 들어왔습니다."
+  "ko": "ground에 NULL이 들어왔습니다.",
+  "en": "NULL was passed for ground."
  },
  "943:11": {
-  "ko": "맵이 옛 버젼입니다"
+  "ko": "맵이 옛 버젼입니다",
+  "en": "Map is an old version"
  }
 }

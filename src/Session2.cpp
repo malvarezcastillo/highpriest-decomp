@@ -4153,8 +4153,8 @@ void	CSession :: GetMonsterSkillInfo(char *Name, int skillId, int &act, int &loo
 		if (!actElement || !loopTypeElement) {
 			act = 0;
 			loopType = 0;
-			g_windowMgr.ErrorMsg("\xBF\xA1\xB7\xAF\xB9\xDF\xBB\xFD\x2E\x20\xC5\xAC\xB6\xF3\xC0\xCC\xBE\xF0\xC6\xAE\x20\xB4\xE3\xB4\xE7\xC0\xDA\x20\xBF\xA1\xB0\xD4\x20\xBF\xA1\xB7\xAF\x20\xBB\xE7\xBD\xC7\xC0\xBB\x20\xC5\xEB\xBA\xB8\x20\xC7\xCF\xBC\xBC\xBF\xE4\x2E\x20\xC0\xA7\xC4\xA1\x20\x2D\x20\x43\x50\x6C\x61\x79\x65\x72\x20\x3A\x3A\x20\x47\x65\x74\x4D\x6F\x6E\x73\x74\x65\x72\x53\x6B\x69\x6C\x6C\x49\x6E\x66\x6F", ME_OK, 1, 0, 0);
-			g_windowMgr.ErrorMsg("action \xB6\xC7\xB4\xC2 loopType \xC0\xCC \xC1\xB8\xC0\xE7\xC7\xCF\xC1\xF6 \xBE\xCA\xC0\xBD.", ME_OK, 1, 0, 0);
+			g_windowMgr.ErrorMsg("An error occurred. Notify the client developer of this error. Location - CPlayer :: GetMonsterSkillInfo", ME_OK, 1, 0, 0);
+			g_windowMgr.ErrorMsg("action or loopType does not exist.", ME_OK, 1, 0, 0);
 			return;
 		}
 	}
@@ -4736,33 +4736,33 @@ int	CSession :: GetPetTalkNumber(int job, int act, int hungry)
 void	CSession :: GetPetHungryStateText(int hungry, char *buf)
 {
 	if (hungry >= 0 && hungry <= 10)
-		strcpy(buf, "\xB9\xE8\xB0\xED\xC7\xC4");
+		strcpy(buf, "Very Hungry");
 	else if (hungry > 10 && hungry <= 25)
-		strcpy(buf, "\xC3\xE2\xC3\xE2\xC7\xD4");
+		strcpy(buf, "Hungry");
 	else if (hungry > 25 && hungry <= 75)
-		strcpy(buf, "\xBA\xB8\xC5\xEB");
+		strcpy(buf, "Neutral");
 	else if (hungry > 75 && hungry <= 90)
-		strcpy(buf, "\xB9\xE8\xBA\xCE\xB8\xA7");
+		strcpy(buf, "Satisfied");
 	else if (hungry > 90 && hungry <= 100)
-		strcpy(buf, "\xBE\xC6\xC1\xD6 \xB9\xE8\xBA\xCE\xB8\xA7");
+		strcpy(buf, "Stuffed");
 	else
-		strcpy(buf, "\xB8\xF4\xB6\xF3\xBF\xE4.");
+		strcpy(buf, "Unknown.");
 }
 
 void	CSession :: GetPetFriendlyStateText(int friendly, char *buf)
 {
 	if (friendly >= 0 && friendly <= 100)
-		strcpy(buf, "\xBC\xAD\xB8\xD4\xBC\xAD\xB8\xD4\xC7\xD4");
+		strcpy(buf, "Awkward");
 	else if (friendly > 100 && friendly <= 250)
-		strcpy(buf, "\xBE\xEE\xBB\xF6\xC7\xD4");
+		strcpy(buf, "Shy");
 	else if (friendly > 250 && friendly <= 750)
-		strcpy(buf, "\xBA\xB8\xC5\xEB");
+		strcpy(buf, "Neutral");
 	else if (friendly > 750 && friendly <= 900)
-		strcpy(buf, "\xC4\xA3\xC7\xD4");
+		strcpy(buf, "Cordial");
 	else if (friendly > 900 && friendly <= 1000)
-		strcpy(buf, "\xC0\xFD\xC4\xA3\xC7\xD4");
+		strcpy(buf, "Loyal");
 	else
-		strcpy(buf, "\xC0\xFA\xB4\xC2 \xB8\xF0\xB8\xA8\xB4\xCF\xB4\xD9\xBE\xC6\xBE\xC6\xBE\xC6.");
+		strcpy(buf, "I don't knooow.");
 }
 
 BOOL	CSession :: IsEFST_TrickDead()
@@ -5421,7 +5421,7 @@ void	CSession :: RerecordProhibitLog()
 		hour = (c >> 16) & 0xff;
 		min = (c >> 8) & 0xff;
 		sec = c & 0xff;
-		sprintf(msg, "%d\xba\xd0\xc3\xa4\xb1\xdd\t%d\xb3\xe2 %d\xbf\xf9 %d\xc0\xcf\t%d\xbd\xc3 %d\xba\xd0 %d\xc3\xca",
+		sprintf(msg, "%d min chat ban\t%d/%d/%d\t%d:%d:%d",
 			m_chatProhibitLog[a].prohibitTime, year, month, day, hour, min, sec);
 		fp.Write(msg,strlen(msg));
 
@@ -5460,13 +5460,13 @@ void	CSession :: EraseProhibit(DWORD AID, DWORD prohibitTime)
 
 	if (eraseAID != m_chatProhibitLog.end()) {
 		if ((*eraseAID).prohibitTime > prohibitTime) {
-			g_windowMgr.ErrorMsg("\xC3\xA4\xC6\xC3\x20\xB7\xCE\xB1\xD7\x20\xBB\xE8\xC1\xA6\x20\xBE\xC8\xC7\xD4\x20\x3A\x20\xB8\xB6\xC0\xCC\xB3\xCA\xBD\xBA\x20\xB5\xC8\x20\xBD\xC3\xB0\xA3\xC0\xCC\x20\xB1\xE2\xC1\xB8\xC0\xC7\x20\xC3\xA4\xC6\xC3\x20\xB1\xDD\xC1\xF6\x20\xBD\xC3\xB0\xA3\xBA\xB8\xB4\xD9\x20\xC2\xAA\xBD\xC0\xB4\xCF\xB4\xD9\x2E", ME_OK, 1, 0, 0);
+			g_windowMgr.ErrorMsg("Chat log not deleted: the time subtracted is shorter than the current chat ban.", ME_OK, 1, 0, 0);
 		} else {
 			m_chatProhibitLog.erase(eraseAID);
-			g_windowMgr.ErrorMsg("\xC3\xA4\xC6\xC3\x20\xB7\xCE\xB1\xD7\x20\xBB\xE8\xC1\xA6\x20\xBC\xBA\xB0\xF8", ME_OK, 1, 0, 0);
+			g_windowMgr.ErrorMsg("Chat log deleted", ME_OK, 1, 0, 0);
 		}
 	} else {
-		g_windowMgr.ErrorMsg("\xC3\xA4\xC6\xC3\x20\xB7\xCE\xB1\xD7\x20\xBB\xE8\xC1\xA6\x20\xBD\xC7\xC6\xD0\x20\x3A\x20\xC3\xA4\xC6\xC3\x20\xB1\xDD\xC1\xF6\xB8\xA6\x20\xC1\xD8\x20\xB1\xE2\xB7\xCF\xC0\xCC\x20\xBE\xF8\xBD\xC0\xB4\xCF\xB4\xD9\x2E", ME_OK, 1, 0, 0);
+		g_windowMgr.ErrorMsg("Chat log deletion failed: no chat ban record found.", ME_OK, 1, 0, 0);
 	}
 }
 

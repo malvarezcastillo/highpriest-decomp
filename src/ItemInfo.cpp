@@ -50,7 +50,7 @@ typename T::referent_type& GetMapObject(typename T::key_type itemName, T& table)
 
 inline void CheckItemTable(PCharListIter tableiter, PCharList& table)
 {
-	if ( tableiter >= table.end() ) ErrorMsg("item.txt \xbd\xba\xc5\xa9\xb8\xb3\xc6\xae\xb8\xa6 \xc8\xae\xc0\xce\xc7\xd8\xc1\xd6\xbc\xbc\xbf\xe4.");
+	if ( tableiter >= table.end() ) ErrorMsg("Please check the item.txt script.");
 }
 
 void CommonObject::Clear()
@@ -493,7 +493,7 @@ void ITEM_INFO::CopyItemInfo(const DRAG_INFO* dragInfo)
 
 static const char* const strNull = "";
 static const char* const strUnknown = "Unknown Item";
-static const char* const strApple = "\xbb\xe7\xb0\xfa";
+static const char* const strApple = "Apple";
 static const char* const strSorry = "sorry";
 void ITEM_INFO::InitItemInfoTables()
 {

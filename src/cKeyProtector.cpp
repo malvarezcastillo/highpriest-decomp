@@ -24,10 +24,10 @@ cKeyProtector::~cKeyProtector()
 
 	int ret = m_lpStopSCSK();
 	if (ret != 0) {
-		OutputDebugStringA("\xC5\xB0\xBA\xB8\xB5\xE5 \xBA\xB8\xBE\xC8 \xC1\xA4\xC1\xF6");
+		OutputDebugStringA("Key security off");
 		m_bStartSCSK = 0;
 	} else {
-		OutputDebugStringA("\xC5\xB0\xBA\xB8\xB5\xE5 \xBA\xB8\xBE\xC8 \xC1\xA4\xC1\xF6 \xBD\xC7\xC6\xD0");
+		OutputDebugStringA("Key security stop failed");
 		m_bStartSCSK = 1;
 	}
 }
@@ -56,14 +56,14 @@ bool cKeyProtector::InitKeyProtector(ServiceType eSType)
 
 		m_bSuccessSCSK = m_lpLoadSCSK2();
 		if (m_bSuccessSCSK != 0) {
-			OutputDebugStringA("\xC5\xB0\xBA\xB8\xB5\xE5 \xBA\xB8\xBE\xC8 DLL\xC0\xBB \xC0\xBB \xBC\xBA\xB0\xF8\xC0\xFB\xC0\xB8\xB7\xCE Load \xC7\xCF\xBF\xB4\xBD\xC0\xB4\xCF\xB4\xD9.\n");
+			OutputDebugStringA("Key security DLL loaded successfully.\n");
 			bOk = true;
 		} else {
-			OutputDebugStringA("\xC5\xB0\xBA\xB8\xB5\xE5 \xBA\xB8\xBE\xC8\xC0\xBB Load\xC7\xCF\xB4\xC2\xB5\xA5 \xBD\xC7\xC6\xD0\xC7\xCF\xBF\xB4\xBD\xC0\xB4\xCF\xB4\xD9.\n");
+			OutputDebugStringA("Failed to load key security.\n");
 			bOk = false;
 		}
 	} else {
-		OutputDebugStringA("\xC5\xB0\xBA\xB8\xB5\xE5 \xBA\xB8\xBE\xC8 DLL\xC0\xBB \xB7\xCE\xB5\xE5\xC7\xCF\xB4\xC2\xB5\xA5 \xBD\xC7\xC6\xD0\xC7\xCF\xBF\xB4\xBD\xC0\xB4\xCF\xB4\xD9.\n");
+		OutputDebugStringA("Failed to load the key security DLL.\n");
 	}
 
 	return bOk;
@@ -78,9 +78,9 @@ int cKeyProtector::Start(HWND__ *hWnd)
 	if (m_bStartSCSK == 0 && m_bSuccessSCSK != 0) {
 		ret = m_lpStartSCSK(hWnd);
 		if (ret != 0)
-			OutputDebugStringA("\xC5\xB0\xBA\xB8\xB5\xE5 \xBA\xB8\xBE\xC8 \xBD\xBA\xC5\xB8\xC6\xAE");
+			OutputDebugStringA("Key security started");
 		else
-			OutputDebugStringA("\xC5\xB0\xBA\xB8\xB5\xE5 \xBA\xB8\xBE\xC8 \xBD\xBA\xC5\xB8\xC6\xAE \xBD\xC7\xC6\xD0");
+			OutputDebugStringA("Key security start failed");
 		m_bStartSCSK = (ret != 0);
 	}
 	return ret;
@@ -95,9 +95,9 @@ int cKeyProtector::Stop()
 	if (m_bStartSCSK != 0 && m_bSuccessSCSK != 0) {
 		ret = m_lpStopSCSK();
 		if (ret != 0)
-			OutputDebugStringA("\xC5\xB0\xBA\xB8\xB5\xE5 \xBA\xB8\xBE\xC8 \xC1\xA4\xC1\xF6");
+			OutputDebugStringA("Key security off");
 		else
-			OutputDebugStringA("\xC5\xB0\xBA\xB8\xB5\xE5 \xBA\xB8\xBE\xC8 \xC1\xA4\xC1\xF6 \xBD\xC7\xC6\xD0");
+			OutputDebugStringA("Key security stop failed");
 		m_bStartSCSK = (ret == 0);
 	}
 	return ret;

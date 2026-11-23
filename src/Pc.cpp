@@ -343,7 +343,7 @@ void	CPc :: SetSprWeapon(int weapon)
 	char bufStr[256];
 	m_weapon = weapon;
 
-	sprintf(bufStr, "\xb9\xab\xb1\xe2 \xb9\xf8\xc8\xa3 - %d, \xc1\xf7\xbe\xf7 - %d", weapon, GetJob());
+	sprintf(bufStr, "Weapon no. - %d, Job - %d", weapon, GetJob());
 	g_windowMgr.SendMsg(UIM_PUSHINTOCHATHISTORY, int(bufStr), 0xfa969b, 0, 0);
 
 	if (!g_session.IsProperWeapon(GetJob(), m_weapon))

@@ -3081,7 +3081,7 @@ void CGameMode::Sc_Notify_Ban(char const *buf)
 				g_windowMgr.ErrorMsg("BAN_OP_FORCE", ME_OK, TRUE, TRUE, 0);
 			break;
 		default:
-			g_windowMgr.ErrorMsg("\xb8\xc5\xc4\xa1\xb5\xc7\xb4\xc2 \xbf\xa1\xb7\xaf\xc4\xda\xb5\xe5 \xbe\xf8\xc0\xbd.", ME_OK, TRUE, TRUE, 0);
+			g_windowMgr.ErrorMsg("No matching error code.", ME_OK, TRUE, TRUE, 0);
 			break;
 		}
 	} else {
@@ -4733,7 +4733,7 @@ void CGameMode::Zc_Ack_Create_Chatroom(char const *buf)
 		g_windowMgr.SendMsg(UIM_PUSHINTOCHATHISTORY, int(MsgStr(MSI_SAME_ROOM_TITLE)), 0xff, 0, 0);
 		break;
 	default:
-		Trace("PACKET_ZC_ACK_CREATE_CHATROOM \xc0\xdf\xb8\xf8\xb5\xc8 \xb0\xe1\xb0\xfa p->result==%d", p->result);
+		Trace("PACKET_ZC_ACK_CREATE_CHATROOM invalid result p->result==%d", p->result);
 		break;
 	}
 }
@@ -10144,7 +10144,7 @@ void CGameMode::Zc_Reply_RemainTime(char const *buf)
 		switch (p->Result) {
 		case 100:
 			if (p->ExpirationDate > currentTime && p->RemainTime > 0) {
-				sprintf(buffer, "\xb1\xcd\xc7\xcf\xb4\xc2 \xc8\xa5\xc7\xd5\xbf\xe4\xb1\xdd\xc1\xa6 \xbb\xe7\xbf\xeb\xc0\xda \xc0\xd4\xb4\xcf\xb4\xd9. (\xc1\xbe\xb7\xe1\xc0\xcf\xbd\xc3 : %04d/%02d/%02d , \xb3\xb2\xc0\xba\xbd\xc3\xb0\xa3 : %d \xbd\xc3\xb0\xa3 %d \xba\xd0 %d \xc3\xca)",
+				sprintf(buffer, "You are on a combined plan. (Ends: %04d/%02d/%02d , Time left: %d h %d min %d sec)",
 					expirationTime->tm_year + 1900,
 					expirationTime->tm_mon + 1,
 					expirationTime->tm_mday,
@@ -10152,26 +10152,26 @@ void CGameMode::Zc_Reply_RemainTime(char const *buf)
 					(p->RemainTime / 60) % 60,
 					p->RemainTime % 60);
 			} else if (p->ExpirationDate > currentTime && p->RemainTime == 0) {
-				sprintf(buffer, "\xb1\xcd\xc7\xcf\xb4\xc2 \xc1\xa4\xbe\xd7\xbf\xe4\xb1\xdd\xc1\xa6 \xbb\xe7\xbf\xeb\xc0\xda \xc0\xd4\xb4\xcf\xb4\xd9. (\xc1\xbe\xb7\xe1\xc0\xcf\xbd\xc3 : %04d/%02d/%02d )",
+				sprintf(buffer, "You are on a flat-rate plan. (Ends: %04d/%02d/%02d )",
 					expirationTime->tm_year + 1900,
 					expirationTime->tm_mon + 1,
 					expirationTime->tm_mday);
 			} else if (p->ExpirationDate <= currentTime && p->RemainTime > 0) {
-				sprintf(buffer, "\xb1\xcd\xc7\xcf\xb4\xc2 \xc1\xa4\xb7\xae\xbf\xe4\xb1\xdd\xc1\xa6 \xbb\xe7\xbf\xeb\xc0\xda \xc0\xd4\xb4\xcf\xb4\xd9. (\xb3\xb2\xc0\xba\xbd\xc3\xb0\xa3 : %d \xbd\xc3\xb0\xa3 %d \xba\xd0 %d \xc3\xca)",
+				sprintf(buffer, "You are on a metered plan. (Time left: %d h %d min %d sec)",
 					p->RemainTime / (60 * 60),
 					(p->RemainTime / 60) % 60,
 					p->RemainTime % 60);
 			} else if (p->ExpirationDate <= currentTime && p->RemainTime == 0)
-				sprintf(buffer, "\xb1\xcd\xc7\xcf\xb4\xc2 \xb9\xab\xb7\xe1\xbf\xe4\xb1\xdd\xc1\xa6 \xbb\xe7\xbf\xeb\xc0\xda \xc0\xd4\xb4\xcf\xb4\xd9.");
+				sprintf(buffer, "You are on a free plan.");
 			break;
 		case 1000:
-			sprintf(buffer, "PC\xb9\xe6\xc0\xc7 \xbf\xe4\xb1\xdd\xc1\xa6 \xc1\xa4\xba\xb8\xb4\xc2 \xbf\xe4\xc3\xbb\xc7\xd2 \xbc\xf6 \xbe\xf8\xbd\xc0\xb4\xcf\xb4\xd9.");
+			sprintf(buffer, "Internet cafe plan info cannot be requested.");
 			break;
 		case 10000:
-			sprintf(buffer, "\xb1\xcd\xc7\xcf\xb4\xc2 \xbb\xe7\xc5\xa9\xb6\xf3\xc0\xcc 2\xbd\xc3\xb0\xa3 \xb9\xab\xb7\xe1\xbf\xe4\xb1\xdd\xc1\xa6 \xbb\xe7\xbf\xeb\xc0\xda \xc0\xd4\xb4\xcf\xb4\xd9.");
+			sprintf(buffer, "You are on the Sakray 2-hour free plan.");
 			break;
 		default:
-			sprintf(buffer, "\xb0\xfa\xb1\xdd\xc1\xa4\xba\xb8 \xbf\xe4\xc3\xbb\xbf\xa1 \xbd\xc7\xc6\xd0 \xc7\xdf\xbd\xc0\xb4\xcf\xb4\xd9.");
+			sprintf(buffer, "Failed to request billing info.");
 			break;
 		}
 	}
@@ -10197,10 +10197,10 @@ void CGameMode::Zc_Info_RemainTime(char const *buf)
 		switch (p->Type)
 		{
 		case 100:
-			sprintf(buffer, "\xb0\xb3\xc0\xce \xc1\xa4\xbe\xd7\xc1\xa6 \xbd\xc3\xb0\xa3\xc0\xcc %d\xba\xd0 %d\xc3\xca \xb3\xb2\xbe\xd2\xbd\xc0\xb4\xcf\xb4\xd9.", p->RemainTime / 60, p->RemainTime % 60);
+			sprintf(buffer, "Personal flat-rate time left: %d min %d sec.", p->RemainTime / 60, p->RemainTime % 60);
 			break;
 		case 200:
-			sprintf(buffer, "\xb0\xb3\xc0\xce \xc1\xa4\xb7\xae\xc1\xa6 \xbd\xc3\xb0\xa3\xc0\xcc %d\xba\xd0 %d\xc3\xca \xb3\xb2\xbe\xd2\xbd\xc0\xb4\xcf\xb4\xd9.", p->RemainTime / 60, p->RemainTime % 60);
+			sprintf(buffer, "Personal metered time left: %d min %d sec.", p->RemainTime / 60, p->RemainTime % 60);
 			break;
 		}
 	}
@@ -11886,7 +11886,7 @@ void CGameMode::Zc_Notify_Entry_Mob(int JT_Num, int F2, short CX, short CY)
 	CWorld *world = m_world;
 	s.dir = 4;
 	if (world->GetGameActorByAID(s.GID)) {
-		sprintf(msg, "[ \xc7\xd8\xb4\xe7 GID\xc0\xc7 \xb8\xf7\xc0\xcc \xc1\xb8\xc0\xe7\xc7\xd1\xb4\xd9 ]");
+		sprintf(msg, "[ A mob with this GID exists ]");
 		g_windowMgr.SendMsg(UIM_PUSHINTOCHATHISTORY, int(msg), 0xc8c8c8, 0, 0);
 		g_modeMgr.GetGameMode()->GetWorld()->RemoveGameActor(s.GID);
 	}
@@ -13354,7 +13354,7 @@ void	CGameMode :: ZC_KILLER_RANK(const char *buf)
 	PACKET_ZC_BLACKSMITH_RANK *	p = (PACKET_ZC_BLACKSMITH_RANK *)buf;
 
 	char msg[256];
-	sprintf(msg,"=========== \xC7\xD0\xBB\xEC\xC0\xDA RANK ==============");
+	sprintf(msg,"=========== KILLER RANK ==============");
 	g_windowMgr.SendMsg(UIM_PUSHINTOCHATHISTORY, int(msg), 0x9b9b9b, 0, 0);
 	for (i=0;i<10;i++)
 	{

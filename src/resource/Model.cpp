@@ -213,7 +213,7 @@ bool	C3dModelRes :: Load(const char *fName)
 	magicBuf[4]=0;
 	if (strcmp(magicBuf, magicId))
 	{
-		ErrorMsg("\xc0\xdf\xb8\xf8\xb5\xc8 \xc6\xf7\xb8\xcb\xc0\xc7 \xb8\xf0\xb5\xa8\xc6\xc4\xc0\xcf\xc0\xd3.");
+		ErrorMsg("Invalid model file format.");
 		return	false;
 	}
 	BYTE	verMajor;
@@ -222,7 +222,7 @@ bool	C3dModelRes :: Load(const char *fName)
 	fp.Read(&verMinor, sizeof(BYTE));
 	if (verMajor != 1 || verMinor > 5)
 	{
-		ErrorMsg("\xc1\xf6\xbf\xf8\xb5\xc7\xc1\xf6 \xbe\xca\xb4\xc2 \xb9\xf6\xc1\xaf\xc0\xd4\xb4\xcf\xb4\xd9. \xb3\xbb\xbf\xeb\xb9\xb0\xc0\xcc \xb1\xfa\xc1\xae\xc0\xd6\xc0\xbb \xbc\xf6 \xc0\xd6\xbd\xc0\xb4\xcf\xb4\xd9");
+		ErrorMsg("Unsupported version. The contents may be corrupted.");
 		return	false;
 	}
 

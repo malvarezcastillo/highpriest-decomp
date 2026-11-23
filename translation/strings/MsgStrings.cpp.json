@@ -624,7 +624,8 @@
   "en": "How to whisper: type the character's name in the left box of the chat window and your message in the right box. Press TAB to switch between the boxes."
  },
  "197:22": {
-  "ko": "/! /? /기쁨 /하트 /땀 /아하 /짜증 /화 /돈 /... /가위 /바위 /보 : Alt + (1~9) Ctrl + (-=\\) 에 대응되는 명령어 입니다."
+  "ko": "/! /? /기쁨 /하트 /땀 /아하 /짜증 /화 /돈 /... /가위 /바위 /보 : Alt + (1~9) Ctrl + (-=\\) 에 대응되는 명령어 입니다.",
+  "en": "/! /? /ho /heart /swt /ic /an /ag /$ /... /gawi /bawi /bo : The commands for Alt + (1~9) Ctrl + (-=\\)."
  },
  "198:22": {
   "ko": "파티원에게 말하는법 : 말의 제일앞에 '%'를 붙이면 파티원에게 말이 갑니다. (예: \"%안녕\")",
