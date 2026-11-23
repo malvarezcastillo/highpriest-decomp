@@ -2570,7 +2570,7 @@ void UIWindowMgr::RenderMenu()
 				RenderThreeWay(40, 260,
 					(char*)"Romantic Leaf",
 					(char*)"Romantic Flower",
-					(char*)"Round Eyes", 180);
+					(char*)"Blank Eyes", 180);
 			} else if (Boy_talked == 8) {
 				RenderThreeWay(40, 260,
 					(char*)"I'm grateful",

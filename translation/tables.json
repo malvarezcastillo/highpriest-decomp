@@ -1,0 +1,1795 @@
+{
+ "_about": "English text for tables.py. skill_names: display name by skill constant, as in skillnametable.txt. skill_desc: description lines by skill constant, as in skilldesctable.txt; these are the skills the minigame can show. items: by item number, the identified and unidentified name and description of each item the minigame hands out or sells. Names use _ for a space, as the tables do. Names follow the international client (iRO) except where the minigame renamed something: Aco_Smash, Aco_Kaboom, Aco_Tornado, Grrr, Toy_Chain.",
+ "skill_names": {
+  "NV_BASIC": "Basic_Skill",
+  "SM_SWORD": "Sword_Mastery",
+  "SM_TWOHAND": "Two_Handed_Sword_Mastery",
+  "SM_RECOVERY": "Increase_HP_Recovery",
+  "SM_BASH": "Bash",
+  "SM_PROVOKE": "Provoke",
+  "SM_MAGNUM": "Magnum_Break",
+  "SM_ENDURE": "Endure",
+  "MG_SRECOVERY": "Increase_SP_Recovery",
+  "MG_SIGHT": "Sight",
+  "MG_NAPALMBEAT": "Napalm_Beat",
+  "MG_SAFETYWALL": "Safety_Wall",
+  "MG_SOULSTRIKE": "Soul_Strike",
+  "MG_COLDBOLT": "Cold_Bolt",
+  "MG_FROSTDIVER": "Frost_Driver",
+  "MG_STONECURSE": "Stone_Curse",
+  "MG_FIREBOLT": "Fire_Bolt",
+  "MG_FIREBALL": "Fire_Ball",
+  "MG_FIREWALL": "Fire_Wall",
+  "MG_LIGHTNINGBOLT": "Lightning_Bolt",
+  "MG_THUNDERSTORM": "Thunder_Storm",
+  "AL_DP": "Divine_Protection",
+  "AL_DEMONBANE": "Demon_Bane",
+  "AL_RUWACH": "Ruwach",
+  "AL_PNEUMA": "Pneuma",
+  "AL_TELEPORT": "Teleport",
+  "AL_WARP": "Warp_Portal",
+  "AL_HEAL": "Heal",
+  "AL_INCAGI": "Increase_Agility",
+  "AL_DECAGI": "Decrease_Agility",
+  "AL_HOLYWATER": "Aqua_Benedicta",
+  "AL_CRUCIS": "Signum_Crucis",
+  "AL_ANGELUS": "Angelus",
+  "AL_BLESSING": "Blessing",
+  "AL_CURE": "Cure",
+  "MC_INCCARRY": "Enlarge_Weight_Limit",
+  "MC_DISCOUNT": "Discount",
+  "MC_OVERCHARGE": "Overcharge",
+  "MC_PUSHCART": "Pushcart",
+  "MC_IDENTIFY": "Item_Appraisal",
+  "MC_VENDING": "Vending",
+  "MC_MAMMONITE": "Mammonite",
+  "AC_OWL": "Owl's_Eye",
+  "AC_VULTURE": "Vulture's_Eye",
+  "AC_CONCENTRATION": "Improve_Concentration",
+  "AC_DOUBLE": "Double_Strafe",
+  "AC_SHOWER": "Arrow_Shower",
+  "TF_DOUBLE": "Double_Attack",
+  "TF_MISS": "Improve_Dodge",
+  "TF_STEAL": "Steal",
+  "TF_HIDING": "Hiding",
+  "TF_POISON": "Envenom",
+  "TF_DETOXIFY": "Detoxify",
+  "KN_SPEARMASTERY": "Spear_Mastery",
+  "KN_PIERCE": "Pierce",
+  "KN_BRANDISHSPEAR": "Brandish_Spear",
+  "KN_SPEARSTAB": "Spear_Stab",
+  "KN_SPEARBOOMERANG": "Spear_Boomerang",
+  "KN_TWOHANDQUICKEN": "Two_Hand_Quicken",
+  "KN_AUTOCOUNTER": "Counter_Attack",
+  "KN_BOWLINGBASH": "Bowling_Bash",
+  "KN_RIDING": "Peco_Peco_Ride",
+  "KN_CAVALIERMASTERY": "Cavalier_Mastery",
+  "PR_MACEMASTERY": "Mace_Mastery",
+  "PR_IMPOSITIO": "Impositio_Manus",
+  "PR_SUFFRAGIUM": "Suffragium",
+  "PR_ASPERSIO": "Aspersio",
+  "PR_BENEDICTIO": "B.S_Sacramenti",
+  "PR_SANCTUARY": "Sanctuary",
+  "PR_STRECOVERY": "Status_Recovery",
+  "PR_SLOWPOISON": "Slow_Poison",
+  "ALL_RESURRECTION": "Resurrection",
+  "PR_KYRIE": "Kyrie_Eleison",
+  "PR_MAGNIFICAT": "Magnificat",
+  "PR_GLORIA": "Gloria",
+  "PR_LEXDIVINA": "Lex_Divina",
+  "PR_TURNUNDEAD": "Turn_Undead",
+  "PR_LEXAETERNA": "Lex_Aeterna",
+  "PR_MAGNUS": "Magnus_Exorcismus",
+  "HT_ANKLESNARE": "Anklesnare",
+  "HT_BEASTBANE": "Beastbane",
+  "HT_BLASTMINE": "Blast_Mine",
+  "HT_BLITZBEAT": "Blitz_Beat",
+  "HT_CLAYMORETRAP": "Claymore_Trap",
+  "HT_DETECTING": "Detect",
+  "HT_FALCON": "Falconry_Mastery",
+  "HT_FLASHER": "Flasher",
+  "HT_FREEZINGTRAP": "Freezing_Trap",
+  "HT_LANDMINE": "Land_Mine",
+  "HT_REMOVETRAP": "Remove_Trap",
+  "HT_TALKIEBOX": "Talkie_Box",
+  "HT_SANDMAN": "Sandman",
+  "HT_SHOCKWAVE": "Shockwave_Trap",
+  "HT_SKIDTRAP": "Skid_Trap",
+  "HT_SPRINGTRAP": "Spring_Trap",
+  "HT_STEELCROW": "Steel_Crow",
+  "WZ_FIREPILLAR": "Fire_Pillar",
+  "WZ_SIGHTRASHER": "Sightrasher",
+  "WZ_FIREIVY": "Fire_Ivy",
+  "WZ_METEOR": "Meteor_Storm",
+  "WZ_JUPITEL": "Jupitel_Thunder",
+  "WZ_VERMILION": "Lord_of_Vermilion",
+  "WZ_WATERBALL": "Waterball",
+  "WZ_ICEWALL": "Ice_Wall",
+  "WZ_FROSTNOVA": "Frost_Nova",
+  "WZ_STORMGUST": "Storm_Gust",
+  "WZ_EARTHSPIKE": "Earth_Spike",
+  "WZ_HEAVENDRIVE": "Heaven's_Drive",
+  "WZ_QUAGMIRE": "Quagmire",
+  "WZ_ESTIMATION": "Sense",
+  "AS_RIGHT": "Righthand_Mastery",
+  "AS_LEFT": "Lefthand_Mastery",
+  "AS_KATAR": "Katar_Mastery",
+  "AS_CLOAKING": "Cloaking",
+  "AS_SONICBLOW": "Sonic_Blow",
+  "AS_GRIMTOOTH": "Grimtooth",
+  "AS_ENCHANTPOISON": "Enchant_Poison",
+  "AS_POISONREACT": "Poison_React",
+  "AS_VENOMDUST": "Venom_Dust",
+  "AS_SPLASHER": "Venom_Splasher",
+  "BS_IRON": "Iron_Tempering",
+  "BS_STEEL": "Steel_Tempering",
+  "BS_ENCHANTEDSTONE": "Enchanted_Stone_Craft",
+  "BS_ORIDEOCON": "Research_Oridecon",
+  "BS_DAGGER": "Smith_Dagger",
+  "BS_SWORD": "Smith_Sword",
+  "BS_TWOHANDSWORD": "Smith_Two-handed_Sword",
+  "BS_AXE": "Smith_Axe",
+  "BS_MACE": "Smith_Mace",
+  "BS_KNUCKLE": "Smith_Brass_Knuckle",
+  "BS_SPEAR": "Smith_Spear",
+  "BS_HILTBINDING": "Hilt_Binding",
+  "BS_FINDINGORE": "Ore_Discovery",
+  "BS_WEAPONRESEARCH": "Weaponry_Research",
+  "BS_REPAIRWEAPON": "Repair_Weapon",
+  "BS_SKINTEMPER": "Skin_Tempering",
+  "BS_HAMMERFALL": "Hammerfall",
+  "BS_ADRENALINE": "Adrenaline_Rush",
+  "BS_WEAPONPERFECT": "Weapon_Perfection",
+  "BS_OVERTHRUST": "Power_Thrust",
+  "BS_MAXIMIZE": "Maximize_Power",
+  "NV_FIRSTAID": "First_Aid",
+  "SM_MOVINGRECOVERY": "HP_Recovery_While_Moving",
+  "AC_MAKINGARROW": "Arrow_Crafting",
+  "TF_SPRINKLESAND": "Sand_Attack",
+  "MC_CARTREVOLUTION": "Cart_Revolution",
+  "AL_HOLYLIGHT": "Holy_Light",
+  "MG_ENERGYCOAT": "Energy_Coat",
+  "NV_TRICKDEAD": "Play_Dead",
+  "SM_FATALBLOW": "Fatal_Blow",
+  "AC_CHARGEARROW": "Arrow_Repel",
+  "TF_BACKSLIDING": "Back_Slide",
+  "MC_CHANGECART": "Change_Cart",
+  "SM_AUTOBERSERK": "Berserk",
+  "TF_PICKSTONE": "Find_Stone",
+  "TF_THROWSTONE": "Stone_Fling",
+  "MC_LOUD": "Crazy_Uproar",
+  "GD_APPROVAL": "Official_Guild_Approval",
+  "GD_KAFRACONTRACT": "Contract_With_Kafra",
+  "GD_GUARDRESEARCH": "Guardian_Research",
+  "GD_CHARISMA": "Charisma",
+  "GD_EXTENSION": "Guild_Extension",
+  "RG_SNATCHER": "Gank",
+  "RG_STEALCOIN": "Mug",
+  "RG_BACKSTAP": "Back_Stab",
+  "RG_TUNNELDRIVE": "Stalk",
+  "RG_RAID": "Sightless_Mind",
+  "RG_STRIPWEAPON": "Divest_Weapon",
+  "RG_STRIPSHIELD": "Divest_Shield",
+  "RG_STRIPARMOR": "Divest_Armor",
+  "RG_STRIPHELM": "Divest_Helm",
+  "RG_INTIMIDATE": "Snatch",
+  "RG_GRAFFITI": "Scribble",
+  "RG_FLAGGRAFFITI": "Piece",
+  "RG_CLEANER": "Remover",
+  "RG_GANGSTER": "Slyness",
+  "RG_COMPULSION": "Haggle",
+  "RG_PLAGIARISM": "Intimidate",
+  "AM_AXEMASTERY": "Axe_Mastery",
+  "AM_LEARNINGPOTION": "Potion_Research",
+  "AM_PHARMACY": "Prepare_Potion",
+  "AM_DEMONSTRATION": "Bomb",
+  "AM_ACIDTERROR": "Acid_Terror",
+  "AM_POTIONPITCHER": "Aid_Potion",
+  "AM_CANNIBALIZE": "Summon_Flora",
+  "AM_SPHEREMINE": "Summon_Marine_Sphere",
+  "AM_CP_WEAPON": "Alchemical_Weapon",
+  "AM_CP_SHIELD": "Synthesized_Shield",
+  "AM_CP_ARMOR": "Synthetic_Armor",
+  "AM_CP_HELM": "Biochemical_Helm",
+  "AM_BIOETHICS": "Bioethics",
+  "AM_BIOTECHNOLOGY": "Biotechnology",
+  "AM_CREATECREATURE": "Creature_Creation",
+  "AM_CULTIVATION": "Cultivation",
+  "AM_FLAMECONTROL": "Flame_Control",
+  "AM_CALLHOMUN": "Call_Homunculus",
+  "AM_REST": "Vaporize",
+  "AM_DRILLMASTER": "Drillmaster",
+  "AM_HEALHOMUN": "Heal_Homunculus",
+  "AM_RESURRECTHOMUN": "Homunculus_Resurrection",
+  "CR_TRUST": "Faith",
+  "CR_AUTOGUARD": "Guard",
+  "CR_SHIELDCHARGE": "Smite",
+  "CR_SHIELDBOOMERANG": "Shield_Boomerang",
+  "CR_REFLECTSHIELD": "Shield_Reflect",
+  "CR_HOLYCROSS": "Holy_Cross",
+  "CR_GRANDCROSS": "Grand_Cross",
+  "CR_DEVOTION": "Sacrifice",
+  "CR_PROVIDENCE": "Resistant_Souls",
+  "CR_DEFENDER": "Defending_Aura",
+  "CR_SPEARQUICKEN": "Spear_Quicken",
+  "MO_IRONHAND": "Iron_Fists",
+  "MO_SPIRITSRECOVERY": "Spiritual_Cadence",
+  "MO_CALLSPIRITS": "Summon_Spirit_Sphere",
+  "MO_ABSORBSPIRITS": "Spiritual_Sphere_Absorption",
+  "MO_TRIPLEATTACK": "Aco_Smash",
+  "MO_COMBOFINISH": "Aco_Kaboom",
+  "MO_BODYRELOCATION": "Snap",
+  "MO_DODGE": "Flee",
+  "MO_INVESTIGATE": "Occult_Impaction",
+  "MO_FINGEROFFENSIVE": "Throw_Spirit_Sphere",
+  "MO_STEELBODY": "Mental_Strength",
+  "MO_BLADESTOP": "Root",
+  "MO_EXPLOSIONSPIRITS": "Fury",
+  "MO_EXTREMITYFIST": "Guillotine_Fist",
+  "MO_CHAINCOMBO": "Raging_Quadruple_Blow",
+  "SA_ADVANCEDBOOK": "Study",
+  "SA_CASTCANCEL": "Cast_Cancel",
+  "SA_FREECAST": "Free_Cast",
+  "SA_SPELLBREAKER": "Spell_Breaker",
+  "SA_AUTOSPELL": "Hindsight",
+  "SA_MAGICROD": "Magic_Rod",
+  "SA_VOLCANO": "Volcano",
+  "SA_DELUGE": "Deluge",
+  "SA_VIOLENTGALE": "Whirlwind",
+  "SA_BARRENZONE": "Dummy",
+  "SA_LANDPROTECTOR": "Land_Protector",
+  "SA_FLAMELAUNCHER": "Endow_Blaze",
+  "SA_FROSTWEAPON": "Endow_Tsunami",
+  "SA_LIGHTNINGLOADER": "Endow_Tornado",
+  "SA_SEISMICWEAPON": "Endow_Quake",
+  "SA_DRAGONOLOGY": "Dragonology",
+  "SA_DISPELL": "Dispell",
+  "SA_ABRACADABRA": "Hocus-pocus",
+  "SA_MONOCELL": "Mono_Cell",
+  "SA_CLASSCHANGE": "Class_Change",
+  "SA_SUMMONMONSTER": "Monster_Chant",
+  "SA_REVERSEORCISH": "Grampus_Morph",
+  "SA_DEATH": "Grim_Reaper",
+  "SA_FORTUNE": "Gold_Digger",
+  "SA_TAMINGMONSTER": "Beastly_Hypnosis",
+  "SA_QUESTION": "Questioning",
+  "SA_GRAVITY": "Gravity",
+  "SA_LEVELUP": "Leveling",
+  "SA_INSTANTDEATH": "Suicide",
+  "SA_FULLRECOVERY": "Rejuvenation",
+  "SA_COMA": "Coma",
+  "BD_ADAPTATION": "Amp",
+  "BD_ENCORE": "Encore",
+  "BD_LULLABY": "Lullaby",
+  "BD_RICHMANKIM": "Mental_Sensing",
+  "BD_ETERNALCHAOS": "Down_Tempo",
+  "BD_DRUMBATTLEFIELD": "Battle_Theme",
+  "BD_RINGNIBELUNGEN": "Harmonic_Lick",
+  "BD_ROKISWEIL": "Classical_Pluck",
+  "BD_INTOABYSS": "Power_Cord",
+  "BD_SIEGFRIED": "Acoustic_Rhythm",
+  "BD_RAGNAROK": "Ragnarok",
+  "BA_MUSICALLESSON": "Music_Lessons",
+  "BA_MUSICALSTRIKE": "Melody_Strike",
+  "BA_DISSONANCE": "Unchained_Serenade",
+  "BA_FROSTJOKE": "Unbarring_Octave",
+  "BA_WHISTLE": "Perfect_Tablature",
+  "BA_ASSASSINCROSS": "Impressive_Riff",
+  "BA_POEMBRAGI": "Magic_Strings",
+  "BA_APPLEIDUN": "Song_of_Lutie",
+  "DC_DANCINGLESSON": "Dance_Lessons",
+  "DC_THROWARROW": "Slinging_Arrow",
+  "DC_UGLYDANCE": "Hip_Shaker",
+  "DC_SCREAM": "Dazzler",
+  "DC_HUMMING": "Focus_Ballet",
+  "DC_DONTFORGETME": "Slow_Grace",
+  "DC_FORTUNEKISS": "Lady_Luck",
+  "DC_SERVICEFORYOU": "Gypsy's_Kiss",
+  "WE_MALE": "Loving_Touch",
+  "WE_FEMALE": "Undying_Love",
+  "WE_CALLPARTNER": "Romantic_Rendeavous!!",
+  "LK_AURABLADE": "Aura_Blade",
+  "LK_PARRYING": "Parry",
+  "LK_CONCENTRATION": "Spear_Dynamo",
+  "LK_TENSIONRELAX": "Relax",
+  "LK_BERSERK": "Frenzy",
+  "PA_PRESSURE": "Gloria_Domini",
+  "PA_SACRIFICE": "Grrr",
+  "PA_GOSPEL": "Battle_Chant",
+  "HP_ASSUMPTIO": "Assumptio",
+  "HP_BASILICA": "Basilica",
+  "HP_MEDITATIO": "Meditation",
+  "HW_SOULDRAIN": "Soul_Drain",
+  "HW_MAGICCRASHER": "Stave_Crasher",
+  "HW_MAGICPOWER": "Mystical_Amplification",
+  "CH_PALMSTRIKE": "Raging_Palm_Strike",
+  "CH_TIGERFIST": "Glacier_Fist",
+  "CH_CHAINCRUSH": "Chain_Crush_Combo",
+  "PF_HPCONVERSION": "Indulge",
+  "PF_SOULCHANGE": "Soul_Exhale",
+  "PF_SOULBURN": "Soul_Siphon",
+  "ASC_KATAR": "Advanced_Katar_Mastery",
+  "ASC_BREAKER": "Soul_Destroyer",
+  "SN_SIGHT": "Falcon_Eyes",
+  "SN_FALCONASSAULT": "Falcon_Assault",
+  "SN_SHARPSHOOTING": "Focused_Arrow_Strike",
+  "SN_WINDWALK": "Wind_Walker",
+  "WS_MELTDOWN": "Shattering_Strike",
+  "WS_CREATECOIN": "Coin_Craft",
+  "WS_CREATENUGGET": "Nugget_Craft",
+  "WS_CARTBOOST": "Cart_Boost",
+  "WS_SYSTEMCREATE": "Battle_Machine_Craft",
+  "ST_CHASEWALK": "Stealth",
+  "ST_REJECTSWORD": "Counter_Instinct",
+  "ST_STEALBACKPACK": "Steal_Lunch_Money",
+  "CR_ALCHEMY": "Alchemy",
+  "CR_SYNTHESISPOTION": "Potion_Synthesis",
+  "CG_ARROWVULCAN": "Arrow_Vulcan",
+  "CG_MOONLIT": "Sheltering_Bliss",
+  "CG_MARIONETTE": "Marionette_Control",
+  "LK_SPIRALPIERCE": "Clashing_Spiral",
+  "LK_HEADCRUSH": "Traumatic_Blow",
+  "LK_JOINTBEAT": "Vital_Strike",
+  "HW_NAPALMVULCAN": "Napalm_Vulcan",
+  "CH_SOULCOLLECT": "Zen",
+  "PF_MINDBREAKER": "Mind_Breaker",
+  "PF_MEMORIZE": "Foresight",
+  "PF_FOGWALL": "Blinding_Mist",
+  "PF_SPIDERWEB": "Fiber_Lock",
+  "ASC_METEORASSAULT": "Meteor_Assault",
+  "ASC_CDP": "Create_Deadly_Poison",
+  "ASC_EDP": "Enchant_Deadly_Poison",
+  "WE_BABY": "Mom,_Dad,_I_love_you!",
+  "WE_CALLPARENT": "Mom,_Dad,_I_miss_you!",
+  "WE_CALLBABY": "Come_to_me,_honey~",
+  "TK_RUN": "Sprint",
+  "TK_READYSTORM": "Tornado_Stance",
+  "TK_STORMKICK": "Aco_Tornado",
+  "TK_READYDOWN": "Heel_Drop_Stance",
+  "TK_DOWNKICK": "Heel_Drop",
+  "TK_READYTURN": "Roundhouse_Stance",
+  "TK_TURNKICK": "Roundhouse",
+  "TK_READYCOUNTER": "Counter_Kick_Stance",
+  "TK_COUNTER": "Counter_Kick",
+  "TK_DODGE": "Tumbling",
+  "TK_JUMPKICK": "Flying_Kick",
+  "TK_HPTIME": "Peaceful_Break",
+  "TK_SPTIME": "Happy_Break",
+  "TK_POWER": "Kihop",
+  "TK_SEVENWIND": "Mild_Wind",
+  "TK_MISSION": "Taekwon_Mission",
+  "TK_HIGHJUMP": "Leap",
+  "SG_FEEL": "Solar,_Lunar_and_Stellar_Perception",
+  "SG_SUN_WARM": "Solar_Heat",
+  "SG_MOON_WARM": "Lunar_Heat",
+  "SG_STAR_WARM": "Stellar_Heat",
+  "SG_SUN_COMFORT": "Solar_Protection",
+  "SG_MOON_COMFORT": "Lunar_Protection",
+  "SG_STAR_COMFORT": "Stellar_Protection",
+  "SG_HATE": "Solar,_Lunar_and_Stellar_Opposition",
+  "SG_SUN_ANGER": "Solar_Wrath",
+  "SG_MOON_ANGER": "Lunar_Wrath",
+  "SG_STAR_ANGER": "Stellar_Wrath",
+  "SG_SUN_BLESS": "Solar_Blessings",
+  "SG_MOON_BLESS": "Lunar_Blessings",
+  "SG_STAR_BLESS": "Stellar_Blessings",
+  "SG_DEVIL": "Solar,_Lunar_and_Stellar_Shadow",
+  "SG_FRIEND": "Solar,_Lunar_and_Stellar_Team-Up",
+  "SG_KNOWLEDGE": "Solar,_Lunar_and_Stellar_Courier",
+  "SG_FUSION": "Solar,_Lunar_and_Stellar_Union",
+  "SL_ALCHEMIST": "Alchemist_Spirit",
+  "AM_BERSERKPITCHER": "Aid_Berserk_Potion",
+  "AM_TWILIGHT1": "Spiritual_Potion_Creation_1",
+  "AM_TWILIGHT2": "Spiritual_Potion_Creation_2",
+  "AM_TWILIGHT3": "Spiritual_Potion_Creation_3",
+  "SL_MONK": "Monk_Spirit",
+  "SL_STAR": "Taekwon_Master_Spirit",
+  "SL_SAGE": "Sage_Spirit",
+  "SL_CRUSADER": "Crusader_Spirit",
+  "SL_SUPERNOVICE": "Super_Novice_Spirit",
+  "SL_KNIGHT": "Knight_Spirit",
+  "SL_WIZARD": "Wizard_Spirit",
+  "SL_PRIEST": "Priest_Spirit",
+  "SL_BARDDANCER": "Bard_and_Dancer_Spirits",
+  "SL_ROGUE": "Rogue_Spirit",
+  "SL_ASSASIN": "Assassin_Spirit",
+  "SL_BLACKSMITH": "Blacksmith_Spirit",
+  "BS_ADRENALINE2": "Advanced_Adrenaline_Rush",
+  "SL_HUNTER": "Hunter_Spirit",
+  "SL_SOULLINKER": "Soul_Linker_Spirit",
+  "SL_HIGH": "1st_Transcendent_Spirit",
+  "SL_KAIZEL": "Kaizel",
+  "SL_KAAHI": "Kaahi",
+  "SL_KAUPE": "Kaupe",
+  "SL_KAITE": "Kaite",
+  "SL_KAINA": "Kaina",
+  "SL_STIN": "Estin",
+  "SL_STUN": "Estun",
+  "SL_SMA": "Esma",
+  "SL_SWOO": "Eswoo",
+  "SL_SKE": "Eske",
+  "SL_SKA": "Eska",
+  "GD_GLORYGUILD": "Guild_Glory",
+  "GD_LEADERSHIP": "Guild_Leadership",
+  "GD_GLORYWOUNDS": "Glorious_Wounds",
+  "GD_SOULCOLD": "Cold_Heart",
+  "GD_HAWKEYES": "Sharp_Gaze",
+  "GD_BATTLEORDER": "Battle_Order",
+  "GD_REGENERATION": "Regeneration",
+  "GD_RESTORE": "Restore",
+  "GD_EMERGENCYCALL": "Emergency_Call",
+  "GD_GUARDUP": "Strengthen_Guardians",
+  "GD_DEVELOPMENT": "Permanent_Development",
+  "ST_PRESERVE": "Preserve",
+  "ST_FULLSTRIP": "Full_Divestment",
+  "WS_WEAPONREFINE": "Upgrade_Weapon",
+  "CR_SLIMPITCHER": "Aid_Condensed_Potion",
+  "CR_FULLPROTECTION": "Full_Chemical_Protection",
+  "ITM_TOMAHAWK": "Tomahawk_Throwing",
+  "PA_SHIELDCHAIN": "Rapid_Smiting",
+  "HP_MANARECHARGE": "Spiritual_Thrift",
+  "PF_DOUBLECASTING": "Double_Bolt",
+  "HW_GANBANTEIN": "Ganbantein",
+  "HW_GRAVITATION": "Gravitational_Field",
+  "WS_CARTTERMINATION": "High_Speed_Cart_Ram",
+  "WS_OVERTHRUSTMAX": "Maximum_Power-Thrust",
+  "CG_LONGINGFREEDOM": "Longing_for_Freedom",
+  "CG_HERMODE": "Hermode's_Rod",
+  "CG_TAROTCARD": "Tarot_Card_of_Fate",
+  "CR_ACIDDEMONSTRATION": "Acid_Bomb",
+  "CR_CULTIVATION": "Cultivate_Plant",
+  "KN_ONEHAND": "One_Handed_Quicken",
+  "HT_POWER": "Beast_Charge",
+  "HLIF_HEAL": "Healing_Hands",
+  "HLIF_AVOID": "Urgent_Escape",
+  "HLIF_BRAIN": "Brain_Surgery",
+  "HLIF_CHANGE": "Mental_Charge",
+  "HAMI_CASTLE": "Castling",
+  "HAMI_DEFENCE": "Amistr_Bulwark",
+  "HAMI_SKIN": "Adamantium_Skin",
+  "HAMI_BLOODLUST": "Blood_Lust",
+  "HFLI_MOON": "Moonlight",
+  "HFLI_FLEET": "Flitting",
+  "HFLI_SPEED": "Accelerated_Flight",
+  "HFLI_SBR44": "S.B.R.44",
+  "HVAN_CAPRICE": "Caprice",
+  "HVAN_CHAOTIC": "Chaotic_Blessings",
+  "HVAN_INSTRUCT": "Instruction_Change",
+  "HVAN_EXPLOSION": "Self-Destruction",
+  "KN_CHARGEATK": "Charge_Attack",
+  "CR_SHRINK": "Shrink",
+  "AS_SONICACCEL": "Sonic_Acceleration",
+  "AS_VENOMKNIFE": "Venom_Knife",
+  "RG_CLOSECONFINE": "Close_Confine",
+  "WZ_SIGHTBLASTER": "Sight_Blaster",
+  "SA_CREATECON": "Create_Elemental_Converter",
+  "SA_ELEMENTWATER": "Elemental_Change_-_Water",
+  "SA_ELEMENTGROUND": "Elemental_Change_-_Ground",
+  "SA_ELEMENTFIRE": "Elemental_Change_-_Fire",
+  "SA_ELEMENTWIND": "Elemental_Change_-_Wind",
+  "HT_PHANTASMIC": "Phantasmic_Arrow",
+  "BA_PANGVOICE": "Pang_Voice",
+  "DC_WINKCHARM": "Charming_Wink",
+  "BS_UNFAIRLYTRICK": "Dubious_Salesmanship",
+  "BS_GREED": "Greed",
+  "PR_REDEMPTIO": "Redemptio",
+  "MO_KITRANSLATION": "Spiritual_Bestowment",
+  "MO_BALKYOUNG": "Excruciating_Palm",
+  "NJ_TOBIDOUGU": "Dagger_Throwing_Practice",
+  "NJ_SYURIKEN": "Throw_Shuriken",
+  "NJ_KUNAI": "Throw_Kunai",
+  "NJ_HUUMA": "Throw_Huuma_Shuriken",
+  "NJ_ZENYNAGE": "Throw_Coins",
+  "NJ_TATAMIGAESHI": "Flip_Tatami",
+  "NJ_KASUMIKIRI": "Haze_Slasher",
+  "NJ_SHADOWJUMP": "Shadow_Leap",
+  "NJ_KIRIKAGE": "Shadow_Slash",
+  "NJ_UTSUSEMI": "Cicada_Skin_Shed",
+  "NJ_BUNSINJYUTSU": "Mirror_Image",
+  "NJ_NINPOU": "Ninja_Mastery",
+  "NJ_KOUENKA": "Flaming_Petals",
+  "NJ_KAENSIN": "Blaze_Shield",
+  "NJ_BAKUENRYU": "Exploding_Dragon",
+  "NJ_HYOUSENSOU": "Freezing_Spear",
+  "NJ_SUITON": "Watery_Evasion",
+  "NJ_HYOUSYOURAKU": "Snow_Flake_Draft",
+  "NJ_HUUJIN": "Wind_Blade",
+  "NJ_RAIGEKISAI": "Lightning_Jolt",
+  "NJ_KAMAITACHI": "First_Wind",
+  "NJ_NEN": "Ninja_Aura",
+  "NJ_ISSEN": "Killing_Strike",
+  "GS_GLITTERING": "Coin_Flip",
+  "GS_FLING": "Coin_Fling",
+  "GS_TRIPLEACTION": "Triple_Action",
+  "GS_BULLSEYE": "Bull's_Eye",
+  "GS_MADNESSCANCEL": "Last_Stand",
+  "GS_ADJUSTMENT": "Gunslinger's_Panic",
+  "GS_INCREASING": "Increase_Accuracy",
+  "GS_MAGICALBULLET": "Magical_Bullet",
+  "GS_CRACKER": "Cracker",
+  "GS_SINGLEACTION": "Single_Action",
+  "GS_SNAKEEYE": "Snake_Eyes",
+  "GS_CHAINACTION": "Chain_Action",
+  "GS_TRACKING": "Tracking",
+  "GS_DISARM": "Disarm",
+  "GS_PIERCINGSHOT": "Wounding_Shot",
+  "GS_RAPIDSHOWER": "Trigger_Happy_Shot",
+  "GS_DESPERADO": "Desperado",
+  "GS_GATLINGFEVER": "Gatling_Feaver",
+  "GS_DUST": "Crowd_Control_Shot",
+  "GS_FULLBUSTER": "Full_Blast",
+  "GS_SPREADATTACK": "Spread_Attack",
+  "GS_GROUNDDRIFT": "Gunslinger_Mine",
+  "MS_BASH": "Bash",
+  "MS_MAGNUM": "Magnum_Break",
+  "MS_BOWLINGBASH": "Bowling_Bash",
+  "MS_PARRYING": "Parry",
+  "MS_REFLECTSHIELD": "Shield_Reflect",
+  "MS_BERSERK": "Frenzy",
+  "MA_DOUBLE": "Double_Strafe",
+  "MA_SHOWER": "Arrow_Shower",
+  "MA_SKIDTRAP": "Skid_Trap",
+  "MA_LANDMINE": "Land_Mine",
+  "MA_SANDMAN": "Sandman",
+  "MA_FREEZINGTRAP": "Freezing_Trap",
+  "MA_REMOVETRAP": "Remove_Trap",
+  "MA_CHARGEARROW": "Arrow_Repel",
+  "MA_SHARPSHOOTING": "Focused_Arrow_Strike",
+  "ML_PIERCE": "Pierce",
+  "ML_BRANDISH": "Brandish_Spear",
+  "ML_SPIRALPIERCE": "Clashing_Spiral",
+  "ML_DEFENDER": "Defending_Aura",
+  "ML_AUTOGUARD": "Guard",
+  "ML_DEVOTION": "Sacrifice",
+  "MER_MAGNIFICAT": "Magnificat",
+  "MER_QUICKEN": "Weapon_Quicken",
+  "MER_SIGHT": "Sight",
+  "MER_CRASH": "Crash",
+  "MER_REGAIN": "Regain",
+  "MER_TENDER": "Tender",
+  "MER_BENEDICTION": "Benediction",
+  "MER_RECUPERATE": "Recuperate",
+  "MER_MENTALCURE": "Mental_Cure",
+  "MER_COMPRESS": "Compress",
+  "MER_PROVOKE": "Provoke",
+  "MER_AUTOBERSERK": "Berserk",
+  "MER_DECAGI": "Decrease_AGI",
+  "MER_SCAPEGOAT": "Scapegoat",
+  "MER_LEXDIVINA": "Lex_Divina",
+  "MER_ESTIMATION": "Sense",
+  "GD_ITEMEMERGENCYCALL": "Faux_Urgent_Call",
+  "ALL_INCCARRY": "Increase_Capacity",
+  "GM_SANDMAN": "Goodnight,_Sweety",
+  "ALL_CATCRY": "Monster's_Cry",
+  "ALL_PARTYFLEE": "Blowing_Wind_!!",
+  "ALL_ANGEL_PROTECT": "Thank_You_So_Much!!",
+  "ALL_DREAM_SUMMERNIGHT": "Summer_Dream",
+  "NPC_DRAGONFEAR": "Dragon_Fear",
+  "NPC_BLOODDRAIN": "Blood_Drain"
+ },
+ "skill_desc": {
+  "SM_BASH": [
+   "Bash",
+   "Type : ^777777Offensive^000000",
+   "Target : ^777777Enemy^000000",
+   "Description : ^777777Strikes the target hard, dealing heavy damage. If Fatal",
+   "Blow has been learned, Lv 5 and above can stun the target.^000000",
+   "[Level 1] : ^777777ATK 130%^000000",
+   "[Level 2] : ^777777ATK 160%^000000",
+   "[Level 3] : ^777777ATK 190%^000000",
+   "[Level 4] : ^777777ATK 220%^000000",
+   "[Level 5] : ^777777ATK 250%^000000",
+   "[Level 6] : ^777777ATK 280%^000000",
+   "[Level 7] : ^777777ATK 310%^000000",
+   "[Level 8] : ^777777ATK 340%^000000",
+   "[Level 9] : ^777777ATK 370%^000000",
+   "[Level 10] : ^777777ATK 400%^000000"
+  ],
+  "SM_ENDURE": [
+   "Endure",
+   "Type : ^777777Supportive^000000",
+   "Description : ^777777For a while, you can keep moving and attacking while",
+   "being hit. Has no effect in siege mode. Endure ends after you are hit",
+   "7 times, and can be cast again 10 seconds after use.^000000",
+   "[Level 1] : ^777777Duration 10 sec, MDEF +1^000000",
+   "[Level 2] : ^777777Duration 13 sec, MDEF +2^000000",
+   "[Level 3] : ^777777Duration 16 sec, MDEF +3^000000",
+   "[Level 4] : ^777777Duration 19 sec, MDEF +4^000000",
+   "[Level 5] : ^777777Duration 22 sec, MDEF +5^000000",
+   "[Level 6] : ^777777Duration 25 sec, MDEF +6^000000",
+   "[Level 7] : ^777777Duration 28 sec, MDEF +7^000000",
+   "[Level 8] : ^777777Duration 31 sec, MDEF +8^000000",
+   "[Level 9] : ^777777Duration 34 sec, MDEF +9^000000",
+   "[Level 10] : ^777777Duration 37 sec, MDEF +10^000000"
+  ],
+  "MG_SOULSTRIKE": [
+   "Soul Strike",
+   "Type : ^777777Offensive^bb00bb(Ghost)^000000",
+   "Target : ^777777Enemy^000000",
+   "Description : ^777777Summons ancient spirits to strike the enemy directly.",
+   "Especially effective against Undead.^000000"
+  ],
+  "MG_COLDBOLT": [
+   "Cold Bolt",
+   "Type : ^777777Offensive^0000bb(Ice)^000000",
+   "Target : ^777777Enemy^000000",
+   "Description : ^777777Attacks the enemy with bolts of ice. Each bolt has power",
+   "equal to your MATK.^000000"
+  ],
+  "MG_FROSTDIVER": [
+   "Frost Driver",
+   "Type : ^777777Offensive^0000bb(Ice)^000000",
+   "Target : ^777777Enemy^000000",
+   "Description : ^777777Freezes the enemy, leaving it unable to move for a",
+   "while.^000000"
+  ],
+  "MG_FIREWALL": [
+   "Fire Wall",
+   "Type : ^777777Offensive^bb0000(Fire)^000000",
+   "Target : ^777777Ground^000000",
+   "Description : ^777777Creates a wall of fire that protects you from enemies.^000000"
+  ],
+  "MG_FIREBOLT": [
+   "Fire Bolt",
+   "Type : ^777777Offensive^bb0000(Fire)^000000",
+   "Target : ^777777Enemy^000000",
+   "Description : ^777777Attacks the enemy with bolts of fire. Each bolt has",
+   "power equal to your MATK.^000000"
+  ],
+  "MG_LIGHTNINGBOLT": [
+   "Lightning Bolt",
+   "Type : ^777777Offensive^bbbb00(Lightning)^000000",
+   "Target : ^777777Enemy^000000",
+   "Description : ^777777Strikes the enemy with lightning.^000000"
+  ],
+  "MG_THUNDERSTORM": [
+   "Thunder Storm",
+   "Type : ^777777Offensive^bbbb00(Lightning)^000000",
+   "Target : ^777777Ground^000000",
+   "Description : ^777777Calls down lightning on the target area, hitting nearby",
+   "enemies.^000000"
+  ],
+  "AL_HEAL": [
+   "Type : ^777777Recovery^000000",
+   "Target : ^777777Player^000000",
+   "Description : ^777777Used by double-clicking the daughter. Restores HP; INT",
+   "adds extra healing.^000000",
+   "[Level 1] : ^777777Heals 400 + bonus^000000",
+   "[Level 2] : ^777777Heals 800 + bonus^000000",
+   "[Level 3] : ^777777Heals 1200 + bonus^000000"
+  ],
+  "AL_ANGELUS": [
+   "Type : ^777777Supportive^000000",
+   "Description : ^777777Right-click on the daughter, drag upward, then release",
+   "the right button to use it.^000000",
+   "^777777While Angelus is active, enemy attack power is reduced by about 10%.^000000",
+   ""
+  ],
+  "AL_BLESSING": [
+   "Type : ^777777Supportive^000000",
+   "Description : ^777777Usable only when HP is 60% or less. Hold the left mouse",
+   "button and draw a circle: start at the left of the battle window, then",
+   "go up, right, down and back to the left.^000000",
+   "[Level 1] : ^777777ATK and healing x1.3 for 20 sec.^000000",
+   "[Level 2] : ^777777ATK and healing x1.4 for 25 sec.^000000",
+   "[Level 3] : ^777777ATK and healing x1.5 for 30 sec.^000000"
+  ],
+  "TF_POISON": [
+   "Envenom",
+   "Type : ^777777Offensive (Poison)^000000",
+   "Target : ^777777Enemy^000000",
+   "Description : ^777777Attacks the target with poison. Has a chance to poison",
+   "the enemy.^000000"
+  ],
+  "TF_DETOXIFY": [
+   "Type : ^777777Supportive (Poison)^000000",
+   "Description : ^777777Used by double-clicking the daughter with the right",
+   "mouse button. Use it when poisoned to cure the poison.^000000",
+   "^777777SP cost 20^000000"
+  ],
+  "KN_BOWLINGBASH": [
+   "Bowling Bash",
+   "Type : ^777777Offensive^000000",
+   "Target : ^777777Enemy^000000",
+   "Description : ^777777Knocks enemies into each other to hit several of them at",
+   "once.^000000"
+  ],
+  "PR_KYRIE": [
+   "Type : ^777777Chant^000000",
+   "Description : ^777777Hold the left mouse button at the left of the battle",
+   "window and draw a cross to use it.^000000",
+   "^777777Drag with the button held in this order: left side -> right side ->",
+   "top (where the map is) -> bottom.^000000",
+   "^777777Puts a barrier on one player. It blocks all enemy attacks for 1 turn.^000000"
+  ],
+  "WZ_METEOR": [
+   "Meteor Storm",
+   "Type : ^777777Offensive^bb0000(Fire)^000000",
+   "Target : ^777777Enemy^000000",
+   "Description : ^777777Drops meteors around the target enemy.^000000"
+  ],
+  "WZ_JUPITEL": [
+   "Jupitel Thunder",
+   "Type : ^777777Offensive^bbbb00(Lightning)^000000",
+   "Target : ^777777Enemy^000000",
+   "Description : ^777777A lightning spell that strikes through everything",
+   "between the caster and the target.^000000"
+  ],
+  "WZ_VERMILION": [
+   "Lord of Vermilion",
+   "Type : ^777777Offensive^bbbb00(Lightning)^000000",
+   "Target : ^777777Ground^000000",
+   "Description : ^777777A powerful lightning spell that gathers thunderbolts and",
+   "drops them on the target area. Damage rises with skill level, and",
+   "higher levels cast faster.^000000"
+  ],
+  "WZ_STORMGUST": [
+   "Storm Gust",
+   "Type : ^777777Offensive^0000bb(Ice)^000000",
+   "Target : ^777777Ground^000000",
+   "Description : ^777777Unleashes a blizzard on the target location to attack",
+   "enemies.^000000"
+  ],
+  "WZ_HEAVENDRIVE": [
+   "Heaven's Drive",
+   "Type : ^777777Offensive^00bb00(Earth)^000000",
+   "Target : ^777777Ground^000000",
+   "Description : ^777777Makes the ground at the target area burst upward,",
+   "hitting multiple enemies.^000000"
+  ],
+  "BS_HAMMERFALL": [
+   "Hammerfall",
+   "Type : ^000099Supportive^000000",
+   "Target : ^777777Ground^000000",
+   "Description : ^777777Strikes the target area with a hammer to cause a tremor",
+   "that stuns nearby enemies.^000000"
+  ],
+  "AS_SONICBLOW": [
+   "Sonic Blow",
+   "Type : ^777777Offensive^000000",
+   "Target : ^777777Enemy^000000",
+   "Description : ^777777Rapidly attacks a nearby enemy with a katar. Has a",
+   "chance to stun the target.^000000"
+  ],
+  "TF_THROWSTONE": [
+   "Stone Fling",
+   "Type : ^777777Offensive^000000",
+   "Target : ^777777Enemy^000000",
+   "Description : ^777777Throws a stone for a fixed 50 damage that ignores",
+   "defense. Uses one stone, and has a low chance to stun or blind the",
+   "target.^000000"
+  ],
+  "AM_POTIONPITCHER": [
+   "Aid Potion",
+   "Type : ^777777Supportive^000000",
+   "Target : ^777777One ally^000000",
+   "Description : ^777777Throws a potion at a party or guild member, or a",
+   "Homunculus, to heal them. The potion's effect depends on skill level,",
+   "and higher levels can throw more kinds of potions.^000000",
+   "[Level 1] : ^777777Red Potion usable^000000",
+   "[Level 2] : ^777777Orange Potion usable^000000",
+   "[Level 3] : ^777777Yellow Potion usable^000000",
+   "[Level 4] : ^777777White Potion usable^000000",
+   "[Level 5] : ^777777Blue Potion usable^000000"
+  ],
+  "CR_SHIELDBOOMERANG": [
+   "Shield Boomerang",
+   "Type : ^777777Offensive^000000",
+   "Target : ^777777Enemy^000000",
+   "Description : ^777777Throws your shield to damage a distant enemy.^000000",
+   "^777777Damage rises with the shield's refine level and weight. Requires an",
+   "equipped shield.^000000"
+  ],
+  "CR_HOLYCROSS": [
+   "Holy Cross",
+   "Type : ^777777Offensive^000000",
+   "Target : ^777777Enemy^000000",
+   "Description : ^777777Strikes twice with a holy cross. Has a chance to blind",
+   "the target.^000000"
+  ],
+  "CR_GRANDCROSS": [
+   "Grand Cross",
+   "Type : ^777777Offensive^000000",
+   "Target : ^777777Ground^000000",
+   "Description : ^777777Brings down divine judgment in a large cross centered on",
+   "you. Costs 20% of your remaining HP, and you also take some damage.^000000",
+   "^777777Casting is not interrupted by attacks. Undead and Demon monsters hit",
+   "by Grand Cross are blinded, except bosses.^000000"
+  ],
+  "MO_CALLSPIRITS": [
+   "Summon Spirit Sphere",
+   "Type : ^777777Supportive^000000",
+   "Description : ^777777Gathers ki into a sphere. The spheres follow the caster",
+   "and affect skills. Each sphere adds 3 attack power.^000000"
+  ],
+  "MO_TRIPLEATTACK": [
+   "Type : ^000099Passive^000000",
+   "Description : ^777777When attacking, has a chance to spend 1 SP for an attack",
+   "with 200% power.^000000",
+   "[Level 1] : ^777777Chance 30%^000000",
+   "[Level 2] : ^777777Chance 40%^000000"
+  ],
+  "MO_INVESTIGATE": [
+   "Occult Impaction",
+   "Type : ^777777Offensive^000000",
+   "Target : ^777777Enemy^000000",
+   "Description : ^777777Uses ki to strike inside the enemy's body. Deals more",
+   "damage the higher the enemy's DEF, and less damage against enemies",
+   "with low DEF.^000000",
+   "^777777Uses 1 spirit sphere.^000000"
+  ],
+  "MO_EXPLOSIONSPIRITS": [
+   "Type : ^777777Supportive^000000",
+   "Description : ^777777Used by pressing the mouse wheel button.^000000",
+   "^777777Triples the power of Aco Kaboom for 60 seconds.^000000"
+  ],
+  "MO_EXTREMITYFIST": [
+   "Guillotine Fist",
+   "Type : ^777777Offensive^000000",
+   "Target : ^777777Enemy^000000",
+   "Description : ^777777Usable only during Fury. Deals heavy damage based on",
+   "your remaining SP and uses up all SP. Fury ends after use.^000000",
+   "^777777SP does not regenerate naturally for 5 minutes after use. Uses 5",
+   "spirit spheres.^000000"
+  ],
+  "MO_COMBOFINISH": [
+   "Type : ^777777Combo^000000",
+   "Description : ^777777An attack skill used by rolling the mouse wheel up when",
+   "Aco Smash triggers.^000000",
+   "[Level 1] : ^777777ATK 200%^000000",
+   "[Level 2] : ^777777Shows the enemy's HP on hit^000000",
+   "[Level 3] : ^777777ATK 400%^000000"
+  ],
+  "SA_SPELLBREAKER": [
+   "Spell Breaker",
+   "Type : ^777777Supportive^000000",
+   "Target : ^777777Enemy^000000",
+   "Description : ^777777Used on an enemy that is casting a spell: cancels the",
+   "cast and absorbs that spell's SP cost. Also takes 2% of the enemy's",
+   "HP; at skill Lv 5 you absorb half of the HP taken.",
+   "The HP loss does not apply to bosses or guardians, and the cast cancel",
+   "works on bosses only 1 time in 10.^000000"
+  ],
+  "PA_PRESSURE": [
+   "Gloria Domini",
+   "Type : ^777777Offensive^000000",
+   "Description : ^777777Calls a huge cross down from the sky to crush the enemy.",
+   "Deals fixed damage regardless of defense or attack power, and no",
+   "ability can nullify it. Players hit by Gloria Domini lose a large",
+   "amount of SP.^777777",
+   "[Level 1] : ^777777Damage 800^000000",
+   "[Level 2] : ^777777Damage 1100^000000",
+   "[Level 3] : ^777777Damage 1400^000000",
+   "[Level 4] : ^777777Damage 1700^000000",
+   "[Level 5] : ^777777Damage 2000^000000"
+  ],
+  "PA_SACRIFICE": [
+   "Martyr's Reckoning",
+   "Type : ^777777Offensive^000000",
+   "Description : ^777777Sacrifices 9% of your HP to deal that much damage to the",
+   "enemy.",
+   "Applies to the next 5 attacks after use. This damage can kill the",
+   "player.^000000",
+   "[Level 1] : ^777777Damage x1^000000",
+   "[Level 2] : ^777777Damage x1.1^000000",
+   "[Level 3] : ^777777Damage x1.2^000000",
+   "[Level 4] : ^777777Damage x1.3^000000",
+   "[Level 5] : ^777777Damage x1.4^000000"
+  ],
+  "CH_PALMSTRIKE": [
+   "Raging Palm Strike",
+   "Type : ^777777Offensive^000000",
+   "Description : ^777777Strikes the enemy hard with the palm. The damage lands 1",
+   "second after the attack and pushes the enemy back.",
+   "Usable only during Fury.^000000",
+   "[Level 1] : ^777777ATK +300%^000000",
+   "[Level 2] : ^777777ATK +400%^000000",
+   "[Level 3] : ^777777ATK +500%^000000",
+   "[Level 4] : ^777777ATK +600%^000000",
+   "[Level 5] : ^777777ATK +700%^000000"
+  ],
+  "CH_TIGERFIST": [
+   "Glacier Fist",
+   "Type : ^777777Offensive^000000",
+   "Description : ^777777A combo that follows Raging Trifecta Blow, Raging",
+   "Quadruple Blow and Raging Thrust; usable only after Raging Thrust.",
+   "Enemies hit have a chance to be unable to move for a short time.",
+   "Uses 1 spirit sphere.^000000",
+   "[Level 1] : ^777777ATK +140%, stop chance 20%^000000",
+   "[Level 2] : ^777777ATK +240%, stop chance 30%^000000",
+   "[Level 3] : ^777777ATK +340%, stop chance 40%^000000",
+   "[Level 4] : ^777777ATK +440%, stop chance 50%^000000",
+   "[Level 5] : ^777777ATK +540%, stop chance 60%^000000"
+  ],
+  "CH_CHAINCRUSH": [
+   "Chain Crush Combo",
+   "Type : ^777777Offensive^000000",
+   "Description : ^777777A combo that follows Raging Trifecta Blow, Raging",
+   "Quadruple Blow, Raging Thrust and Glacier Fist. Uses 2 spirit spheres",
+   "for extra damage.",
+   "Guillotine Fist can be used after Chain Crush Combo.",
+   "After Raging Thrust you can use either Chain Crush Combo or Glacier",
+   "Fist, but Glacier Fist cannot follow Chain Crush Combo.^000000",
+   " [Level 1] : ^777777ATK +500%^000000",
+   " [Level 2] : ^777777ATK +600%^000000",
+   " [Level 3] : ^777777ATK +700%^000000",
+   " [Level 4] : ^777777ATK +800%^000000",
+   " [Level 5] : ^777777ATK +900%^000000",
+   " [Level 6] : ^777777ATK +1000%^000000",
+   " [Level 7] : ^777777ATK +1100%^000000",
+   " [Level 8] : ^777777ATK +1200%^000000",
+   " [Level 9] : ^777777ATK +1300%^000000",
+   "[Level 10] : ^777777ATK +1400%^000000"
+  ],
+  "PF_SOULCHANGE": [
+   "Soul Exhale",
+   "Type : ^777777Supportive^000000",
+   "Description : ^777777Swaps your SP with the target's SP. The swap cannot",
+   "raise SP above Max SP.^000000"
+  ],
+  "ASC_BREAKER": [
+   "Soul Destroyer",
+   "Type : ^777777Offensive^000000",
+   "Description : ^777777Damages one enemy, counting only half of its physical",
+   "defense and half of its magic defense.",
+   "Soul Destroyer's damage rises with the player's ATK and INT.^000000"
+  ],
+  "TK_STORMKICK": [
+   "Type : ^777777Offensive^000000",
+   "Description : ^777777Used by rolling the mouse wheel down while the opponent",
+   "is in Endure.",
+   "On hit, deals damage and cancels Endure. SP cost 5^000000",
+   "[Lv 1] ^777777Damage 200%^000000",
+   "[Lv 2] ^777777Damage 400%; at Lv 2 also usable right after Kakarot attacks^000000"
+  ],
+  "SL_MONK": [
+   "Monk Spirit",
+   "Type : ^777777Supportive^000000",
+   "Description : ^777777Calls the spirit of the Monk who was once the strongest",
+   "and grants that power to a fellow Monk.",
+   "Raging Thrust becomes a 5x5 splash attack,",
+   "combo skills cost less SP,",
+   "and SP can recover even in states that block SP recovery, such as",
+   "Fury.^000000",
+   "[Lv 1] ^777777SP cost 460, duration 150 sec^000000",
+   "[Lv 2] ^777777SP cost 360, duration 200 sec^000000",
+   "[Lv 3] ^777777SP cost 260, duration 250 sec^000000",
+   "[Lv 4] ^777777SP cost 160, duration 300 sec^000000",
+   "[Lv 5] ^777777SP cost 60, duration 350 sec^000000"
+  ],
+  "SL_SWOO": [
+   "Eswoo",
+   "Type : ^777777Status Magic^000000",
+   "Description : ^777777An \"Es\" spell that can only be used on monsters.",
+   "Shrinks the monster, making it move very slowly for the duration.",
+   "On boss monsters the duration is cut to 1/5.",
+   "Casting Eswoo on a monster already under Eswoo ends its Eswoo early",
+   "and stuns you.^000000",
+   "[Lv 1] ^777777Duration 1 sec (SP cost 75)^000000",
+   "[Lv 2] ^777777Duration 2 sec (SP cost 65)^000000",
+   "[Lv 3] ^777777Duration 3 sec (SP cost 55)^000000",
+   "[Lv 4] ^777777Duration 4 sec (SP cost 45)^000000",
+   "[Lv 5] ^777777Duration 5 sec (SP cost 35)^000000",
+   "[Lv 6] ^777777Duration 6 sec (SP cost 25)^000000",
+   "[Lv 7] ^777777Duration 7 sec (SP cost 15)^000000"
+  ],
+  "ST_FULLSTRIP": [
+   "Full Divestment",
+   "Type : ^777777Supportive^000000",
+   "Target : ^777777Enemy^000000",
+   "Description : ^777777Has the same effect as using all four Divest skills at",
+   "once.^000000",
+   "^777777The higher your DEX compared to the target's DEX, the higher the",
+   "success rate.^000000",
+   "[Level 1] : ^777777Success rate 7%^000000",
+   "[Level 2] : ^777777Success rate 9%^000000",
+   "[Level 3] : ^777777Success rate 11%^000000",
+   "[Level 4] : ^777777Success rate 13%^000000",
+   "[Level 5] : ^777777Success rate 15%^000000"
+  ],
+  "MO_KITRANSLATION": [
+   "Spiritual Bestowment",
+   "Type : ^777777Supportive^000000",
+   "Target : ^777777One party member^000000",
+   "Description : ^777777Passes your spirit spheres to a party member. Each cast",
+   "transfers 1 sphere.^000000"
+  ],
+  "GD_APPROVAL": [
+   "Official Guild Approval",
+   "Type : ^000099Passive^000000",
+   "Target : ^777777All guild members^000000",
+   "Description : ^777777The guild is officially approved by the Rune-Midgarts",
+   "Kingdom. Members of an approved guild can attack the Emperium needed",
+   "to conquer a castle.^000000"
+  ]
+ },
+ "items": {
+  "1201": {
+   "name": "Knife",
+   "unid_name": "Dagger",
+   "desc": [
+    "A short, simple dagger that anyone can use easily.",
+    "Type : ^777777Dagger^000000    Attack : ^77777717^000000",
+    "Weight : ^77777740^000000",
+    "Weapon Level : ^7777771^000000",
+    "Required Level : ^777777None^000000",
+    "Applicable Job : ^777777Novice, Swordman, Mage, Archer, Merchant, Thief,",
+    "Soul Linker, Ninja^000000"
+   ],
+   "unid_desc": [
+    "Unidentified. Can be identified with a [Magnifier]."
+   ]
+  },
+  "1204": {
+   "name": "Cutter",
+   "unid_name": "Dagger",
+   "desc": [
+    "A dagger made for practical cutting.",
+    "Type : ^777777Dagger^000000    Attack : ^77777730^000000",
+    "Weight : ^77777750^000000",
+    "Weapon Level : ^7777771^000000",
+    "Required Level : ^777777None^000000",
+    "Applicable Job : ^777777Novice, Swordman, Mage, Archer, Merchant, Thief,",
+    "Soul Linker, Ninja^000000"
+   ],
+   "unid_desc": [
+    "Unidentified. Can be identified with a [Magnifier]."
+   ]
+  },
+  "1207": {
+   "name": "Main_Gauche",
+   "unid_name": "Dagger",
+   "desc": [
+    "A multipurpose dagger made for practical use.",
+    "Type : ^777777Dagger^000000    Attack : ^77777743^000000",
+    "Weight : ^77777760^000000",
+    "Weapon Level : ^7777771^000000",
+    "Required Level : ^777777None^000000",
+    "Applicable Job : ^777777Novice, Swordman, Mage, Archer, Merchant, Thief,",
+    "Soul Linker, Ninja^000000"
+   ],
+   "unid_desc": [
+    "Unidentified. Can be identified with a [Magnifier]."
+   ]
+  },
+  "1210": {
+   "name": "Dirk",
+   "unid_name": "Dagger",
+   "desc": [
+    "A dagger made for thrusting rather than slashing.",
+    "Type : ^777777Dagger^000000  Attack : ^77777759^000000",
+    "Weight : ^77777750^000000",
+    "Weapon Level : ^7777772^000000",
+    "Required Level : ^77777712^000000",
+    "Applicable Job : ^777777Novice, Swordman, Mage, Archer, Merchant, Thief,",
+    "Soul Linker, Ninja^000000"
+   ],
+   "unid_desc": [
+    "Unidentified. Can be identified with a [Magnifier]."
+   ]
+  },
+  "1213": {
+   "name": "Dagger",
+   "unid_name": "Dagger",
+   "desc": [
+    "A short blade with a gently curved edge.",
+    "Type : ^777777Dagger^000000    Attack : ^77777773^000000",
+    "Weight : ^77777760^000000",
+    "Weapon Level : ^7777772^000000",
+    "Required Level : ^77777712^000000",
+    "Applicable Job : ^777777Novice, Swordman, Mage, Archer, Merchant, Thief,",
+    "Soul Linker, Ninja^000000"
+   ],
+   "unid_desc": [
+    "Unidentified. Can be identified with a [Magnifier]."
+   ]
+  },
+  "1216": {
+   "name": "Stiletto",
+   "unid_name": "Dagger",
+   "desc": [
+    "A dagger with a finely made, striking blade.",
+    "Type : ^777777Dagger^000000    Attack : ^77777787^000000",
+    "Weight : ^77777770^000000",
+    "Weapon Level : ^7777772^000000",
+    "Required Level : ^77777712^000000",
+    "Applicable Job : ^777777Novice, Swordman, Mage, Archer, Merchant, Thief,",
+    "Soul Linker, Ninja^000000"
+   ],
+   "unid_desc": [
+    "Unidentified. Can be identified with a [Magnifier]."
+   ]
+  },
+  "1219": {
+   "name": "Gladius",
+   "unid_name": "Dagger",
+   "desc": [
+    "A multipurpose dagger said to have been used by the army of an ancient",
+    "kingdom. It feels a little long for a dagger.",
+    "Type : ^777777Dagger^000000    Attack : ^777777105^000000",
+    "Weight : ^77777770^000000",
+    "Weapon Level : ^7777773^000000",
+    "Required Level : ^77777724^000000",
+    "Applicable Job : ^777777Swordman, Mage, Archer, Merchant, Thief, Soul Linker,",
+    "Ninja^000000"
+   ],
+   "unid_desc": [
+    "Unidentified. Can be identified with a [Magnifier]."
+   ]
+  },
+  "1223": {
+   "name": "Fortune_Sword",
+   "unid_name": "Dagger",
+   "desc": [
+    "A dagger said to lead its user onto the path of good fortune.",
+    "Perfect Dodge + 20, LUK + 5",
+    "Type : ^777777Dagger^000000    Attack : ^77777790^000000",
+    "Weight : ^77777750^000000",
+    "Weapon Level : ^7777774^000000",
+    "Required Level : ^77777724^000000",
+    "Applicable Job : ^777777Swordman, Mage, Archer, Merchant, Thief, Soul Linker,",
+    "Ninja^000000"
+   ],
+   "unid_desc": [
+    "Unidentified. Can be identified with a [Magnifier]."
+   ]
+  },
+  "1234": {
+   "name": "Moonlight_Dagger",
+   "unid_name": "Dagger",
+   "desc": [
+    "A blade made with the moon's energy. It absorbs the target's mental",
+    "power to restore the user's.",
+    "MAX SP + 10%",
+    "Recovers 3 SP with each hit on an enemy.",
+    "Type : ^777777Dagger^000000    Attack : ^77777750^000000",
+    "Weight : ^77777770^000000",
+    "Weapon Level : ^7777774^000000",
+    "Required Level : ^77777736^000000",
+    "Applicable Job : ^777777Swordman, Mage, Archer, Merchant, Thief, Soul Linker,",
+    "Ninja^000000"
+   ],
+   "unid_desc": [
+    "Unidentified. Can be identified with a [Magnifier]."
+   ]
+  },
+  "1504": {
+   "name": "Mace",
+   "unid_name": "Mace",
+   "desc": [
+    "An iron mace that looks like it would really hurt.",
+    "Type : ^777777Mace^000000    Attack : ^77777770^000000"
+   ],
+   "unid_desc": [
+    "Unidentified. Can be identified with a [Magnifier]."
+   ]
+  },
+  "1516": {
+   "name": "Sword_Mace",
+   "unid_name": "Mace",
+   "desc": [
+    "A mace fitted with a blade, which doubles its power.",
+    "Type : ^777777Mace^000000    Attack : ^77777790^000000"
+   ],
+   "unid_desc": [
+    "Unidentified. Can be identified with a [Magnifier]."
+   ]
+  },
+  "1519": {
+   "name": "Chain",
+   "unid_name": "Mace",
+   "desc": [
+    "A mace made of linked chains. It hits hard and gives a satisfying feel",
+    "on impact.",
+    "Type : ^777777Mace^000000    Attack : ^777777120^000000"
+   ],
+   "unid_desc": [
+    "Unidentified. Can be identified with a [Magnifier]."
+   ]
+  },
+  "1520": {
+   "name": "Toy_Chain",
+   "unid_name": "Mace",
+   "desc": [
+    "A toy chain made to look like a real one.",
+    "Type : ^777777Mace^000000    Attack : ^77777750^000000",
+    "Weight : ^77777780^000000"
+   ],
+   "unid_desc": [
+    "Unidentified. Can be identified with a [Magnifier]."
+   ]
+  },
+  "1524": {
+   "name": "Golden_Mace",
+   "unid_name": "Mace",
+   "desc": [
+    "A mace made of gold that looks noble and beautiful.",
+    "Indestructible",
+    "Type : ^777777Mace^000000    Attack : ^777777140^000000"
+   ],
+   "unid_desc": [
+    "Unidentified. Can be identified with a [Magnifier]."
+   ]
+  },
+  "1529": {
+   "name": "Iron_Driver",
+   "unid_name": "Mace",
+   "desc": [
+    "A mace said to have been used in some sport. Its end is rounded, and",
+    "its hard carbon steel makes it all the deadlier.",
+    "Type : ^777777Mace^000000    Attack : ^777777160^000000"
+   ],
+   "unid_desc": [
+    "Unidentified. Can be identified with a [Magnifier]."
+   ]
+  },
+  "1610": {
+   "name": "Arc_Wand",
+   "unid_name": "Staff",
+   "desc": [
+    "A magic staff that keeps part of ancient magic lore. It performs very",
+    "well.",
+    "Type : ^777777Staff^000000  Attack : ^77777760^000000"
+   ],
+   "unid_desc": [
+    "Unidentified. Can be identified with a [Magnifier]."
+   ]
+  },
+  "1613": {
+   "name": "Mighty_Staff",
+   "unid_name": "Staff",
+   "desc": [
+    "A staff that turns the user's mental power into destructive power,",
+    "giving fearsome power for little mental power.",
+    "Type : ^777777Staff^000000  Attack : ^777777200^000000"
+   ],
+   "unid_desc": [
+    "Unidentified. Can be identified with a [Magnifier]."
+   ]
+  },
+  "1614": {
+   "name": "Wand_of_Occult",
+   "unid_name": "Staff",
+   "desc": [
+    "A staff said to be carried by priests who perform rites. Their hidden",
+    "knowledge raises the power of the staff.",
+    "Type : ^777777Staff^000000  Attack : ^77777780^000000"
+   ],
+   "unid_desc": [
+    "Unidentified. Can be identified with a [Magnifier]."
+   ]
+  },
+  "1615": {
+   "name": "Evil_Bone_Wand",
+   "unid_name": "Staff",
+   "desc": [
+    "A dreadful staff decorated with a human skull. It performs very well,",
+    "but a dark aura always hangs over it.",
+    "Type : ^777777Staff^000000  Attack : ^777777100^000000"
+   ],
+   "unid_desc": [
+    "Unidentified. Can be identified with a [Magnifier]."
+   ]
+  },
+  "1801": {
+   "name": "Waghnak",
+   "unid_name": "Knuckle",
+   "desc": [
+    "A claw said to leave a wound as deadly as a tiger's bite with a single",
+    "hit.",
+    "Type : ^777777Knuckle^000000  Attack : ^77777730^000000",
+    "Weight : ^77777740^000000",
+    "Weapon Level : ^7777771^000000",
+    "Required Level : ^777777None^000000",
+    "Applicable Job : ^777777Priest, Monk^000000"
+   ],
+   "unid_desc": [
+    "Unidentified. Can be identified with a [Magnifier]."
+   ]
+  },
+  "1803": {
+   "name": "Knuckle_Dusters",
+   "unid_name": "Knuckle",
+   "desc": [
+    "A fist guard that protects everything from the wrist to the fingers.",
+    "Type : ^777777Knuckle^000000  Attack : ^77777750^000000",
+    "Weight : ^77777745^000000",
+    "Weapon Level : ^7777772^000000",
+    "Required Level : ^77777712^000000",
+    "Applicable Job : ^777777Priest, Monk^000000"
+   ],
+   "unid_desc": [
+    "Unidentified. Can be identified with a [Magnifier]."
+   ]
+  },
+  "1805": {
+   "name": "Studded_Knuckles",
+   "unid_name": "Knuckle",
+   "desc": [
+    "A fist guard used by a small tribe in the far East.",
+    "Type : ^777777Knuckle^000000  Attack : ^77777765^000000",
+    "Weight : ^77777745^000000",
+    "Weapon Level : ^7777772^000000",
+    "Required Level : ^77777712^000000",
+    "Applicable Job : ^777777Priest, Monk^000000"
+   ],
+   "unid_desc": [
+    "Unidentified. Can be identified with a [Magnifier]."
+   ]
+  },
+  "1807": {
+   "name": "Fist",
+   "unid_name": "Knuckle",
+   "desc": [
+    "A guard that covers the back of the hand with a hard glove, protecting",
+    "the fist and adding damage.",
+    "Type : ^777777Knuckle^000000  Attack : ^777777115^000000",
+    "Weight : ^77777765^000000",
+    "Weapon Level : ^7777773^000000",
+    "Required Level : ^77777724^000000",
+    "Applicable Job : ^777777Priest, Monk^000000"
+   ],
+   "unid_desc": [
+    "Unidentified. Can be identified with a [Magnifier]."
+   ]
+  },
+  "1809": {
+   "name": "Claw",
+   "unid_name": "Knuckle",
+   "desc": [
+    "A fearsome claw that can scratch and slash, not just strike.",
+    "STR + 2",
+    "Type : ^777777Knuckle^000000  Attack : ^77777786^000000",
+    "Weight : ^77777750^000000",
+    "Weapon Level : ^7777773^000000",
+    "Required Level : ^77777724^000000",
+    "Applicable Job : ^777777Priest, Monk^000000"
+   ],
+   "unid_desc": [
+    "Unidentified. Can be identified with a [Magnifier]."
+   ]
+  },
+  "1811": {
+   "name": "Finger",
+   "unid_name": "Knuckle",
+   "desc": [
+    "A guard with a blade on each finger. Drinking tea while wearing it",
+    "would be a challenge.",
+    "Type : ^777777Knuckle^000000  Attack : ^77777797^000000",
+    "Weight : ^77777750^000000",
+    "Weapon Level : ^7777773^000000",
+    "Required Level : ^77777724^000000",
+    "Applicable Job : ^777777Priest, Monk^000000"
+   ],
+   "unid_desc": [
+    "Unidentified. Can be identified with a [Magnifier]."
+   ]
+  },
+  "1813": {
+   "name": "Kaiser_Knuckle",
+   "unid_name": "Knuckle",
+   "desc": [
+    "A beautiful claw engraved with a crest said to carry the blessing of",
+    "the wind god.",
+    "Wind property",
+    "5% more damage to Undead monsters",
+    "10% more damage each to Earth, Water, Fire and Wind property monsters",
+    "Type : ^777777Knuckle^000000  Attack : ^777777110^000000",
+    "Weight : ^77777745^000000",
+    "Weapon Level : ^7777774^000000",
+    "Required Level : ^77777736^000000",
+    "Applicable Job : ^777777Priest, Monk^000000"
+   ],
+   "unid_desc": [
+    "Unidentified. Can be identified with a [Magnifier]."
+   ]
+  },
+  "1814": {
+   "name": "Berserk",
+   "unid_name": "Knuckle",
+   "desc": [
+    "A dreadful claw that makes its wearer roam madly in search of enemies.",
+    "Greatly increases attack speed",
+    "Type : ^777777Knuckle^000000  Attack : ^777777120^000000",
+    "Weight : ^77777750^000000",
+    "Weapon Level : ^7777774^000000",
+    "Required Level : ^77777736^000000",
+    "Applicable Job : ^777777Priest, Monk^000000"
+   ],
+   "unid_desc": [
+    "Unidentified. Can be identified with a [Magnifier]."
+   ]
+  },
+  "1815": {
+   "name": "Hatii_Claw",
+   "unid_name": "Knuckle",
+   "desc": [
+    "A weapon made from the claws of Hatii, gatekeeper of the underworld.",
+    "It is always stained with blood.",
+    "Max HP - 2%. Low chance to cause Bleeding on attack.",
+    "Type : ^777777Knuckle^000000  Attack : ^777777152^000000",
+    "Weight : ^77777755^000000      Property :^777777Shadow^000000",
+    "Weapon Level : ^7777774^000000",
+    "Required Level : ^77777770^000000",
+    "Applicable Job : ^777777Priest and Monk only^000000"
+   ],
+   "unid_desc": [
+    "Unidentified. Can be identified with a [Magnifier]."
+   ]
+  },
+  "2242": {
+   "name": "Purple_Glasses",
+   "unid_name": "Glasses",
+   "desc": [
+    "Premium sunglasses made for better shading and more style than",
+    "ordinary sunglasses, for a more refined look.",
+    "Type : ^777777Headgear^000000",
+    "Location : ^777777Middle^000000"
+   ],
+   "unid_desc": [
+    "Unidentified. Can be identified with a [Magnifier]."
+   ]
+  },
+  "2266": {
+   "name": "Iron_Cain",
+   "unid_name": "Mask",
+   "desc": [
+    "A mouth guard made of hard metal. The moment you put it on, you may",
+    "feel like you have become \"Automaton Z\".",
+    "Type : ^777777Headgear^000000",
+    "Location : ^777777Lower^000000"
+   ],
+   "unid_desc": [
+    "Unidentified. Can be identified with a [Magnifier]."
+   ]
+  },
+  "2267": {
+   "name": "Cigarette",
+   "unid_name": "Accessory",
+   "desc": [
+    "Dried leaves are wrapped in paper and lit, and the smoke is inhaled.",
+    "This is called smoking, and smoking is known to cause many diseases.",
+    "Minors must never smoke!",
+    "Type : ^777777Headgear^000000",
+    "Location : ^777777Lower^000000"
+   ],
+   "unid_desc": [
+    "Unidentified. Can be identified with a [Magnifier]."
+   ]
+  },
+  "2269": {
+   "name": "Romantic_Flower",
+   "unid_name": "Accessory",
+   "desc": [
+    "A small single flower. Sit still with it in your mouth and the world",
+    "will look cheerful.",
+    "Type : ^777777Headgear^000000",
+    "Location : ^777777Lower^000000"
+   ],
+   "unid_desc": [
+    "Unidentified. Can be identified with a [Magnifier]."
+   ]
+  },
+  "2270": {
+   "name": "Romantic_Leaf",
+   "unid_name": "Accessory",
+   "desc": [
+    "A long blade of grass. With it in your mouth, you'll feel like a",
+    "wanderer drifting with the wind.",
+    "Type : ^777777Headgear^000000",
+    "Location : ^777777Lower^000000"
+   ],
+   "unid_desc": [
+    "Unidentified. Can be identified with a [Magnifier]."
+   ]
+  },
+  "2276": {
+   "name": "Angled_Glasses",
+   "unid_name": "Glasses",
+   "desc": [
+    "Glasses shaped like wide, glaring eyes. If your sweetheart's eyes look",
+    "like this, the best plan is to apologize, no matter what.",
+    "Type : ^777777Headgear^000000",
+    "Location : ^777777Middle^000000"
+   ],
+   "unid_desc": [
+    "Unidentified. Can be identified with a [Magnifier]."
+   ]
+  },
+  "2286": {
+   "name": "Elven_Ears",
+   "unid_name": "Accessory",
+   "desc": [
+    "Said to be modeled on the long ears of elves. Wearing them lets you",
+    "feel like an elf roaming a green forest.",
+    "Type : ^777777Headgear^000000",
+    "Location : ^777777Middle^000000"
+   ],
+   "unid_desc": [
+    "Unidentified. Can be identified with a [Magnifier]."
+   ]
+  },
+  "5102": {
+   "name": "Blank_Eyes",
+   "unid_name": "Accessory",
+   "desc": [
+    "A neat item made so you can act like the heroes of Ragnarok Battle.",
+    "The round white eyes look a little dopey, but cute.",
+    "Type : ^777777Headgear^000000",
+    "Location : ^777777Middle^000000"
+   ],
+   "unid_desc": [
+    "Unidentified. Can be identified with a [Magnifier]."
+   ]
+  },
+  "5107": {
+   "name": "Crunch_Toast",
+   "unid_name": "Accessory",
+   "desc": [
+    "Our trusty friend on a rushed morning. With it in your mouth, you feel",
+    "you should run.",
+    "Type : ^777777Headgear^000000",
+    "Location : ^777777Lower^000000"
+   ],
+   "unid_desc": [
+    "Unidentified. Can be identified with a [Magnifier]."
+   ]
+  },
+  "5110": {
+   "name": "Baby_Pacifier",
+   "unid_name": "Accessory",
+   "desc": [
+    "A pacifier for soothing a baby. Baby characters would look so cute",
+    "wearing it!",
+    "Type : ^777777Headgear^000000",
+    "Location : ^777777Lower^000000"
+   ],
+   "unid_desc": [
+    "Unidentified. Can be identified with a [Magnifier]."
+   ]
+  },
+  "5113": {
+   "name": "Angry_Snarl",
+   "unid_name": "Accessory",
+   "desc": [
+    "An item modeled on an angry mouth. Use it to play an angry cat, an",
+    "angry rabbit and more!",
+    "Type : ^777777Headgear^000000",
+    "Location : ^777777Lower^000000"
+   ],
+   "unid_desc": [
+    "Unidentified. Can be identified with a [Magnifier]."
+   ]
+  },
+  "5128": {
+   "name": "Goibne's_Helm",
+   "unid_name": "Helm",
+   "desc": [
+    "One of the few armors made by Goibne, who mostly made weapons. The",
+    "gods are said to have rated his armor above his weapons.",
+    "Type : ^777777Headgear^000000",
+    "Location : ^777777Upper^000000"
+   ],
+   "unid_desc": [
+    "Unidentified. Can be identified with a [Magnifier]."
+   ]
+  },
+  "5135": {
+   "name": "Cyclop's_Eye",
+   "unid_name": "Cyclop's_Eye",
+   "desc": [
+    "Uniquely shaped eye protection that also seems to improve the wearer's",
+    "mental power.",
+    "Type : ^777777Headgear^000000",
+    "Location : ^777777Middle^000000"
+   ],
+   "unid_desc": [
+    "Unidentified. Can be identified with a [Magnifier]."
+   ]
+  },
+  "5137": {
+   "name": "Alice_Doll",
+   "unid_name": "Hat",
+   "desc": [
+    "A doll modeled on the popular monster Alice. It seems to say 'Master,",
+    "do your best!' from atop your head!",
+    "Damage +10% against Demi-Human monsters. Low chance the user falls",
+    "asleep when attacking.",
+    "Type : ^777777Headgear^000000",
+    "Location : ^777777Upper^000000"
+   ],
+   "unid_desc": [
+    "Unidentified. Can be identified with a [Magnifier]."
+   ]
+  },
+  "5173": {
+   "name": "Magistrate_Hat",
+   "unid_name": "Hat",
+   "desc": [
+    "A hat worn by the officials known as magistrates in the ancient East.",
+    "Type : ^777777Headgear^000000",
+    "Location : ^777777Upper^000000"
+   ],
+   "unid_desc": [
+    "Unidentified. Can be identified with a [Magnifier]."
+   ]
+  },
+  "5175": {
+   "name": "Censor_Bar",
+   "unid_name": "Accessory",
+   "desc": [
+    "Seems to think that covering just the eyes with a black mosaic hides",
+    "who you are. Wearing it might even disguise your voice.",
+    "Type : ^777777Headgear^000000",
+    "Location : ^777777Middle^000000"
+   ],
+   "unid_desc": [
+    "Unidentified. Can be identified with a [Magnifier]."
+   ]
+  },
+  "5206": {
+   "name": "Romantic_White_Flower",
+   "unid_name": "Accessory",
+   "desc": [
+    "A small single white flower.",
+    "Type : ^777777Headgear^000000",
+    "Location : ^777777Lower^000000"
+   ],
+   "unid_desc": [
+    "Unidentified. Can be identified with a [Magnifier]."
+   ]
+  },
+  "5210": {
+   "name": "Flapping_Angel_Wing",
+   "unid_name": "Hairband",
+   "desc": [
+    "A beautiful headgear shaped like a soaring angel's beating wings.",
+    "Wearing it is a bit distracting, but you feel light in body and mind.",
+    "Type : ^777777Headgear^000000",
+    "Location : ^777777Upper^000000"
+   ],
+   "unid_desc": [
+    "Unidentified. Can be identified with a [Magnifier]."
+   ]
+  },
+  "5212": {
+   "name": "Satellite_Hairband",
+   "unid_name": "Hairband",
+   "desc": [
+    "An odd-looking hairband.",
+    "Wearing it, you seem to hear signals from another planet, but it's",
+    "just your imagination.",
+    "Somehow your view seems wider, too.",
+    "Type : ^777777Headgear^000000",
+    "Location : ^777777Upper^000000"
+   ],
+   "unid_desc": [
+    "Unidentified. Can be identified with a [Magnifier]."
+   ]
+  },
+  "5214": {
+   "name": "Moonlight_Flower_Hat",
+   "unid_name": "Hat",
+   "desc": [
+    "A hat modeled on the monster Moonlight Flower.",
+    "Made of 30% Moonlight Flower fur and 70% Nine Tail fur. Hand wash",
+    "only.",
+    "Wear it with a Nine Tail muffler and your winter look is complete?",
+    "Type : ^777777Headgear^000000",
+    "Location : ^777777Upper, Middle^000000"
+   ],
+   "unid_desc": [
+    "Unidentified. Can be identified with a [Magnifier]."
+   ]
+  },
+  "5223": {
+   "name": "Evolved_Big_Golden_Bell",
+   "unid_name": "Helm",
+   "desc": [
+    "Modeled on the accessory of Sohee, a popular monster. Its big bell",
+    "really plays up the cuteness.",
+    "Type : ^777777Headgear^000000",
+    "Location : ^777777Middle^000000"
+   ],
+   "unid_desc": [
+    "Unidentified. Can be identified with a [Magnifier]."
+   ]
+  },
+  "5263": {
+   "name": "Pagdayaw",
+   "unid_name": "Hat",
+   "desc": [
+    "A helm made by combining rings of various elements. It looks splendid",
+    "and dignified.",
+    "Type : ^777777Headgear^000000",
+    "Location : ^777777Upper^000000"
+   ],
+   "unid_desc": [
+    "Unidentified. Can be identified with a [Magnifier]."
+   ]
+  },
+  "5300": {
+   "name": "Champion_Helm",
+   "unid_name": "Helm",
+   "desc": [
+    "A legendary helm set with emeralds. Only great warriors can wear it.",
+    "Type : ^777777Headgear^000000",
+    "Location : ^777777Upper^000000"
+   ],
+   "unid_desc": [
+    "Unidentified. Can be identified with a [Magnifier]."
+   ]
+  },
+  "5315": {
+   "name": "Observer",
+   "unid_name": "Accessory",
+   "desc": [
+    "A device that measures an opponent's strength. Townspeople usually",
+    "measure about 5.",
+    "Type : ^777777Headgear^000000",
+    "Location : ^777777Middle^000000"
+   ],
+   "unid_desc": [
+    "Unidentified. Can be identified with a [Magnifier]."
+   ]
+  },
+  "5325": {
+   "name": "Robo_Eye",
+   "unid_name": "Glasses",
+   "desc": [
+    "A strange item, seemingly made somewhere in space, that shoots odd",
+    "beams from the eyes.",
+    "Type : ^777777Headgear^000000",
+    "Location : ^777777Middle^000000"
+   ],
+   "unid_desc": [
+    "Unidentified. Can be identified with a [Magnifier]."
+   ]
+  },
+  "5357": {
+   "name": "Wings_Of_Victory",
+   "unid_name": "Hairband",
+   "desc": [
+    "A head ornament made of Valkyrie feathers and precious gems. It is",
+    "said to protect the wearer from many dangers.",
+    "Type : ^777777Headgear^000000",
+    "Location : ^777777Middle^000000"
+   ],
+   "unid_desc": [
+    "Unidentified. Can be identified with a [Magnifier]."
+   ]
+  },
+  "5380": {
+   "name": "Fish_Head_Hat",
+   "unid_name": "Hat",
+   "desc": [
+    "A fish hat that keeps opening and closing its mouth. Each time it",
+    "opens, you seem to smell fish.",
+    "Low chance to autocast Lv 1 Endow Tsunami on yourself when dealing",
+    "physical attacks.",
+    "Type : ^777777Headgear^000000    Defense : ^7777771^000000",
+    "Location : ^777777Upper^000000    Weight : ^77777740^000000",
+    "Applicable Job : ^777777Every Job^000000"
+   ],
+   "unid_desc": [
+    "Unidentified. Can be identified with a [Magnifier]."
+   ]
+  },
+  "5381": {
+   "name": "Santa_Poring_Hat",
+   "unid_name": "Hat",
+   "desc": [
+    "A Poring in a Santa hat bounces cutely on your head.",
+    "3% more damage to Shadow property monsters, 3% less damage from Shadow",
+    "property attacks",
+    "MDEF + 2. Cannot be refined.",
+    "Type : ^777777Headgear^000000    Defense : ^7777772^000000",
+    "Location : ^777777Upper^000000    Weight : ^77777710^000000",
+    "Applicable Job : ^777777Every Job^000000"
+   ],
+   "unid_desc": [
+    "Unidentified. Can be identified with a [Magnifier]."
+   ]
+  }
+ }
+}
