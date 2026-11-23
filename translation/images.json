@@ -1,0 +1,450 @@
+{
+ "_about": "Pictures redrawn by images.py. buttons: label per picture name, every state the archive has (name.bmp, name_a.bmp hover, name_b.bmp pressed, name_dis.bmp disabled). bars: the wide menu bars. patches: single pictures, as a list of operations: fill [x0, y0, x1, y1] with each row's colour at column col (or with colour), then text.",
+ "buttons": [
+  {
+   "dir": "data/texture/유저인터페이스",
+   "font": "9",
+   "top": 4,
+   "labels": {
+    "btn_add": "answer",
+    "btn_agree": "agree",
+    "btn_back": "back",
+    "btn_buy": "buy",
+    "btn_cancel": "cancel",
+    "btn_charge": "billing",
+    "btn_close": "close",
+    "btn_del": "delete",
+    "btn_edit": "edit",
+    "btn_exchange": "trade",
+    "btn_feed": "feed pet",
+    "btn_find": "find",
+    "btn_fired": "fire",
+    "btn_friend": "friend",
+    "btn_get": "send",
+    "btn_help": "help",
+    "btn_info": "info",
+    "btn_intro": "intro",
+    "btn_learn": "learn",
+    "btn_list": "list",
+    "btn_make": "create",
+    "btn_memo": "memo",
+    "btn_next": "next",
+    "btn_ok": "ok",
+    "btn_q_active": "on",
+    "btn_q_inactive": "off",
+    "btn_reply": "reply",
+    "btn_restart": "retry",
+    "btn_rewrite": "modify",
+    "btn_sell": "sell",
+    "btn_send": "send",
+    "btn_skill": "skill",
+    "btn_use": "use",
+    "btn_view": "view",
+    "btn_write": "write"
+   }
+  },
+  {
+   "dir": "data/texture/유저인터페이스/login_interface",
+   "font": "9",
+   "top": 4,
+   "labels": {
+    "btn_back": "back",
+    "btn_cancel": "cancel",
+    "btn_change_name": "rename",
+    "btn_close": "close",
+    "btn_connect": "login",
+    "btn_exit": "exit",
+    "btn_help": "help",
+    "btn_intro": "intro",
+    "btn_make": "create",
+    "btn_next": "next",
+    "btn_ok": "ok",
+    "btn_request": "apply"
+   }
+  }
+ ],
+ "bars": [
+  {
+   "dir": "data/texture/유저인터페이스",
+   "font": "10",
+   "top": 3,
+   "margin": 30,
+   "states": {
+    "a": "normal",
+    "b": "hover",
+    "c": "pressed"
+   },
+   "labels": {
+    "esc_01": "Character Select",
+    "esc_02": "Return to Game",
+    "esc_03": "Exit to Windows",
+    "esc_04": "Restart",
+    "esc_05": "Resurrect Here"
+   }
+  }
+ ],
+ "patches": [
+  {
+   "file": "data/texture/유저인터페이스/win_msgbox.bmp",
+   "ops": [
+    {
+     "fill": [16, 3, 56, 15],
+     "col": 100
+    },
+    {
+     "text": "Message",
+     "font": "10",
+     "at": [17, 2],
+     "colour": [0, 0, 0],
+     "shadow": [255, 255, 255]
+    }
+   ]
+  },
+  {
+   "file": "data/texture/유저인터페이스/win_msgbox1.bmp",
+   "ops": [
+    {
+     "fill": [16, 3, 56, 15],
+     "col": 100
+    },
+    {
+     "text": "Message",
+     "font": "10",
+     "at": [17, 2],
+     "colour": [0, 0, 0],
+     "shadow": [255, 255, 255]
+    }
+   ]
+  },
+  {
+   "file": "data/texture/유저인터페이스/login_interface/win_make_hp.bmp",
+   "ops": [
+    {
+     "fill": [16, 3, 98, 15],
+     "col": 105
+    },
+    {
+     "text": "Make Character",
+     "font": "10",
+     "at": [17, 2],
+     "colour": [0, 0, 0],
+     "shadow": [255, 255, 255]
+    }
+   ]
+  },
+  {
+   "file": "data/texture/유저인터페이스/basic_interface/tab_itm_01.bmp",
+   "ops": [
+    {
+     "fill": [7, 1, 18, 22],
+     "col": 6
+    },
+    {
+     "text": "ITEM",
+     "font": "tiny",
+     "center": [11, 11],
+     "rot": "ccw",
+     "colour": [64, 64, 64]
+    },
+    {
+     "fill": [7, 27, 18, 48],
+     "col": 6
+    },
+    {
+     "text": "EQUIP",
+     "font": "tiny",
+     "center": [12, 37],
+     "rot": "ccw",
+     "colour": [118, 118, 118]
+    },
+    {
+     "fill": [7, 53, 18, 74],
+     "col": 6
+    },
+    {
+     "text": "ETC",
+     "font": "tiny",
+     "center": [12, 63],
+     "rot": "ccw",
+     "colour": [118, 118, 118]
+    }
+   ]
+  },
+  {
+   "file": "data/texture/유저인터페이스/basic_interface/tab_itm_02.bmp",
+   "ops": [
+    {
+     "fill": [7, 1, 18, 22],
+     "col": 6
+    },
+    {
+     "text": "ITEM",
+     "font": "tiny",
+     "center": [12, 11],
+     "rot": "ccw",
+     "colour": [118, 118, 118]
+    },
+    {
+     "fill": [7, 27, 18, 48],
+     "col": 6
+    },
+    {
+     "text": "EQUIP",
+     "font": "tiny",
+     "center": [11, 37],
+     "rot": "ccw",
+     "colour": [64, 64, 64]
+    },
+    {
+     "fill": [7, 53, 18, 74],
+     "col": 6
+    },
+    {
+     "text": "ETC",
+     "font": "tiny",
+     "center": [12, 63],
+     "rot": "ccw",
+     "colour": [118, 118, 118]
+    }
+   ]
+  },
+  {
+   "file": "data/texture/유저인터페이스/basic_interface/tab_itm_03.bmp",
+   "ops": [
+    {
+     "fill": [7, 1, 18, 22],
+     "col": 6
+    },
+    {
+     "text": "ITEM",
+     "font": "tiny",
+     "center": [12, 11],
+     "rot": "ccw",
+     "colour": [118, 118, 118]
+    },
+    {
+     "fill": [7, 27, 18, 48],
+     "col": 6
+    },
+    {
+     "text": "EQUIP",
+     "font": "tiny",
+     "center": [12, 37],
+     "rot": "ccw",
+     "colour": [118, 118, 118]
+    },
+    {
+     "fill": [7, 53, 18, 74],
+     "col": 6
+    },
+    {
+     "text": "ETC",
+     "font": "tiny",
+     "center": [11, 63],
+     "rot": "ccw",
+     "colour": [64, 64, 64]
+    }
+   ]
+  },
+  {
+   "file": "data/texture/유저인터페이스/basic_interface/statwin0_bg.bmp",
+   "ops": [
+    {
+     "fill": [6, 1, 18, 22],
+     "col": 5
+    },
+    {
+     "text": "STATS",
+     "font": "tiny",
+     "center": [12, 11],
+     "rot": "ccw",
+     "colour": [64, 64, 64]
+    },
+    {
+     "fill": [7, 27, 18, 49],
+     "col": 6
+    },
+    {
+     "text": "ALIGN",
+     "font": "tiny",
+     "center": [12, 38],
+     "rot": "ccw",
+     "colour": [61, 61, 61]
+    }
+   ]
+  },
+  {
+   "file": "data/texture/유저인터페이스/basic_interface/statwin1_bg.bmp",
+   "ops": [
+    {
+     "fill": [7, 1, 18, 22],
+     "col": 6
+    },
+    {
+     "text": "STATS",
+     "font": "tiny",
+     "center": [12, 11],
+     "rot": "ccw",
+     "colour": [61, 61, 61]
+    },
+    {
+     "fill": [6, 28, 18, 48],
+     "col": 5
+    },
+    {
+     "text": "ALIGN",
+     "font": "tiny",
+     "center": [12, 38],
+     "rot": "ccw",
+     "colour": [64, 64, 64]
+    }
+   ]
+  },
+  {
+   "file": "data/texture/유저인터페이스/basic_interface/statwin2_bg.bmp",
+   "ops": [
+    {
+     "fill": [7, 1, 18, 22],
+     "col": 6
+    },
+    {
+     "text": "STATS",
+     "font": "tiny",
+     "center": [12, 11],
+     "rot": "ccw",
+     "colour": [61, 61, 61]
+    },
+    {
+     "fill": [6, 28, 18, 48],
+     "col": 5
+    },
+    {
+     "text": "ALIGN",
+     "font": "tiny",
+     "center": [12, 38],
+     "rot": "ccw",
+     "colour": [64, 64, 64]
+    },
+    {
+     "fill": [28, 10, 77, 24],
+     "col": 80
+    },
+    {
+     "text": "[PK Result]",
+     "font": "9b",
+     "at": [30, 11],
+     "colour": [39, 60, 101]
+    }
+   ]
+  },
+  {
+   "file": "data/texture/유저인터페이스/basic_interface/optwin0_bg.bmp",
+   "ops": [
+    {
+     "fill": [6, 1, 18, 22],
+     "col": 5
+    },
+    {
+     "text": "SETUP",
+     "font": "tiny",
+     "center": [11, 11],
+     "rot": "ccw",
+     "colour": [64, 64, 64]
+    },
+    {
+     "fill": [7, 27, 18, 49],
+     "col": 6
+    },
+    {
+     "text": "INFO",
+     "font": "tiny",
+     "center": [11, 38],
+     "rot": "ccw",
+     "colour": [140, 140, 140]
+    },
+    {
+     "fill": [28, 3, 67, 19],
+     "col": 68
+    },
+    {
+     "text": "BGM",
+     "font": "10",
+     "at": [30, 4],
+     "colour": [23, 72, 136],
+     "shadow": [192, 192, 192]
+    },
+    {
+     "fill": [28, 22, 67, 38],
+     "col": 68
+    },
+    {
+     "text": "Effect",
+     "font": "10",
+     "at": [30, 23],
+     "colour": [23, 72, 136],
+     "shadow": [192, 192, 192]
+    },
+    {
+     "fill": [28, 48, 67, 64],
+     "col": 68
+    },
+    {
+     "text": "Skin",
+     "font": "10",
+     "at": [30, 49],
+     "colour": [23, 72, 136],
+     "shadow": [192, 192, 192]
+    }
+   ]
+  },
+  {
+   "file": "data/texture/유저인터페이스/basic_interface/optwin1_bg.bmp",
+   "ops": [
+    {
+     "fill": [7, 1, 18, 22],
+     "col": 6
+    },
+    {
+     "text": "SETUP",
+     "font": "tiny",
+     "center": [11, 11],
+     "rot": "ccw",
+     "colour": [140, 140, 140]
+    },
+    {
+     "fill": [6, 28, 18, 48],
+     "col": 5
+    },
+    {
+     "text": "INFO",
+     "font": "tiny",
+     "center": [11, 38],
+     "rot": "ccw",
+     "colour": [64, 64, 64]
+    },
+    {
+     "fill": [25, 6, 60, 22],
+     "col": 59
+    },
+    {
+     "text": "Hobby:",
+     "font": "9",
+     "at": [27, 8],
+     "colour": [23, 72, 136],
+     "shadow": [192, 192, 192]
+    },
+    {
+     "fill": [25, 26, 60, 42],
+     "col": 59
+    },
+    {
+     "text": "Intro:",
+     "font": "9",
+     "at": [27, 28],
+     "colour": [23, 72, 136],
+     "shadow": [192, 192, 192]
+    }
+   ]
+  }
+ ]
+}

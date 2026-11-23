@@ -10,7 +10,7 @@
 
 
 
-bool            g_readFolderFirst = false;
+bool            g_readFolderFirst = true;
 
 
 

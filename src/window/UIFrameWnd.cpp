@@ -2671,8 +2671,8 @@ void UIMakeCharWnd::OnDraw()
 	else
 		sprintf(text1, "Easy");
 
-	TextOutA(310, y + 1, text1, 0, 0, 16, 0xf5cdcd);
-	TextOutA(309, y, text1, 0, 0, 16, 0xcd6969);
+	TextOutA(273, y + 1, text1, 0, 0, 16, 0xf5cdcd);
+	TextOutA(272, y, text1, 0, 0, 16, 0xcd6969);
 }
 
 void UIMakeCharWnd::OnDestroy() {}
