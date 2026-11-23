@@ -89,10 +89,10 @@
  },
  "523:4": {
   "ko": "[CLEAR]  Day  %d  %s  Lv.%d  %02d:%02d  난이도 %s",
-  "en": "[CLEAR]  Day  %d  %s  Lv.%d  %02d:%02d  Difficulty %s"
+  "en": "[CLEAR]  Day  %d  %s  Lv.%d  %02d:%02d  Mode %s"
  },
  "528:4": {
   "ko": "[%s]  Day  %d  %s  Lv.%d  %02d:%02d  난이도 %s",
-  "en": "[%s]  Day  %d  %s  Lv.%d  %02d:%02d  Difficulty %s"
+  "en": "[%s]  Day  %d  %s  Lv.%d  %02d:%02d  Mode %s"
  }
 }

@@ -461,7 +461,7 @@ void UIWindowMgr::MakeSaveFileName(char F1) {
 char UIWindowMgr::MakeSaveFileName_IN(char fileNum, char F1)
 {
 	char rName[32];
-	char Thard[3];
+	char Thard[8];
 	char Tword[2];
 	short rDay;
 	short rLv;
@@ -520,12 +520,12 @@ char UIWindowMgr::MakeSaveFileName_IN(char fileNum, char F1)
 
 		if (rClear == 1) {
 			sprintf(g_savedata[fileNum - 1],
-				"[CLEAR]  Day  %d  %s  Lv.%d  %02d:%02d  Difficulty %s",
+				"[CLEAR]  Day  %d  %s  Lv.%d  %02d:%02d  Mode %s",
 				rDay, rName, rLv, rHr, rMin, Thard);
 			return rClear;
 		} else {
 			sprintf(g_savedata[fileNum - 1],
-				"[%s]  Day  %d  %s  Lv.%d  %02d:%02d  Difficulty %s",
+				"[%s]  Day  %d  %s  Lv.%d  %02d:%02d  Mode %s",
 				Tword, rDay, rName, rLv, rHr, rMin, Thard);
 			return rClear;
 		}
