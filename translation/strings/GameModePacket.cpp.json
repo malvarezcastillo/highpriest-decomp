@@ -1,120 +1,159 @@
 {
  "867:13": {
-  "ko": "effect\\mon_폭기.wav"
+  "ko": "effect\\mon_폭기.wav",
+  "keep": "file name in the game data"
  },
  "881:13": {
-  "ko": "effect\\mon_맹룡과강.wav"
+  "ko": "effect\\mon_맹룡과강.wav",
+  "keep": "file name in the game data"
  },
  "902:14": {
-  "ko": "effect\\오라 블레이드.wav"
+  "ko": "effect\\오라 블레이드.wav",
+  "keep": "file name in the game data"
  },
  "927:14": {
-  "ko": "effect\\버서크.wav"
+  "ko": "effect\\버서크.wav",
+  "keep": "file name in the game data"
  },
  "983:13": {
-  "ko": "effect\\mon_폭기.wav"
+  "ko": "effect\\mon_폭기.wav",
+  "keep": "file name in the game data"
  },
  "1089:13": {
-  "ko": "effect\\석양의 어쌔신.wav"
+  "ko": "effect\\석양의 어쌔신.wav",
+  "keep": "file name in the game data"
  },
  "1094:13": {
-  "ko": "effect\\브라기의 시.wav"
+  "ko": "effect\\브라기의 시.wav",
+  "keep": "file name in the game data"
  },
  "1099:13": {
-  "ko": "effect\\이둔의 사과.wav"
+  "ko": "effect\\이둔의 사과.wav",
+  "keep": "file name in the game data"
  },
  "1104:13": {
-  "ko": "effect\\흥얼거림.wav"
+  "ko": "effect\\흥얼거림.wav",
+  "keep": "file name in the game data"
  },
  "1109:13": {
-  "ko": "effect\\나를잊지말아요.wav"
+  "ko": "effect\\나를잊지말아요.wav",
+  "keep": "file name in the game data"
  },
  "1114:13": {
-  "ko": "effect\\당신을 위한 서비스.wav"
+  "ko": "effect\\당신을 위한 서비스.wav",
+  "keep": "file name in the game data"
  },
  "1119:13": {
-  "ko": "effect\\자장가.wav"
+  "ko": "effect\\자장가.wav",
+  "keep": "file name in the game data"
  },
  "1124:13": {
-  "ko": "effect\\헤르모드의 지팡이.wav"
+  "ko": "effect\\헤르모드의 지팡이.wav",
+  "keep": "file name in the game data"
  },
  "1145:13": {
-  "ko": "effect\\영원의 혼돈.wav"
+  "ko": "effect\\영원의 혼돈.wav",
+  "keep": "file name in the game data"
  },
  "1151:13": {
-  "ko": "effect\\전장의.wav"
+  "ko": "effect\\전장의.wav",
+  "keep": "file name in the game data"
  },
  "1157:13": {
-  "ko": "effect\\니벨룽겐의 반지.wav"
+  "ko": "effect\\니벨룽겐의 반지.wav",
+  "keep": "file name in the game data"
  },
  "1162:13": {
-  "ko": "effect\\심연속으로.wav"
+  "ko": "effect\\심연속으로.wav",
+  "keep": "file name in the game data"
  },
  "1168:13": {
-  "ko": "effect\\불사신.wav"
+  "ko": "effect\\불사신.wav",
+  "keep": "file name in the game data"
  },
  "1175:13": {
-  "ko": "effect\\김서방돈.wav"
+  "ko": "effect\\김서방돈.wav",
+  "keep": "file name in the game data"
  },
  "1182:13": {
-  "ko": "effect\\로키.wav"
+  "ko": "effect\\로키.wav",
+  "keep": "file name in the game data"
  },
  "1189:13": {
-  "ko": "effect\\행운의.wav"
+  "ko": "effect\\행운의.wav",
+  "keep": "file name in the game data"
  },
  "1292:14": {
-  "ko": "effect\\마법력 증폭.wav"
+  "ko": "effect\\마법력 증폭.wav",
+  "keep": "file name in the game data"
  },
  "1329:14": {
-  "ko": "effect\\마법력 증폭.wav"
+  "ko": "effect\\마법력 증폭.wav",
+  "keep": "file name in the game data"
  },
  "1445:13": {
-  "ko": "effect\\달빛.wav"
+  "ko": "effect\\달빛.wav",
+  "keep": "file name in the game data"
  },
  "1502:13": {
-  "ko": "effect\\T_낙법.wav"
+  "ko": "effect\\T_낙법.wav",
+  "keep": "file name in the game data"
  },
  "1510:14": {
-  "ko": "effect\\T_바람방출.wav"
+  "ko": "effect\\T_바람방출.wav",
+  "keep": "file name in the game data"
  },
  "1523:13": {
-  "ko": "effect\\T_피링.wav"
+  "ko": "effect\\T_피링.wav",
+  "keep": "file name in the game data"
  },
  "1530:14": {
-  "ko": "effect\\T_변신.wav"
+  "ko": "effect\\T_변신.wav",
+  "keep": "file name in the game data"
  },
  "1556:14": {
-  "ko": "effect\\T_등록.wav"
+  "ko": "effect\\T_등록.wav",
+  "keep": "file name in the game data"
  },
  "1578:13": {
-  "ko": "effect\\T_슈웃.wav"
+  "ko": "effect\\T_슈웃.wav",
+  "keep": "file name in the game data"
  },
  "1588:13": {
-  "ko": "effect\\T_공격력.wav"
+  "ko": "effect\\T_공격력.wav",
+  "keep": "file name in the game data"
  },
  "1597:13": {
-  "ko": "effect\\T_방어형.wav"
+  "ko": "effect\\T_방어형.wav",
+  "keep": "file name in the game data"
  },
  "1618:13": {
-  "ko": "effect\\T_보조마법.wav"
+  "ko": "effect\\T_보조마법.wav",
+  "keep": "file name in the game data"
  },
  "1626:13": {
-  "ko": "effect\\T_치잉.wav"
+  "ko": "effect\\T_치잉.wav",
+  "keep": "file name in the game data"
  },
  "1634:13": {
-  "ko": "effect\\T_마법반사.wav"
+  "ko": "effect\\T_마법반사.wav",
+  "keep": "file name in the game data"
  },
  "1752:13": {
-  "ko": "effect\\다다미뒤집기.wav"
+  "ko": "effect\\다다미뒤집기.wav",
+  "keep": "file name in the game data"
  },
  "1757:13": {
-  "ko": "effect\\크래커.wav"
+  "ko": "effect\\크래커.wav",
+  "keep": "file name in the game data"
  },
  "1806:13": {
-  "ko": "effect\\플립.wav"
+  "ko": "effect\\플립.wav",
+  "keep": "file name in the game data"
  },
  "2526:51": {
-  "ko": "블루"
+  "ko": "블루",
+  "keep": "comparison key or registry path"
  },
  "3084:24": {
   "ko": "매치되는 에러코드 없음."
@@ -123,16 +162,20 @@
   "ko": "PACKET_ZC_ACK_CREATE_CHATROOM 잘못된 결과 p->result==%d"
  },
  "5680:11": {
-  "ko": "effect\\T_피링.wav"
+  "ko": "effect\\T_피링.wav",
+  "keep": "file name in the game data"
  },
  "5710:11": {
-  "ko": "effect\\T_피링.wav"
+  "ko": "effect\\T_피링.wav",
+  "keep": "file name in the game data"
  },
  "6688:12": {
-  "ko": "effect\\가스펠.wav"
+  "ko": "effect\\가스펠.wav",
+  "keep": "file name in the game data"
  },
  "6691:12": {
-  "ko": "effect\\바실리카.wav"
+  "ko": "effect\\바실리카.wav",
+  "keep": "file name in the game data"
  },
  "10147:20": {
   "ko": "귀하는 혼합요금제 사용자 입니다. (종료일시 : %04d/%02d/%02d , 남은시간 : %d 시간 %d 분 %d 초)"

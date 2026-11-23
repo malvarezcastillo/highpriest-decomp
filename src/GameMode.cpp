@@ -627,9 +627,9 @@ void CGameMode::Initialize()
 		g_DamageMoment[j].DamageEnd = 0;
 
 	char msg[256];
-	sprintf(msg, "\xb0\xd4\xc0\xd3\xc1\xb6\xc0\xdb\xc0\xba \xb8\xb6\xbf\xec\xbd\xba\xbf\xcd \xc5\xb0\xba\xb8\xb5\xe5\xb7\xce \xc7\xd5\xb4\xcf\xb4\xd9");
+	sprintf(msg, "Controls use the mouse and keyboard");
 	g_windowMgr.SendMsg(WID_CHATWND, int(msg), int(RGB(250,250,250)), 0, 0);
-	sprintf(msg, "\xb8\xde\xb4\xba\xbc\xb1\xc5\xc3\xc0\xba \xbb\xf3\xc7\xcf \xc5\xb0\xb7\xce \xb0\xed\xb8\xa5\xb5\xda\xbf\xa1 A\xb8\xa6 \xb4\xa9\xb8\xa3\xb8\xe9 \xbc\xb1\xc5\xc3\xc0\xcc \xb5\xcb\xb4\xcf\xb4\xd9");
+	sprintf(msg, "Choose menu items with the Up/Down keys and press A");
 	g_windowMgr.SendMsg(WID_CHATWND, int(msg), int(RGB(250,250,250)), 0, 0);
 }
 
@@ -4913,7 +4913,7 @@ void CGameMode::ProcessWheel(int processType)
 		if (g_mouse.GetWheel() > 0) {
 			moveType = 1;
 			actor->SendMsg(NULL, AM_CHAT,
-				(int)"\xb3\xd7\x7e\x20\xb0\xa1\xb4\xf8\xb1\xe6\xb7\xce\x20\xb0\xa5\xb2\xb2\xbf\xe4\x20\x5e\x5f\x5e\x2a",
+				(int)"OK~ I'll keep going ^_^*",
 				0, 0);
 			actor->SendMsg(NULL, AM_EMOTION, 0, 0, 0);
 			g_curStance = 6;
@@ -4923,14 +4923,14 @@ void CGameMode::ProcessWheel(int processType)
 			if ((map_Number == 10 && g_curStory < 20)
 				|| (map_Number == 11 && g_curStory < 30)) {
 				actor->SendMsg(NULL, AM_CHAT,
-					(int)"\xc1\xf6\xb1\xdd\xc0\xba\x20\xb1\xd7\xb1\xe6\xb7\xce\x20\xb0\xa1\xb8\xe9\x20\xc0\xa7\xc7\xe8\xc7\xd2\xb0\xc5\x20\xb0\xb0\xbe\xc6\xbf\xe4\x2e\x20\xb4\xd9\xc0\xbd\xbf\xa1\x20\xb0\xa5\xb2\xb2\xbf\xe4\x20\xa4\xd0\x5f\xa4\xd0",
+					(int)"That way looks dangerous right now. I'll go next time T_T",
 					0, 0);
 				actor->SendMsg(NULL, AM_EMOTION, 0x1c, 0, 0);
 				g_AcoPosition += 2;
 				g_curStance = 6;
 			} else {
 				actor->SendMsg(NULL, AM_CHAT,
-					(int)"\xb3\xd7\x7e\x20\xbf\xb7\xb1\xe6\xb7\xce\x20\xb0\xa5\xb2\xb2\xbf\xe4\x7e\x20\x5e\x5e\x3b",
+					(int)"OK~ Side path it is~ ^^;",
 					0, 0);
 				actor->SendMsg(NULL, AM_EMOTION, 0, 0, 0);
 				g_curStance = 7;
@@ -7873,7 +7873,7 @@ void CGameMode::ProcessDamageSituation()
 								g_curStance = 4;
 								g_MainNextActTime = timeGetTime() + 0xfa0;
 								if (actor->m_clevel <= 6) {
-									sprintf(msg, "\xbe\xc6\xb9\xf6\xc1\xf6\xbf\xcd \xb5\xfe\xc0\xc7 \xc7\xe0\xb5\xbf\xc0\xcc \xb8\xf0\xb5\xce \xb3\xa1\xb3\xaa\xb8\xe9 \xc7\xcf\xb7\xe7\xb0\xa1 \xb3\xa1\xb3\xaa\xb0\xd4\xb5\xcb\xb4\xcf\xb4\xd9!");
+									sprintf(msg, "The day ends when father and daughter have both acted!");
 									g_windowMgr.SendMsg(UIM_PUSHINTOCHATHISTORY, (int)msg, 0xc8c8c8, 0, 0);
 								}
 								g_windowMgr.BS_StartFasterTetris();
@@ -7967,35 +7967,35 @@ void CGameMode::GainExp(short ExpValue, int JT_Opp)
 		level = actor->m_clevel;
 		if (level == 2) {
 			g_session.GainSkill(0x1c, 1, true);
-			actor->SendMsg(NULL, AM_CHAT, (int)"\310\372 \271\350\277\374\276\356\277\344~ \300\314\273\332\301\322? *^_^*  \300\372\270\246 \264\365\272\355\305\254\270\257\307\317\270\351 \275\341\301\256\277\344~", 0, 0);
+			actor->SendMsg(NULL, AM_CHAT, (int)"I learned Heal~ Pretty? *^_^*  Double-click me to use it~", 0, 0);
 			actor->SendMsg(NULL, AM_EMOTION, 5, 0, 0);
 		} else if (level == 3) {
 			g_session.GainSkill(0x111, 1, true);
-			actor->SendMsg(NULL, AM_CHAT, (int)"\300\314\301\246\272\316\305\315 \276\306\304\332\275\272\270\305\275\254 \276\262\270\351 \270\266\277\354\275\272 \310\331\300\273 \300\247\267\316 \261\274\267\301\301\340\277\344~", 0, 0);
+			actor->SendMsg(NULL, AM_CHAT, (int)"From now on, roll the wheel up to use Aco Smash~", 0, 0);
 			actor->SendMsg(NULL, AM_EMOTION, 5, 0, 0);
 		} else if (level == 4) {
-			actor->SendMsg(NULL, AM_CHAT, (int)"\275\272\305\263\303\242\300\273 \277\255\260\355 \270\266\277\354\275\272 \277\354\305\254\270\257 \307\330\274\255 \274\263\270\355\300\273 \300\337 \300\320\276\356\301\340\277\344 \244\320_\244\320", 0, 0);
+			actor->SendMsg(NULL, AM_CHAT, (int)"Open the skill window and right-click to read the info T_T", 0, 0);
 			actor->SendMsg(NULL, AM_EMOTION, 5, 0, 0);
 		} else {
 			if (map_Number == 11 && !g_session.HaveThisSkill(0x1b) && g_curStory >= 10) {
 				g_session.GainSkill(0x1b, 1, true);
-				actor->SendMsg(NULL, AM_CHAT, (int)"\300\314\301\246 \277\366\307\301\306\367\305\273\267\316 \264\331\304\241\261\342\300\374\277\241 \301\375\277\241 \265\271\276\306\260\245\267\241\277\344 ^_^", 0, 0);
+				actor->SendMsg(NULL, AM_CHAT, (int)"Now I can Warp Portal home before I get hurt ^_^", 0, 0);
 				actor->SendMsg(NULL, AM_EMOTION, 5, 0, 0);
 			} else if (map_Number == 10 && !g_session.HaveThisSkill(0x35) && g_curStory >= 20) {
 				g_session.GainSkill(0x35, 1, true);
-				actor->SendMsg(NULL, AM_CHAT, (int)"\300\314\301\250 \265\266\277\241 \260\311\267\301\265\265 \260\306\301\244 \263\241\300\314\277\271\277\344 ^^*", 0, 0);
+				actor->SendMsg(NULL, AM_CHAT, (int)"No more worrying about poison now ^^*", 0, 0);
 				actor->SendMsg(NULL, AM_EMOTION, 5, 0, 0);
 			} else if (map_Number == 11 && !g_session.HaveThisSkill(0x21) && g_curStory >= 30) {
 				g_session.GainSkill(0x21, 1, true);
-				actor->SendMsg(NULL, AM_CHAT, (int)"\276\310\301\251\267\347\275\272 \271\350\277\374\276\356\277\251~ \300\314\273\332\301\322? ^^*", 0, 0);
+				actor->SendMsg(NULL, AM_CHAT, (int)"Learned Angelus~ Pretty, right? ^^*", 0, 0);
 				actor->SendMsg(NULL, AM_EMOTION, 5, 0, 0);
 			} else if (map_Number == 12 && !g_session.HaveThisSkill(0x49) && g_curStory >= 40) {
 				g_session.GainSkill(0x49, 1, true);
-				actor->SendMsg(NULL, AM_CHAT, (int)"\261\342\270\256\277\241\270\246 \271\350\277\374\264\344\264\317\264\331 \307\354\307\354~", 0, 0);
+				actor->SendMsg(NULL, AM_CHAT, (int)"I learned Kyrie Eleison, hehe~", 0, 0);
 				actor->SendMsg(NULL, AM_EMOTION, 5, 0, 0);
 			} else if (map_Number == 13 && !g_session.HaveThisSkill(0x19d) && g_curStory >= 50) {
 				g_session.GainSkill(0x19d, 1, true);
-				actor->SendMsg(NULL, AM_CHAT, (int)"\276\306\304\332\310\270\277\300\270\256 \271\350\277\374\276\356\277\344~ ^^;", 0, 0);
+				actor->SendMsg(NULL, AM_CHAT, (int)"I learned Aco Tornado~ ^^;", 0, 0);
 				actor->SendMsg(NULL, AM_EMOTION, 5, 0, 0);
 			}
 		}
@@ -8019,7 +8019,7 @@ void CGameMode::GainExp(short ExpValue, int JT_Opp)
 		if (g_curStory < 20) {
 			char msg[100];
 			g_curStory = 20;
-			sprintf(msg, "\260\324\306\346\307\312\265\345\300\307 \264\331\270\245\301\366\277\252\300\270\267\316 \260\245\274\366\300\326\264\302 \277\353\261\342\260\241 \273\375\260\345\275\300\264\317\264\331~!");
+			sprintf(msg, "You're now brave enough for other areas of Geffen Field~!");
 			g_windowMgr.SendMsg(UIM_PUSHINTOCHATHISTORY, int(msg), 0xffffff, 0, 0);
 			g_session.SetStatusData(actor);
 			return;
@@ -8032,7 +8032,7 @@ void CGameMode::GainExp(short ExpValue, int JT_Opp)
 		if (g_curStory < 30) {
 			char msg[100];
 			g_curStory = 30;
-			sprintf(msg, "\306\344\300\314\277\346 \264\370\301\257\300\307 \264\331\270\245\301\366\277\252\300\270\267\316 \260\245\274\366\300\326\264\302 \277\353\261\342\260\241 \273\375\260\345\275\300\264\317\264\331~!");
+			sprintf(msg, "You're now brave enough for other areas of Payon Cave~!");
 			g_windowMgr.SendMsg(UIM_PUSHINTOCHATHISTORY, int(msg), 0xffffff, 0, 0);
 			g_session.SetStatusData(actor);
 			return;

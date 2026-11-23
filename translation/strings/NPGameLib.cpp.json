@@ -84,7 +84,8 @@
   "keep": "binary data"
  },
  "883:27": {
-  "ko": "\u0001法\u0019張"
+  "ko": "\u0001法\u0019張",
+  "keep": "encrypted data"
  },
  "889:38": {
   "ko": "\u00018\rsyai=1I\u000ellU½y\u001cÈx\u0019Á",
@@ -199,14 +200,16 @@
   "keep": "binary data"
  },
  "989:23": {
-  "ko": "\u0001\u0003n겓M"
+  "ko": "\u0001\u0003n겓M",
+  "keep": "encrypted data"
  },
  "992:27": {
   "ko": "\u0001ò;ä¾pú/%\u0004\u0017Ê\u000e¥ãÖ\u001a",
   "keep": "binary data"
  },
  "996:23": {
-  "ko": "\u0001Zs릤5"
+  "ko": "\u0001Zs릤5",
+  "keep": "encrypted data"
  },
  "1000:27": {
   "ko": "\u0001.ï\u001c\u0019ñ§ÐKðxW^°ºo\u0003Ï\u0016Çj Å\u0016þ®",
@@ -289,7 +292,8 @@
   "keep": "binary data"
  },
  "1127:23": {
-  "ko": "\u0001q퇭5u"
+  "ko": "\u0001q퇭5u",
+  "keep": "encrypted data"
  },
  "1130:23": {
   "ko": "\u0001©`Ay8hA\u001e\u0018ù'}\u0001ÖQ{m\\©Ñh2>L",

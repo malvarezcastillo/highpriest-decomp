@@ -1,74 +1,98 @@
 {
  "162:16": {
-  "ko": "[SAVE] 데이타가 저장 되었습니다"
+  "ko": "[SAVE] 데이타가 저장 되었습니다",
+  "en": "[SAVE] Data has been saved"
  },
  "403:15": {
-  "ko": "시간이 날때 틈틈히 만든 미니 RPG 입니다. 제가 그래픽은 전혀 할줄 모르는 관계로..."
+  "ko": "시간이 날때 틈틈히 만든 미니 RPG 입니다. 제가 그래픽은 전혀 할줄 모르는 관계로...",
+  "en": "A mini RPG I made in my spare time. Since I can't do graphics at all..."
  },
  "405:15": {
-  "ko": "타이틀화면은 홈피에 올라왔던 팬아트중에 하나 찍었으며.. orz"
+  "ko": "타이틀화면은 홈피에 올라왔던 팬아트중에 하나 찍었으며.. orz",
+  "en": "I took the title screen from fan art on the homepage.. orz"
  },
  "407:15": {
-  "ko": "그래픽은 라그나로크 온라인의 그래픽 그대로 입니다"
+  "ko": "그래픽은 라그나로크 온라인의 그래픽 그대로 입니다",
+  "en": "The graphics are Ragnarok Online's own graphics"
  },
  "409:15": {
-  "ko": "혹시라도 취향에 않맞으셔도 첫판 보스까지는 깨주시면 감사하겠습니다 ㅠ_ㅠ"
+  "ko": "혹시라도 취향에 않맞으셔도 첫판 보스까지는 깨주시면 감사하겠습니다 ㅠ_ㅠ",
+  "en": "Even if it's not your taste, please beat at least the first boss T_T"
  },
  "411:15": {
-  "ko": "                                Game Designed & Programmed by Si-Yeon Kim (김시연) tei2000kim@hanmail.net"
+  "ko": "                                Game Designed & Programmed by Si-Yeon Kim (김시연) tei2000kim@hanmail.net",
+  "keep": "credit line, already in English, with the author's name in Hangul"
  },
  "415:15": {
-  "ko": "스크롤이 끝난후 A버튼을 누르면 타이틀 화면으로 돌아갑니다"
+  "ko": "스크롤이 끝난후 A버튼을 누르면 타이틀 화면으로 돌아갑니다",
+  "en": "When the scroll ends, press A to return to the title screen"
  },
  "421:15": {
-  "ko": "결국 타나토스를 퇴치할수있었고 프론테라를 비롯한 모든 마을에 평화가 찾아옵니다"
+  "ko": "결국 타나토스를 퇴치할수있었고 프론테라를 비롯한 모든 마을에 평화가 찾아옵니다",
+  "en": "Thanatos was finally defeated, and peace came to Prontera and every town"
  },
  "423:15": {
-  "ko": "이렇게 하이프리스트 %s의 모험은 여기서 끝납니다"
+  "ko": "이렇게 하이프리스트 %s의 모험은 여기서 끝납니다",
+  "en": "And so the adventure of High Priest %s ends here"
  },
  "425:15": {
-  "ko": "그런데 꼭 카카로트군의 희생이 필요했을까요?"
+  "ko": "그런데 꼭 카카로트군의 희생이 필요했을까요?",
+  "en": "But was Kakarot's sacrifice really necessary?"
  },
  "427:15": {
-  "ko": "카카로트군과의 호감도를 최대치로 만들면 좀 다른 일이 벌어질지도 모릅니다"
+  "ko": "카카로트군과의 호감도를 최대치로 만들면 좀 다른 일이 벌어질지도 모릅니다",
+  "en": "Max out your affection with Kakarot and something different may happen"
  },
  "429:16": {
-  "ko": "클리어파일로 새로 시작하시면 렙120 까지는 경험치 5배모드 입니다."
+  "ko": "클리어파일로 새로 시작하시면 렙120 까지는 경험치 5배모드 입니다.",
+  "en": "Start a new game from a clear file for 5x EXP mode up to Lv 120."
  },
  "431:15": {
-  "ko": "                                Game Designed & Programmed by Si-Yeon Kim (김시연) tei2000kim@hanmail.net"
+  "ko": "                                Game Designed & Programmed by Si-Yeon Kim (김시연) tei2000kim@hanmail.net",
+  "keep": "credit line, already in English, with the author's name in Hangul"
  },
  "438:14": {
-  "ko": "그렇게 힘들게 둘은 타나토스를 퇴치했고 프론테라를 비롯한 모든 마을에 평화가 찾아옵니다"
+  "ko": "그렇게 힘들게 둘은 타나토스를 퇴치했고 프론테라를 비롯한 모든 마을에 평화가 찾아옵니다",
+  "en": "After a hard fight the two beat Thanatos, and peace came to Prontera and every town"
  },
  "440:14": {
-  "ko": "이렇게 %s과 카카로트군의 모험은 여기서 행복하게 끝납니다"
+  "ko": "이렇게 %s과 카카로트군의 모험은 여기서 행복하게 끝납니다",
+  "en": "And so %s and Kakarot's adventure ends happily here"
  },
  "442:14": {
-  "ko": "하이프리스트로 전직도 하지않고 둘의 힘을 합해서 타나토스를 처치하다니..."
+  "ko": "하이프리스트로 전직도 하지않고 둘의 힘을 합해서 타나토스를 처치하다니...",
+  "en": "Defeating Thanatos together without even becoming a High Priest..."
  },
  "444:14": {
-  "ko": "저 아가씨의 부모님은 정말 대단하신거 같네요 ^^;   멋져요 !!"
+  "ko": "저 아가씨의 부모님은 정말 대단하신거 같네요 ^^;   멋져요 !!",
+  "en": "That young lady's parents must be amazing ^^;   Awesome !!"
  },
  "446:14": {
-  "ko": "                                Game Designed & Programmed by Si-Yeon Kim (김시연) tei2000kim@hanmail.net"
+  "ko": "                                Game Designed & Programmed by Si-Yeon Kim (김시연) tei2000kim@hanmail.net",
+  "keep": "credit line, already in English, with the author's name in Hangul"
  },
  "450:14": {
-  "ko": "                  남는 시간에 틈틈히 만든 미니RPG 인지라 좀 더 멋진 엔딩 준비 못해서 죄송합니다 ㅠ_ㅠ"
+  "ko": "                  남는 시간에 틈틈히 만든 미니RPG 인지라 좀 더 멋진 엔딩 준비 못해서 죄송합니다 ㅠ_ㅠ",
+  "en": "                  This mini RPG was made in spare time, so sorry I couldn't make a nicer ending T_T"
  },
  "514:18": {
-  "ko": "下"
+  "ko": "下",
+  "en": "Easy"
  },
  "516:18": {
-  "ko": "中"
+  "ko": "中",
+  "en": "Normal"
  },
  "518:18": {
-  "ko": "上"
+  "ko": "上",
+  "en": "Hard"
  },
  "523:4": {
-  "ko": "[CLEAR]  Day  %d  %s  Lv.%d  %02d:%02d  난이도 %s"
+  "ko": "[CLEAR]  Day  %d  %s  Lv.%d  %02d:%02d  난이도 %s",
+  "en": "[CLEAR]  Day  %d  %s  Lv.%d  %02d:%02d  Difficulty %s"
  },
  "528:4": {
-  "ko": "[%s]  Day  %d  %s  Lv.%d  %02d:%02d  난이도 %s"
+  "ko": "[%s]  Day  %d  %s  Lv.%d  %02d:%02d  난이도 %s",
+  "en": "[%s]  Day  %d  %s  Lv.%d  %02d:%02d  Difficulty %s"
  }
 }

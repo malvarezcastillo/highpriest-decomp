@@ -1,8 +1,10 @@
 {
  "215:20": {
-  "ko": "워터\\water%d%02d.jpg"
+  "ko": "워터\\water%d%02d.jpg",
+  "keep": "file name in the game data"
  },
  "220:21": {
-  "ko": "워터\\water%d%02d.jpg"
+  "ko": "워터\\water%d%02d.jpg",
+  "keep": "file name in the game data"
  }
 }

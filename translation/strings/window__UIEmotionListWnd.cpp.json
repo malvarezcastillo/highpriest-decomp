@@ -1,26 +1,34 @@
 {
  "31:26": {
-  "ko": "유저인터페이스\\basic_interface\\sys_"
+  "ko": "유저인터페이스\\basic_interface\\sys_",
+  "keep": "file name in the game data"
  },
  "48:36": {
-  "ko": "이팩트\\emotion.spr"
+  "ko": "이팩트\\emotion.spr",
+  "keep": "file name in the game data"
  },
  "49:37": {
-  "ko": "이팩트\\emotion_index3.act"
+  "ko": "이팩트\\emotion_index3.act",
+  "keep": "file name in the game data"
  },
  "164:53": {
-  "ko": "유저인터페이스\\basic_interface\\titlebar_left.bmp"
+  "ko": "유저인터페이스\\basic_interface\\titlebar_left.bmp",
+  "keep": "file name in the game data"
  },
  "167:41": {
-  "ko": "유저인터페이스\\basic_interface\\titlebar_right.bmp"
+  "ko": "유저인터페이스\\basic_interface\\titlebar_right.bmp",
+  "keep": "file name in the game data"
  },
  "172:42": {
-  "ko": "유저인터페이스\\basic_interface\\titlebar_mid.bmp"
+  "ko": "유저인터페이스\\basic_interface\\titlebar_mid.bmp",
+  "keep": "file name in the game data"
  },
  "187:2": {
-  "ko": "유저인터페이스\\sysboxs_ld.bmp"
+  "ko": "유저인터페이스\\sysboxs_ld.bmp",
+  "keep": "file name in the game data"
  },
  "188:2": {
-  "ko": "유저인터페이스\\sysboxs_rd.bmp"
+  "ko": "유저인터페이스\\sysboxs_rd.bmp",
+  "keep": "file name in the game data"
  }
 }

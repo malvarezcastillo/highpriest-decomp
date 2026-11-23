@@ -1,140 +1,186 @@
 {
  "85:23": {
-  "ko": "유저인터페이스\\"
+  "ko": "유저인터페이스\\",
+  "keep": "file name in the game data"
  },
  "103:3": {
-  "ko": "유저인터페이스\\checkbox_1.bmp"
+  "ko": "유저인터페이스\\checkbox_1.bmp",
+  "keep": "file name in the game data"
  },
  "104:3": {
-  "ko": "유저인터페이스\\checkbox_0.bmp"
+  "ko": "유저인터페이스\\checkbox_0.bmp",
+  "keep": "file name in the game data"
  },
  "164:36": {
-  "ko": "유저인터페이스\\login_interface\\selCharForIntergration.bmp"
+  "ko": "유저인터페이스\\login_interface\\selCharForIntergration.bmp",
+  "keep": "file name in the game data"
  },
  "462:23": {
-  "ko": "유저인터페이스\\"
+  "ko": "유저인터페이스\\",
+  "keep": "file name in the game data"
  },
  "476:23": {
-  "ko": "유저인터페이스\\"
+  "ko": "유저인터페이스\\",
+  "keep": "file name in the game data"
  },
  "492:27": {
-  "ko": "유저인터페이스\\login_interface\\name-edit.bmp"
+  "ko": "유저인터페이스\\login_interface\\name-edit.bmp",
+  "keep": "file name in the game data"
  },
  "505:52": {
-  "ko": "유저인터페이스\\login_interface\\change_name.bmp"
+  "ko": "유저인터페이스\\login_interface\\change_name.bmp",
+  "keep": "file name in the game data"
  },
  "531:46": {
-  "ko": "그라비티"
+  "ko": "그라비티",
+  "keep": "comparison key or registry path"
  },
  "589:22": {
-  "ko": "유저인터페이스\\"
+  "ko": "유저인터페이스\\",
+  "keep": "file name in the game data"
  },
  "624:53": {
-  "ko": "유저인터페이스\\win_msgbox1.bmp"
+  "ko": "유저인터페이스\\win_msgbox1.bmp",
+  "keep": "file name in the game data"
  },
  "711:23": {
-  "ko": "유저인터페이스\\basic_interface\\stickoff"
+  "ko": "유저인터페이스\\basic_interface\\stickoff",
+  "keep": "file name in the game data"
  },
  "724:23": {
-  "ko": "유저인터페이스\\basic_interface\\battle_option"
+  "ko": "유저인터페이스\\basic_interface\\battle_option",
+  "keep": "file name in the game data"
  },
  "762:22": {
-  "ko": "유저인터페이스\\basic_interface\\dialog_mid.bmp"
+  "ko": "유저인터페이스\\basic_interface\\dialog_mid.bmp",
+  "keep": "file name in the game data"
  },
  "768:22": {
-  "ko": "유저인터페이스\\basic_interface\\"
+  "ko": "유저인터페이스\\basic_interface\\",
+  "keep": "file name in the game data"
  },
  "1023:54": {
-  "ko": "유저인터페이스\\basic_interface\\dialog_bg2.bmp"
+  "ko": "유저인터페이스\\basic_interface\\dialog_bg2.bmp",
+  "keep": "file name in the game data"
  },
  "1028:53": {
-  "ko": "유저인터페이스\\basic_interface\\dialog_bg.bmp"
+  "ko": "유저인터페이스\\basic_interface\\dialog_bg.bmp",
+  "keep": "file name in the game data"
  },
  "1485:23": {
-  "ko": "유저인터페이스\\basic_interface\\stickon"
+  "ko": "유저인터페이스\\basic_interface\\stickon",
+  "keep": "file name in the game data"
  },
  "1498:23": {
-  "ko": "유저인터페이스\\basic_interface\\battle_option"
+  "ko": "유저인터페이스\\basic_interface\\battle_option",
+  "keep": "file name in the game data"
  },
  "1511:23": {
-  "ko": "유저인터페이스\\basic_interface\\wnd_mini"
+  "ko": "유저인터페이스\\basic_interface\\wnd_mini",
+  "keep": "file name in the game data"
  },
  "1530:22": {
-  "ko": "유저인터페이스\\btn_resize.bmp"
+  "ko": "유저인터페이스\\btn_resize.bmp",
+  "keep": "file name in the game data"
  },
  "1801:43": {
-  "ko": "유저인터페이스\\basic_interface\\st_a.tga"
+  "ko": "유저인터페이스\\basic_interface\\st_a.tga",
+  "keep": "file name in the game data"
  },
  "1803:43": {
-  "ko": "유저인터페이스\\basic_interface\\st_b.tga"
+  "ko": "유저인터페이스\\basic_interface\\st_b.tga",
+  "keep": "file name in the game data"
  },
  "1807:43": {
-  "ko": "유저인터페이스\\basic_interface\\bt_a.tga"
+  "ko": "유저인터페이스\\basic_interface\\bt_a.tga",
+  "keep": "file name in the game data"
  },
  "1809:43": {
-  "ko": "유저인터페이스\\basic_interface\\bt_b.tga"
+  "ko": "유저인터페이스\\basic_interface\\bt_b.tga",
+  "keep": "file name in the game data"
  },
  "1888:24": {
-  "ko": "유저인터페이스\\basic_interface\\sys_"
+  "ko": "유저인터페이스\\basic_interface\\sys_",
+  "keep": "file name in the game data"
  },
  "1908:53": {
-  "ko": "유저인터페이스\\basic_interface\\titlebar_left.bmp"
+  "ko": "유저인터페이스\\basic_interface\\titlebar_left.bmp",
+  "keep": "file name in the game data"
  },
  "1911:41": {
-  "ko": "유저인터페이스\\basic_interface\\titlebar_right.bmp"
+  "ko": "유저인터페이스\\basic_interface\\titlebar_right.bmp",
+  "keep": "file name in the game data"
  },
  "1916:42": {
-  "ko": "유저인터페이스\\basic_interface\\titlebar_mid.bmp"
+  "ko": "유저인터페이스\\basic_interface\\titlebar_mid.bmp",
+  "keep": "file name in the game data"
  },
  "1931:42": {
-  "ko": "유저인터페이스\\basic_interface\\itemwin_left.bmp"
+  "ko": "유저인터페이스\\basic_interface\\itemwin_left.bmp",
+  "keep": "file name in the game data"
  },
  "1937:42": {
-  "ko": "유저인터페이스\\basic_interface\\itemwin_right.bmp"
+  "ko": "유저인터페이스\\basic_interface\\itemwin_right.bmp",
+  "keep": "file name in the game data"
  },
  "1944:41": {
-  "ko": "유저인터페이스\\basic_interface\\btnbar_left.bmp"
+  "ko": "유저인터페이스\\basic_interface\\btnbar_left.bmp",
+  "keep": "file name in the game data"
  },
  "1947:41": {
-  "ko": "유저인터페이스\\basic_interface\\btnbar_right.bmp"
+  "ko": "유저인터페이스\\basic_interface\\btnbar_right.bmp",
+  "keep": "file name in the game data"
  },
  "1952:42": {
-  "ko": "유저인터페이스\\basic_interface\\btnbar_mid.bmp"
+  "ko": "유저인터페이스\\basic_interface\\btnbar_mid.bmp",
+  "keep": "file name in the game data"
  },
  "1980:43": {
-  "ko": "유저인터페이스\\basic_interface\\grp_online.bmp"
+  "ko": "유저인터페이스\\basic_interface\\grp_online.bmp",
+  "keep": "file name in the game data"
  },
  "1982:43": {
-  "ko": "유저인터페이스\\basic_interface\\grp_offline.bmp"
+  "ko": "유저인터페이스\\basic_interface\\grp_offline.bmp",
+  "keep": "file name in the game data"
  },
  "2163:25": {
-  "ko": "유저인터페이스\\basic_interface\\sys_"
+  "ko": "유저인터페이스\\basic_interface\\sys_",
+  "keep": "file name in the game data"
  },
  "2191:53": {
-  "ko": "유저인터페이스\\basic_interface\\shortitem_bg.bmp"
+  "ko": "유저인터페이스\\basic_interface\\shortitem_bg.bmp",
+  "keep": "file name in the game data"
  },
  "2639:25": {
-  "ko": "유저인터페이스\\basic_interface\\sys_"
+  "ko": "유저인터페이스\\basic_interface\\sys_",
+  "keep": "file name in the game data"
  },
  "2655:23": {
-  "ko": "유저인터페이스\\"
+  "ko": "유저인터페이스\\",
+  "keep": "file name in the game data"
  },
  "2771:41": {
-  "ko": "유저인터페이스\\titlebarmap.bmp"
+  "ko": "유저인터페이스\\titlebarmap.bmp",
+  "keep": "file name in the game data"
  },
  "2772:38": {
-  "ko": "유저인터페이스\\worldmap.bmp"
+  "ko": "유저인터페이스\\worldmap.bmp",
+  "keep": "file name in the game data"
  },
  "2780:25": {
-  "ko": "유저인터페이스\\basic_interface\\world_"
+  "ko": "유저인터페이스\\basic_interface\\world_",
+  "keep": "file name in the game data"
  },
  "2916:29": {
-  "ko": "유저인터페이스\\map\\"
+  "ko": "유저인터페이스\\map\\",
+  "keep": "file name in the game data"
  },
  "2950:29": {
-  "ko": "★"
+  "ko": "★",
+  "keep": "symbol, no words"
  },
  "2954:56": {
-  "ko": "★"
+  "ko": "★",
+  "keep": "symbol, no words"
  }
 }

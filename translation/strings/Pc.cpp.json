@@ -3,141 +3,187 @@
   "ko": "무기 번호 - %d, 직업 - %d"
  },
  "358:19": {
-  "ko": "인간족\\%s%s%s.act"
+  "ko": "인간족\\%s%s%s.act",
+  "keep": "file name in the game data"
  },
  "361:19": {
-  "ko": "인간족\\%s%s%s.spr"
+  "ko": "인간족\\%s%s%s.spr",
+  "keep": "file name in the game data"
  },
  "383:21": {
-  "ko": "인간족\\%s%s%s_검광.act"
+  "ko": "인간족\\%s%s%s_검광.act",
+  "keep": "file name in the game data"
  },
  "385:21": {
-  "ko": "인간족\\%s%s%s_검광.spr"
+  "ko": "인간족\\%s%s%s_검광.spr",
+  "keep": "file name in the game data"
  },
  "1692:22": {
-  "ko": "_요정의귀"
+  "ko": "_요정의귀",
+  "keep": "part of a sprite, palette or accessory file name"
  },
  "1694:22": {
-  "ko": "_눈가리개"
+  "ko": "_눈가리개",
+  "keep": "part of a sprite, palette or accessory file name"
  },
  "1696:22": {
-  "ko": "_헬름"
+  "ko": "_헬름",
+  "keep": "part of a sprite, palette or accessory file name"
  },
  "1700:18": {
-  "ko": "sprite\\악세사리\\%s\\%s%s.act"
+  "ko": "sprite\\악세사리\\%s\\%s%s.act",
+  "keep": "file name in the game data"
  },
  "1702:18": {
-  "ko": "sprite\\악세사리\\%s\\%s%s.spr"
+  "ko": "sprite\\악세사리\\%s\\%s%s.spr",
+  "keep": "file name in the game data"
  },
  "1715:38": {
-  "ko": "이팩트\\orcface.act"
+  "ko": "이팩트\\orcface.act",
+  "keep": "file name in the game data"
  },
  "1716:38": {
-  "ko": "이팩트\\orcface.spr"
+  "ko": "이팩트\\orcface.spr",
+  "keep": "file name in the game data"
  },
  "2740:49": {
-  "ko": "인간족\\몸통\\남\\운영자2_남.Spr"
+  "ko": "인간족\\몸통\\남\\운영자2_남.Spr",
+  "keep": "file name in the game data"
  },
  "2742:49": {
-  "ko": "인간족\\몸통\\여\\운영자2_여.Spr"
+  "ko": "인간족\\몸통\\여\\운영자2_여.Spr",
+  "keep": "file name in the game data"
  },
  "2746:49": {
-  "ko": "인간족\\운영자\\운영자2_남_검.Spr"
+  "ko": "인간족\\운영자\\운영자2_남_검.Spr",
+  "keep": "file name in the game data"
  },
  "2748:49": {
-  "ko": "인간족\\운영자\\운영자2_여_검.Spr"
+  "ko": "인간족\\운영자\\운영자2_여_검.Spr",
+  "keep": "file name in the game data"
  },
  "2762:49": {
-  "ko": "인간족\\몸통\\남\\운영자_남.Spr"
+  "ko": "인간족\\몸통\\남\\운영자_남.Spr",
+  "keep": "file name in the game data"
  },
  "2764:49": {
-  "ko": "인간족\\몸통\\여\\운영자_여.Spr"
+  "ko": "인간족\\몸통\\여\\운영자_여.Spr",
+  "keep": "file name in the game data"
  },
  "2768:49": {
-  "ko": "인간족\\운영자\\운영자_남_검.Spr"
+  "ko": "인간족\\운영자\\운영자_남_검.Spr",
+  "keep": "file name in the game data"
  },
  "2770:49": {
-  "ko": "인간족\\운영자\\운영자_여_검.Spr"
+  "ko": "인간족\\운영자\\운영자_여_검.Spr",
+  "keep": "file name in the game data"
  },
  "2813:49": {
-  "ko": "인간족\\몸통\\남\\운영자2_남.Act"
+  "ko": "인간족\\몸통\\남\\운영자2_남.Act",
+  "keep": "file name in the game data"
  },
  "2815:49": {
-  "ko": "인간족\\몸통\\여\\운영자2_여.Act"
+  "ko": "인간족\\몸통\\여\\운영자2_여.Act",
+  "keep": "file name in the game data"
  },
  "2819:49": {
-  "ko": "인간족\\운영자\\운영자2_남_검.Act"
+  "ko": "인간족\\운영자\\운영자2_남_검.Act",
+  "keep": "file name in the game data"
  },
  "2821:49": {
-  "ko": "인간족\\운영자\\운영자2_여_검.Act"
+  "ko": "인간족\\운영자\\운영자2_여_검.Act",
+  "keep": "file name in the game data"
  },
  "2836:49": {
-  "ko": "인간족\\몸통\\남\\운영자_남.Act"
+  "ko": "인간족\\몸통\\남\\운영자_남.Act",
+  "keep": "file name in the game data"
  },
  "2838:49": {
-  "ko": "인간족\\몸통\\여\\운영자_여.Act"
+  "ko": "인간족\\몸통\\여\\운영자_여.Act",
+  "keep": "file name in the game data"
  },
  "2842:49": {
-  "ko": "인간족\\운영자\\운영자_남_검.Act"
+  "ko": "인간족\\운영자\\운영자_남_검.Act",
+  "keep": "file name in the game data"
  },
  "2844:49": {
-  "ko": "인간족\\운영자\\운영자_여_검.Act"
+  "ko": "인간족\\운영자\\운영자_여_검.Act",
+  "keep": "file name in the game data"
  },
  "2899:18": {
-  "ko": "인간족\\몸통\\%s\\%s%s.spr"
+  "ko": "인간족\\몸통\\%s\\%s%s.spr",
+  "keep": "file name in the game data"
  },
  "2927:18": {
-  "ko": "인간족\\몸통\\%s\\%s%s.act"
+  "ko": "인간족\\몸통\\%s\\%s%s.act",
+  "keep": "file name in the game data"
  },
  "2949:30": {
-  "ko": "%s%s_발광.act"
+  "ko": "%s%s_발광.act",
+  "keep": "file name in the game data"
  },
  "2951:30": {
-  "ko": "%s%s_발광.spr"
+  "ko": "%s%s_발광.spr",
+  "keep": "file name in the game data"
  },
  "2968:29": {
-  "ko": "%s%s_발광.act"
+  "ko": "%s%s_발광.act",
+  "keep": "file name in the game data"
  },
  "2970:29": {
-  "ko": "%s%s_발광.spr"
+  "ko": "%s%s_발광.spr",
+  "keep": "file name in the game data"
  },
  "3005:30": {
-  "ko": "%s%s%s_검광.act"
+  "ko": "%s%s%s_검광.act",
+  "keep": "file name in the game data"
  },
  "3007:30": {
-  "ko": "%s%s%s_검광.spr"
+  "ko": "%s%s%s_검광.spr",
+  "keep": "file name in the game data"
  },
  "3081:30": {
-  "ko": "%s%s_%d_검광.act"
+  "ko": "%s%s_%d_검광.act",
+  "keep": "file name in the game data"
  },
  "3083:31": {
-  "ko": "%s%s%s_검광.act"
+  "ko": "%s%s%s_검광.act",
+  "keep": "file name in the game data"
  },
  "3085:31": {
-  "ko": "%s%s%s_검광.spr"
+  "ko": "%s%s%s_검광.spr",
+  "keep": "file name in the game data"
  },
  "3088:31": {
-  "ko": "%s%s_%d_검광.act"
+  "ko": "%s%s_%d_검광.act",
+  "keep": "file name in the game data"
  },
  "3090:31": {
-  "ko": "%s%s_%d_검광.spr"
+  "ko": "%s%s_%d_검광.spr",
+  "keep": "file name in the game data"
  },
  "3149:30": {
-  "ko": "%s%s_%d_검광.act"
+  "ko": "%s%s_%d_검광.act",
+  "keep": "file name in the game data"
  },
  "3151:31": {
-  "ko": "%s%s%s_검광.act"
+  "ko": "%s%s%s_검광.act",
+  "keep": "file name in the game data"
  },
  "3153:31": {
-  "ko": "%s%s%s_검광.spr"
+  "ko": "%s%s%s_검광.spr",
+  "keep": "file name in the game data"
  },
  "3156:31": {
-  "ko": "%s%s_%d_검광.act"
+  "ko": "%s%s_%d_검광.act",
+  "keep": "file name in the game data"
  },
  "3158:31": {
-  "ko": "%s%s_%d_검광.spr"
+  "ko": "%s%s_%d_검광.spr",
+  "keep": "file name in the game data"
  },
  "3401:20": {
-  "ko": "SWM@hd기본_3.gr2"
+  "ko": "SWM@hd기본_3.gr2",
+  "keep": "file name in the game data"
  }
 }

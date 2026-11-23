@@ -40,13 +40,13 @@ IDI_ICON2               ICON    DISCARDABLE     "icon2.ico"
 IDD_EXCEPTION_DIALOG DIALOG DISCARDABLE  0, 0, 215, 161
 STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
 CAPTION "Gravity(tm) Error Handler"
-FONT 9, "굴림"
+FONT 9, "Tahoma"
 BEGIN
-    DEFPUSHBUTTON   "복사",IDCOPY,158,7,50,14
-    DEFPUSHBUTTON   "종료",IDEXIT,158,25,50,14
+    DEFPUSHBUTTON   "Copy",IDCOPY,158,7,50,14
+    DEFPUSHBUTTON   "Exit",IDEXIT,158,25,50,14
     EDITTEXT        IDC_EXCEPTION,7,43,201,110,ES_MULTILINE | ES_READONLY |
                     WS_VSCROLL
-    LTEXT           " 예상치 못한 에러로 프로그램을 종료합니다. 아래 정보를 라그나로크 운영팀에게 보내주시면 빠른 시일내에 수정하도록 하겠습니다.\r\n(복사 버튼을 누르면 클립보드로 복사됩니다.)",
+    LTEXT           " The program is closing after an unexpected error. Send the details below to the Ragnarok team and it will be fixed soon.\r\n(Copy puts them on the clipboard.)",
                     IDC_STATIC,7,7,143,32
 END
 

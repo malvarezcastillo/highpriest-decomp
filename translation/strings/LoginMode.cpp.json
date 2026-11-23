@@ -1,30 +1,36 @@
 {
  "375:24": {
-  "ko": "유저인터페이스\\login_interface\\warning.bmp"
+  "ko": "유저인터페이스\\login_interface\\warning.bmp",
+  "keep": "file name in the game data"
  },
  "377:24": {
-  "ko": "유저인터페이스\\login_interface\\warning.bmp"
+  "ko": "유저인터페이스\\login_interface\\warning.bmp",
+  "keep": "file name in the game data"
  },
  "455:45": {
-  "ko": "테일링"
+  "ko": "테일링",
+  "keep": "comparison key or registry path"
  },
  "456:78": {
   "ko": "리디아+펜릴"
  },
  "457:50": {
-  "ko": "글라리스"
+  "ko": "글라리스",
+  "keep": "comparison key or registry path"
  },
  "458:78": {
   "ko": "아이리스+토르"
  },
  "459:50": {
-  "ko": "소린"
+  "ko": "소린",
+  "keep": "comparison key or registry path"
  },
  "460:78": {
   "ko": "로키+발두르"
  },
  "461:50": {
-  "ko": "디포르테"
+  "ko": "디포르테",
+  "keep": "comparison key or registry path"
  },
  "462:78": {
   "ko": "케이아스+오딘"

@@ -1,23 +1,30 @@
 {
  "64:37": {
-  "ko": "몬스터\\freezer.spr"
+  "ko": "몬스터\\freezer.spr",
+  "keep": "file name in the game data"
  },
  "65:37": {
-  "ko": "몬스터\\freezer.act"
+  "ko": "몬스터\\freezer.act",
+  "keep": "file name in the game data"
  },
  "66:37": {
-  "ko": "몬스터\\garden_keeper.spr"
+  "ko": "몬스터\\garden_keeper.spr",
+  "keep": "file name in the game data"
  },
  "67:37": {
-  "ko": "몬스터\\garden_keeper.act"
+  "ko": "몬스터\\garden_keeper.act",
+  "keep": "file name in the game data"
  },
  "68:37": {
-  "ko": "몬스터\\geographer.spr"
+  "ko": "몬스터\\geographer.spr",
+  "keep": "file name in the game data"
  },
  "69:37": {
-  "ko": "몬스터\\geographer.act"
+  "ko": "몬스터\\geographer.act",
+  "keep": "file name in the game data"
  },
  "354:13": {
-  "ko": "effect\\버서크.wav"
+  "ko": "effect\\버서크.wav",
+  "keep": "file name in the game data"
  }
 }

@@ -1,11 +1,14 @@
 {
  "194:14": {
-  "ko": "유저인터페이스\\bgi_temp.bmp"
+  "ko": "유저인터페이스\\bgi_temp.bmp",
+  "keep": "file name in the game data"
  },
  "319:17": {
-  "ko": "유저인터페이스\\%s"
+  "ko": "유저인터페이스\\%s",
+  "keep": "file name in the game data"
  },
  "688:15": {
-  "ko": "유저인터페이스\\하프0206.jpg"
+  "ko": "유저인터페이스\\하프0206.jpg",
+  "keep": "file name in the game data"
  }
 }

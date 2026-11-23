@@ -1,419 +1,558 @@
 {
  "1182:21": {
-  "ko": "이팩트\\sakura01.spr"
+  "ko": "이팩트\\sakura01.spr",
+  "keep": "file name in the game data"
  },
  "1183:21": {
-  "ko": "이팩트\\sakura01.act"
+  "ko": "이팩트\\sakura01.act",
+  "keep": "file name in the game data"
  },
  "1239:22": {
-  "ko": "이팩트\\sakura01.spr"
+  "ko": "이팩트\\sakura01.spr",
+  "keep": "file name in the game data"
  },
  "1240:22": {
-  "ko": "이팩트\\sakura01.act"
+  "ko": "이팩트\\sakura01.act",
+  "keep": "file name in the game data"
  },
  "1288:21": {
-  "ko": "이팩트\\단풍.act"
+  "ko": "이팩트\\단풍.act",
+  "keep": "file name in the game data"
  },
  "1289:21": {
-  "ko": "이팩트\\단풍.spr"
+  "ko": "이팩트\\단풍.spr",
+  "keep": "file name in the game data"
  },
  "1350:22": {
-  "ko": "이팩트\\유령.spr"
+  "ko": "이팩트\\유령.spr",
+  "keep": "file name in the game data"
  },
  "1351:22": {
-  "ko": "이팩트\\유령.act"
+  "ko": "이팩트\\유령.act",
+  "keep": "file name in the game data"
  },
  "1357:22": {
-  "ko": "이팩트\\박쥐.spr"
+  "ko": "이팩트\\박쥐.spr",
+  "keep": "file name in the game data"
  },
  "1358:22": {
-  "ko": "이팩트\\박쥐.act"
+  "ko": "이팩트\\박쥐.act",
+  "keep": "file name in the game data"
  },
  "1402:22": {
-  "ko": "이팩트\\particle1.spr"
+  "ko": "이팩트\\particle1.spr",
+  "keep": "file name in the game data"
  },
  "1403:22": {
-  "ko": "이팩트\\particle1.act"
+  "ko": "이팩트\\particle1.act",
+  "keep": "file name in the game data"
  },
  "1444:23": {
-  "ko": "이팩트\\particle1.spr"
+  "ko": "이팩트\\particle1.spr",
+  "keep": "file name in the game data"
  },
  "1445:23": {
-  "ko": "이팩트\\particle1.act"
+  "ko": "이팩트\\particle1.act",
+  "keep": "file name in the game data"
  },
  "1485:22": {
-  "ko": "이팩트\\천사.spr"
+  "ko": "이팩트\\천사.spr",
+  "keep": "file name in the game data"
  },
  "1486:22": {
-  "ko": "이팩트\\천사.act"
+  "ko": "이팩트\\천사.act",
+  "keep": "file name in the game data"
  },
  "1494:22": {
-  "ko": "이팩트\\천사날개.spr"
+  "ko": "이팩트\\천사날개.spr",
+  "keep": "file name in the game data"
  },
  "1495:22": {
-  "ko": "이팩트\\천사날개.act"
+  "ko": "이팩트\\천사날개.act",
+  "keep": "file name in the game data"
  },
  "1503:22": {
-  "ko": "이팩트\\깃털1.spr"
+  "ko": "이팩트\\깃털1.spr",
+  "keep": "file name in the game data"
  },
  "1504:22": {
-  "ko": "이팩트\\깃털1.act"
+  "ko": "이팩트\\깃털1.act",
+  "keep": "file name in the game data"
  },
  "1514:22": {
-  "ko": "이팩트\\깃털2.spr"
+  "ko": "이팩트\\깃털2.spr",
+  "keep": "file name in the game data"
  },
  "1515:22": {
-  "ko": "이팩트\\깃털2.act"
+  "ko": "이팩트\\깃털2.act",
+  "keep": "file name in the game data"
  },
  "1524:22": {
-  "ko": "이팩트\\깃털3.spr"
+  "ko": "이팩트\\깃털3.spr",
+  "keep": "file name in the game data"
  },
  "1525:22": {
-  "ko": "이팩트\\깃털3.act"
+  "ko": "이팩트\\깃털3.act",
+  "keep": "file name in the game data"
  },
  "1532:22": {
-  "ko": "이팩트\\한복천사.spr"
+  "ko": "이팩트\\한복천사.spr",
+  "keep": "file name in the game data"
  },
  "1533:22": {
-  "ko": "이팩트\\한복천사.act"
+  "ko": "이팩트\\한복천사.act",
+  "keep": "file name in the game data"
  },
  "1542:22": {
-  "ko": "이팩트\\한복천사(날개).spr"
+  "ko": "이팩트\\한복천사(날개).spr",
+  "keep": "file name in the game data"
  },
  "1543:22": {
-  "ko": "이팩트\\한복천사(날개).act"
+  "ko": "이팩트\\한복천사(날개).act",
+  "keep": "file name in the game data"
  },
  "2278:46": {
-  "ko": "유저인터페이스\\item\\하얀허브.bmp"
+  "ko": "유저인터페이스\\item\\하얀허브.bmp",
+  "keep": "file name in the game data"
  },
  "2283:46": {
-  "ko": "유저인터페이스\\item\\화이트슬림포션.bmp"
+  "ko": "유저인터페이스\\item\\화이트슬림포션.bmp",
+  "keep": "file name in the game data"
  },
  "2290:47": {
-  "ko": "유저인터페이스\\item\\화염병.bmp"
+  "ko": "유저인터페이스\\item\\화염병.bmp",
+  "keep": "file name in the game data"
  },
  "2292:47": {
-  "ko": "유저인터페이스\\item\\염산병.bmp"
+  "ko": "유저인터페이스\\item\\염산병.bmp",
+  "keep": "file name in the game data"
  },
  "2294:47": {
-  "ko": "유저인터페이스\\item\\알코올.bmp"
+  "ko": "유저인터페이스\\item\\알코올.bmp",
+  "keep": "file name in the game data"
  },
  "2387:11": {
-  "ko": "effect\\폭죽.wav"
+  "ko": "effect\\폭죽.wav",
+  "keep": "file name in the game data"
  },
  "16442:47": {
-  "ko": "effect\\레드젬스톤.bmp"
+  "ko": "effect\\레드젬스톤.bmp",
+  "keep": "file name in the game data"
  },
  "16444:47": {
-  "ko": "effect\\블루젬스톤.bmp"
+  "ko": "effect\\블루젬스톤.bmp",
+  "keep": "file name in the game data"
  },
  "16446:47": {
-  "ko": "effect\\옐로우젬스톤.bmp"
+  "ko": "effect\\옐로우젬스톤.bmp",
+  "keep": "file name in the game data"
  },
  "18548:12": {
-  "ko": "effect\\흡기.wav"
+  "ko": "effect\\흡기.wav",
+  "keep": "file name in the game data"
  },
  "20752:21": {
-  "ko": "이팩트\\particle1.spr"
+  "ko": "이팩트\\particle1.spr",
+  "keep": "file name in the game data"
  },
  "20753:21": {
-  "ko": "이팩트\\particle1.act"
+  "ko": "이팩트\\particle1.act",
+  "keep": "file name in the game data"
  },
  "21042:12": {
-  "ko": "effect\\mon_탄지신통.wav"
+  "ko": "effect\\mon_탄지신통.wav",
+  "keep": "file name in the game data"
  },
  "21392:12": {
-  "ko": "effect\\mon_침투경.wav"
+  "ko": "effect\\mon_침투경.wav",
+  "keep": "file name in the game data"
  },
  "21419:22": {
-  "ko": "이팩트\\침투경_.spr"
+  "ko": "이팩트\\침투경_.spr",
+  "keep": "file name in the game data"
  },
  "21420:22": {
-  "ko": "이팩트\\침투경_.act"
+  "ko": "이팩트\\침투경_.act",
+  "keep": "file name in the game data"
  },
  "21427:22": {
-  "ko": "이팩트\\wink.spr"
+  "ko": "이팩트\\wink.spr",
+  "keep": "file name in the game data"
  },
  "21428:22": {
-  "ko": "이팩트\\wink.act"
+  "ko": "이팩트\\wink.act",
+  "keep": "file name in the game data"
  },
  "21436:22": {
-  "ko": "이팩트\\fvoice.spr"
+  "ko": "이팩트\\fvoice.spr",
+  "keep": "file name in the game data"
  },
  "21437:22": {
-  "ko": "이팩트\\fvoice.act"
+  "ko": "이팩트\\fvoice.act",
+  "keep": "file name in the game data"
  },
  "21506:21": {
-  "ko": "이팩트\\데몬스트레이션.spr"
+  "ko": "이팩트\\데몬스트레이션.spr",
+  "keep": "file name in the game data"
  },
  "21507:21": {
-  "ko": "이팩트\\데몬스트레이션.act"
+  "ko": "이팩트\\데몬스트레이션.act",
+  "keep": "file name in the game data"
  },
  "21552:22": {
-  "ko": "이팩트\\cconfine.spr"
+  "ko": "이팩트\\cconfine.spr",
+  "keep": "file name in the game data"
  },
  "21553:22": {
-  "ko": "이팩트\\cconfine.act"
+  "ko": "이팩트\\cconfine.act",
+  "keep": "file name in the game data"
  },
  "21561:22": {
-  "ko": "이팩트\\스톱.spr"
+  "ko": "이팩트\\스톱.spr",
+  "keep": "file name in the game data"
  },
  "21562:22": {
-  "ko": "이팩트\\스톱.act"
+  "ko": "이팩트\\스톱.act",
+  "keep": "file name in the game data"
  },
  "21604:21": {
-  "ko": "이팩트\\ring.spr"
+  "ko": "이팩트\\ring.spr",
+  "keep": "file name in the game data"
  },
  "21605:21": {
-  "ko": "이팩트\\ring.act"
+  "ko": "이팩트\\ring.act",
+  "keep": "file name in the game data"
  },
  "24358:23": {
-  "ko": "이팩트\\캐슬링.spr"
+  "ko": "이팩트\\캐슬링.spr",
+  "keep": "file name in the game data"
  },
  "24359:23": {
-  "ko": "이팩트\\캐슬링.act"
+  "ko": "이팩트\\캐슬링.act",
+  "keep": "file name in the game data"
  },
  "24367:23": {
-  "ko": "이팩트\\블러드러스트.spr"
+  "ko": "이팩트\\블러드러스트.spr",
+  "keep": "file name in the game data"
  },
  "24368:23": {
-  "ko": "이팩트\\블러드러스트.act"
+  "ko": "이팩트\\블러드러스트.act",
+  "keep": "file name in the game data"
  },
  "24373:23": {
-  "ko": "이팩트\\item_thunder.spr"
+  "ko": "이팩트\\item_thunder.spr",
+  "keep": "file name in the game data"
  },
  "24374:23": {
-  "ko": "이팩트\\item_thunder.act"
+  "ko": "이팩트\\item_thunder.act",
+  "keep": "file name in the game data"
  },
  "24377:23": {
-  "ko": "이팩트\\item_cloud.spr"
+  "ko": "이팩트\\item_cloud.spr",
+  "keep": "file name in the game data"
  },
  "24378:23": {
-  "ko": "이팩트\\item_cloud.act"
+  "ko": "이팩트\\item_cloud.act",
+  "keep": "file name in the game data"
  },
  "24381:23": {
-  "ko": "이팩트\\item_curse.spr"
+  "ko": "이팩트\\item_curse.spr",
+  "keep": "file name in the game data"
  },
  "24382:23": {
-  "ko": "이팩트\\item_curse.act"
+  "ko": "이팩트\\item_curse.act",
+  "keep": "file name in the game data"
  },
  "24385:23": {
-  "ko": "이팩트\\item_zzz.spr"
+  "ko": "이팩트\\item_zzz.spr",
+  "keep": "file name in the game data"
  },
  "24386:23": {
-  "ko": "이팩트\\item_zzz.act"
+  "ko": "이팩트\\item_zzz.act",
+  "keep": "file name in the game data"
  },
  "24389:23": {
-  "ko": "이팩트\\item_rain.spr"
+  "ko": "이팩트\\item_rain.spr",
+  "keep": "file name in the game data"
  },
  "24390:23": {
-  "ko": "이팩트\\item_rain.act"
+  "ko": "이팩트\\item_rain.act",
+  "keep": "file name in the game data"
  },
  "24399:23": {
-  "ko": "이팩트\\m_ef01.spr"
+  "ko": "이팩트\\m_ef01.spr",
+  "keep": "file name in the game data"
  },
  "24400:23": {
-  "ko": "이팩트\\m_ef01.act"
+  "ko": "이팩트\\m_ef01.act",
+  "keep": "file name in the game data"
  },
  "24409:23": {
-  "ko": "이팩트\\m_ef02.spr"
+  "ko": "이팩트\\m_ef02.spr",
+  "keep": "file name in the game data"
  },
  "24410:23": {
-  "ko": "이팩트\\m_ef02.act"
+  "ko": "이팩트\\m_ef02.act",
+  "keep": "file name in the game data"
  },
  "24438:23": {
-  "ko": "이팩트\\m_ef04.spr"
+  "ko": "이팩트\\m_ef04.spr",
+  "keep": "file name in the game data"
  },
  "24439:23": {
-  "ko": "이팩트\\m_ef04.act"
+  "ko": "이팩트\\m_ef04.act",
+  "keep": "file name in the game data"
  },
  "24444:23": {
-  "ko": "이팩트\\m_ef03.spr"
+  "ko": "이팩트\\m_ef03.spr",
+  "keep": "file name in the game data"
  },
  "24445:23": {
-  "ko": "이팩트\\m_ef03.act"
+  "ko": "이팩트\\m_ef03.act",
+  "keep": "file name in the game data"
  },
  "24449:23": {
-  "ko": "이팩트\\m_ef05.spr"
+  "ko": "이팩트\\m_ef05.spr",
+  "keep": "file name in the game data"
  },
  "24450:23": {
-  "ko": "이팩트\\m_ef05.act"
+  "ko": "이팩트\\m_ef05.act",
+  "keep": "file name in the game data"
  },
  "24454:23": {
-  "ko": "이팩트\\m_ef06.spr"
+  "ko": "이팩트\\m_ef06.spr",
+  "keep": "file name in the game data"
  },
  "24455:23": {
-  "ko": "이팩트\\m_ef06.act"
+  "ko": "이팩트\\m_ef06.act",
+  "keep": "file name in the game data"
  },
  "24459:23": {
-  "ko": "이팩트\\m_ef07.spr"
+  "ko": "이팩트\\m_ef07.spr",
+  "keep": "file name in the game data"
  },
  "24460:23": {
-  "ko": "이팩트\\m_ef07.act"
+  "ko": "이팩트\\m_ef07.act",
+  "keep": "file name in the game data"
  },
  "24464:23": {
-  "ko": "이팩트\\합격_.spr"
+  "ko": "이팩트\\합격_.spr",
+  "keep": "file name in the game data"
  },
  "24465:23": {
-  "ko": "이팩트\\합격_.act"
+  "ko": "이팩트\\합격_.act",
+  "keep": "file name in the game data"
  },
  "24472:23": {
-  "ko": "이팩트\\그림자베기.spr"
+  "ko": "이팩트\\그림자베기.spr",
+  "keep": "file name in the game data"
  },
  "24473:23": {
-  "ko": "이팩트\\그림자베기.act"
+  "ko": "이팩트\\그림자베기.act",
+  "keep": "file name in the game data"
  },
  "24489:23": {
-  "ko": "이팩트\\다다미.spr"
+  "ko": "이팩트\\다다미.spr",
+  "keep": "file name in the game data"
  },
  "24490:23": {
-  "ko": "이팩트\\다다미.act"
+  "ko": "이팩트\\다다미.act",
+  "keep": "file name in the game data"
  },
  "24501:23": {
-  "ko": "이팩트\\안개베기.spr"
+  "ko": "이팩트\\안개베기.spr",
+  "keep": "file name in the game data"
  },
  "24502:23": {
-  "ko": "이팩트\\안개베기.act"
+  "ko": "이팩트\\안개베기.act",
+  "keep": "file name in the game data"
  },
  "24516:23": {
-  "ko": "이팩트\\일섬.spr"
+  "ko": "이팩트\\일섬.spr",
+  "keep": "file name in the game data"
  },
  "24517:23": {
-  "ko": "이팩트\\일섬.act"
+  "ko": "이팩트\\일섬.act",
+  "keep": "file name in the game data"
  },
  "24530:23": {
-  "ko": "이팩트\\화염진.spr"
+  "ko": "이팩트\\화염진.spr",
+  "keep": "file name in the game data"
  },
  "24531:23": {
-  "ko": "이팩트\\화염진.act"
+  "ko": "이팩트\\화염진.act",
+  "keep": "file name in the game data"
  },
  "24542:23": {
-  "ko": "이팩트\\데스페라도.spr"
+  "ko": "이팩트\\데스페라도.spr",
+  "keep": "file name in the game data"
  },
  "24543:23": {
-  "ko": "이팩트\\데스페라도.act"
+  "ko": "이팩트\\데스페라도.act",
+  "keep": "file name in the game data"
  },
  "24555:23": {
-  "ko": "이팩트\\라이트닝스피어.spr"
+  "ko": "이팩트\\라이트닝스피어.spr",
+  "keep": "file name in the game data"
  },
  "24556:23": {
-  "ko": "이팩트\\라이트닝스피어.act"
+  "ko": "이팩트\\라이트닝스피어.act",
+  "keep": "file name in the game data"
  },
  "24568:23": {
-  "ko": "이팩트\\블라인드스피어.spr"
+  "ko": "이팩트\\블라인드스피어.spr",
+  "keep": "file name in the game data"
  },
  "24569:23": {
-  "ko": "이팩트\\블라인드스피어.act"
+  "ko": "이팩트\\블라인드스피어.act",
+  "keep": "file name in the game data"
  },
  "24581:23": {
-  "ko": "이팩트\\포이즌스피어.spr"
+  "ko": "이팩트\\포이즌스피어.spr",
+  "keep": "file name in the game data"
  },
  "24582:23": {
-  "ko": "이팩트\\포이즌스피어.act"
+  "ko": "이팩트\\포이즌스피어.act",
+  "keep": "file name in the game data"
  },
  "24594:23": {
-  "ko": "이팩트\\프리징스피어.spr"
+  "ko": "이팩트\\프리징스피어.spr",
+  "keep": "file name in the game data"
  },
  "24595:23": {
-  "ko": "이팩트\\프리징스피어.act"
+  "ko": "이팩트\\프리징스피어.act",
+  "keep": "file name in the game data"
  },
  "24607:23": {
-  "ko": "이팩트\\플레어스피어.spr"
+  "ko": "이팩트\\플레어스피어.spr",
+  "keep": "file name in the game data"
  },
  "24608:23": {
-  "ko": "이팩트\\플레어스피어.act"
+  "ko": "이팩트\\플레어스피어.act",
+  "keep": "file name in the game data"
  },
  "24618:23": {
-  "ko": "이팩트\\래피드샤워.spr"
+  "ko": "이팩트\\래피드샤워.spr",
+  "keep": "file name in the game data"
  },
  "24619:23": {
-  "ko": "이팩트\\래피드샤워.act"
+  "ko": "이팩트\\래피드샤워.act",
+  "keep": "file name in the game data"
  },
  "24628:23": {
-  "ko": "이팩트\\매지컬불릿.spr"
+  "ko": "이팩트\\매지컬불릿.spr",
+  "keep": "file name in the game data"
  },
  "24629:23": {
-  "ko": "이팩트\\매지컬불릿.act"
+  "ko": "이팩트\\매지컬불릿.act",
+  "keep": "file name in the game data"
  },
  "24641:23": {
-  "ko": "이팩트\\스프레드.spr"
+  "ko": "이팩트\\스프레드.spr",
+  "keep": "file name in the game data"
  },
  "24642:23": {
-  "ko": "이팩트\\스프레드.act"
+  "ko": "이팩트\\스프레드.act",
+  "keep": "file name in the game data"
  },
  "24672:23": {
-  "ko": "이팩트\\트래킹.spr"
+  "ko": "이팩트\\트래킹.spr",
+  "keep": "file name in the game data"
  },
  "24673:23": {
-  "ko": "이팩트\\트래킹.act"
+  "ko": "이팩트\\트래킹.act",
+  "keep": "file name in the game data"
  },
  "24682:23": {
-  "ko": "이팩트\\트리플액션.spr"
+  "ko": "이팩트\\트리플액션.spr",
+  "keep": "file name in the game data"
  },
  "24683:23": {
-  "ko": "이팩트\\트리플액션.act"
+  "ko": "이팩트\\트리플액션.act",
+  "keep": "file name in the game data"
  },
  "24692:23": {
-  "ko": "이팩트\\어스퀘이크.spr"
+  "ko": "이팩트\\어스퀘이크.spr",
+  "keep": "file name in the game data"
  },
  "24693:23": {
-  "ko": "이팩트\\어스퀘이크.act"
+  "ko": "이팩트\\어스퀘이크.act",
+  "keep": "file name in the game data"
  },
  "24702:23": {
-  "ko": "이팩트\\폭죽_러브.spr"
+  "ko": "이팩트\\폭죽_러브.spr",
+  "keep": "file name in the game data"
  },
  "24703:23": {
-  "ko": "이팩트\\폭죽_러브.act"
+  "ko": "이팩트\\폭죽_러브.act",
+  "keep": "file name in the game data"
  },
  "24713:23": {
-  "ko": "이팩트\\폭죽_화이트데이.spr"
+  "ko": "이팩트\\폭죽_화이트데이.spr",
+  "keep": "file name in the game data"
  },
  "24714:23": {
-  "ko": "이팩트\\폭죽_화이트데이.act"
+  "ko": "이팩트\\폭죽_화이트데이.act",
+  "keep": "file name in the game data"
  },
  "24724:23": {
-  "ko": "이팩트\\폭죽_발렌타인.spr"
+  "ko": "이팩트\\폭죽_발렌타인.spr",
+  "keep": "file name in the game data"
  },
  "24725:23": {
-  "ko": "이팩트\\폭죽_발렌타인.act"
+  "ko": "이팩트\\폭죽_발렌타인.act",
+  "keep": "file name in the game data"
  },
  "24735:23": {
-  "ko": "이팩트\\폭죽_생일.spr"
+  "ko": "이팩트\\폭죽_생일.spr",
+  "keep": "file name in the game data"
  },
  "24736:23": {
-  "ko": "이팩트\\폭죽_생일.act"
+  "ko": "이팩트\\폭죽_생일.act",
+  "keep": "file name in the game data"
  },
  "24746:23": {
-  "ko": "이팩트\\폭죽_크리스마스.spr"
+  "ko": "이팩트\\폭죽_크리스마스.spr",
+  "keep": "file name in the game data"
  },
  "24747:23": {
-  "ko": "이팩트\\폭죽_크리스마스.act"
+  "ko": "이팩트\\폭죽_크리스마스.act",
+  "keep": "file name in the game data"
  },
  "24780:45": {
-  "ko": "effect\\썬더스톰파티클.tga"
+  "ko": "effect\\썬더스톰파티클.tga",
+  "keep": "file name in the game data"
  },
  "24841:22": {
-  "ko": "이팩트\\05vallentine.spr"
+  "ko": "이팩트\\05vallentine.spr",
+  "keep": "file name in the game data"
  },
  "24842:22": {
-  "ko": "이팩트\\05vallentine.act"
+  "ko": "이팩트\\05vallentine.act",
+  "keep": "file name in the game data"
  },
  "24848:22": {
-  "ko": "이팩트\\fast.spr"
+  "ko": "이팩트\\fast.spr",
+  "keep": "file name in the game data"
  },
  "24849:22": {
-  "ko": "이팩트\\fast.act"
+  "ko": "이팩트\\fast.act",
+  "keep": "file name in the game data"
  },
  "24858:22": {
-  "ko": "이팩트\\ro2effect.spr"
+  "ko": "이팩트\\ro2effect.spr",
+  "keep": "file name in the game data"
  },
  "24859:22": {
-  "ko": "이팩트\\ro2effect.act"
+  "ko": "이팩트\\ro2effect.act",
+  "keep": "file name in the game data"
  },
  "24866:22": {
-  "ko": "이팩트\\vallentine.spr"
+  "ko": "이팩트\\vallentine.spr",
+  "keep": "file name in the game data"
  },
  "24867:22": {
-  "ko": "이팩트\\vallentine.act"
+  "ko": "이팩트\\vallentine.act",
+  "keep": "file name in the game data"
  }
 }

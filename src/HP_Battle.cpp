@@ -547,7 +547,7 @@ void UIWindowMgr::Aco_Battle()
 			g_session.SetStatusData(AcoActor);
 		} else {
 			char msg[256];
-			sprintf(msg, "\xb5\xfe\xc0\xc7 SP\xb0\xa1 \xba\xce\xc1\xb7\xc7\xd8\xbc\xad \xbd\xba\xc5\xb3\xc0\xbb \xbe\xb5\xbc\xf6\xbe\xf8\xbd\xc0\xb4\xcf\xb4\xd9");
+			sprintf(msg, "Not enough SP for your daughter's skill");
 			g_windowMgr.SendMsg(UIM_PUSHINTOCHATHISTORY, (int)msg, 0xc8c8ff, 0, 0);
 			PASS = 0;
 		}
@@ -706,7 +706,7 @@ void UIWindowMgr::Help_Battle()
 			MobActor->LaunchEffect(0x24d);
 		} else if (action == 10) {
 			HelpActor->SendMsg(NULL, AM_CHAT,
-				(int)"\xba\xb8\xbd\xba\xb4\xc2 \xb9\xab\xbc\xad\xbf\xf6 \xa4\xd0_\xa4\xd0",
+				(int)"Bosses are scary T_T",
 				0, 0);
 			HelpActor->SendMsg(NULL, AM_EMOTION, 0x1c, 0, 0);
 		}
@@ -915,10 +915,10 @@ void UIWindowMgr::Mob_Battle()
 			AttackDamage = 0;
 			PASS = 3;
 			if (MobActor->GetJob() == 0x6c5) {
-				MobActor->SendMsg(NULL, AM_CHAT, (int)"\xc5\xa9\xc0\xb9.. \xbe\xc6\xbc\xf6\xb6\xf3\xb0\xa1 \xc4\xb5\xbd\xbd\xb5\xc7\xb4\xd9\xb4\xcf !!", 0, 0);
+				MobActor->SendMsg(NULL, AM_CHAT, (int)"Argh.. Guillotine Fist canceled !!", 0, 0);
 				MobActor->SendMsg(NULL, AM_EMOTION, 0, 0, 0);
 			} else if (MobActor->GetJob() == 0x6f9) {
-				MobActor->SendMsg(NULL, AM_CHAT, (int)"\xbe\xc6\xc4\xda\xc4\xe2\xb1\xa4, \xbe\xc6\xc7\xc1\xb4\xd9 \xa4\xd0_\xa4\xd0", 0, 0);
+				MobActor->SendMsg(NULL, AM_CHAT, (int)"Aco Kaboom, ouch T_T", 0, 0);
 				MobActor->SendMsg(NULL, AM_EMOTION, 0x1c, 0, 0);
 			} else {
 				MobActor->SendMsg(NULL, AM_EMOTION, 0x1c, 0, 0);
@@ -926,16 +926,16 @@ void UIWindowMgr::Mob_Battle()
 		} else if (Mob_SKID == 0x40e) {
 			AttackDamage = 0;
 			PASS = 3;
-			MobActor->SendMsg(NULL, AM_CHAT, (int)"\xbe\xc7\xbc\xbc\xbb\xe7\xb8\xae\xb5\xe9\xbf\xa1 \xb4\xab\xc0\xcc \xb0\xa1\xb3\xd7\xbf\xe4~", 0, 0);
+			MobActor->SendMsg(NULL, AM_CHAT, (int)"Your accessories catch my eye~", 0, 0);
 			MobActor->SendMsg(NULL, AM_EMOTION, 0x1f, 0, 0);
 		} else if (Mob_SKID == 0x403) {
 			AttackDamage = 0;
 			PASS = 4;
-			MobActor->SendMsg(NULL, AM_CHAT, (int)"\xbe\xc6\xbc\xf6\xb6\xf3 ...", 0, 0);
+			MobActor->SendMsg(NULL, AM_CHAT, (int)"Guillotine Fist ...", 0, 0);
 		} else if (Mob_SKID == 0x404) {
 			AttackDamage = 0;
 			PASS = 4;
-			MobActor->SendMsg(NULL, AM_CHAT, (int)"\xc7\xcf\xbe\xc6\xbe\xc6\xbe\xd1", 0, 0);
+			MobActor->SendMsg(NULL, AM_CHAT, (int)"Haaaaah", 0, 0);
 		} else if (Mob_SKID == 0x1c) {
 			PASS = 2;
 			AttackDamage = -1;
@@ -994,7 +994,7 @@ void UIWindowMgr::Mob_Battle()
 		} else if (Mob_SKID == 0x400) {
 			AttackDamage = 0;
 			PASS = 4;
-			MobActor->SendMsg(NULL, AM_CHAT, (int)"\xa4\xbb\xa4\xbb\xa4\xbb \xb0\xa3\xc1\xf6\xb7\xb4\xb1\xba...", 0, 0);
+			MobActor->SendMsg(NULL, AM_CHAT, (int)"Hehe, that tickles...", 0, 0);
 			g_MainNextActTime = timeGetTime() + 5000;
 			g_MobNextOutTime = timeGetTime() + 2000;
 		} else if (Mob_SKID == 0x401) {
@@ -1091,7 +1091,7 @@ void UIWindowMgr::Mob_Battle()
 			gameMode->GetWorld()->MakeSkill(0x7f, 0x11, -rand() % 2);
 			gameMode->GetWorld()->MakeSkill(0x7f, 0x12, -rand() % 2);
 			g_session.MoveItemFromEquipWndToItemWnd(2);
-			AcoActor->SendMsg(NULL, AM_CHAT, (int)"\xb6\xdf\xb0\xc5\xbf\xf6\xbc\xad \xb9\xab\xb1\xe2\xb8\xa6 \xb3\xf5\xc3\xc6\xbe\xee\xbf\xe4. \xb4\xd9\xbd\xc3 \xc0\xe5\xba\xf1\xb8\xa6 \xc7\xd8\xbe\xdf\xb5\xc7\xb4\xc2\xb5\xa5... ", 0, 0);
+			AcoActor->SendMsg(NULL, AM_CHAT, (int)"So hot, I dropped my weapon. I need to re-equip it... ", 0, 0);
 			AcoActor->SendMsg(NULL, AM_EMOTION, 0x1c, 0, 0);
 			PASS = 1;
 			g_MainNextActTime = timeGetTime() + 2000;
@@ -1142,7 +1142,7 @@ void UIWindowMgr::Mob_Battle()
 			CRagEffect* effect = MobActor->LaunchEffect(0x83);
 			if (effect)
 				effect->SendMsg(MobActor, AM_SET_MASTER_POINTER, 0, 0, 0);
-			MobActor->SendMsg(NULL, AM_CHAT, (int)"\xc4\xab\xbf\xee\xc5\xcd \xc1\xd8\xba\xf1 \xbf\xcf\xb7\xe1", 0, 0);
+			MobActor->SendMsg(NULL, AM_CHAT, (int)"Counter ready", 0, 0);
 			g_MainNextActTime = timeGetTime() + 1500;
 		} else if (Mob_SKID == 0x17b) {
 			AttackDamage = BasicDamage * 9 - AcoDefense;
@@ -1164,7 +1164,7 @@ void UIWindowMgr::Mob_Battle()
 			AttackDamage = 0;
 			PASS = 4;
 			gameMode->GetWorld()->MakeSkill(0x81, 0x11, 0);
-			MobActor->SendMsg(NULL, AM_CHAT, (int)"\xb6\xf5\xb5\xe5\xb1\xd7\xb8\xae\xbd\xba\xb4\xd4\xc0\xcc \xbe\xca\xb0\xe8\xbd\xc3\xb4\xc2 \xc1\xf6\xbf\xaa\xc0\xb8\xb7\xce \xb0\xa1\xc1\xd6\xbc\xbc\xbf\xe4~", 0, 0);
+			MobActor->SendMsg(NULL, AM_CHAT, (int)"Off you go, somewhere Valkyrie Randgris isn't~", 0, 0);
 			MobActor->SendMsg(NULL, AM_EMOTION, 2, 0, 0);
 			g_MainNextActTime = timeGetTime() + 5000;
 			g_MobNextOutTime = timeGetTime() + 2000;
@@ -1439,7 +1439,7 @@ void UIWindowMgr::Mob_Battle()
 			g_session.MoveItemFromEquipWndToItemWnd(1);
 			g_session.MoveItemFromEquipWndToItemWnd(0x100);
 			g_session.MoveItemFromEquipWndToItemWnd(0x200);
-			AcoActor->SendMsg(NULL, AM_CHAT, (int)"\xbe\xd1 \xb3\xbb \xb9\xab\xb1\xe2 \xa4\xd0_\xa4\xd0 \xbe\xc7\xbc\xbc\xbb\xe7\xb8\xae \xa4\xd0_\xa4\xd0 \xbe\xc8\xc1\xa9\xb7\xe7\xbd\xba \xa4\xd0_\xa4\xd0", 0, 0);
+			AcoActor->SendMsg(NULL, AM_CHAT, (int)"Ah, my weapon T_T Accessories T_T Angelus T_T", 0, 0);
 			AcoActor->SendMsg(NULL, AM_EMOTION, 0x1c, 0, 0);
 		} else if (Mob_SKID == 0x172) {
 			AttackDamage = BasicDamage * 6 - AcoDefense;
@@ -1761,9 +1761,9 @@ void UIWindowMgr::Aco_ActinField()
 		g_MainNextActTime = timeGetTime() + 1000;
 		g_MobNextOutTime = 0;
 
-		sprintf(msg, "\xb8\xb6\xbf\xec\xbd\xba \xc8\xd9\xc0\xbb \xc0\xa7\xb7\xce \xb1\xbc\xb8\xae\xb8\xe9 \xc7\xf6\xc0\xe7 \xb0\xa1\xb4\xf8 \xb1\xe6\xc0\xbb \xb0\xa9\xb4\xcf\xb4\xd9.");
+		sprintf(msg, "Roll the mouse wheel up to keep going the same way.");
 		g_windowMgr.SendMsg(UIM_PUSHINTOCHATHISTORY, (int)msg, 0xffffff, 0, 0);
-		sprintf(msg, "\xb8\xb6\xbf\xec\xbd\xba \xc8\xd9\xc0\xbb \xbe\xc6\xb7\xa1\xb7\xce \xb1\xbc\xb8\xae\xb8\xe9 \xbf\xb7\xb1\xe6\xb7\xce \xb0\xa1\xb0\xd4 \xb5\xcb\xb4\xcf\xb4\xd9.");
+		sprintf(msg, "Roll the mouse wheel down to take the side path.");
 		g_windowMgr.SendMsg(UIM_PUSHINTOCHATHISTORY, (int)msg, 0xffffff, 0, 0);
 
 		MOVESTRUCT ms;
@@ -1876,16 +1876,16 @@ void UIWindowMgr::Aco_DecideinField()
 			g_MainNextActTime = timeGetTime() + 0x1b58;
 			if (g_MobNextOutTime == 0) {
 				actor->SendMsg(NULL, AM_CHAT,
-					(int)"\xbe\xc6\xba\xfc~ \xb0\xa1\xb4\xf8\xb1\xe6\xb7\xce \xb0\xa5\xb1\xee\xbf\xe4? \xbe\xc6\xb4\xd4 \xbf\xb7\xb1\xe6\xb7\xce \xb0\xa5\xb1\xee\xbf\xe4?",
+					(int)"Dad~ Keep going, or take the side path?",
 					0, 0);
 				actor->SendMsg(NULL, AM_EMOTION, 1, 0, 0);
 			} else if (g_MobNextOutTime == 1) {
 				actor->SendMsg(NULL, AM_CHAT,
-					(int)"\xb8\xb6\xbf\xec\xbd\xba \xc8\xd9\xc0\xbb \xc0\xa7\xb7\xce \xb1\xbc\xb8\xae\xbd\xc3\xb8\xe9 \xb0\xa1\xb4\xf8\xb1\xe6\xb7\xce \xb0\xa5\xb2\xa8\xbf\xb9\xbf\xe4~",
+					(int)"Roll the wheel up and I'll keep going~",
 					0, 0);
 			} else if (g_MobNextOutTime == 2) {
 				actor->SendMsg(NULL, AM_CHAT,
-					(int)"\xb8\xb6\xbf\xec\xbd\xba \xc8\xd9\xc0\xbb \xbe\xc6\xb7\xa1\xb7\xce \xb1\xbc\xb8\xae\xbd\xc3\xb8\xe9 \xbf\xb7\xb1\xe6\xb7\xce \xb0\xa5\xb2\xa8\xbf\xb9\xbf\xe4~",
+					(int)"Roll the wheel down and I'll take the side path~",
 					0, 0);
 			}
 			++g_MobNextOutTime;
@@ -2516,9 +2516,9 @@ void UIWindowMgr::RenderMenu()
 	if (g_curScreen >= 100) {
 		if (g_curScreen == 100) {
 			RenderThreeWay(780, 190,
-				(char*)"\xc3\xb3\xc0\xbd\xba\xce\xc5\xcd",
-				(char*)"\xc0\xcc\xbe\xee\xbc\xad \xc7\xcf\xb1\xe2",
-				(char*)"\xbd\xba\xc5\xb8\xc7\xc1 \xc1\xa4\xba\xb8", 180);
+				(char*)"New Game",
+				(char*)"Continue",
+				(char*)"Credits", 180);
 		} else if (g_curScreen == 110 || g_curScreen == 120) {
 			RenderThreeWay(420, 190,
 				g_savedata[0],
@@ -2528,7 +2528,7 @@ void UIWindowMgr::RenderMenu()
 
 		RenderWhiteBlueRect(300, 15, 400, 60, 0x44ee0000, 0x33ee0000);
 		if (g_renderer->DrawScene()) {
-			sprintf(msg, "\xc7\xcf\xc0\xcc\xc7\xc1\xb8\xae\xbd\xba\xc6\xae\xb0\xa1 \xb5\xc7\xb0\xed\xbd\xcd\xbe\xee\xbf\xe4");
+			sprintf(msg, "I want to be a High Priest");
 			g_renderer->TextOutScreen(378, 35, msg, 0xffffff, 20, 1);
 		}
 
@@ -2546,51 +2546,51 @@ void UIWindowMgr::RenderMenu()
 
 	if (g_curScreen == 1) {
 		RenderThreeWay(780, 190,
-			(char*)"\xc0\xfc\xc5\xf5",
-			(char*)"\xc8\xde\xbd\xc4",
-			(char*)"\xbf\xa9\xc7\xe0", 180);
+			(char*)"Battle",
+			(char*)"Rest",
+			(char*)"Travel", 180);
 	} else if (g_curScreen == 5) {
 		if (Boy_frame == 1 && g_curStance == 4) {
 			if (Boy_talked == 4) {
 				RenderThreeWay(40, 260,
-					(char*)"\xb9\xd9\xbc\xd2\xb8\xae",
-					(char*)"\xc6\xf7\xb8\xb5",
-					(char*)"\xb0\xed\xbd\xba\xc6\xae\xb8\xb5", 180);
+					(char*)"Vadon",
+					(char*)"Poring",
+					(char*)"Ghostring", 180);
 			} else if (Boy_talked == 5) {
 				RenderThreeWay(40, 260,
-					(char*)"\xb0\xcb\xbb\xe7",
-					(char*)"\xc5\xc2\xb1\xc7\xbc\xd2\xb3\xe2",
-					(char*)"\xba\xb9\xbb\xe7", 180);
+					(char*)"Swordman",
+					(char*)"Taekwon Kid",
+					(char*)"Acolyte", 180);
 			} else if (Boy_talked == 6) {
 				RenderThreeWay(40, 260,
-					(char*)"\xbc\xd5\xbf\xc0\xb0\xf8",
-					(char*)"\xc4\xb3\xb7\xd4",
-					(char*)"\xc4\xab\xc4\xab\xb7\xce\xc6\xae", 180);
+					(char*)"Son Goku",
+					(char*)"Carrot",
+					(char*)"Kakarot", 180);
 			} else if (Boy_talked == 7) {
 				RenderThreeWay(40, 260,
-					(char*)"\xc7\xae\xc0\xd9",
-					(char*)"\xb2\xc9\xc0\xd9",
-					(char*)"\xb5\xbf\xb1\xd7\xb6\xf5\xb4\xab\xb5\xbf\xc0\xda", 180);
+					(char*)"Romantic Leaf",
+					(char*)"Romantic Flower",
+					(char*)"Round Eyes", 180);
 			} else if (Boy_talked == 8) {
 				RenderThreeWay(40, 260,
-					(char*)"\xb0\xed\xb8\xb6\xbf\xf6\xbf\xe4",
-					(char*)"\xb4\xe7\xbf\xac\xc7\xd8\xbf\xe4",
-					(char*)"\xbd\xc8\xbe\xee\xc7\xd8\xbf\xe4", 180);
+					(char*)"I'm grateful",
+					(char*)"It's natural",
+					(char*)"I dislike him", 180);
 			} else if (Boy_talked == 9) {
 				RenderThreeWay(40, 260,
-					(char*)"\xb9\xd9\xc6\xf7\xb8\xde\xc6\xae",
-					(char*)"\xc5\xb8\xb3\xaa\xc5\xe4\xbd\xba",
-					(char*)"\xbe\xc6\xc5\xa9\xbf\xa3\xc1\xa9\xb8\xb5", 180);
+					(char*)"Baphomet",
+					(char*)"Thanatos",
+					(char*)"Arc Angeling", 180);
 			} else if (Boy_talked == 10) {
 				RenderThreeWay(40, 260,
-					(char*)"\xb9\xab\xb3\xab",
-					(char*)"\xb8\xcd\xb7\xe6",
-					(char*)"\xc4\xab\xc4\xab\xb7\xce\xc6\xae", 180);
+					(char*)"Munak",
+					(char*)"Maengryong",
+					(char*)"Kakarot", 180);
 			} else if (Boy_talked == 11) {
 				RenderThreeWay(40, 260,
-					(char*)"\xbb\xe7\xb6\xfb",
-					(char*)"\xc6\xf2\xc8\xad",
-					(char*)"\xb0\xf1\xb5\xe5", 180);
+					(char*)"Love",
+					(char*)"Peace",
+					(char*)"Gold", 180);
 			}
 		}
 	} else if (g_curScreen == 12) {
@@ -2618,9 +2618,9 @@ void UIWindowMgr::RenderMenu()
 
 		if (g_curStance_B == 0) {
 			RenderThreeWay(40, 190,
-				(char*)"\xc1\xa6\xc0\xdb",
-				(char*)"\xc6\xc7\xb8\xc5",
-				(char*)"\xbc\xee\xc7\xce", 180);
+				(char*)"Forge",
+				(char*)"Sell",
+				(char*)"Shop", 180);
 		} else if (g_curStance_B == 1) {
 			if (g_WordDisplay == 1) {
 				RenderWhiteBlueRect(110, 290, 300, 80, 0x660000ff, 0x22ffffff);
@@ -2628,21 +2628,21 @@ void UIWindowMgr::RenderMenu()
 		} else if (g_curStance_B == 2) {
 			if (g_BS_phase == 3) {
 				RenderThreeWay(40, 380,
-					(char*)"\xba\xf1\xbd\xce\xb0\xd4 \xc6\xc7\xb4\xd9",
-					(char*)"\xc0\xfb\xb4\xe7\xc7\xcf\xb0\xd4 \xc6\xc7\xb4\xd9",
-					(char*)"\xbd\xce\xb0\xd4 \xc6\xc7\xb4\xd9", 180);
+					(char*)"Sell high",
+					(char*)"Sell fair",
+					(char*)"Sell cheap", 180);
 			}
 		} else if (g_curStance_B == 3) {
 			if (g_BS_phase == 3) {
 				RenderThreeWay(40, 380,
-					(char*)"\xc1\xc1\xc0\xba \xb9\xab\xb1\xe2",
-					(char*)"\xbe\xc7\xbc\xbc\xbb\xe7\xb8\xae",
-					(char*)"\xbe\xca\xbb\xe7\xbf\xe4", 180);
+					(char*)"Good weapon",
+					(char*)"Accessory",
+					(char*)"No thanks", 180);
 			} else if (g_BS_phase == 6) {
 				RenderThreeWay(40, 380,
-					(char*)"\xbb\xea\xb4\xd9",
-					(char*)"\xb1\xef\xbe\xc6\xba\xbb\xb4\xd9",
-					(char*)"\xbb\xe7\xc1\xf6\xbe\xca\xb4\xc2\xb4\xd9", 180);
+					(char*)"Buy",
+					(char*)"Haggle",
+					(char*)"Don't buy", 180);
 			}
 		}
 	}
@@ -2675,7 +2675,7 @@ void UIWindowMgr::RenderMenu()
 
 		if (g_mouse.GetLBtn() == BTN_PRESSED && g_mouse.GetRBtn() == BTN_PRESSED)
 		{
-			sprintf(msg, "X=%d, Y=%d, STORY = %d, TALK = %d, \xc8\xa3\xb0\xa8\xb5\xb5 = %d",
+			sprintf(msg, "X=%d, Y=%d, STORY = %d, TALK = %d, AFFECTION = %d",
 				g_mouse.GetXPos(), g_mouse.GetYPos(), g_curStory, Boy_talked, Boy_friendly);
 			g_renderer->TextOutScreen(0, 0, msg, 0xe1e1e1, 20, 1);
 		}
@@ -2839,13 +2839,13 @@ void UIWindowMgr::SetcurScreen(int F1)
 		CGameActor* actor = g_session.GetGameActorByAid(1);
 		if (actor) {
 			if (actor->m_Hp <= 1 && F1 == 10) {
-				actor->SendMsg(NULL, AM_CHAT, (int)"\xbd\xc8\xbe\xee\xbf\xe4~ \xa4\xd0_\xa4\xd0  \xbd\xaf\xb7\xa1\xbf\xe4", 0, 0);
+				actor->SendMsg(NULL, AM_CHAT, (int)"No~ T_T  I want to rest", 0, 0);
 				actor->SendMsg(NULL, AM_EMOTION, 0x2f, 0, 0);
 				SetcurScreen(1);
 				return;
 			}
 			if (g_curStory <= 0x5c && map_Number == 15) {
-				actor->SendMsg(NULL, AM_CHAT, (int)"\xc5\xb8\xb3\xaa\xc5\xe4\xbd\xba\xbf\xcd \xbd\xce\xbf\xec\xb1\xe2\xc0\xfc\xbf\xa1 \xc0\xfc\xc1\xf7\xc0\xbb \xc7\xd8\xbe\xdf\xb5\xc7\xbf\xa9 \xa4\xd0_\xa4\xd0", 0, 0);
+				actor->SendMsg(NULL, AM_CHAT, (int)"I must change jobs before fighting Thanatos T_T", 0, 0);
 				actor->SendMsg(NULL, AM_EMOTION, 0x1c, 0, 0);
 				SetcurScreen(1);
 				return;
@@ -2991,17 +2991,17 @@ void UIWindowMgr::SetcurScreen(int F1)
 
 		CGameActor* actor = g_session.GetGameActorByAid(1);
 		if (actor) {
-			sprintf(msg, "\xc0\xa7\xc0\xc7 \xc6\xf7\xb8\xb5\xc0\xcc \xc7\xf6\xc0\xe7 \xc7\xca\xb5\xe5\xbf\xa1\xbc\xad \xc1\xa6\xb0\xa1 \xc0\xd6\xb4\xc2 \xc0\xa7\xc4\xa1\xb8\xa6 \xc7\xa5\xbd\xc3\xc7\xd8\xc1\xd6\xb4\xc2\xb0\xc5\xbf\xb9\xbf\xe4~");
+			sprintf(msg, "The Poring above shows where I am on the field~");
 			actor->SendMsg(NULL, AM_CHAT, (int)msg, 0, 0);
-			sprintf(msg, "\xc0\xfc\xc5\xf5\xb4\xc2 \xc0\xda\xb5\xbf\xc0\xb8\xb7\xce \xc0\xcc\xb7\xe7\xbe\xee\xc1\xfd\xb4\xcf\xb4\xd9.");
+			sprintf(msg, "Battles happen automatically.");
 			g_windowMgr.SendMsg(UIM_PUSHINTOCHATHISTORY, (int)msg, 0xffffff, 0, 0);
-			sprintf(msg, "\xc7\xcf\xc1\xf6\xb8\xb8 \xbd\xba\xc5\xb3\xbb\xe7\xbf\xeb\xc0\xba \xc0\xaf\xc0\xfa\xb0\xa1 \xb8\xed\xb7\xc9\xc0\xbb \xc7\xd8\xc1\xe0\xbe\xdf \xbb\xe7\xbf\xeb\xb5\xc7\xb0\xd4\xb5\xc7\xb8\xe7");
+			sprintf(msg, "But skills are only used when the player orders them,");
 			g_windowMgr.SendMsg(UIM_PUSHINTOCHATHISTORY, (int)msg, 0xffffff, 0, 0);
-			sprintf(msg, "\xc3\xca\xb9\xdd\xbf\xa1 \xb7\xbe\xbe\xf7\xc0\xbb \xc7\xcf\xb8\xe9 \xc8\xfa \xc0\xcc\xb3\xaa \xbe\xc6\xc4\xda\xc4\xe2\xb1\xa4 \xb0\xb0\xc0\xba \xc7\xca\xbc\xf6\xbd\xba\xc5\xb3\xc0\xbb \xbd\xc0\xb5\xe6\xc7\xcf\xb0\xd4\xb5\xcb\xb4\xcf\xb4\xd9.");
+			sprintf(msg, "Leveling up early teaches essential skills like Heal and Aco Kaboom.");
 			g_windowMgr.SendMsg(UIM_PUSHINTOCHATHISTORY, (int)msg, 0xffffff, 0, 0);
-			sprintf(msg, "\xb1\xd7\xb8\xae\xb0\xed \xc7\xca\xb5\xe5\xbf\xa1\xbc\xad \xb5\xfe\xc0\xc7 \xc0\xa7\xc4\xa1\xb4\xc2 \xc0\xfc\xc5\xf5\xc8\xad\xb8\xe9 \xc0\xa7\xc2\xca\xc0\xc7 \xc6\xf7\xb8\xb5\xc0\xbb \xba\xb8\xb8\xe9 \xbe\xcb\xbc\xf6\xc0\xd6\xbd\xc0\xb4\xcf\xb4\xd9.");
+			sprintf(msg, "The Poring atop the battle screen shows where your daughter is.");
 			g_windowMgr.SendMsg(UIM_PUSHINTOCHATHISTORY, (int)msg, 0xffffff, 0, 0);
-			sprintf(msg, "\xb5\xfe\xc0\xcc \xc0\xfc\xc5\xf5\xc1\xdf\xc0\xcc\xb6\xf3 \xbd\xc9\xbd\xc9\xc7\xd2\xb6\xa7\xb4\xc2 \xc1\xa6\xc1\xb6\xb8\xa6 \xc7\xd8\xbc\xad \xb5\xb7\xc0\xbb \xb9\xf6\xb4\xc2\xb0\xd4 \xc1\xc1\xbd\xc0\xb4\xcf\xb4\xd9 ^^;");
+			sprintf(msg, "Bored while your daughter fights? Forge to earn money ^^;");
 			g_windowMgr.SendMsg(UIM_PUSHINTOCHATHISTORY, (int)msg, 0xffffff, 0, 0);
 		}
 		return;
@@ -3123,7 +3123,7 @@ void UIWindowMgr::ExeMenu()
 				if (g_selected_item > 0) {
 					SetcurStance_B(2);
 				} else {
-					sprintf(msg, "\xc6\xc8\xb8\xb8\xc7\xd1 \xb9\xab\xb1\xe2\xb0\xa1 \xbe\xf8\xb1\xba");
+					sprintf(msg, "Nothing worth selling");
 					TheActor->SendMsg(NULL, AM_CHAT, (int)msg, 0, 0);
 					TheActor->SendMsg(NULL, AM_EMOTION, 0x14, 0, 0);
 				}

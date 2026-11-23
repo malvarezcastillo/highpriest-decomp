@@ -3,18 +3,23 @@
   "ko": "안녕하세요? 카카로트입니다!"
  },
  "1832:22": {
-  "ko": "effect\\사자(A).bmp"
+  "ko": "effect\\사자(A).bmp",
+  "keep": "file name in the game data"
  },
  "1840:22": {
-  "ko": "effect\\독수리(B).bmp"
+  "ko": "effect\\독수리(B).bmp",
+  "keep": "file name in the game data"
  },
  "1847:48": {
-  "ko": "이팩트\\RankFont.act"
+  "ko": "이팩트\\RankFont.act",
+  "keep": "file name in the game data"
  },
  "1848:48": {
-  "ko": "이팩트\\RankFont.spr"
+  "ko": "이팩트\\RankFont.spr",
+  "keep": "file name in the game data"
  },
  "1941:23": {
-  "ko": "유저인터페이스\\t_12세.tga"
+  "ko": "유저인터페이스\\t_12세.tga",
+  "keep": "file name in the game data"
  }
 }

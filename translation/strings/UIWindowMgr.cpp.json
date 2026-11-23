@@ -1,17 +1,22 @@
 {
  "448:48": {
-  "ko": "사크라이"
+  "ko": "사크라이",
+  "keep": "comparison key or registry path"
  },
  "449:17": {
-  "ko": "사크라이"
+  "ko": "사크라이",
+  "keep": "comparison key or registry path"
  },
  "518:48": {
-  "ko": "사크라이"
+  "ko": "사크라이",
+  "keep": "comparison key or registry path"
  },
  "519:17": {
-  "ko": "사크라이"
+  "ko": "사크라이",
+  "keep": "comparison key or registry path"
  },
  "5555:13": {
-  "ko": "버튼소리.wav"
+  "ko": "버튼소리.wav",
+  "keep": "file name in the game data"
  }
 }

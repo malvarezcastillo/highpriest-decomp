@@ -1,173 +1,230 @@
 {
  "990:15": {
-  "ko": "effect\\화염진.wav"
+  "ko": "effect\\화염진.wav",
+  "keep": "file name in the game data"
  },
  "1085:10": {
-  "ko": "외부소품\\트랩03_3.rsm"
+  "ko": "외부소품\\트랩03_3.rsm",
+  "keep": "file name in the game data"
  },
  "1087:10": {
-  "ko": "외부소품\\트랩02.rsm"
+  "ko": "외부소품\\트랩02.rsm",
+  "keep": "file name in the game data"
  },
  "1089:10": {
-  "ko": "외부소품\\트랩01.rsm"
+  "ko": "외부소품\\트랩01.rsm",
+  "keep": "file name in the game data"
  },
  "1091:10": {
-  "ko": "외부소품\\트랩03.rsm"
+  "ko": "외부소품\\트랩03.rsm",
+  "keep": "file name in the game data"
  },
  "1093:10": {
-  "ko": "외부소품\\트랩03_6.rsm"
+  "ko": "외부소품\\트랩03_6.rsm",
+  "keep": "file name in the game data"
  },
  "1095:10": {
-  "ko": "외부소품\\트랩03_4.rsm"
+  "ko": "외부소품\\트랩03_4.rsm",
+  "keep": "file name in the game data"
  },
  "1097:10": {
-  "ko": "외부소품\\트랩03_5.rsm"
+  "ko": "외부소품\\트랩03_5.rsm",
+  "keep": "file name in the game data"
  },
  "1099:10": {
-  "ko": "외부소품\\트랩03_2.rsm"
+  "ko": "외부소품\\트랩03_2.rsm",
+  "keep": "file name in the game data"
  },
  "1101:10": {
-  "ko": "외부소품\\트랩04.rsm"
+  "ko": "외부소품\\트랩04.rsm",
+  "keep": "file name in the game data"
  },
  "1103:10": {
-  "ko": "외부소품\\트랩05.rsm"
+  "ko": "외부소품\\트랩05.rsm",
+  "keep": "file name in the game data"
  },
  "2199:20": {
-  "ko": "이팩트\\숫자.spr"
+  "ko": "이팩트\\숫자.spr",
+  "keep": "file name in the game data"
  },
  "2200:20": {
-  "ko": "이팩트\\숫자.act"
+  "ko": "이팩트\\숫자.act",
+  "keep": "file name in the game data"
  },
  "2233:19": {
-  "ko": "이팩트\\숫자.spr"
+  "ko": "이팩트\\숫자.spr",
+  "keep": "file name in the game data"
  },
  "2234:19": {
-  "ko": "이팩트\\숫자.act"
+  "ko": "이팩트\\숫자.act",
+  "keep": "file name in the game data"
  },
  "2433:12": {
-  "ko": "몬스터\\mandragora_atk.spr"
+  "ko": "몬스터\\mandragora_atk.spr",
+  "keep": "file name in the game data"
  },
  "2434:12": {
-  "ko": "몬스터\\mandragora_atk.act"
+  "ko": "몬스터\\mandragora_atk.act",
+  "keep": "file name in the game data"
  },
  "2444:12": {
-  "ko": "몬스터\\mandragora_atk.spr"
+  "ko": "몬스터\\mandragora_atk.spr",
+  "keep": "file name in the game data"
  },
  "2445:12": {
-  "ko": "몬스터\\mandragora_atk.act"
+  "ko": "몬스터\\mandragora_atk.act",
+  "keep": "file name in the game data"
  },
  "2485:14": {
-  "ko": "몬스터\\hydra_atk.spr"
+  "ko": "몬스터\\hydra_atk.spr",
+  "keep": "file name in the game data"
  },
  "2486:14": {
-  "ko": "몬스터\\hydra_atk.act"
+  "ko": "몬스터\\hydra_atk.act",
+  "keep": "file name in the game data"
  },
  "2490:14": {
-  "ko": "몬스터\\tha_odium_ef.spr"
+  "ko": "몬스터\\tha_odium_ef.spr",
+  "keep": "file name in the game data"
  },
  "2491:14": {
-  "ko": "몬스터\\tha_odium_ef.act"
+  "ko": "몬스터\\tha_odium_ef.act",
+  "keep": "file name in the game data"
  },
  "2494:14": {
-  "ko": "몬스터\\drosera_bullet.spr"
+  "ko": "몬스터\\drosera_bullet.spr",
+  "keep": "file name in the game data"
  },
  "2495:14": {
-  "ko": "몬스터\\drosera_bullet.act"
+  "ko": "몬스터\\drosera_bullet.act",
+  "keep": "file name in the game data"
  },
  "2499:14": {
-  "ko": "몬스터\\MAVKA_BULLET.spr"
+  "ko": "몬스터\\MAVKA_BULLET.spr",
+  "keep": "file name in the game data"
  },
  "2500:14": {
-  "ko": "몬스터\\MAVKA_BULLET.act"
+  "ko": "몬스터\\MAVKA_BULLET.act",
+  "keep": "file name in the game data"
  },
  "2507:14": {
-  "ko": "몬스터\\ENTWEIHEN_BULLET.spr"
+  "ko": "몬스터\\ENTWEIHEN_BULLET.spr",
+  "keep": "file name in the game data"
  },
  "2508:14": {
-  "ko": "몬스터\\ENTWEIHEN_BULLET.act"
+  "ko": "몬스터\\ENTWEIHEN_BULLET.act",
+  "keep": "file name in the game data"
  },
  "2511:14": {
-  "ko": "몬스터\\mandragora_atk.spr"
+  "ko": "몬스터\\mandragora_atk.spr",
+  "keep": "file name in the game data"
  },
  "2512:14": {
-  "ko": "몬스터\\mandragora_atk.act"
+  "ko": "몬스터\\mandragora_atk.act",
+  "keep": "file name in the game data"
  },
  "2633:15": {
-  "ko": "몬스터\\PARASITE_BULLET.spr"
+  "ko": "몬스터\\PARASITE_BULLET.spr",
+  "keep": "file name in the game data"
  },
  "2634:15": {
-  "ko": "몬스터\\PARASITE_BULLET.act"
+  "ko": "몬스터\\PARASITE_BULLET.act",
+  "keep": "file name in the game data"
  },
  "2638:15": {
-  "ko": "몬스터\\STONE_SHOOTER_BULLET.spr"
+  "ko": "몬스터\\STONE_SHOOTER_BULLET.spr",
+  "keep": "file name in the game data"
  },
  "2639:15": {
-  "ko": "몬스터\\STONE_SHOOTER_BULLET.act"
+  "ko": "몬스터\\STONE_SHOOTER_BULLET.act",
+  "keep": "file name in the game data"
  },
  "2643:15": {
-  "ko": "몬스터\\WOOTAN_SHOOTER_BULLET.spr"
+  "ko": "몬스터\\WOOTAN_SHOOTER_BULLET.spr",
+  "keep": "file name in the game data"
  },
  "2644:15": {
-  "ko": "몬스터\\WOOTAN_SHOOTER_BULLET.act"
+  "ko": "몬스터\\WOOTAN_SHOOTER_BULLET.act",
+  "keep": "file name in the game data"
  },
  "2648:15": {
-  "ko": "몬스터\\PEACH_TREE_BULLET.spr"
+  "ko": "몬스터\\PEACH_TREE_BULLET.spr",
+  "keep": "file name in the game data"
  },
  "2649:15": {
-  "ko": "몬스터\\PEACH_TREE_BULLET.act"
+  "ko": "몬스터\\PEACH_TREE_BULLET.act",
+  "keep": "file name in the game data"
  },
  "2653:15": {
-  "ko": "몬스터\\GINSENG_BULLET.spr"
+  "ko": "몬스터\\GINSENG_BULLET.spr",
+  "keep": "file name in the game data"
  },
  "2654:15": {
-  "ko": "몬스터\\GINSENG_BULLET.act"
+  "ko": "몬스터\\GINSENG_BULLET.act",
+  "keep": "file name in the game data"
  },
  "2658:15": {
-  "ko": "몬스터\\CANON_BULLET.spr"
+  "ko": "몬스터\\CANON_BULLET.spr",
+  "keep": "file name in the game data"
  },
  "2659:15": {
-  "ko": "몬스터\\CANON_BULLET.act"
+  "ko": "몬스터\\CANON_BULLET.act",
+  "keep": "file name in the game data"
  },
  "2663:15": {
-  "ko": "몬스터\\CANON_BULLET_1.spr"
+  "ko": "몬스터\\CANON_BULLET_1.spr",
+  "keep": "file name in the game data"
  },
  "2664:15": {
-  "ko": "몬스터\\CANON_BULLET_1.act"
+  "ko": "몬스터\\CANON_BULLET_1.act",
+  "keep": "file name in the game data"
  },
  "2668:15": {
-  "ko": "몬스터\\CANON_BULLET_2.spr"
+  "ko": "몬스터\\CANON_BULLET_2.spr",
+  "keep": "file name in the game data"
  },
  "2669:15": {
-  "ko": "몬스터\\CANON_BULLET_2.act"
+  "ko": "몬스터\\CANON_BULLET_2.act",
+  "keep": "file name in the game data"
  },
  "2673:15": {
-  "ko": "몬스터\\CANON_BULLET_3.spr"
+  "ko": "몬스터\\CANON_BULLET_3.spr",
+  "keep": "file name in the game data"
  },
  "2674:15": {
-  "ko": "몬스터\\CANON_BULLET_3.act"
+  "ko": "몬스터\\CANON_BULLET_3.act",
+  "keep": "file name in the game data"
  },
  "2678:15": {
-  "ko": "몬스터\\LADY_TANEE_BULLET.spr"
+  "ko": "몬스터\\LADY_TANEE_BULLET.spr",
+  "keep": "file name in the game data"
  },
  "2679:15": {
-  "ko": "몬스터\\LADY_TANEE_BULLET.act"
+  "ko": "몬스터\\LADY_TANEE_BULLET.act",
+  "keep": "file name in the game data"
  },
  "2683:15": {
-  "ko": "몬스터\\RAGGED_ZOMBIE_BULLET.spr"
+  "ko": "몬스터\\RAGGED_ZOMBIE_BULLET.spr",
+  "keep": "file name in the game data"
  },
  "2684:15": {
-  "ko": "몬스터\\RAGGED_ZOMBIE_BULLET.act"
+  "ko": "몬스터\\RAGGED_ZOMBIE_BULLET.act",
+  "keep": "file name in the game data"
  },
  "2688:15": {
-  "ko": "몬스터\\skel_archer_arrow.spr"
+  "ko": "몬스터\\skel_archer_arrow.spr",
+  "keep": "file name in the game data"
  },
  "2689:15": {
-  "ko": "몬스터\\skel_archer_arrow.act"
+  "ko": "몬스터\\skel_archer_arrow.act",
+  "keep": "file name in the game data"
  },
  "2708:14": {
-  "ko": "몬스터\\skel_archer_arrow.spr"
+  "ko": "몬스터\\skel_archer_arrow.spr",
+  "keep": "file name in the game data"
  },
  "2709:14": {
-  "ko": "몬스터\\skel_archer_arrow.act"
+  "ko": "몬스터\\skel_archer_arrow.act",
+  "keep": "file name in the game data"
  }
 }

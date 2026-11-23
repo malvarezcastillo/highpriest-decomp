@@ -145,10 +145,12 @@
   "en": "<<   Click where you want to train   >>"
  },
  "396:15": {
-  "ko": "유저인터페이스\\worldmap.bmp"
+  "ko": "유저인터페이스\\worldmap.bmp",
+  "keep": "file name in the game data"
  },
  "407:16": {
-  "ko": "유저인터페이스\\엠브리오.bmp"
+  "ko": "유저인터페이스\\엠브리오.bmp",
+  "keep": "file name in the game data"
  },
  "446:23": {
   "ko": "페이욘",
@@ -191,19 +193,24 @@
   "en": "Death Tower"
  },
  "539:16": {
-  "ko": "유저인터페이스\\HP_Payon.bmp"
+  "ko": "유저인터페이스\\HP_Payon.bmp",
+  "keep": "file name in the game data"
  },
  "541:16": {
-  "ko": "유저인터페이스\\HP_Morocc.bmp"
+  "ko": "유저인터페이스\\HP_Morocc.bmp",
+  "keep": "file name in the game data"
  },
  "543:16": {
-  "ko": "유저인터페이스\\HP_Yuno.bmp"
+  "ko": "유저인터페이스\\HP_Yuno.bmp",
+  "keep": "file name in the game data"
  },
  "545:16": {
-  "ko": "유저인터페이스\\HP_Veins.bmp"
+  "ko": "유저인터페이스\\HP_Veins.bmp",
+  "keep": "file name in the game data"
  },
  "547:16": {
-  "ko": "유저인터페이스\\게프필드480.jpg"
+  "ko": "유저인터페이스\\게프필드480.jpg",
+  "keep": "file name in the game data"
  },
  "600:18": {
   "ko": "보고싶네요..  그가..",
@@ -622,425 +629,555 @@
   "en": "Hi Kakarot~"
  },
  "1142:18": {
-  "ko": "기사로 전직을 하려고 하는데.. 전직하려면 몇몇 아이템이 필요하네요..."
+  "ko": "기사로 전직을 하려고 하는데.. 전직하려면 몇몇 아이템이 필요하네요...",
+  "en": "I want to become a Knight.. but I need a few items to change jobs..."
  },
  "1147:18": {
-  "ko": "어떤 아이템이예요? 제가 구할수있는거면 저도 도와드릴께요~"
+  "ko": "어떤 아이템이예요? 제가 구할수있는거면 저도 도와드릴께요~",
+  "en": "What items? If I can find them, I'll help you too~"
  },
  "1151:18": {
-  "ko": "지금 남은게 아이언케인 하고 좋은 검 이네요."
+  "ko": "지금 남은게 아이언케인 하고 좋은 검 이네요.",
+  "en": "Only an Iron Cain and a good sword left."
  },
  "1155:18": {
-  "ko": "흠.. 구하게 되면 가져다드릴께요 ^^;"
+  "ko": "흠.. 구하게 되면 가져다드릴께요 ^^;",
+  "en": "Hmm.. I'll bring them if I can ^^;"
  },
  "1159:18": {
-  "ko": "네 부탁드려요 ㅠ_ㅠ"
+  "ko": "네 부탁드려요 ㅠ_ㅠ",
+  "en": "Yes, please T_T"
  },
  "1168:18": {
   "ko": "카카로트님 하이요~",
   "en": "Hi Kakarot~"
  },
  "1172:18": {
-  "ko": "아이언케인 하고 좋은 검 아직 못구했어요 ㅠ_ㅠ"
+  "ko": "아이언케인 하고 좋은 검 아직 못구했어요 ㅠ_ㅠ",
+  "en": "Still no Iron Cain or good sword T_T"
  },
  "1175:18": {
-  "ko": "흑.. 저도 구하고있는데 잘 않구해지네요 ㅠ_ㅠ"
+  "ko": "흑.. 저도 구하고있는데 잘 않구해지네요 ㅠ_ㅠ",
+  "en": "Sob.. I'm looking too, but no luck T_T"
  },
  "1180:18": {
-  "ko": "이대로 계속 검사로 살아야하나 orz"
+  "ko": "이대로 계속 검사로 살아야하나 orz",
+  "en": "Am I stuck as a Swordman forever orz"
  },
  "1183:18": {
-  "ko": "ㅠ_ㅠ"
+  "ko": "ㅠ_ㅠ",
+  "en": "T_T"
  },
  "1191:18": {
   "ko": "카카로트님 하이요~",
   "en": "Hi Kakarot~"
  },
  "1195:18": {
-  "ko": "아이언케인 하고 좋은 검 여기 구했어요"
+  "ko": "아이언케인 하고 좋은 검 여기 구했어요",
+  "en": "Here, the Iron Cain and a good sword"
  },
  "1198:18": {
-  "ko": "정말 고마워요 ^^;"
+  "ko": "정말 고마워요 ^^;",
+  "en": "Thanks so much ^^;"
  },
  "1212:20": {
-  "ko": "%s를 카카로트에게 전달했습니다"
+  "ko": "%s를 카카로트에게 전달했습니다",
+  "en": "Gave %s to Kakarot"
  },
  "1226:20": {
-  "ko": "%s를 카카로트에게 전달했습니다"
+  "ko": "%s를 카카로트에게 전달했습니다",
+  "en": "Gave %s to Kakarot"
  },
  "1234:18": {
-  "ko": "그럼 전 전직하러 가볼께요 ^^;"
+  "ko": "그럼 전 전직하러 가볼께요 ^^;",
+  "en": "Then I'll go change jobs ^^;"
  },
  "1238:18": {
-  "ko": "넵~ 멋진 기사 되세요 ^^*"
+  "ko": "넵~ 멋진 기사 되세요 ^^*",
+  "en": "OK~ Be a great Knight ^^*"
  },
  "1253:18": {
-  "ko": "%s님, 저 기사로 전직했어요"
+  "ko": "%s님, 저 기사로 전직했어요",
+  "en": "%s, I'm a Knight now"
  },
  "1258:18": {
-  "ko": "멋져요 ^^; 축하드려요"
+  "ko": "멋져요 ^^; 축하드려요",
+  "en": "Awesome ^^; Congrats"
  },
  "1263:18": {
-  "ko": "헤헤.. 이제 타나토스가 부활했을때 활약하기만 하면 될거 같아요"
+  "ko": "헤헤.. 이제 타나토스가 부활했을때 활약하기만 하면 될거 같아요",
+  "en": "Hehe.. now I just have to shine when Thanatos revives"
  },
  "1268:18": {
-  "ko": "화이팅 ^^*"
+  "ko": "화이팅 ^^*",
+  "en": "Go for it ^^*"
  },
  "1277:18": {
-  "ko": "%s님, 저 로드나이트로 전직했어요"
+  "ko": "%s님, 저 로드나이트로 전직했어요",
+  "en": "%s, I'm a Lord Knight now"
  },
  "1282:18": {
-  "ko": "우와.. 로드나이트는 아무나 전직 못하는걸로 알고있었는데.. "
+  "ko": "우와.. 로드나이트는 아무나 전직 못하는걸로 알고있었는데.. ",
+  "en": "Wow.. I heard not just anyone can become a Lord Knight.. "
  },
  "1287:18": {
-  "ko": "전직시험관이 저한테 재능이 있다고 하시더니.. 로드나이트로 전직을 하라고 하시더라구요"
+  "ko": "전직시험관이 저한테 재능이 있다고 하시더니.. 로드나이트로 전직을 하라고 하시더라구요",
+  "en": "The job examiner said I had talent.. and told me to become a Lord Knight"
  },
  "1292:18": {
-  "ko": "와~ 축하드려요"
+  "ko": "와~ 축하드려요",
+  "en": "Wow~ Congrats"
  },
  "1296:18": {
-  "ko": "이제 타나토스가 부활했을때 처리하기만 하면 될거같아요"
+  "ko": "이제 타나토스가 부활했을때 처리하기만 하면 될거같아요",
+  "en": "Now I just need to deal with Thanatos when he revives"
  },
  "1300:18": {
-  "ko": "화이팅 ^^*"
+  "ko": "화이팅 ^^*",
+  "en": "Go for it ^^*"
  },
  "1309:18": {
-  "ko": "%s님 오셨네요 ^^*"
+  "ko": "%s님 오셨네요 ^^*",
+  "en": "You came, %s ^^*"
  },
  "1314:18": {
-  "ko": "헤헤.. 보고싶어서 왔어요 ^^*"
+  "ko": "헤헤.. 보고싶어서 왔어요 ^^*",
+  "en": "Hehe.. I missed you, so I came ^^*"
  },
  "1319:18": {
-  "ko": "%s님 사랑해요..."
+  "ko": "%s님 사랑해요...",
+  "en": "I love you, %s..."
  },
  "1324:18": {
-  "ko": "어머나... "
+  "ko": "어머나... ",
+  "en": "Oh my... "
  },
  "1327:18": {
-  "ko": "기뻐요 ^^*"
+  "ko": "기뻐요 ^^*",
+  "en": "I'm so happy ^^*"
  },
  "1337:19": {
-  "ko": "%s님 또 뵙네요 ^^;"
+  "ko": "%s님 또 뵙네요 ^^;",
+  "en": "Hi again, %s ^^;"
  },
  "1339:19": {
-  "ko": "또 뵙네요 ^^;"
+  "ko": "또 뵙네요 ^^;",
+  "en": "Hi again ^^;"
  },
  "1345:19": {
-  "ko": "카카로트님~ 조언 하나 해주세요~"
+  "ko": "카카로트님~ 조언 하나 해주세요~",
+  "en": "Kakarot~ Give me some advice~"
  },
  "1347:19": {
-  "ko": "네~ 조언하나 해주세요~"
+  "ko": "네~ 조언하나 해주세요~",
+  "en": "Hi~ Give me some advice~"
  },
  "1354:19": {
-  "ko": "전투 할때는 힐과 아코콰광을 잘 쓰는게 중요해요"
+  "ko": "전투 할때는 힐과 아코콰광을 잘 쓰는게 중요해요",
+  "en": "In battle, using Heal and Aco Kaboom well is key"
  },
  "1356:19": {
-  "ko": "제조를 해서 무기를 만든다음에 판매를 해서 생활비를 벌어야하죠"
+  "ko": "제조를 해서 무기를 만든다음에 판매를 해서 생활비를 벌어야하죠",
+  "en": "Forge weapons, then sell them to pay the living costs"
  },
  "1361:18": {
-  "ko": "조언 고마워요 ^^;"
+  "ko": "조언 고마워요 ^^;",
+  "en": "Thanks for that ^^;"
  },
  "1390:18": {
-  "ko": "안녕하세요~ 모로크에 오신걸 환영합니다"
+  "ko": "안녕하세요~ 모로크에 오신걸 환영합니다",
+  "en": "Hello~ Welcome to Morroc"
  },
  "1395:18": {
-  "ko": "소울링커님 인큐버스를 처치해야하는데.. 도와주세요 ㅠ_ㅠ"
+  "ko": "소울링커님 인큐버스를 처치해야하는데.. 도와주세요 ㅠ_ㅠ",
+  "en": "Soul Linker, I must defeat an Incubus.. please help T_T"
  },
  "1399:18": {
-  "ko": "저는 영혼계열의 스킬을 찍지 않았답니다; 제 동료중에 무낙이가 영혼계열 마스터 했는데.."
+  "ko": "저는 영혼계열의 스킬을 찍지 않았답니다; 제 동료중에 무낙이가 영혼계열 마스터 했는데..",
+  "en": "I never learned Spirit skills; but my companion Munak mastered them.."
  },
  "1403:18": {
-  "ko": "지금 프론테라에 동생 줄 무기를 사겠다고 여행을 떠났네요"
+  "ko": "지금 프론테라에 동생 줄 무기를 사겠다고 여행을 떠났네요",
+  "en": "She left for Prontera to buy her little brother a weapon"
  },
  "1407:18": {
-  "ko": "프론테라면 아빠가게에도 올수있겠네요... ^^; 정보 고마워요~"
+  "ko": "프론테라면 아빠가게에도 올수있겠네요... ^^; 정보 고마워요~",
+  "en": "Then she might come by Dad's shop... ^^; Thanks for the info~"
  },
  "1417:18": {
-  "ko": "또 오셨네요~"
+  "ko": "또 오셨네요~",
+  "en": "Back again~"
  },
  "1422:18": {
-  "ko": "소울링커 무낙님 아직 않오셨나요?"
+  "ko": "소울링커 무낙님 아직 않오셨나요?",
+  "en": "Hasn't Soul Linker Munak come yet?"
  },
  "1426:18": {
-  "ko": "여전히 프론테라에 있는거 같네요.."
+  "ko": "여전히 프론테라에 있는거 같네요..",
+  "en": "Seems she's still in Prontera.."
  },
  "1429:18": {
-  "ko": "네~ 아빠 가게에 빨리 와줘야 하는데 ㅠ_ㅠ"
+  "ko": "네~ 아빠 가게에 빨리 와줘야 하는데 ㅠ_ㅠ",
+  "en": "Yes~ She has to come to Dad's shop soon T_T"
  },
  "1433:18": {
-  "ko": "두분이 빨리 만나시길 바랄께요~"
+  "ko": "두분이 빨리 만나시길 바랄께요~",
+  "en": "I hope you two meet soon~"
  },
  "1441:18": {
-  "ko": "소울링커 무낙님 이시죠?"
+  "ko": "소울링커 무낙님 이시죠?",
+  "en": "Are you Soul Linker Munak?"
  },
  "1445:18": {
-  "ko": "네 제가 이쁜이~ 무낙이어요 ^^*"
+  "ko": "네 제가 이쁜이~ 무낙이어요 ^^*",
+  "en": "Yes, I'm the pretty Munak~ ^^*"
  },
  "1449:18": {
-  "ko": "묘르닐 산맥의 인큐버스 때문에 그러는데 좀 도와주세요 ㅠ_ㅠ"
+  "ko": "묘르닐 산맥의 인큐버스 때문에 그러는데 좀 도와주세요 ㅠ_ㅠ",
+  "en": "It's about the Incubus on Mt. Mjolnir.. please help me T_T"
  },
  "1453:18": {
-  "ko": "흐음.. 1차직업에게 쓸수있는 영혼스킬이 없긴한데.. 한번 복사님의 재능을 확인해볼께요"
+  "ko": "흐음.. 1차직업에게 쓸수있는 영혼스킬이 없긴한데.. 한번 복사님의 재능을 확인해볼께요",
+  "en": "Hmm.. there are no Spirit skills for 1st jobs.. but let me check your talent, Acolyte"
  },
  "1457:18": {
-  "ko": "세상의 영혼들이여.. 그녀에 대해..."
+  "ko": "세상의 영혼들이여.. 그녀에 대해...",
+  "en": "Spirits of the world.. about her..."
  },
  "1460:14": {
-  "ko": "effect\\T_마법반사.wav"
+  "ko": "effect\\T_마법반사.wav",
+  "keep": "file name in the game data"
  },
  "1463:18": {
-  "ko": "놀랍네요... 몽크의 영혼과 프리스트의 영혼과 1차상위직업의 영혼이 이야기 해오다니.."
+  "ko": "놀랍네요... 몽크의 영혼과 프리스트의 영혼과 1차상위직업의 영혼이 이야기 해오다니..",
+  "en": "Amazing... the Monk, Priest and 1st Transcendent Spirits are all speaking to me.."
  },
  "1468:18": {
-  "ko": "도와드릴수 있을꺼같아요.. 제가 만났던 사람들중 잠재능력이 제일이시네요~"
+  "ko": "도와드릴수 있을꺼같아요.. 제가 만났던 사람들중 잠재능력이 제일이시네요~",
+  "en": "I think I can help.. you have the most potential of anyone I've met~"
  },
  "1473:18": {
-  "ko": "고맙습니다 ^^* 그럼 묘르닐 산맥에서 봐요~"
+  "ko": "고맙습니다 ^^* 그럼 묘르닐 산맥에서 봐요~",
+  "en": "Thank you ^^* See you on Mt. Mjolnir then~"
  },
  "1484:18": {
-  "ko": "무낙님 하이요 ^^/"
+  "ko": "무낙님 하이요 ^^/",
+  "en": "Hi Munak ^^/"
  },
  "1488:18": {
-  "ko": "%s님 별일 없죠?"
+  "ko": "%s님 별일 없죠?",
+  "en": "%s, all well?"
  },
  "1492:18": {
-  "ko": "네~~"
+  "ko": "네~~",
+  "en": "Yep~"
  },
  "1496:18": {
-  "ko": "전 동생 밥 해주러 먼저 가요~"
+  "ko": "전 동생 밥 해주러 먼저 가요~",
+  "en": "Off to cook my brother dinner~"
  },
  "1500:18": {
-  "ko": "바바이~"
+  "ko": "바바이~",
+  "en": "Bye bye~"
  },
  "1508:18": {
-  "ko": "무낙님 안녕하세요~"
+  "ko": "무낙님 안녕하세요~",
+  "en": "Hello, Munak~"
  },
  "1512:18": {
   "ko": "안녕하세요 ^^;",
   "en": "Hello ^^;"
  },
  "1516:18": {
-  "ko": "몽크의영혼이 제게 들어오면 어떤 효능이 있는거예요?"
+  "ko": "몽크의영혼이 제게 들어오면 어떤 효능이 있는거예요?",
+  "en": "What happens when the Monk Spirit enters me?"
  },
  "1520:18": {
-  "ko": "아코콰광 대신 아수라패황권을 쓰실수 있게되는거 같네요 ^^;"
+  "ko": "아코콰광 대신 아수라패황권을 쓰실수 있게되는거 같네요 ^^;",
+  "en": "You can use Guillotine Fist instead of Aco Kaboom ^^;"
  },
  "1524:18": {
-  "ko": "그렇군요 ^^; 가르쳐주셔서 고마워요~"
+  "ko": "그렇군요 ^^; 가르쳐주셔서 고마워요~",
+  "en": "I see ^^; Thanks for teaching me~"
  },
  "1528:18": {
-  "ko": "바바이~ ^_^/"
+  "ko": "바바이~ ^_^/",
+  "en": "Bye bye~ ^_^/"
  },
  "1536:18": {
-  "ko": "무낙님 안녕하세요~"
+  "ko": "무낙님 안녕하세요~",
+  "en": "Hello, Munak~"
  },
  "1540:18": {
   "ko": "안녕하세요 ^^;",
   "en": "Hello ^^;"
  },
  "1544:18": {
-  "ko": "에스우의 효능은 어떤거예요?"
+  "ko": "에스우의 효능은 어떤거예요?",
+  "en": "What does Eswoo do?"
  },
  "1548:18": {
-  "ko": "몬스터가 작아져서 공격력이 1/3 수준으로 낮아져요"
+  "ko": "몬스터가 작아져서 공격력이 1/3 수준으로 낮아져요",
+  "en": "The monster shrinks and its attack drops to 1/3"
  },
  "1552:18": {
-  "ko": "헤에 그렇구나~"
+  "ko": "헤에 그렇구나~",
+  "en": "Ooh, I see~"
  },
  "1556:18": {
-  "ko": "그럼 열렙 득템 하세요 ^^;"
+  "ko": "그럼 열렙 득템 하세요 ^^;",
+  "en": "Happy leveling, good loot ^^;"
  },
  "1597:19": {
   "ko": "안녕하세요~",
   "en": "Hello~"
  },
  "1601:19": {
-  "ko": "아.. 안녕하세요.."
+  "ko": "아.. 안녕하세요..",
+  "en": "Oh.. h-hello.."
  },
  "1604:19": {
-  "ko": "혹시 침투경 쓰실수 있으신가요?_?"
+  "ko": "혹시 침투경 쓰실수 있으신가요?_?",
+  "en": "Can you use Occult Impaction?_?"
  },
  "1608:19": {
-  "ko": "음.. 예"
+  "ko": "음.. 예",
+  "en": "Um.. yes"
  },
  "1611:19": {
-  "ko": "우든고렘 때문에 그러는데 저 좀 도와주실수있으세요?"
+  "ko": "우든고렘 때문에 그러는데 저 좀 도와주실수있으세요?",
+  "en": "It's about a Wooden Golem.. could you help me out?"
  },
  "1616:19": {
-  "ko": "우든고렘 이면 SP소모가 심하긴 하지만 침투경이 효과적이죠."
+  "ko": "우든고렘 이면 SP소모가 심하긴 하지만 침투경이 효과적이죠.",
+  "en": "Occult Impaction works well on a Wooden Golem, though it eats SP."
  },
  "1620:19": {
-  "ko": "꽁짜로는 힘들고요, 몽크용 좋은무기를 하나 주시면 도와드릴께요~"
+  "ko": "꽁짜로는 힘들고요, 몽크용 좋은무기를 하나 주시면 도와드릴께요~",
+  "en": "Not for free, though. Give me a good Monk weapon and I'll help~"
  },
  "1625:19": {
-  "ko": "몽크용 좋은 무기요?.. 흠.. 아빠한테 부탁해야겠네요 ㅠ_ㅠ"
+  "ko": "몽크용 좋은 무기요?.. 흠.. 아빠한테 부탁해야겠네요 ㅠ_ㅠ",
+  "en": "A good Monk weapon?.. Hmm.. I'll have to ask Dad T_T"
  },
  "1636:19": {
   "ko": "안녕하세요~",
   "en": "Hello~"
  },
  "1640:19": {
-  "ko": "몽크용 좋은 무기 구하셨어요?"
+  "ko": "몽크용 좋은 무기 구하셨어요?",
+  "en": "Did you get a good Monk weapon?"
  },
  "1644:19": {
-  "ko": "아직요 ㅠ_ㅠ  아빠가 열심히 제작중이실거예요."
+  "ko": "아직요 ㅠ_ㅠ  아빠가 열심히 제작중이실거예요.",
+  "en": "Not yet T_T  Dad must be working hard on it."
  },
  "1648:19": {
   "ko": "네 ㅠ_ㅠ",
   "en": "OK T_T"
  },
  "1658:19": {
-  "ko": "안녕하세요~ 무기 가져왔어요 ^_^"
+  "ko": "안녕하세요~ 무기 가져왔어요 ^_^",
+  "en": "Hello~ I brought the weapon ^_^"
  },
  "1662:19": {
-  "ko": "오.. 감사합니다."
+  "ko": "오.. 감사합니다.",
+  "en": "Oh.. thank you."
  },
  "1675:21": {
-  "ko": "%s를 맹룡에게 전달했습니다"
+  "ko": "%s를 맹룡에게 전달했습니다",
+  "en": "Gave %s to Maengryong"
  },
  "1682:19": {
-  "ko": "그럼 앞으로는 거북섬에 가실때 제가 도와드릴께요 ^_^"
+  "ko": "그럼 앞으로는 거북섬에 가실때 제가 도와드릴께요 ^_^",
+  "en": "From now on I'll help you on Turtle Island ^_^"
  },
  "1686:19": {
-  "ko": "잘부탁드려요~ 저는 %s 예요"
+  "ko": "잘부탁드려요~ 저는 %s 예요",
+  "en": "Nice to meet you~ I'm %s"
  },
  "1690:19": {
-  "ko": "전 맹룡 이라고 합니다~"
+  "ko": "전 맹룡 이라고 합니다~",
+  "en": "My name is Maengryong~"
  },
  "1694:19": {
-  "ko": "거북섬에서 뵈요 ^^; 바바이~"
+  "ko": "거북섬에서 뵈요 ^^; 바바이~",
+  "en": "See you on Turtle Island ^^; Bye~"
  },
  "1703:19": {
-  "ko": "맹룡님 안녕하세요~"
+  "ko": "맹룡님 안녕하세요~",
+  "en": "Hello, Maengryong~"
  },
  "1707:19": {
   "ko": "안녕하세요 ^^;",
   "en": "Hello ^^;"
  },
  "1711:19": {
-  "ko": "동글동글한 기구체의 효능은 어떤거예요?"
+  "ko": "동글동글한 기구체의 효능은 어떤거예요?",
+  "en": "What do those round Spirit Spheres do?"
  },
  "1715:19": {
-  "ko": "하나당 무기의 공격력의 1/5 정도의 공격력 증가효과가 있어요"
+  "ko": "하나당 무기의 공격력의 1/5 정도의 공격력 증가효과가 있어요",
+  "en": "Each one adds about 1/5 of your weapon's attack power"
  },
  "1719:19": {
-  "ko": "헤에 그렇구나~"
+  "ko": "헤에 그렇구나~",
+  "en": "Ooh, I see~"
  },
  "1723:19": {
-  "ko": "그런거지요~"
+  "ko": "그런거지요~",
+  "en": "That's right~"
  },
  "1727:19": {
-  "ko": "그럼 전 프론테라로 돌아가요~ 바바이"
+  "ko": "그럼 전 프론테라로 돌아가요~ 바바이",
+  "en": "I'll head back to Prontera~ Bye bye"
  },
  "1758:18": {
-  "ko": "타나토스를 꼭 처치해야된다"
+  "ko": "타나토스를 꼭 처치해야된다",
+  "en": "You must defeat Thanatos"
  },
  "1761:18": {
-  "ko": "물론이예요.. 카카로트님이 절 하이프리스트로 만들기위해 희생하셨는데.."
+  "ko": "물론이예요.. 카카로트님이 절 하이프리스트로 만들기위해 희생하셨는데..",
+  "en": "Of course.. Kakarot gave his life to make me a High Priest.."
  },
  "1770:18": {
-  "ko": "발키리님 안녕하세요~"
+  "ko": "발키리님 안녕하세요~",
+  "en": "Hello, Valkyrie~"
  },
  "1774:18": {
-  "ko": "하이프리스트가 되고싶은가?..."
+  "ko": "하이프리스트가 되고싶은가?...",
+  "en": "Do you wish to be a High Priest?..."
  },
  "1779:18": {
-  "ko": "네! 하프가 되서 타나토스로부터 저희 마을들을 지키고 싶어요."
+  "ko": "네! 하프가 되서 타나토스로부터 저희 마을들을 지키고 싶어요.",
+  "en": "Yes! I want to be a High Priest and guard our towns from Thanatos."
  },
  "1783:18": {
-  "ko": "너는 하프가 될수있는 재능이 충분하다."
+  "ko": "너는 하프가 될수있는 재능이 충분하다.",
+  "en": "You have talent enough to be a High Priest."
  },
  "1787:18": {
-  "ko": "남은건 카카로트 너의 결심이다. 전에 왔을때 이야기 했었지.. 나의 마력에 관해.. "
+  "ko": "남은건 카카로트 너의 결심이다. 전에 왔을때 이야기 했었지.. 나의 마력에 관해.. ",
+  "en": "What remains is your resolve, Kakarot. As I said when you came before.. about my magic.. "
  },
  "1791:18": {
-  "ko": "네, 전 준비가 되어있습니다. 저보다는 저희 마을이, 저희 세계가 중요합니다."
+  "ko": "네, 전 준비가 되어있습니다. 저보다는 저희 마을이, 저희 세계가 중요합니다.",
+  "en": "Yes, I am ready. Our town, our world, matters more than I do."
  },
  "1796:18": {
-  "ko": "카카로트님은 어떤 준비를 하셔야 되는거예요?"
+  "ko": "카카로트님은 어떤 준비를 하셔야 되는거예요?",
+  "en": "Kakarot, what do you have to get ready for?"
  },
  "1801:18": {
-  "ko": "별일 아니예요. %s님이 타나토스만 처리해주시면 저는 행복할겁니다 ^^*"
+  "ko": "별일 아니예요. %s님이 타나토스만 처리해주시면 저는 행복할겁니다 ^^*",
+  "en": "It's nothing. If you just take care of Thanatos, %s, I'll be happy ^^*"
  },
  "1822:18": {
-  "ko": "카카로트님!!"
+  "ko": "카카로트님!!",
+  "en": "Kakarot!!"
  },
  "1827:18": {
-  "ko": "타나토스때문에 불완전한 나의 마력을 그가 자신의 생명력으로 보충해주었단다."
+  "ko": "타나토스때문에 불완전한 나의 마력을 그가 자신의 생명력으로 보충해주었단다.",
+  "en": "He filled in my magic, weakened by Thanatos, with his own life force."
  },
  "1832:18": {
-  "ko": "너는 그를 위해서라도 꼭 타나토스를 쓰러트려야하겠구나. 가거라! 죽음의탑으로"
+  "ko": "너는 그를 위해서라도 꼭 타나토스를 쓰러트려야하겠구나. 가거라! 죽음의탑으로",
+  "en": "For his sake as well, you must defeat Thanatos. Go! To the Death Tower"
  },
  "1836:18": {
-  "ko": "카카로트님.. 이럴수가.. 이럴줄은..."
+  "ko": "카카로트님.. 이럴수가.. 이럴줄은...",
+  "en": "Kakarot.. no.. I never imagined..."
  },
  "1845:18": {
-  "ko": "발키리님 안녕하세요~"
+  "ko": "발키리님 안녕하세요~",
+  "en": "Hello, Valkyrie~"
  },
  "1849:18": {
-  "ko": "하이프리스트가 되고싶은가?..."
+  "ko": "하이프리스트가 되고싶은가?...",
+  "en": "Do you wish to be a High Priest?..."
  },
  "1854:18": {
-  "ko": "네! 하프가 되서 타나토스로부터 저희 마을들을 지키고 싶어요."
+  "ko": "네! 하프가 되서 타나토스로부터 저희 마을들을 지키고 싶어요.",
+  "en": "Yes! I want to be a High Priest and guard our towns from Thanatos."
  },
  "1858:18": {
-  "ko": "너는 하프가 될수있는 재능이 충분하다."
+  "ko": "너는 하프가 될수있는 재능이 충분하다.",
+  "en": "You have talent enough to be a High Priest."
  },
  "1862:18": {
-  "ko": "남은건 카카로트 너의 결심이다. 전에 왔을때 이야기 했었지.. 나의 마력에 관해.. "
+  "ko": "남은건 카카로트 너의 결심이다. 전에 왔을때 이야기 했었지.. 나의 마력에 관해.. ",
+  "en": "What remains is your resolve, Kakarot. As I said when you came before.. about my magic.. "
  },
  "1866:18": {
-  "ko": "네.... "
+  "ko": "네.... ",
+  "en": "Yes.... "
  },
  "1870:18": {
-  "ko": "카카로트님은 어떤 준비를 하셔야 되는거예요?"
+  "ko": "카카로트님은 어떤 준비를 하셔야 되는거예요?",
+  "en": "Kakarot, what do you have to get ready for?"
  },
  "1875:18": {
-  "ko": "크흑... 발키리님 죄송합니다. 저 아무래도 %s님을 좀 더 보고싶네요"
+  "ko": "크흑... 발키리님 죄송합니다. 저 아무래도 %s님을 좀 더 보고싶네요",
+  "en": "Ugh... I'm sorry, Valkyrie. I think I want to see %s a little longer"
  },
  "1880:18": {
-  "ko": "죽어버리면 %s님의 사랑스러운 얼굴을 더 못본다는걸 생각하니까..."
+  "ko": "죽어버리면 %s님의 사랑스러운 얼굴을 더 못본다는걸 생각하니까...",
+  "en": "When I think that if I die, I'll never see %s's lovely face again..."
  },
  "1884:18": {
-  "ko": "죽는다니 무슨 뜻이예요?"
+  "ko": "죽는다니 무슨 뜻이예요?",
+  "en": "What do you mean, die?"
  },
  "1889:18": {
-  "ko": "타나토스때문에 나의 마력이 완전치 않기에 너를 하이프리스트로 전직시키려면 추가로 생명력이 필요하단다"
+  "ko": "타나토스때문에 나의 마력이 완전치 않기에 너를 하이프리스트로 전직시키려면 추가로 생명력이 필요하단다",
+  "en": "Thanatos weakened my magic, so to make you a High Priest I need extra life force"
  },
  "1893:18": {
-  "ko": "헉! 전 카카로트님을 희생해서까지 하이프리스트가 되고싶지는 않아요."
+  "ko": "헉! 전 카카로트님을 희생해서까지 하이프리스트가 되고싶지는 않아요.",
+  "en": "What! I don't want to be a High Priest if it means sacrificing Kakarot."
  },
  "1898:18": {
-  "ko": "하이프리스트가 되지 않고도 타나토스에게 이길수있는 방법이 있을꺼예요. 우리 같이 힘내요"
+  "ko": "하이프리스트가 되지 않고도 타나토스에게 이길수있는 방법이 있을꺼예요. 우리 같이 힘내요",
+  "en": "There must be a way to beat Thanatos without becoming a High Priest. Let's do our best together"
  },
  "1903:18": {
-  "ko": "네 죄송해요, 그리고 ..."
+  "ko": "네 죄송해요, 그리고 ...",
+  "en": "Yes, I'm sorry. And ..."
  },
  "1906:18": {
-  "ko": "사랑합니다 ^^*"
+  "ko": "사랑합니다 ^^*",
+  "en": "I love you ^^*"
  },
  "1920:18": {
-  "ko": "발키리님 안녕하세요~"
+  "ko": "발키리님 안녕하세요~",
+  "en": "Hello, Valkyrie~"
  },
  "1924:18": {
-  "ko": "%s 이여 무슨일로 다시 나를 찾아왔는가?"
+  "ko": "%s 이여 무슨일로 다시 나를 찾아왔는가?",
+  "en": "%s, what brings you to me again?"
  },
  "1929:18": {
-  "ko": "하이프리스트는 카카로트님을 희생해야 되기때문에 곤란하지만, 보통 프리스트로 전직하고 싶어서 왔어요"
+  "ko": "하이프리스트는 카카로트님을 희생해야 되기때문에 곤란하지만, 보통 프리스트로 전직하고 싶어서 왔어요",
+  "en": "High Priest would mean sacrificing Kakarot, so I can't, but I came to become a regular Priest"
  },
  "1934:18": {
-  "ko": "가능하단다"
+  "ko": "가능하단다",
+  "en": "That is possible"
  },
  "1952:18": {
-  "ko": "감사합니다 ^^*"
+  "ko": "감사합니다 ^^*",
+  "en": "Thank you ^^*"
  },
  "1962:18": {
-  "ko": "발키리님 안녕하세요~"
+  "ko": "발키리님 안녕하세요~",
+  "en": "Hello, Valkyrie~"
  },
  "1966:18": {
-  "ko": "%s 이여 모두가 네가 타나토스를 처치해주길 바라고 있단다"
+  "ko": "%s 이여 모두가 네가 타나토스를 처치해주길 바라고 있단다",
+  "en": "%s, everyone is hoping you will defeat Thanatos"
  },
  "1970:18": {
-  "ko": "네!"
+  "ko": "네!",
+  "en": "Yes!"
  }
 }

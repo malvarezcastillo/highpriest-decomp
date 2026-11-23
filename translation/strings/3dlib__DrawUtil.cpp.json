@@ -1,14 +1,18 @@
 {
  "52:6": {
-  "ko": "굴림"
+  "ko": "굴림",
+  "keep": "font face name"
  },
  "54:6": {
-  "ko": "굃굍 굊긕긘긞긏"
+  "ko": "굃굍 굊긕긘긞긏",
+  "keep": "font face name"
  },
  "55:6": {
-  "ko": "芥竟"
+  "ko": "芥竟",
+  "keep": "font face name"
  },
  "56:6": {
-  "ko": "꾄ⁿ톱"
+  "ko": "꾄ⁿ톱",
+  "keep": "font face name"
  }
 }

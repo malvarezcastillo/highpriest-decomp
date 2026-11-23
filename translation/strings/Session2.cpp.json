@@ -1,288 +1,383 @@
 {
  "28:34": {
-  "ko": "가나다라마바사아자차카타파하가나다라마바사아자차카타파하"
+  "ko": "가나다라마바사아자차카타파하가나다라마바사아자차카타파하",
+  "keep": "cipher key"
  },
  "2912:14": {
-  "ko": "effect\\닌자_던지기.wav"
+  "ko": "effect\\닌자_던지기.wav",
+  "keep": "file name in the game data"
  },
  "2924:14": {
-  "ko": "effect\\닌자_던지기.wav"
+  "ko": "effect\\닌자_던지기.wav",
+  "keep": "file name in the game data"
  },
  "2937:14": {
-  "ko": "effect\\닌자_던지기.wav"
+  "ko": "effect\\닌자_던지기.wav",
+  "keep": "file name in the game data"
  },
  "2949:14": {
-  "ko": "effect\\닌자_던지기.wav"
+  "ko": "effect\\닌자_던지기.wav",
+  "keep": "file name in the game data"
  },
  "3085:13": {
-  "ko": "effect\\mon_아수라 패황권.wav"
+  "ko": "effect\\mon_아수라 패황권.wav",
+  "keep": "file name in the game data"
  },
  "3163:14": {
-  "ko": "effect\\mon_아수라 패황권.wav"
+  "ko": "effect\\mon_아수라 패황권.wav",
+  "keep": "file name in the game data"
  },
  "3400:25": {
-  "ko": "/기쁨"
+  "ko": "/기쁨",
+  "keep": "comparison key: old shortcut default"
  },
  "3401:25": {
-  "ko": "/하트"
+  "ko": "/하트",
+  "keep": "comparison key: old shortcut default"
  },
  "3402:25": {
-  "ko": "/땀"
+  "ko": "/땀",
+  "keep": "comparison key: old shortcut default"
  },
  "3403:25": {
-  "ko": "/아하"
+  "ko": "/아하",
+  "keep": "comparison key: old shortcut default"
  },
  "3404:25": {
-  "ko": "/짜증"
+  "ko": "/짜증",
+  "keep": "comparison key: old shortcut default"
  },
  "3405:25": {
-  "ko": "/화"
+  "ko": "/화",
+  "keep": "comparison key: old shortcut default"
  },
  "3406:25": {
-  "ko": "/돈"
+  "ko": "/돈",
+  "keep": "comparison key: old shortcut default"
  },
  "3434:10": {
-  "ko": "effect\\민첩성감소.tga"
+  "ko": "effect\\민첩성감소.tga",
+  "keep": "file name in the game data"
  },
  "3436:10": {
-  "ko": "effect\\갑옷파괴.tga"
+  "ko": "effect\\갑옷파괴.tga",
+  "keep": "file name in the game data"
  },
  "3438:10": {
-  "ko": "effect\\환각.tga"
+  "ko": "effect\\환각.tga",
+  "keep": "file name in the game data"
  },
  "3440:10": {
-  "ko": "effect\\콰그마이어.tga"
+  "ko": "effect\\콰그마이어.tga",
+  "keep": "file name in the game data"
  },
  "3442:10": {
-  "ko": "effect\\무기파괴.tga"
+  "ko": "effect\\무기파괴.tga",
+  "keep": "file name in the game data"
  },
  "3444:10": {
-  "ko": "effect\\무게50이상.tga"
+  "ko": "effect\\무게50이상.tga",
+  "keep": "file name in the game data"
  },
  "3446:10": {
-  "ko": "effect\\무게90이상.tga"
+  "ko": "effect\\무게90이상.tga",
+  "keep": "file name in the game data"
  },
  "3448:10": {
-  "ko": "effect\\스트립웨폰.tga"
+  "ko": "effect\\스트립웨폰.tga",
+  "keep": "file name in the game data"
  },
  "3450:10": {
-  "ko": "effect\\스트립쉴드.tga"
+  "ko": "effect\\스트립쉴드.tga",
+  "keep": "file name in the game data"
  },
  "3452:10": {
-  "ko": "effect\\스트립아머.tga"
+  "ko": "effect\\스트립아머.tga",
+  "keep": "file name in the game data"
  },
  "3454:10": {
-  "ko": "effect\\스트립헬름.tga"
+  "ko": "effect\\스트립헬름.tga",
+  "keep": "file name in the game data"
  },
  "3458:10": {
-  "ko": "effect\\프레임런쳐.tga"
+  "ko": "effect\\프레임런쳐.tga",
+  "keep": "file name in the game data"
  },
  "3460:10": {
-  "ko": "effect\\글로리아.tga"
+  "ko": "effect\\글로리아.tga",
+  "keep": "file name in the game data"
  },
  "3500:10": {
-  "ko": "effect\\인듀어.tga"
+  "ko": "effect\\인듀어.tga",
+  "keep": "file name in the game data"
  },
  "3502:10": {
-  "ko": "effect\\인찬트포이즌.tga"
+  "ko": "effect\\인찬트포이즌.tga",
+  "keep": "file name in the game data"
  },
  "3504:10": {
-  "ko": "effect\\클로킹.tga"
+  "ko": "effect\\클로킹.tga",
+  "keep": "file name in the game data"
  },
  "3506:10": {
-  "ko": "effect\\투핸드퀴큰.tga"
+  "ko": "effect\\투핸드퀴큰.tga",
+  "keep": "file name in the game data"
  },
  "3508:10": {
-  "ko": "effect\\맥시마이즈파워.tga"
+  "ko": "effect\\맥시마이즈파워.tga",
+  "keep": "file name in the game data"
  },
  "3511:10": {
-  "ko": "effect\\아드레날린러쉬.tga"
+  "ko": "effect\\아드레날린러쉬.tga",
+  "keep": "file name in the game data"
  },
  "3513:10": {
-  "ko": "effect\\포이즌리액트.tga"
+  "ko": "effect\\포이즌리액트.tga",
+  "keep": "file name in the game data"
  },
  "3515:10": {
-  "ko": "effect\\오토가드.tga"
+  "ko": "effect\\오토가드.tga",
+  "keep": "file name in the game data"
  },
  "3517:10": {
-  "ko": "effect\\오토스펠.tga"
+  "ko": "effect\\오토스펠.tga",
+  "keep": "file name in the game data"
  },
  "3519:10": {
-  "ko": "effect\\프로보크.tga"
+  "ko": "effect\\프로보크.tga",
+  "keep": "file name in the game data"
  },
  "3521:10": {
-  "ko": "effect\\오버트러스트.tga"
+  "ko": "effect\\오버트러스트.tga",
+  "keep": "file name in the game data"
  },
  "3523:10": {
-  "ko": "effect\\웨폰퍼펙션.tga"
+  "ko": "effect\\웨폰퍼펙션.tga",
+  "keep": "file name in the game data"
  },
  "3525:10": {
-  "ko": "effect\\하이딩.tga"
+  "ko": "effect\\하이딩.tga",
+  "keep": "file name in the game data"
  },
  "3527:10": {
-  "ko": "effect\\스피어퀴큰.tga"
+  "ko": "effect\\스피어퀴큰.tga",
+  "keep": "file name in the game data"
  },
  "3529:10": {
-  "ko": "effect\\디펜더.tga"
+  "ko": "effect\\디펜더.tga",
+  "keep": "file name in the game data"
  },
  "3531:10": {
-  "ko": "effect\\리플렉트쉴드.tga"
+  "ko": "effect\\리플렉트쉴드.tga",
+  "keep": "file name in the game data"
  },
  "3535:10": {
-  "ko": "effect\\프로스트웨폰.tga"
+  "ko": "effect\\프로스트웨폰.tga",
+  "keep": "file name in the game data"
  },
  "3539:10": {
-  "ko": "effect\\라이트닝로더.tga"
+  "ko": "effect\\라이트닝로더.tga",
+  "keep": "file name in the game data"
  },
  "3541:10": {
-  "ko": "effect\\출혈상태.tga"
+  "ko": "effect\\출혈상태.tga",
+  "keep": "file name in the game data"
  },
  "3543:10": {
-  "ko": "effect\\관절공격.tga"
+  "ko": "effect\\관절공격.tga",
+  "keep": "file name in the game data"
  },
  "3546:10": {
-  "ko": "effect\\엄마아빠사랑해요.tga"
+  "ko": "effect\\엄마아빠사랑해요.tga",
+  "keep": "file name in the game data"
  },
  "3570:10": {
-  "ko": "effect\\금강불괴.tga"
+  "ko": "effect\\금강불괴.tga",
+  "keep": "file name in the game data"
  },
  "3593:10": {
-  "ko": "effect\\I_치독.tga"
+  "ko": "effect\\I_치독.tga",
+  "keep": "file name in the game data"
  },
  "3596:10": {
-  "ko": "effect\\I_프리저브.tga"
+  "ko": "effect\\I_프리저브.tga",
+  "keep": "file name in the game data"
  },
  "3598:10": {
-  "ko": "effect\\I_체이스힘.tga"
+  "ko": "effect\\I_체이스힘.tga",
+  "keep": "file name in the game data"
  },
  "3600:10": {
-  "ko": "effect\\I_장판.tga"
+  "ko": "effect\\I_장판.tga",
+  "keep": "file name in the game data"
  },
  "3602:10": {
-  "ko": "effect\\I_더블캐스팅.tga"
+  "ko": "effect\\I_더블캐스팅.tga",
+  "keep": "file name in the game data"
  },
  "3604:10": {
-  "ko": "effect\\I_오버맥스.tga"
+  "ko": "effect\\I_오버맥스.tga",
+  "keep": "file name in the game data"
  },
  "3606:10": {
-  "ko": "effect\\I_타로카드.tga"
+  "ko": "effect\\I_타로카드.tga",
+  "keep": "file name in the game data"
  },
  "3633:10": {
-  "ko": "effect\\글로리아.tga"
+  "ko": "effect\\글로리아.tga",
+  "keep": "file name in the game data"
  },
  "3652:10": {
-  "ko": "effect\\SP소모량감소포션.tga"
+  "ko": "effect\\SP소모량감소포션.tga",
+  "keep": "file name in the game data"
  },
  "3654:10": {
-  "ko": "effect\\올상태저항포션.tga"
+  "ko": "effect\\올상태저항포션.tga",
+  "keep": "file name in the game data"
  },
  "3701:10": {
-  "ko": "effect\\글로리아.tga"
+  "ko": "effect\\글로리아.tga",
+  "keep": "file name in the game data"
  },
  "3703:10": {
-  "ko": "effect\\죽은척하기.tga"
+  "ko": "effect\\죽은척하기.tga",
+  "keep": "file name in the game data"
  },
  "3712:10": {
-  "ko": "effect\\연마제.tga"
+  "ko": "effect\\연마제.tga",
+  "keep": "file name in the game data"
  },
  "3714:10": {
-  "ko": "effect\\회복력향상포션.tga"
+  "ko": "effect\\회복력향상포션.tga",
+  "keep": "file name in the game data"
  },
  "3716:10": {
-  "ko": "effect\\소형생명수.tga"
+  "ko": "effect\\소형생명수.tga",
+  "keep": "file name in the game data"
  },
  "3718:10": {
-  "ko": "effect\\중형생명수.tga"
+  "ko": "effect\\중형생명수.tga",
+  "keep": "file name in the game data"
  },
  "3720:10": {
-  "ko": "effect\\환영의술잔.tga"
+  "ko": "effect\\환영의술잔.tga",
+  "keep": "file name in the game data"
  },
  "3722:10": {
-  "ko": "effect\\물리방어포션.tga"
+  "ko": "effect\\물리방어포션.tga",
+  "keep": "file name in the game data"
  },
  "3724:10": {
-  "ko": "effect\\마법방어포션.tga"
+  "ko": "effect\\마법방어포션.tga",
+  "keep": "file name in the game data"
  },
  "3726:10": {
-  "ko": "effect\\캐시갑옷속성부여.tga"
+  "ko": "effect\\캐시갑옷속성부여.tga",
+  "keep": "file name in the game data"
  },
  "3732:10": {
-  "ko": "effect\\집중력향상.tga"
+  "ko": "effect\\집중력향상.tga",
+  "keep": "file name in the game data"
  },
  "3734:10": {
-  "ko": "effect\\죽은척하기.tga"
+  "ko": "effect\\죽은척하기.tga",
+  "keep": "file name in the game data"
  },
  "3736:10": {
-  "ko": "effect\\팔콘.tga"
+  "ko": "effect\\팔콘.tga",
+  "keep": "file name in the game data"
  },
  "3738:10": {
-  "ko": "effect\\라이딩.tga"
+  "ko": "effect\\라이딩.tga",
+  "keep": "file name in the game data"
  },
  "3740:10": {
-  "ko": "effect\\고성지르기.tga"
+  "ko": "effect\\고성지르기.tga",
+  "keep": "file name in the game data"
  },
  "3742:10": {
-  "ko": "effect\\에너지코트.tga"
+  "ko": "effect\\에너지코트.tga",
+  "keep": "file name in the game data"
  },
  "3747:10": {
-  "ko": "effect\\공속물약.tga"
+  "ko": "effect\\공속물약.tga",
+  "keep": "file name in the game data"
  },
  "3749:10": {
-  "ko": "effect\\케미컬프로텍션[웨폰].tga"
+  "ko": "effect\\케미컬프로텍션[웨폰].tga",
+  "keep": "file name in the game data"
  },
  "3751:10": {
-  "ko": "effect\\케미컬프로텍션[쉴드].tga"
+  "ko": "effect\\케미컬프로텍션[쉴드].tga",
+  "keep": "file name in the game data"
  },
  "3753:10": {
-  "ko": "effect\\케미컬프로텍션[아머].tga"
+  "ko": "effect\\케미컬프로텍션[아머].tga",
+  "keep": "file name in the game data"
  },
  "3755:10": {
-  "ko": "effect\\케미컬프로텍션[헬름].tga"
+  "ko": "effect\\케미컬프로텍션[헬름].tga",
+  "keep": "file name in the game data"
  },
  "3759:10": {
-  "ko": "effect\\사이즈믹웨폰.tga"
+  "ko": "effect\\사이즈믹웨폰.tga",
+  "keep": "file name in the game data"
  },
  "3766:10": {
-  "ko": "effect\\글로리아.tga"
+  "ko": "effect\\글로리아.tga",
+  "keep": "file name in the game data"
  },
  "3768:10": {
-  "ko": "effect\\기리에엘레이손.tga"
+  "ko": "effect\\기리에엘레이손.tga",
+  "keep": "file name in the game data"
  },
  "3770:10": {
-  "ko": "effect\\렉스에테르나.tga"
+  "ko": "effect\\렉스에테르나.tga",
+  "keep": "file name in the game data"
  },
  "3772:10": {
-  "ko": "effect\\시그넘크루시스.tga"
+  "ko": "effect\\시그넘크루시스.tga",
+  "keep": "file name in the game data"
  },
  "3774:10": {
-  "ko": "effect\\마니피캇.tga"
+  "ko": "effect\\마니피캇.tga",
+  "keep": "file name in the game data"
  },
  "3779:10": {
-  "ko": "effect\\민첩성증가.tga"
+  "ko": "effect\\민첩성증가.tga",
+  "keep": "file name in the game data"
  },
  "3781:10": {
-  "ko": "effect\\블레싱.tga"
+  "ko": "effect\\블레싱.tga",
+  "keep": "file name in the game data"
  },
  "3783:10": {
-  "ko": "effect\\성체강복.tga"
+  "ko": "effect\\성체강복.tga",
+  "keep": "file name in the game data"
  },
  "3785:10": {
-  "ko": "effect\\수프라기움.tga"
+  "ko": "effect\\수프라기움.tga",
+  "keep": "file name in the game data"
  },
  "3787:10": {
-  "ko": "effect\\슬로우포이즌.tga"
+  "ko": "effect\\슬로우포이즌.tga",
+  "keep": "file name in the game data"
  },
  "3792:10": {
-  "ko": "effect\\아스페르시오.tga"
+  "ko": "effect\\아스페르시오.tga",
+  "keep": "file name in the game data"
  },
  "3794:10": {
-  "ko": "effect\\안젤루스.tga"
+  "ko": "effect\\안젤루스.tga",
+  "keep": "file name in the game data"
  },
  "3796:10": {
-  "ko": "effect\\임포시티오마누스.tga"
+  "ko": "effect\\임포시티오마누스.tga",
+  "keep": "file name in the game data"
  },
  "3798:10": {
-  "ko": "effect\\신의뜻.tga"
+  "ko": "effect\\신의뜻.tga",
+  "keep": "file name in the game data"
  },
  "4156:24": {
   "ko": "에러발생. 클라이언트 담당자 에게 에러 사실을 통보 하세요. 위치 - CPlayer :: GetMonsterSkillInfo"
@@ -291,256 +386,340 @@
   "ko": "action 또는 loopType 이 존재하지 않음."
  },
  "4405:9": {
-  "ko": "몬스터\\BAPHOMET_뼉다구모자.act"
+  "ko": "몬스터\\BAPHOMET_뼉다구모자.act",
+  "keep": "file name in the game data"
  },
  "4408:9": {
-  "ko": "몬스터\\DESERT_WOLF_B_우주복머리.act"
+  "ko": "몬스터\\DESERT_WOLF_B_우주복머리.act",
+  "keep": "file name in the game data"
  },
  "4411:9": {
-  "ko": "몬스터\\DEVIRUCHI_젖꼭지.act"
+  "ko": "몬스터\\DEVIRUCHI_젖꼭지.act",
+  "keep": "file name in the game data"
  },
  "4414:9": {
-  "ko": "몬스터\\DOKEBI_아후로머리.act"
+  "ko": "몬스터\\DOKEBI_아후로머리.act",
+  "keep": "file name in the game data"
  },
  "4417:9": {
-  "ko": "몬스터\\isis_클레오파트라머리띠.act"
+  "ko": "몬스터\\isis_클레오파트라머리띠.act",
+  "keep": "file name in the game data"
  },
  "4420:9": {
-  "ko": "몬스터\\lunatic_리본.act"
+  "ko": "몬스터\\lunatic_리본.act",
+  "keep": "file name in the game data"
  },
  "4423:9": {
-  "ko": "몬스터\\munak_요술봉.act"
+  "ko": "몬스터\\munak_요술봉.act",
+  "keep": "file name in the game data"
  },
  "4426:9": {
-  "ko": "몬스터\\ork_warrior_꽃.act"
+  "ko": "몬스터\\ork_warrior_꽃.act",
+  "keep": "file name in the game data"
  },
  "4429:9": {
-  "ko": "몬스터\\pecopeco_냄비.act"
+  "ko": "몬스터\\pecopeco_냄비.act",
+  "keep": "file name in the game data"
  },
  "4432:9": {
-  "ko": "몬스터\\PETIT_별.act"
+  "ko": "몬스터\\PETIT_별.act",
+  "keep": "file name in the game data"
  },
  "4435:9": {
-  "ko": "몬스터\\picky_알껍질.act"
+  "ko": "몬스터\\picky_알껍질.act",
+  "keep": "file name in the game data"
  },
  "4438:9": {
-  "ko": "몬스터\\poring_책가방.act"
+  "ko": "몬스터\\poring_책가방.act",
+  "keep": "file name in the game data"
  },
  "4441:9": {
-  "ko": "몬스터\\rocker_메뚜기안경.act"
+  "ko": "몬스터\\rocker_메뚜기안경.act",
+  "keep": "file name in the game data"
  },
  "4444:9": {
-  "ko": "몬스터\\savage_babe_레이스.act"
+  "ko": "몬스터\\savage_babe_레이스.act",
+  "keep": "file name in the game data"
  },
  "4447:9": {
-  "ko": "몬스터\\SOHEE_방울.act"
+  "ko": "몬스터\\SOHEE_방울.act",
+  "keep": "file name in the game data"
  },
  "4450:9": {
-  "ko": "몬스터\\spore_원주민치마.act"
+  "ko": "몬스터\\spore_원주민치마.act",
+  "keep": "file name in the game data"
  },
  "4453:9": {
-  "ko": "몬스터\\yoyo_머리띠.act"
+  "ko": "몬스터\\yoyo_머리띠.act",
+  "keep": "file name in the game data"
  },
  "4456:9": {
-  "ko": "몬스터\\smokie_머플러.act"
+  "ko": "몬스터\\smokie_머플러.act",
+  "keep": "file name in the game data"
  },
  "4459:9": {
-  "ko": "몬스터\\bon_gun_영환도사검.act"
+  "ko": "몬스터\\bon_gun_영환도사검.act",
+  "keep": "file name in the game data"
  },
  "4462:8": {
-  "ko": "몬스터\\chocho_방독면.act"
+  "ko": "몬스터\\chocho_방독면.act",
+  "keep": "file name in the game data"
  },
  "4471:17": {
-  "ko": "유저인터페이스\\illust\\펫_바포메트.bmp"
+  "ko": "유저인터페이스\\illust\\펫_바포메트.bmp",
+  "keep": "file name in the game data"
  },
  "4474:17": {
-  "ko": "유저인터페이스\\illust\\펫_페코페코.bmp"
+  "ko": "유저인터페이스\\illust\\펫_페코페코.bmp",
+  "keep": "file name in the game data"
  },
  "4477:17": {
-  "ko": "유저인터페이스\\illust\\펫_촌촌.bmp"
+  "ko": "유저인터페이스\\illust\\펫_촌촌.bmp",
+  "keep": "file name in the game data"
  },
  "4480:17": {
-  "ko": "유저인터페이스\\illust\\펫_데져트울프새끼.bmp"
+  "ko": "유저인터페이스\\illust\\펫_데져트울프새끼.bmp",
+  "keep": "file name in the game data"
  },
  "4483:17": {
-  "ko": "유저인터페이스\\illust\\펫_데비루치.bmp"
+  "ko": "유저인터페이스\\illust\\펫_데비루치.bmp",
+  "keep": "file name in the game data"
  },
  "4486:17": {
-  "ko": "유저인터페이스\\illust\\펫_이시스.bmp"
+  "ko": "유저인터페이스\\illust\\펫_이시스.bmp",
+  "keep": "file name in the game data"
  },
  "4489:17": {
-  "ko": "유저인터페이스\\illust\\펫_루나틱.bmp"
+  "ko": "유저인터페이스\\illust\\펫_루나틱.bmp",
+  "keep": "file name in the game data"
  },
  "4492:17": {
-  "ko": "유저인터페이스\\illust\\펫_무낙.bmp"
+  "ko": "유저인터페이스\\illust\\펫_무낙.bmp",
+  "keep": "file name in the game data"
  },
  "4495:17": {
-  "ko": "유저인터페이스\\illust\\펫_오크워리어.bmp"
+  "ko": "유저인터페이스\\illust\\펫_오크워리어.bmp",
+  "keep": "file name in the game data"
  },
  "4498:17": {
-  "ko": "유저인터페이스\\illust\\펫_픽키.bmp"
+  "ko": "유저인터페이스\\illust\\펫_픽키.bmp",
+  "keep": "file name in the game data"
  },
  "4501:17": {
-  "ko": "유저인터페이스\\illust\\펫_포링.bmp"
+  "ko": "유저인터페이스\\illust\\펫_포링.bmp",
+  "keep": "file name in the game data"
  },
  "4504:17": {
-  "ko": "유저인터페이스\\illust\\펫_로커.bmp"
+  "ko": "유저인터페이스\\illust\\펫_로커.bmp",
+  "keep": "file name in the game data"
  },
  "4507:17": {
-  "ko": "유저인터페이스\\illust\\펫_스포아.bmp"
+  "ko": "유저인터페이스\\illust\\펫_스포아.bmp",
+  "keep": "file name in the game data"
  },
  "4510:17": {
-  "ko": "유저인터페이스\\illust\\펫_요요.bmp"
+  "ko": "유저인터페이스\\illust\\펫_요요.bmp",
+  "keep": "file name in the game data"
  },
  "4513:17": {
-  "ko": "유저인터페이스\\illust\\펫_스모키.bmp"
+  "ko": "유저인터페이스\\illust\\펫_스모키.bmp",
+  "keep": "file name in the game data"
  },
  "4516:17": {
-  "ko": "유저인터페이스\\illust\\펫_스틸촌촌.bmp"
+  "ko": "유저인터페이스\\illust\\펫_스틸촌촌.bmp",
+  "keep": "file name in the game data"
  },
  "4519:17": {
-  "ko": "유저인터페이스\\illust\\펫_포포링.bmp"
+  "ko": "유저인터페이스\\illust\\펫_포포링.bmp",
+  "keep": "file name in the game data"
  },
  "4522:17": {
-  "ko": "유저인터페이스\\illust\\펫_헌터플라이.bmp"
+  "ko": "유저인터페이스\\illust\\펫_헌터플라이.bmp",
+  "keep": "file name in the game data"
  },
  "4525:17": {
-  "ko": "유저인터페이스\\illust\\펫_포이즌스포아.bmp"
+  "ko": "유저인터페이스\\illust\\펫_포이즌스포아.bmp",
+  "keep": "file name in the game data"
  },
  "4528:17": {
-  "ko": "유저인터페이스\\illust\\펫_도깨비.bmp"
+  "ko": "유저인터페이스\\illust\\펫_도깨비.bmp",
+  "keep": "file name in the game data"
  },
  "4531:17": {
-  "ko": "유저인터페이스\\illust\\펫_쁘띠.bmp"
+  "ko": "유저인터페이스\\illust\\펫_쁘띠.bmp",
+  "keep": "file name in the game data"
  },
  "4534:17": {
-  "ko": "유저인터페이스\\illust\\펫_세비지베베.bmp"
+  "ko": "유저인터페이스\\illust\\펫_세비지베베.bmp",
+  "keep": "file name in the game data"
  },
  "4537:17": {
-  "ko": "유저인터페이스\\illust\\펫_소희.bmp"
+  "ko": "유저인터페이스\\illust\\펫_소희.bmp",
+  "keep": "file name in the game data"
  },
  "4540:17": {
-  "ko": "유저인터페이스\\illust\\펫_본건.bmp"
+  "ko": "유저인터페이스\\illust\\펫_본건.bmp",
+  "keep": "file name in the game data"
  },
  "4543:17": {
-  "ko": "유저인터페이스\\illust\\펫_드롭프스.bmp"
+  "ko": "유저인터페이스\\illust\\펫_드롭프스.bmp",
+  "keep": "file name in the game data"
  },
  "4546:17": {
-  "ko": "유저인터페이스\\illust\\펫_ZHERLTHSH.bmp"
+  "ko": "유저인터페이스\\illust\\펫_ZHERLTHSH.bmp",
+  "keep": "file name in the game data"
  },
  "4549:17": {
-  "ko": "유저인터페이스\\illust\\펫_고블린_단검.bmp"
+  "ko": "유저인터페이스\\illust\\펫_고블린_단검.bmp",
+  "keep": "file name in the game data"
  },
  "4552:17": {
-  "ko": "유저인터페이스\\illust\\펫_고블린_플레일.bmp"
+  "ko": "유저인터페이스\\illust\\펫_고블린_플레일.bmp",
+  "keep": "file name in the game data"
  },
  "4555:17": {
-  "ko": "유저인터페이스\\illust\\펫_고블린_해머.bmp"
+  "ko": "유저인터페이스\\illust\\펫_고블린_해머.bmp",
+  "keep": "file name in the game data"
  },
  "4558:17": {
-  "ko": "유저인터페이스\\illust\\펫_배회하는자.bmp"
+  "ko": "유저인터페이스\\illust\\펫_배회하는자.bmp",
+  "keep": "file name in the game data"
  },
  "4561:17": {
-  "ko": "유저인터페이스\\illust\\펫_ALICE.bmp"
+  "ko": "유저인터페이스\\illust\\펫_ALICE.bmp",
+  "keep": "file name in the game data"
  },
  "4564:17": {
-  "ko": "유저인터페이스\\illust\\펫_고블린_이벤트.bmp"
+  "ko": "유저인터페이스\\illust\\펫_고블린_이벤트.bmp",
+  "keep": "file name in the game data"
  },
  "4567:17": {
-  "ko": "유저인터페이스\\illust\\펫_지상딜리터.bmp"
+  "ko": "유저인터페이스\\illust\\펫_지상딜리터.bmp",
+  "keep": "file name in the game data"
  },
  "4570:17": {
-  "ko": "유저인터페이스\\illust\\펫_디아볼릭.bmp"
+  "ko": "유저인터페이스\\illust\\펫_디아볼릭.bmp",
+  "keep": "file name in the game data"
  },
  "4574:17": {
-  "ko": "유저인터페이스\\illust\\펫_청이.bmp"
+  "ko": "유저인터페이스\\illust\\펫_청이.bmp",
+  "keep": "file name in the game data"
  },
  "4577:17": {
-  "ko": "유저인터페이스\\illust\\펫_루나틱.bmp"
+  "ko": "유저인터페이스\\illust\\펫_루나틱.bmp",
+  "keep": "file name in the game data"
  },
  "4580:17": {
-  "ko": "유저인터페이스\\illust\\펫_떡_이벤트.bmp"
+  "ko": "유저인터페이스\\illust\\펫_떡_이벤트.bmp",
+  "keep": "file name in the game data"
  },
  "4583:16": {
-  "ko": "유저인터페이스\\illust\\펫_포링.bmp"
+  "ko": "유저인터페이스\\illust\\펫_포링.bmp",
+  "keep": "file name in the game data"
  },
  "4630:1": {
-  "ko": "아빠"
+  "ko": "아빠",
+  "keep": "word looked up in the pet talk data"
  },
  "4631:1": {
-  "ko": "형님"
+  "ko": "형님",
+  "keep": "word looked up in the pet talk data"
  },
  "4632:1": {
-  "ko": "오빠"
+  "ko": "오빠",
+  "keep": "word looked up in the pet talk data"
  },
  "4633:1": {
-  "ko": "도련님"
+  "ko": "도련님",
+  "keep": "word looked up in the pet talk data"
  },
  "4634:1": {
-  "ko": "형씨"
+  "ko": "형씨",
+  "keep": "word looked up in the pet talk data"
  },
  "4635:1": {
-  "ko": "도련님은"
+  "ko": "도련님은",
+  "keep": "word looked up in the pet talk data"
  },
  "4636:1": {
-  "ko": "도련님을"
+  "ko": "도련님을",
+  "keep": "word looked up in the pet talk data"
  },
  "4637:1": {
-  "ko": "도련님과"
+  "ko": "도련님과",
+  "keep": "word looked up in the pet talk data"
  },
  "4638:1": {
-  "ko": "아빠"
+  "ko": "아빠",
+  "keep": "word looked up in the pet talk data"
  },
  "4639:1": {
-  "ko": "아빠"
+  "ko": "아빠",
+  "keep": "word looked up in the pet talk data"
  },
  "4640:1": {
-  "ko": "아빠"
+  "ko": "아빠",
+  "keep": "word looked up in the pet talk data"
  },
  "4641:1": {
-  "ko": "아빠"
+  "ko": "아빠",
+  "keep": "word looked up in the pet talk data"
  },
  "4642:1": {
-  "ko": "아빠"
+  "ko": "아빠",
+  "keep": "word looked up in the pet talk data"
  },
  "4643:1": {
-  "ko": "엄마"
+  "ko": "엄마",
+  "keep": "word looked up in the pet talk data"
  },
  "4644:1": {
-  "ko": "누님"
+  "ko": "누님",
+  "keep": "word looked up in the pet talk data"
  },
  "4645:1": {
-  "ko": "언니"
+  "ko": "언니",
+  "keep": "word looked up in the pet talk data"
  },
  "4646:1": {
-  "ko": "아가씨"
+  "ko": "아가씨",
+  "keep": "word looked up in the pet talk data"
  },
  "4647:1": {
-  "ko": "아가씨"
+  "ko": "아가씨",
+  "keep": "word looked up in the pet talk data"
  },
  "4648:1": {
-  "ko": "아가씨는"
+  "ko": "아가씨는",
+  "keep": "word looked up in the pet talk data"
  },
  "4649:1": {
-  "ko": "아가씨를"
+  "ko": "아가씨를",
+  "keep": "word looked up in the pet talk data"
  },
  "4650:1": {
-  "ko": "아가씨와"
+  "ko": "아가씨와",
+  "keep": "word looked up in the pet talk data"
  },
  "4651:1": {
-  "ko": "엄마"
+  "ko": "엄마",
+  "keep": "word looked up in the pet talk data"
  },
  "4652:1": {
-  "ko": "엄마"
+  "ko": "엄마",
+  "keep": "word looked up in the pet talk data"
  },
  "4653:1": {
-  "ko": "엄마"
+  "ko": "엄마",
+  "keep": "word looked up in the pet talk data"
  },
  "4654:1": {
-  "ko": "엄마"
+  "ko": "엄마",
+  "keep": "word looked up in the pet talk data"
  },
  "4655:1": {
-  "ko": "엄마"
+  "ko": "엄마",
+  "keep": "word looked up in the pet talk data"
  },
  "4739:14": {
   "ko": "배고픔"

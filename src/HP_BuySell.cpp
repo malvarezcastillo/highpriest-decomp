@@ -58,11 +58,11 @@ void UIWindowMgr::SetcurStance_B(int F1)
 		TT = new Tetris;
 		g_WordDisplay = false;
 		if (game_TetrisPlayed == 0 || game_TetrisPlayed == 2) {
-			sprintf(msg, "HELP : \xb8\xf0\xbe\xe7\xc0\xbb \xb8\xc2\xc3\xe7\xbc\xad \xc7\xd1\xc1\xd9\xc0\xbb \xc3\xa4\xbf\xf6\xbe\xdf\xc7\xd5\xb4\xcf\xb4\xd9");
+			sprintf(msg, "HELP : Match shapes to fill a line");
 			actor->SendMsg(NULL, AM_CHAT, (int)msg, 0, 0);
-			sprintf(msg, "\xb9\xab\xb1\xe2\xb8\xa6 \xc1\xa6\xc0\xdb \xc7\xcf\xb7\xc1\xb8\xe9 10\xc1\xd9\xc0\xbb \xbc\xd2\xb8\xea\xbd\xc3\xc4\xd1\xbe\xdf\xc7\xd5\xb4\xcf\xb4\xd9.");
+			sprintf(msg, "Clear 10 lines to forge a weapon.");
 			g_windowMgr.SendMsg(UIM_PUSHINTOCHATHISTORY, (int)msg, 0xffc8c8, 0, 0);
-			sprintf(msg, "\xb0\xb0\xc0\xba \xb8\xf0\xbe\xe7\xc0\xb8\xb7\xce \xc7\xd1\xc1\xd9\xc0\xbb \xc3\xa4\xbf\xf6\xbe\xdf \xbc\xd2\xb8\xea\xb5\xc7\xb8\xe7 \xc7\xd1\xc1\xd9\xc0\xba \xbc\xd2\xb8\xea\xb5\xc9\xb6\xa7 \xc1\xd6\xc0\xa7\xb8\xa6 \xc0\xfc\xbf\xb0\xbd\xc3\xc5\xb5\xb4\xcf\xb4\xd9");
+			sprintf(msg, "Lines of one shape clear, and a clearing line infects its neighbors");
 			g_windowMgr.SendMsg(UIM_PUSHINTOCHATHISTORY, (int)msg, 0xffc8c8, 0, 0);
 		}
 		actor->SetState(ST_ATTACKWAIT);
@@ -79,12 +79,12 @@ void UIWindowMgr::SetcurStance_B(int F1)
 		g_BS_phase = 0;
 		if (actor) {
 			++game_ShopOpenNumber;
-			sprintf(msg, "%s \xbe\xc6\xba\xfc\xc0\xc7 \xbb\xf3\xc1\xa1", g_session.GetCharName());
+			sprintf(msg, "%s's Dad's Shop", g_session.GetCharName());
 			actor->SendMsg(NULL, AM_MAKE_SHOP_TITLE, (int)msg, 0, 0);
 			actor->SetState(ST_SIT);
 			g_BS_NextActTime = timeGetTime() + ((rand() % 20 + 20) * 1000);
 			if (game_ShopOpenNumber <= F1) {
-				sprintf(msg, "HINT : \xbc\xd5\xb4\xd4\xc0\xba 1\xba\xd0\xc1\xa4\xb5\xb5 \xb1\xe2\xb4\xd9\xb8\xae\xb8\xe9 \xb3\xaa\xc5\xb8\xb3\xb3\xb4\xcf\xb4\xd9.");
+				sprintf(msg, "HINT : Customers come after about 1 minute.");
 				g_windowMgr.SendMsg(UIM_PUSHINTOCHATHISTORY, (int)msg, 0xffc8c8, 0, 0);
 			}
 		}
@@ -138,7 +138,7 @@ void UIWindowMgr::BS_Selling()
 				itemInfo = g_session.GetItemInfoByIndex(g_selected_item);
 				g_selected_item_ID = itemInfo.GetItemId();
 				itemInfo.GetItemName(iName);
-				sprintf(msg, "%s \xbe\xf3\xb8\xb6\xc0\xce\xb0\xa1\xbf\xe4?", iName);
+				sprintf(msg, "How much for %s?", iName);
 				buyer->SendMsg(NULL, AM_CHAT, (int)msg, 0, 0);
 				buyer->SendMsg(NULL, AM_EMOTION, 1, 0, 0);
 				g_BS_NextActTime = timeGetTime() + 1000;
@@ -168,7 +168,7 @@ void UIWindowMgr::BS_Selling()
 			} else if (g_menuFreeze == 3) {
 				price = itemInfo.m_price * 0.5;
 			}
-			sprintf(msg, "%d \xc1\xa6\xb4\xcf \xc0\xd4\xb4\xcf\xb4\xd9", price);
+			sprintf(msg, "%d Zeny", price);
 			merchant->SendMsg(NULL, AM_SET_HEAD_DIR, 2, 0, 0);
 			merchant->SendMsg(NULL, AM_CHAT, (int)msg, 0, 0);
 			merchant->SendMsg(NULL, AM_EMOTION, 8, 0, 0);
@@ -177,18 +177,18 @@ void UIWindowMgr::BS_Selling()
 				itemInfo = g_session.GetItemInfoByIndex(g_selected_item);
 				++g_BS_phase;
 				if (g_selected_item_ID != itemInfo.GetItemId()) {
-					sprintf(msg, "\xb0\xa9\xc0\xda\xb1\xe2 \xbc\xee\xc7\xce\xc7\xcf\xb1\xe2 \xbd\xc8\xbe\xee\xc1\xb3\xbe\xee\xbf\xe4..");
+					sprintf(msg, "Suddenly I don't want to shop..");
 					buyer->SendMsg(NULL, AM_CHAT, (int)msg, 0, 0);
 					return;
 				} else if (g_menuFreeze == 0) {
 					g_BS_NextActTime = timeGetTime() + 3000;
 					if (buyer->GetJob() == JT_THIEF) {
-						sprintf(msg, "\xa4\xbb\xa4\xbb\xa4\xbb\xa4\xbb\xa4\xbb \xc1\xa4\xbd\xc5\xc0\xbb \xb4\xd9\xb8\xa5\xb5\xa5 \xc6\xc8\xb0\xed\xc0\xd6\xb1\xba. \xc0\xcc\xb0\xc7 \xb3\xbb\xb0\xa1 \xb1\xd7\xb3\xc9 \xb0\xa1\xc1\xae\xb0\xa1\xb8\xb6");
+						sprintf(msg, "Hehehe, your mind's elsewhere. I'll just take this");
 						buyer->SendMsg(NULL, AM_CHAT, (int)msg, 0, 0);
 						buyer->SendMsg(NULL, AM_EMOTION, 0, 0, 0);
 						g_session.DecItem(g_selected_item, 1);
 					} else {
-						sprintf(msg, "\xb8\xbb\xc0\xcc \xbe\xf8\xb3\xd7... \xc0\xe5\xbb\xe7\xc7\xcf\xb1\xe2 \xbd\xc8\xc0\xba\xb0\xa1\xba\xc1");
+						sprintf(msg, "No answer... guess he won't sell");
 						buyer->SendMsg(NULL, AM_CHAT, (int)msg, 0, 0);
 						buyer->SendMsg(NULL, AM_EMOTION, 4, 0, 0);
 					}
@@ -204,7 +204,7 @@ void UIWindowMgr::BS_Selling()
 					}
 					if (buyer->GetJob() == JT_LINKER) {
 						if (g_menuFreeze == 3) {
-							sprintf(msg, "\xbd\xce\xb0\xd4 \xc6\xc8\xbe\xc6\xc1\xd6\xbc\xc5\xbc\xad \xb0\xed\xb8\xb6\xbf\xf6\xbf\xe4 \xa4\xd0_\xa4\xd0 \xc0\xcc\xc1\xa6 \xb8\xf0\xb7\xce\xc5\xa9\xb7\xce \xb5\xb9\xbe\xc6\xb0\xa1\xbe\xdf\xb0\xda\xb3\xd7\xbf\xe4 ^^;");
+							sprintf(msg, "Thanks for selling it cheap T_T Now I can go back to Morroc ^^;");
 							buyer->SendMsg(NULL, AM_CHAT, (int)msg, 0, 0);
 							buyer->SendMsg(NULL, AM_EMOTION, 0x12, 0, 0);
 							price = itemInfo.m_price * 0.5;
@@ -213,12 +213,12 @@ void UIWindowMgr::BS_Selling()
 							g_session.SetGold(g_session.GetGold() + price);
 							g_curStory = 43;
 						} else {
-							sprintf(msg, "\xc1\xa6\xb0\xa1 \xb5\xb7\xc0\xcc \xba\xb0\xb7\xce \xbe\xf8\xbe\xee\xbf\xe4 \xa4\xd0_\xa4\xd0 \xbd\xce\xb0\xd4 \xc6\xc8\xbe\xc6\xc1\xd6\xb4\xc2 \xb0\xa1\xb0\xd4 \xbe\xee\xb5\xf0\xbe\xf8\xb3\xaa\xbf\xe4.. \xc8\xe6");
+							sprintf(msg, "I'm short on money T_T Isn't there a shop that sells cheap.. sob");
 							buyer->SendMsg(NULL, AM_CHAT, (int)msg, 0, 0);
 							buyer->SendMsg(NULL, AM_EMOTION, 0x1c, 0, 0);
 						}
 					} else if (PASS == 1) {
-						sprintf(msg, "\xbb\xec\xb2\xb2\xbf\xe4~");
+						sprintf(msg, "I'll take it~");
 						buyer->SendMsg(NULL, AM_CHAT, (int)msg, 0, 0);
 						buyer->SendMsg(NULL, AM_EMOTION, 0x12, 0, 0);
 						if (g_menuFreeze == 1) {
@@ -232,11 +232,11 @@ void UIWindowMgr::BS_Selling()
 						PlayWave("effect\\rog_steal coin.wav");
 						g_session.SetGold(g_session.GetGold() + price);
 					} else if (buyer->GetJob() == JT_THIEF) {
-						sprintf(msg, "\xc1\xbb \xb4\xf5 \xbd\xce\xc1\xf6\xb8\xe9 \xb4\xd9\xbd\xc3 \xbf\xc3\xb2\xb2\xbf\xe4");
+						sprintf(msg, "I'll be back when it's cheaper");
 						buyer->SendMsg(NULL, AM_CHAT, (int)msg, 0, 0);
 						buyer->SendMsg(NULL, AM_EMOTION, 6, 0, 0);
 					} else {
-						sprintf(msg, "\xb3\xca\xb9\xab \xba\xf1\xbd\xce\xb3\xd7\xbf\xe4;");
+						sprintf(msg, "Too expensive;");
 						buyer->SendMsg(NULL, AM_CHAT, (int)msg, 0, 0);
 						buyer->SendMsg(NULL, AM_EMOTION, 0x17, 0, 0);
 					}
@@ -302,7 +302,7 @@ void UIWindowMgr::BS_Buying()
 			if (g_BS_NextActTime < timeGetTime()) {
 				g_BS_NextActTime = timeGetTime() + 1000;
 				++g_BS_phase;
-				sprintf(msg, "\xc5\xda\xb7\xb9\xc6\xf7\xc6\xae \xbb\xf3\xc0\xce \xc0\xd4\xb4\xcf\xb4\xd9 ^_^  \xb9\xab\xbe\xf3 \xbb\xe7\xbd\xc3\xb0\xda\xbd\xc0\xb4\xcf\xb1\xee?");
+				sprintf(msg, "Teleport Merchant here ^_^  What would you like?");
 				actor->SendMsg(NULL, AM_CHAT, (int)msg, 0, 0);
 				actor->SendMsg(NULL, AM_EMOTION, 8, 0, 0);
 			}
@@ -338,7 +338,7 @@ void UIWindowMgr::BS_Buying()
 					g_selected_item = 0x64d;
 				}
 				GetitemName_HP(g_selected_item);
-				sprintf(msg, "\xb0\xf8\xb0\xdd\xb7\xc2 %d \xc0\xce %s \xb0\xa1 %d \xc1\xa6\xb4\xcf \xc0\xd4\xb4\xcf\xb4\xd9~",
+				sprintf(msg, "ATK %d %s, just %d Zeny~",
 					gameMode->GetWeaponPower(g_selected_item), g_Name, gameMode->GetWeaponCost(g_selected_item));
 				actor->SendMsg(NULL, AM_CHAT, (int)msg, 0, 0);
 				actor->SendMsg(NULL, AM_EMOTION, 2, 0, 0);
@@ -395,7 +395,7 @@ void UIWindowMgr::BS_Buying()
 					g_selected_item = 0x13ee;
 				}
 				GetitemName_HP(g_selected_item);
-				sprintf(msg, "\xbf\xc0\xb4\xc3\xc0\xba %s \xb0\xa1\xc1\xae\xbf\xd4\xbe\xee\xbf\xe4, %d \xc1\xa6\xb4\xcf \xbe\xee\xb6\xb0\xbc\xbc\xbf\xe4?",
+				sprintf(msg, "Today I brought %s, how about %d Zeny?",
 					g_Name, gameMode->GetWeaponCost(g_selected_item));
 				actor->SendMsg(NULL, AM_CHAT, (int)msg, 0, 0);
 				actor->SendMsg(NULL, AM_EMOTION, 1, 0, 0);
@@ -447,7 +447,7 @@ void UIWindowMgr::BS_Buying_Weapon()
 
 		if (g_menuFreeze == 1 || g_menuFreeze == 2) {
 			if (g_session.GetGold() - cost < 0) {
-				sprintf(msg, "\xb5\xb7\xb5\xb5 \xbe\xf8\xb4\xc2 \xc1\xd6\xc1\xa6\xbf\xa1 -_- \xbb\xe7\xb1\xe4 \xb9\xbb \xbb\xe7\xb7\xc1\xb0\xed");
+				sprintf(msg, "Got no money -_- and you wanna buy?");
 				actor->SendMsg(NULL, AM_CHAT, (int)msg, 0, 0);
 				actor->SendMsg(NULL, AM_EMOTION, 0x17, 0, 0);
 				g_BS_phase = 0x14;
@@ -460,7 +460,7 @@ void UIWindowMgr::BS_Buying_Weapon()
 			PlayWave("effect\\rog_steal coin.wav");
 			g_session.SetGold(g_session.GetGold() - cost);
 			g_session.HP_AddItem(g_selected_item, true);
-			sprintf(msg, "%d \xc1\xa6\xb4\xcf  \xb0\xa8\xbb\xe7\xc7\xd5\xb4\xcf\xb4\xd9~", cost);
+			sprintf(msg, "%d Zeny, thank you~", cost);
 			actor->SendMsg(NULL, AM_CHAT, (int)msg, 0, 0);
 			actor->SendMsg(NULL, AM_EMOTION, 0x12, 0, 0);
 			g_BS_phase = 0x14;
@@ -471,7 +471,7 @@ void UIWindowMgr::BS_Buying_Weapon()
 				PlayWave("effect\\rog_steal coin.wav");
 				g_session.SetGold(g_session.GetGold() - cost);
 				g_session.HP_AddItem(g_selected_item, true);
-				sprintf(msg, "\xbf\xc0\xb4\xc3\xc0\xba \xc6\xaf\xba\xb0\xc8\xf7 \xb9\xdd\xb0\xaa\xc0\xce %d \xc1\xa6\xb4\xcf\xbf\xa1 \xc6\xc8\xb2\xb2\xbf\xe4 ^^;", cost);
+				sprintf(msg, "Today only, half price: %d Zeny ^^;", cost);
 				actor->SendMsg(NULL, AM_CHAT, (int)msg, 0, 0);
 				actor->SendMsg(NULL, AM_EMOTION, 0x12, 0, 0);
 				g_BS_phase = 0x14;
@@ -479,7 +479,7 @@ void UIWindowMgr::BS_Buying_Weapon()
 				return;
 			}
 
-			sprintf(msg, "\xbf\xa9\xb1\xe2\xbc\xad \xb4\xf5 \xb1\xef\xc0\xb8\xb8\xe9 \xc0\xfa\xc8\xf1 \xb8\xc1\xc7\xd8\xbf\xe4.");
+			sprintf(msg, "Any lower and we'll go broke.");
 			actor->SendMsg(NULL, AM_CHAT, (int)msg, 0, 0);
 			actor->SendMsg(NULL, AM_EMOTION, 0x20, 0, 0);
 			g_BS_phase = 0x14;
@@ -498,7 +498,7 @@ void UIWindowMgr::BS_NotBuying()
 	PlayWave("effect\\rog_steal coin.wav");
 	g_session.SetGold(g_session.GetGold() - 100);
 	char msg[256];
-	sprintf(msg, "\xc5\xda\xb7\xb9\xc6\xf7\xc6\xae \xbb\xf3\xc1\xa1 \xc3\xe2\xc0\xe5\xba\xf1\xbf\xeb\xc0\xba %d \xc1\xa6\xb4\xcf \xc0\xd4\xb4\xcf\xb4\xd9 ^_^", 100);
+	sprintf(msg, "Teleport Shop call-out fee: %d Zeny ^_^", 100);
 	actor->SendMsg(NULL, AM_CHAT, (int)msg, 0, 0);
 	actor->SendMsg(NULL, AM_EMOTION, 0xf, 0, 0);
 	g_BS_phase = 0x14;
@@ -511,7 +511,7 @@ void UIWindowMgr::BS_NotAnswering()
 	PlayWave("effect\\rog_steal coin.wav");
 	g_session.SetGold(g_session.GetGold() - 1000);
 	char msg[256];
-	sprintf(msg, "\xbb\xe7\xb6\xf7\xc0\xbb \xba\xd2\xb7\xb6\xc0\xb8\xb8\xe9 \xb8\xbb\xc0\xbb \xc7\xd8\xbe\xdf\xc1\xd2... \xc3\xe2\xc0\xe5\xba\xf1 %d \xc1\xa6\xb4\xcf\xb4\xc2 \xb0\xa1\xc1\xae\xb0\xa9\xb4\xcf\xb4\xd9 -_-", 1000);
+	sprintf(msg, "You called me, so talk... I'm keeping the %d Zeny fee -_-", 1000);
 	actor->SendMsg(NULL, AM_CHAT, (int)msg, 0, 0);
 	actor->SendMsg(NULL, AM_EMOTION, 6, 0, 0);
 	g_BS_phase = 0x14;

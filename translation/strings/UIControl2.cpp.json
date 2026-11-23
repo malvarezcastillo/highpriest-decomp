@@ -1,119 +1,158 @@
 {
  "31:52": {
-  "ko": "유저인터페이스\\basic_interface\\gze_bg.bmp"
+  "ko": "유저인터페이스\\basic_interface\\gze_bg.bmp",
+  "keep": "file name in the game data"
  },
  "44:9": {
-  "ko": "유저인터페이스\\basic_interface\\gze"
+  "ko": "유저인터페이스\\basic_interface\\gze",
+  "keep": "file name in the game data"
  },
  "48:9": {
-  "ko": "유저인터페이스\\basic_interface\\gze"
+  "ko": "유저인터페이스\\basic_interface\\gze",
+  "keep": "file name in the game data"
  },
  "53:9": {
-  "ko": "유저인터페이스\\basic_interface\\gze"
+  "ko": "유저인터페이스\\basic_interface\\gze",
+  "keep": "file name in the game data"
  },
  "137:52": {
-  "ko": "유저인터페이스\\basic_interface\\gze_bg.bmp"
+  "ko": "유저인터페이스\\basic_interface\\gze_bg.bmp",
+  "keep": "file name in the game data"
  },
  "154:9": {
-  "ko": "유저인터페이스\\basic_interface\\gze"
+  "ko": "유저인터페이스\\basic_interface\\gze",
+  "keep": "file name in the game data"
  },
  "158:9": {
-  "ko": "유저인터페이스\\basic_interface\\gze"
+  "ko": "유저인터페이스\\basic_interface\\gze",
+  "keep": "file name in the game data"
  },
  "163:9": {
-  "ko": "유저인터페이스\\basic_interface\\gze"
+  "ko": "유저인터페이스\\basic_interface\\gze",
+  "keep": "file name in the game data"
  },
  "189:52": {
-  "ko": "유저인터페이스\\basic_interface\\gze_bg.bmp"
+  "ko": "유저인터페이스\\basic_interface\\gze_bg.bmp",
+  "keep": "file name in the game data"
  },
  "206:9": {
-  "ko": "유저인터페이스\\basic_interface\\gze"
+  "ko": "유저인터페이스\\basic_interface\\gze",
+  "keep": "file name in the game data"
  },
  "210:9": {
-  "ko": "유저인터페이스\\basic_interface\\gze"
+  "ko": "유저인터페이스\\basic_interface\\gze",
+  "keep": "file name in the game data"
  },
  "215:9": {
-  "ko": "유저인터페이스\\basic_interface\\gze"
+  "ko": "유저인터페이스\\basic_interface\\gze",
+  "keep": "file name in the game data"
  },
  "814:8": {
-  "ko": "유저인터페이스\\basic_interface\\sysboxs_lu.bmp"
+  "ko": "유저인터페이스\\basic_interface\\sysboxs_lu.bmp",
+  "keep": "file name in the game data"
  },
  "818:8": {
-  "ko": "유저인터페이스\\basic_interface\\sysboxs_ld.bmp"
+  "ko": "유저인터페이스\\basic_interface\\sysboxs_ld.bmp",
+  "keep": "file name in the game data"
  },
  "822:8": {
-  "ko": "유저인터페이스\\basic_interface\\sysboxs_ru.bmp"
+  "ko": "유저인터페이스\\basic_interface\\sysboxs_ru.bmp",
+  "keep": "file name in the game data"
  },
  "826:8": {
-  "ko": "유저인터페이스\\basic_interface\\sysboxs_rd.bmp"
+  "ko": "유저인터페이스\\basic_interface\\sysboxs_rd.bmp",
+  "keep": "file name in the game data"
  },
  "1538:54": {
-  "ko": "유저인터페이스\\scroll1left.bmp"
+  "ko": "유저인터페이스\\scroll1left.bmp",
+  "keep": "file name in the game data"
  },
  "1540:54": {
-  "ko": "유저인터페이스\\scroll1left.bmp"
+  "ko": "유저인터페이스\\scroll1left.bmp",
+  "keep": "file name in the game data"
  },
  "1542:54": {
-  "ko": "유저인터페이스\\scroll1left.bmp"
+  "ko": "유저인터페이스\\scroll1left.bmp",
+  "keep": "file name in the game data"
  },
  "1544:58": {
-  "ko": "유저인터페이스\\scroll1mid.bmp"
+  "ko": "유저인터페이스\\scroll1mid.bmp",
+  "keep": "file name in the game data"
  },
  "1552:78": {
-  "ko": "유저인터페이스\\scroll1right.bmp"
+  "ko": "유저인터페이스\\scroll1right.bmp",
+  "keep": "file name in the game data"
  },
  "1554:78": {
-  "ko": "유저인터페이스\\scroll1right.bmp"
+  "ko": "유저인터페이스\\scroll1right.bmp",
+  "keep": "file name in the game data"
  },
  "1556:78": {
-  "ko": "유저인터페이스\\scroll1right.bmp"
+  "ko": "유저인터페이스\\scroll1right.bmp",
+  "keep": "file name in the game data"
  },
  "1559:61": {
-  "ko": "유저인터페이스\\scroll1bar_left.bmp"
+  "ko": "유저인터페이스\\scroll1bar_left.bmp",
+  "keep": "file name in the game data"
  },
  "1562:55": {
-  "ko": "유저인터페이스\\scroll1bar_mid.bmp"
+  "ko": "유저인터페이스\\scroll1bar_mid.bmp",
+  "keep": "file name in the game data"
  },
  "1563:77": {
-  "ko": "유저인터페이스\\scroll1bar_right.bmp"
+  "ko": "유저인터페이스\\scroll1bar_right.bmp",
+  "keep": "file name in the game data"
  },
  "1569:54": {
-  "ko": "유저인터페이스\\scroll0up.bmp"
+  "ko": "유저인터페이스\\scroll0up.bmp",
+  "keep": "file name in the game data"
  },
  "1571:54": {
-  "ko": "유저인터페이스\\scroll0up.bmp"
+  "ko": "유저인터페이스\\scroll0up.bmp",
+  "keep": "file name in the game data"
  },
  "1573:54": {
-  "ko": "유저인터페이스\\scroll0up.bmp"
+  "ko": "유저인터페이스\\scroll0up.bmp",
+  "keep": "file name in the game data"
  },
  "1575:58": {
-  "ko": "유저인터페이스\\scroll0mid.bmp"
+  "ko": "유저인터페이스\\scroll0mid.bmp",
+  "keep": "file name in the game data"
  },
  "1583:78": {
-  "ko": "유저인터페이스\\scroll0down.bmp"
+  "ko": "유저인터페이스\\scroll0down.bmp",
+  "keep": "file name in the game data"
  },
  "1585:78": {
-  "ko": "유저인터페이스\\scroll0down.bmp"
+  "ko": "유저인터페이스\\scroll0down.bmp",
+  "keep": "file name in the game data"
  },
  "1587:78": {
-  "ko": "유저인터페이스\\scroll0down.bmp"
+  "ko": "유저인터페이스\\scroll0down.bmp",
+  "keep": "file name in the game data"
  },
  "1590:61": {
-  "ko": "유저인터페이스\\scroll0bar_up.bmp"
+  "ko": "유저인터페이스\\scroll0bar_up.bmp",
+  "keep": "file name in the game data"
  },
  "1593:55": {
-  "ko": "유저인터페이스\\scroll0bar_mid.bmp"
+  "ko": "유저인터페이스\\scroll0bar_mid.bmp",
+  "keep": "file name in the game data"
  },
  "1594:77": {
-  "ko": "유저인터페이스\\scroll0bar_down.bmp"
+  "ko": "유저인터페이스\\scroll0bar_down.bmp",
+  "keep": "file name in the game data"
  },
  "1701:19": {
-  "ko": "유저인터페이스\\basic_interface\\"
+  "ko": "유저인터페이스\\basic_interface\\",
+  "keep": "file name in the game data"
  },
  "1735:19": {
-  "ko": "유저인터페이스\\basic_interface\\"
+  "ko": "유저인터페이스\\basic_interface\\",
+  "keep": "file name in the game data"
  },
  "1778:19": {
-  "ko": "유저인터페이스\\basic_interface\\"
+  "ko": "유저인터페이스\\basic_interface\\",
+  "keep": "file name in the game data"
  }
 }

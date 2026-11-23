@@ -1,98 +1,130 @@
 {
  "435:47": {
-  "ko": "유저인터페이스\\sml_button_up.bmp"
+  "ko": "유저인터페이스\\sml_button_up.bmp",
+  "keep": "file name in the game data"
  },
  "438:47": {
-  "ko": "유저인터페이스\\sml_button_act.bmp"
+  "ko": "유저인터페이스\\sml_button_act.bmp",
+  "keep": "file name in the game data"
  },
  "441:47": {
-  "ko": "유저인터페이스\\sml_button_down.bmp"
+  "ko": "유저인터페이스\\sml_button_down.bmp",
+  "keep": "file name in the game data"
  },
  "868:18": {
-  "ko": "%s『%s』"
+  "ko": "%s『%s』",
+  "keep": "symbol, no words"
  },
  "878:18": {
-  "ko": "%s『%s』"
+  "ko": "%s『%s』",
+  "keep": "symbol, no words"
  },
  "1104:57": {
-  "ko": "유저인터페이스\\type_dialog_l.bmp"
+  "ko": "유저인터페이스\\type_dialog_l.bmp",
+  "keep": "file name in the game data"
  },
  "1107:45": {
-  "ko": "유저인터페이스\\type_dialog_m.bmp"
+  "ko": "유저인터페이스\\type_dialog_m.bmp",
+  "keep": "file name in the game data"
  },
  "1111:45": {
-  "ko": "유저인터페이스\\type_dialog_r.bmp"
+  "ko": "유저인터페이스\\type_dialog_r.bmp",
+  "keep": "file name in the game data"
  },
  "2213:22": {
-  "ko": "유저인터페이스\\basic_interface\\tab_itm_%02d.bmp"
+  "ko": "유저인터페이스\\basic_interface\\tab_itm_%02d.bmp",
+  "keep": "file name in the game data"
  },
  "2218:22": {
-  "ko": "유저인터페이스\\basic_interface\\tab_cmd_%02d.bmp"
+  "ko": "유저인터페이스\\basic_interface\\tab_cmd_%02d.bmp",
+  "keep": "file name in the game data"
  },
  "2223:22": {
-  "ko": "유저인터페이스\\basic_interface\\tab_que_%02d.bmp"
+  "ko": "유저인터페이스\\basic_interface\\tab_que_%02d.bmp",
+  "keep": "file name in the game data"
  },
  "2254:54": {
-  "ko": "유저인터페이스\\radiobtn_off.bmp"
+  "ko": "유저인터페이스\\radiobtn_off.bmp",
+  "keep": "file name in the game data"
  },
  "2258:55": {
-  "ko": "유저인터페이스\\radiobtn_on1.bmp"
+  "ko": "유저인터페이스\\radiobtn_on1.bmp",
+  "keep": "file name in the game data"
  },
  "2261:55": {
-  "ko": "유저인터페이스\\radiobtn_on.bmp"
+  "ko": "유저인터페이스\\radiobtn_on.bmp",
+  "keep": "file name in the game data"
  },
  "2326:53": {
-  "ko": "유저인터페이스\\sysbox_lu.bmp"
+  "ko": "유저인터페이스\\sysbox_lu.bmp",
+  "keep": "file name in the game data"
  },
  "2329:41": {
-  "ko": "유저인터페이스\\sysbox_ru.bmp"
+  "ko": "유저인터페이스\\sysbox_ru.bmp",
+  "keep": "file name in the game data"
  },
  "2334:42": {
-  "ko": "유저인터페이스\\sysbox_mu.bmp"
+  "ko": "유저인터페이스\\sysbox_mu.bmp",
+  "keep": "file name in the game data"
  },
  "2338:41": {
-  "ko": "유저인터페이스\\sysbox_ld.bmp"
+  "ko": "유저인터페이스\\sysbox_ld.bmp",
+  "keep": "file name in the game data"
  },
  "2341:41": {
-  "ko": "유저인터페이스\\sysbox_rd.bmp"
+  "ko": "유저인터페이스\\sysbox_rd.bmp",
+  "keep": "file name in the game data"
  },
  "2346:42": {
-  "ko": "유저인터페이스\\sysbox_md.bmp"
+  "ko": "유저인터페이스\\sysbox_md.bmp",
+  "keep": "file name in the game data"
  },
  "2350:41": {
-  "ko": "유저인터페이스\\sysbox_arr_l.bmp"
+  "ko": "유저인터페이스\\sysbox_arr_l.bmp",
+  "keep": "file name in the game data"
  },
  "2354:42": {
-  "ko": "유저인터페이스\\chat_close.bmp"
+  "ko": "유저인터페이스\\chat_close.bmp",
+  "keep": "file name in the game data"
  },
  "2356:42": {
-  "ko": "유저인터페이스\\chat_open.bmp"
+  "ko": "유저인터페이스\\chat_open.bmp",
+  "keep": "file name in the game data"
  },
  "2424:53": {
-  "ko": "유저인터페이스\\sysbox_lu.bmp"
+  "ko": "유저인터페이스\\sysbox_lu.bmp",
+  "keep": "file name in the game data"
  },
  "2427:41": {
-  "ko": "유저인터페이스\\sysbox_ru.bmp"
+  "ko": "유저인터페이스\\sysbox_ru.bmp",
+  "keep": "file name in the game data"
  },
  "2432:42": {
-  "ko": "유저인터페이스\\sysbox_mu.bmp"
+  "ko": "유저인터페이스\\sysbox_mu.bmp",
+  "keep": "file name in the game data"
  },
  "2436:41": {
-  "ko": "유저인터페이스\\sysbox_ld.bmp"
+  "ko": "유저인터페이스\\sysbox_ld.bmp",
+  "keep": "file name in the game data"
  },
  "2439:41": {
-  "ko": "유저인터페이스\\sysbox_rd.bmp"
+  "ko": "유저인터페이스\\sysbox_rd.bmp",
+  "keep": "file name in the game data"
  },
  "2444:42": {
-  "ko": "유저인터페이스\\sysbox_md.bmp"
+  "ko": "유저인터페이스\\sysbox_md.bmp",
+  "keep": "file name in the game data"
  },
  "2448:41": {
-  "ko": "유저인터페이스\\sysbox_arr_l.bmp"
+  "ko": "유저인터페이스\\sysbox_arr_l.bmp",
+  "keep": "file name in the game data"
  },
  "2451:41": {
-  "ko": "유저인터페이스\\shop.bmp"
+  "ko": "유저인터페이스\\shop.bmp",
+  "keep": "file name in the game data"
  },
  "2592:52": {
-  "ko": "유저인터페이스\\전장적표시.bmp"
+  "ko": "유저인터페이스\\전장적표시.bmp",
+  "keep": "file name in the game data"
  }
 }

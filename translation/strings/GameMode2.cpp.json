@@ -1,14 +1,18 @@
 {
  "189:23": {
-  "ko": " ♡"
+  "ko": " ♡",
+  "keep": "symbol, no words"
  },
  "200:22": {
-  "ko": " ♡"
+  "ko": " ♡",
+  "keep": "symbol, no words"
  },
  "2519:23": {
-  "ko": "　"
+  "ko": "　",
+  "keep": "comparison key or registry path"
  },
  "2526:23": {
-  "ko": "　"
+  "ko": "　",
+  "keep": "comparison key or registry path"
  }
 }

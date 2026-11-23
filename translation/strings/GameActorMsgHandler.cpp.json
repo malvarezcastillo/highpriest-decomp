@@ -1,14 +1,18 @@
 {
  "571:15": {
-  "ko": "effect\\mon_맹룡과강.wav"
+  "ko": "effect\\mon_맹룡과강.wav",
+  "keep": "file name in the game data"
  },
  "581:15": {
-  "ko": "effect\\맹호경파산.wav"
+  "ko": "effect\\맹호경파산.wav",
+  "keep": "file name in the game data"
  },
  "884:12": {
-  "ko": "effect\\수둔.wav"
+  "ko": "effect\\수둔.wav",
+  "keep": "file name in the game data"
  },
  "889:12": {
-  "ko": "effect\\그라운드.wav"
+  "ko": "effect\\그라운드.wav",
+  "keep": "file name in the game data"
  }
 }

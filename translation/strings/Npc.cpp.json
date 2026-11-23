@@ -1,26 +1,34 @@
 {
  "44:12": {
-  "ko": "이팩트\\이팩트.spr"
+  "ko": "이팩트\\이팩트.spr",
+  "keep": "file name in the game data"
  },
  "45:12": {
-  "ko": "이팩트\\이팩트.act"
+  "ko": "이팩트\\이팩트.act",
+  "keep": "file name in the game data"
  },
  "280:12": {
-  "ko": "이팩트\\숫자.spr"
+  "ko": "이팩트\\숫자.spr",
+  "keep": "file name in the game data"
  },
  "281:12": {
-  "ko": "이팩트\\숫자.act"
+  "ko": "이팩트\\숫자.act",
+  "keep": "file name in the game data"
  },
  "608:19": {
-  "ko": "인간족\\몸통\\%s.spr"
+  "ko": "인간족\\몸통\\%s.spr",
+  "keep": "file name in the game data"
  },
  "609:19": {
-  "ko": "인간족\\몸통\\%s.act"
+  "ko": "인간족\\몸통\\%s.act",
+  "keep": "file name in the game data"
  },
  "614:19": {
-  "ko": "몬스터\\%s.spr"
+  "ko": "몬스터\\%s.spr",
+  "keep": "file name in the game data"
  },
  "615:19": {
-  "ko": "몬스터\\%s.act"
+  "ko": "몬스터\\%s.act",
+  "keep": "file name in the game data"
  }
 }

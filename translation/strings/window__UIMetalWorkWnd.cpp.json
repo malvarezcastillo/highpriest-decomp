@@ -1,110 +1,146 @@
 {
  "44:24": {
-  "ko": "유저인터페이스\\"
+  "ko": "유저인터페이스\\",
+  "keep": "file name in the game data"
  },
  "165:58": {
-  "ko": "유저인터페이스\\basic_interface\\titlebar_mid.bmp"
+  "ko": "유저인터페이스\\basic_interface\\titlebar_mid.bmp",
+  "keep": "file name in the game data"
  },
  "169:58": {
-  "ko": "유저인터페이스\\basic_interface\\titlebar_left.bmp"
+  "ko": "유저인터페이스\\basic_interface\\titlebar_left.bmp",
+  "keep": "file name in the game data"
  },
  "173:58": {
-  "ko": "유저인터페이스\\basic_interface\\titlebar_right.bmp"
+  "ko": "유저인터페이스\\basic_interface\\titlebar_right.bmp",
+  "keep": "file name in the game data"
  },
  "183:58": {
-  "ko": "유저인터페이스\\basic_interface\\btnbar_mid2.bmp"
+  "ko": "유저인터페이스\\basic_interface\\btnbar_mid2.bmp",
+  "keep": "file name in the game data"
  },
  "187:58": {
-  "ko": "유저인터페이스\\basic_interface\\btnbar_left2.bmp"
+  "ko": "유저인터페이스\\basic_interface\\btnbar_left2.bmp",
+  "keep": "file name in the game data"
  },
  "191:58": {
-  "ko": "유저인터페이스\\basic_interface\\btnbar_right2.bmp"
+  "ko": "유저인터페이스\\basic_interface\\btnbar_right2.bmp",
+  "keep": "file name in the game data"
  },
  "219:24": {
-  "ko": "유저인터페이스\\"
+  "ko": "유저인터페이스\\",
+  "keep": "file name in the game data"
  },
  "317:58": {
-  "ko": "유저인터페이스\\basic_interface\\titlebar_mid.bmp"
+  "ko": "유저인터페이스\\basic_interface\\titlebar_mid.bmp",
+  "keep": "file name in the game data"
  },
  "321:58": {
-  "ko": "유저인터페이스\\basic_interface\\titlebar_left.bmp"
+  "ko": "유저인터페이스\\basic_interface\\titlebar_left.bmp",
+  "keep": "file name in the game data"
  },
  "325:58": {
-  "ko": "유저인터페이스\\basic_interface\\titlebar_right.bmp"
+  "ko": "유저인터페이스\\basic_interface\\titlebar_right.bmp",
+  "keep": "file name in the game data"
  },
  "335:58": {
-  "ko": "유저인터페이스\\basic_interface\\btnbar_mid2.bmp"
+  "ko": "유저인터페이스\\basic_interface\\btnbar_mid2.bmp",
+  "keep": "file name in the game data"
  },
  "339:58": {
-  "ko": "유저인터페이스\\basic_interface\\btnbar_left2.bmp"
+  "ko": "유저인터페이스\\basic_interface\\btnbar_left2.bmp",
+  "keep": "file name in the game data"
  },
  "343:58": {
-  "ko": "유저인터페이스\\basic_interface\\btnbar_right2.bmp"
+  "ko": "유저인터페이스\\basic_interface\\btnbar_right2.bmp",
+  "keep": "file name in the game data"
  },
  "371:24": {
-  "ko": "유저인터페이스\\"
+  "ko": "유저인터페이스\\",
+  "keep": "file name in the game data"
  },
  "467:58": {
-  "ko": "유저인터페이스\\basic_interface\\titlebar_mid.bmp"
+  "ko": "유저인터페이스\\basic_interface\\titlebar_mid.bmp",
+  "keep": "file name in the game data"
  },
  "471:58": {
-  "ko": "유저인터페이스\\basic_interface\\titlebar_left.bmp"
+  "ko": "유저인터페이스\\basic_interface\\titlebar_left.bmp",
+  "keep": "file name in the game data"
  },
  "475:58": {
-  "ko": "유저인터페이스\\basic_interface\\titlebar_right.bmp"
+  "ko": "유저인터페이스\\basic_interface\\titlebar_right.bmp",
+  "keep": "file name in the game data"
  },
  "485:58": {
-  "ko": "유저인터페이스\\basic_interface\\btnbar_mid2.bmp"
+  "ko": "유저인터페이스\\basic_interface\\btnbar_mid2.bmp",
+  "keep": "file name in the game data"
  },
  "489:58": {
-  "ko": "유저인터페이스\\basic_interface\\btnbar_left2.bmp"
+  "ko": "유저인터페이스\\basic_interface\\btnbar_left2.bmp",
+  "keep": "file name in the game data"
  },
  "493:58": {
-  "ko": "유저인터페이스\\basic_interface\\btnbar_right2.bmp"
+  "ko": "유저인터페이스\\basic_interface\\btnbar_right2.bmp",
+  "keep": "file name in the game data"
  },
  "510:24": {
-  "ko": "유저인터페이스\\"
+  "ko": "유저인터페이스\\",
+  "keep": "file name in the game data"
  },
  "651:58": {
-  "ko": "유저인터페이스\\basic_interface\\titlebar_mid.bmp"
+  "ko": "유저인터페이스\\basic_interface\\titlebar_mid.bmp",
+  "keep": "file name in the game data"
  },
  "655:58": {
-  "ko": "유저인터페이스\\basic_interface\\titlebar_left.bmp"
+  "ko": "유저인터페이스\\basic_interface\\titlebar_left.bmp",
+  "keep": "file name in the game data"
  },
  "659:58": {
-  "ko": "유저인터페이스\\basic_interface\\titlebar_right.bmp"
+  "ko": "유저인터페이스\\basic_interface\\titlebar_right.bmp",
+  "keep": "file name in the game data"
  },
  "669:58": {
-  "ko": "유저인터페이스\\basic_interface\\btnbar_mid2.bmp"
+  "ko": "유저인터페이스\\basic_interface\\btnbar_mid2.bmp",
+  "keep": "file name in the game data"
  },
  "673:58": {
-  "ko": "유저인터페이스\\basic_interface\\btnbar_left2.bmp"
+  "ko": "유저인터페이스\\basic_interface\\btnbar_left2.bmp",
+  "keep": "file name in the game data"
  },
  "677:58": {
-  "ko": "유저인터페이스\\basic_interface\\btnbar_right2.bmp"
+  "ko": "유저인터페이스\\basic_interface\\btnbar_right2.bmp",
+  "keep": "file name in the game data"
  },
  "684:59": {
-  "ko": "유저인터페이스\\basic_interface\\btnbar_right2.bmp"
+  "ko": "유저인터페이스\\basic_interface\\btnbar_right2.bmp",
+  "keep": "file name in the game data"
  },
  "756:24": {
-  "ko": "유저인터페이스\\"
+  "ko": "유저인터페이스\\",
+  "keep": "file name in the game data"
  },
  "803:58": {
-  "ko": "유저인터페이스\\basic_interface\\titlebar_mid.bmp"
+  "ko": "유저인터페이스\\basic_interface\\titlebar_mid.bmp",
+  "keep": "file name in the game data"
  },
  "807:58": {
-  "ko": "유저인터페이스\\basic_interface\\titlebar_left.bmp"
+  "ko": "유저인터페이스\\basic_interface\\titlebar_left.bmp",
+  "keep": "file name in the game data"
  },
  "811:58": {
-  "ko": "유저인터페이스\\basic_interface\\titlebar_right.bmp"
+  "ko": "유저인터페이스\\basic_interface\\titlebar_right.bmp",
+  "keep": "file name in the game data"
  },
  "821:58": {
-  "ko": "유저인터페이스\\basic_interface\\btnbar_mid2.bmp"
+  "ko": "유저인터페이스\\basic_interface\\btnbar_mid2.bmp",
+  "keep": "file name in the game data"
  },
  "825:58": {
-  "ko": "유저인터페이스\\basic_interface\\btnbar_left2.bmp"
+  "ko": "유저인터페이스\\basic_interface\\btnbar_left2.bmp",
+  "keep": "file name in the game data"
  },
  "829:58": {
-  "ko": "유저인터페이스\\basic_interface\\btnbar_right2.bmp"
+  "ko": "유저인터페이스\\basic_interface\\btnbar_right2.bmp",
+  "keep": "file name in the game data"
  }
 }

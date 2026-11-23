@@ -1139,24 +1139,24 @@ void UIWindowMgr::Aco_Travel()
 					actor->SendMsg(NULL, AM_CHAT, (int)msg, 0, 0);
 					actor->SendMsg(NULL, AM_EMOTION, 2, 0, 0);
 				} else if (g_curStance == 3) {
-					sprintf(msg, "\xb1\xe2\xbb\xe7\xb7\xce \xc0\xfc\xc1\xf7\xc0\xbb \xc7\xcf\xb7\xc1\xb0\xed \xc7\xcf\xb4\xc2\xb5\xa5.. \xc0\xfc\xc1\xf7\xc7\xcf\xb7\xc1\xb8\xe9 \xb8\xee\xb8\xee \xbe\xc6\xc0\xcc\xc5\xdb\xc0\xcc \xc7\xca\xbf\xe4\xc7\xcf\xb3\xd7\xbf\xe4...");
+					sprintf(msg, "I want to become a Knight.. but I need a few items to change jobs...");
 					boy->SendMsg(NULL, AM_CHAT, (int)msg, 0, 0);
 					boy->SendMsg(NULL, AM_EMOTION, 28, 0, 0);
 					waitTime = 3500;
 				} else if (g_curStance == 4) {
-					sprintf(msg, "\xbe\xee\xb6\xb2 \xbe\xc6\xc0\xcc\xc5\xdb\xc0\xcc\xbf\xb9\xbf\xe4? \xc1\xa6\xb0\xa1 \xb1\xb8\xc7\xd2\xbc\xf6\xc0\xd6\xb4\xc2\xb0\xc5\xb8\xe9 \xc0\xfa\xb5\xb5 \xb5\xb5\xbf\xcd\xb5\xe5\xb8\xb1\xb2\xb2\xbf\xe4~");
+					sprintf(msg, "What items? If I can find them, I'll help you too~");
 					actor->SendMsg(NULL, AM_CHAT, (int)msg, 0, 0);
 					actor->SendMsg(NULL, AM_EMOTION, 2, 0, 0);
 				} else if (g_curStance == 5) {
-					sprintf(msg, "\xc1\xf6\xb1\xdd \xb3\xb2\xc0\xba\xb0\xd4 \xbe\xc6\xc0\xcc\xbe\xf0\xc4\xc9\xc0\xce \xc7\xcf\xb0\xed \xc1\xc1\xc0\xba \xb0\xcb \xc0\xcc\xb3\xd7\xbf\xe4.");
+					sprintf(msg, "Only an Iron Cain and a good sword left.");
 					boy->SendMsg(NULL, AM_CHAT, (int)msg, 0, 0);
 					waitTime = 3500;
 				} else if (g_curStance == 6) {
-					sprintf(msg, "\xc8\xec.. \xb1\xb8\xc7\xcf\xb0\xd4 \xb5\xc7\xb8\xe9 \xb0\xa1\xc1\xae\xb4\xd9\xb5\xe5\xb8\xb1\xb2\xb2\xbf\xe4 ^^;");
+					sprintf(msg, "Hmm.. I'll bring them if I can ^^;");
 					actor->SendMsg(NULL, AM_CHAT, (int)msg, 0, 0);
 					actor->SendMsg(NULL, AM_EMOTION, 18, 0, 0);
 				} else if (g_curStance == 7) {
-					sprintf(msg, "\xb3\xd7 \xba\xce\xc5\xb9\xb5\xe5\xb7\xc1\xbf\xe4 \xa4\xd0_\xa4\xd0");
+					sprintf(msg, "Yes, please T_T");
 					boy->SendMsg(NULL, AM_CHAT, (int)msg, 0, 0);
 					boy->SendMsg(NULL, AM_EMOTION, 28, 0, 0);
 				} else {
@@ -1169,18 +1169,18 @@ void UIWindowMgr::Aco_Travel()
 					actor->SendMsg(NULL, AM_CHAT, (int)msg, 0, 0);
 					actor->SendMsg(NULL, AM_EMOTION, 28, 0, 0);
 				} else if (g_curStance == 2) {
-					sprintf(msg, "\xbe\xc6\xc0\xcc\xbe\xf0\xc4\xc9\xc0\xce \xc7\xcf\xb0\xed \xc1\xc1\xc0\xba \xb0\xcb \xbe\xc6\xc1\xf7 \xb8\xf8\xb1\xb8\xc7\xdf\xbe\xee\xbf\xe4 \xa4\xd0_\xa4\xd0");
+					sprintf(msg, "Still no Iron Cain or good sword T_T");
 					actor->SendMsg(NULL, AM_CHAT, (int)msg, 0, 0);
 				} else if (g_curStance == 3) {
-					sprintf(msg, "\xc8\xe6.. \xc0\xfa\xb5\xb5 \xb1\xb8\xc7\xcf\xb0\xed\xc0\xd6\xb4\xc2\xb5\xa5 \xc0\xdf \xbe\xca\xb1\xb8\xc7\xd8\xc1\xf6\xb3\xd7\xbf\xe4 \xa4\xd0_\xa4\xd0");
+					sprintf(msg, "Sob.. I'm looking too, but no luck T_T");
 					boy->SendMsg(NULL, AM_CHAT, (int)msg, 0, 0);
 					boy->SendMsg(NULL, AM_EMOTION, 28, 0, 0);
 					waitTime = 3500;
 				} else if (g_curStance == 4) {
-					sprintf(msg, "\xc0\xcc\xb4\xeb\xb7\xce \xb0\xe8\xbc\xd3 \xb0\xcb\xbb\xe7\xb7\xce \xbb\xec\xbe\xc6\xbe\xdf\xc7\xcf\xb3\xaa orz");
+					sprintf(msg, "Am I stuck as a Swordman forever orz");
 					boy->SendMsg(NULL, AM_CHAT, (int)msg, 0, 0);
 				} else if (g_curStance == 5) {
-					sprintf(msg, "\xa4\xd0_\xa4\xd0");
+					sprintf(msg, "T_T");
 					actor->SendMsg(NULL, AM_CHAT, (int)msg, 0, 0);
 					actor->SendMsg(NULL, AM_EMOTION, 28, 0, 0);
 				} else {
@@ -1192,10 +1192,10 @@ void UIWindowMgr::Aco_Travel()
 					actor->SendMsg(NULL, AM_CHAT, (int)msg, 0, 0);
 					actor->SendMsg(NULL, AM_EMOTION, 18, 0, 0);
 				} else if (g_curStance == 2) {
-					sprintf(msg, "\xbe\xc6\xc0\xcc\xbe\xf0\xc4\xc9\xc0\xce \xc7\xcf\xb0\xed \xc1\xc1\xc0\xba \xb0\xcb \xbf\xa9\xb1\xe2 \xb1\xb8\xc7\xdf\xbe\xee\xbf\xe4");
+					sprintf(msg, "Here, the Iron Cain and a good sword");
 					actor->SendMsg(NULL, AM_CHAT, (int)msg, 0, 0);
 				} else if (g_curStance == 3) {
-					sprintf(msg, "\xc1\xa4\xb8\xbb \xb0\xed\xb8\xb6\xbf\xf6\xbf\xe4 ^^;");
+					sprintf(msg, "Thanks so much ^^;");
 					boy->SendMsg(NULL, AM_CHAT, (int)msg, 0, 0);
 					boy->SendMsg(NULL, AM_EMOTION, 18, 0, 0);
 
@@ -1209,7 +1209,7 @@ void UIWindowMgr::Aco_Travel()
 							char msg[256];
 							char itemName[64];
 							itemInfo.GetItemName(itemName);
-							sprintf(msg, "%s\xb8\xa6 \xc4\xab\xc4\xab\xb7\xce\xc6\xae\xbf\xa1\xb0\xd4 \xc0\xfc\xb4\xde\xc7\xdf\xbd\xc0\xb4\xcf\xb4\xd9", itemName);
+							sprintf(msg, "Gave %s to Kakarot", itemName);
 							g_windowMgr.SendMsg(UIM_PUSHINTOCHATHISTORY, (int)msg, 0xffff00, 0, 0);
 							g_session.DecItem(itemInfo.m_itemIndex, 1);
 							break;
@@ -1223,7 +1223,7 @@ void UIWindowMgr::Aco_Travel()
 							char msg[256];
 							char itemName[64];
 							itemInfo.GetItemName(itemName);
-							sprintf(msg, "%s\xb8\xa6 \xc4\xab\xc4\xab\xb7\xce\xc6\xae\xbf\xa1\xb0\xd4 \xc0\xfc\xb4\xde\xc7\xdf\xbd\xc0\xb4\xcf\xb4\xd9", itemName);
+							sprintf(msg, "Gave %s to Kakarot", itemName);
 							g_windowMgr.SendMsg(UIM_PUSHINTOCHATHISTORY, (int)msg, 0xffff00, 0, 0);
 							g_session.DecItem(itemInfo.m_itemIndex, 1);
 							break;
@@ -1231,11 +1231,11 @@ void UIWindowMgr::Aco_Travel()
 					}
 					waitTime = 3500;
 				} else if (g_curStance == 4) {
-					sprintf(msg, "\xb1\xd7\xb7\xb3 \xc0\xfc \xc0\xfc\xc1\xf7\xc7\xcf\xb7\xaf \xb0\xa1\xba\xbc\xb2\xb2\xbf\xe4 ^^;");
+					sprintf(msg, "Then I'll go change jobs ^^;");
 					boy->SendMsg(NULL, AM_CHAT, (int)msg, 0, 0);
 					boy->SendMsg(NULL, AM_EMOTION, 18, 0, 0);
 				} else if (g_curStance == 5) {
-					sprintf(msg, "\xb3\xdc~ \xb8\xda\xc1\xf8 \xb1\xe2\xbb\xe7 \xb5\xc7\xbc\xbc\xbf\xe4 ^^*");
+					sprintf(msg, "OK~ Be a great Knight ^^*");
 					actor->SendMsg(NULL, AM_CHAT, (int)msg, 0, 0);
 					actor->SendMsg(NULL, AM_EMOTION, 18, 0, 0);
 				} else {
@@ -1250,22 +1250,22 @@ void UIWindowMgr::Aco_Travel()
 				}
 			} else if (g_curStory == 73) {
 				if (g_curStance == 1) {
-					sprintf(msg, "%s\xb4\xd4, \xc0\xfa \xb1\xe2\xbb\xe7\xb7\xce \xc0\xfc\xc1\xf7\xc7\xdf\xbe\xee\xbf\xe4", g_session.GetCharName());
+					sprintf(msg, "%s, I'm a Knight now", g_session.GetCharName());
 					boy->SendMsg(NULL, AM_CHAT, (int)msg, 0, 0);
 					boy->SendMsg(NULL, AM_EMOTION, 18, 0, 0);
 					waitTime = 3500;
 				} else if (g_curStance == 2) {
-					sprintf(msg, "\xb8\xda\xc1\xae\xbf\xe4 ^^; \xc3\xe0\xc7\xcf\xb5\xe5\xb7\xc1\xbf\xe4");
+					sprintf(msg, "Awesome ^^; Congrats");
 					actor->SendMsg(NULL, AM_CHAT, (int)msg, 0, 0);
 					actor->SendMsg(NULL, AM_EMOTION, 18, 0, 0);
 					waitTime = 3500;
 				} else if (g_curStance == 3) {
-					sprintf(msg, "\xc7\xec\xc7\xec.. \xc0\xcc\xc1\xa6 \xc5\xb8\xb3\xaa\xc5\xe4\xbd\xba\xb0\xa1 \xba\xce\xc8\xb0\xc7\xdf\xc0\xbb\xb6\xa7 \xc8\xb0\xbe\xe0\xc7\xcf\xb1\xe2\xb8\xb8 \xc7\xcf\xb8\xe9 \xb5\xc9\xb0\xc5 \xb0\xb0\xbe\xc6\xbf\xe4");
+					sprintf(msg, "Hehe.. now I just have to shine when Thanatos revives");
 					boy->SendMsg(NULL, AM_CHAT, (int)msg, 0, 0);
 					boy->SendMsg(NULL, AM_EMOTION, 2, 0, 0);
 					waitTime = 3500;
 				} else if (g_curStance == 4) {
-					sprintf(msg, "\xc8\xad\xc0\xcc\xc6\xc3 ^^*");
+					sprintf(msg, "Go for it ^^*");
 					actor->SendMsg(NULL, AM_CHAT, (int)msg, 0, 0);
 					actor->SendMsg(NULL, AM_EMOTION, 2, 0, 0);
 				} else {
@@ -1274,30 +1274,30 @@ void UIWindowMgr::Aco_Travel()
 				}
 			} else if (g_curStory == 74) {
 				if (g_curStance == 1) {
-					sprintf(msg, "%s\xb4\xd4, \xc0\xfa \xb7\xce\xb5\xe5\xb3\xaa\xc0\xcc\xc6\xae\xb7\xce \xc0\xfc\xc1\xf7\xc7\xdf\xbe\xee\xbf\xe4", g_session.GetCharName());
+					sprintf(msg, "%s, I'm a Lord Knight now", g_session.GetCharName());
 					boy->SendMsg(NULL, AM_CHAT, (int)msg, 0, 0);
 					boy->SendMsg(NULL, AM_EMOTION, 18, 0, 0);
 					waitTime = 3500;
 				} else if (g_curStance == 2) {
-					sprintf(msg, "\xbf\xec\xbf\xcd.. \xb7\xce\xb5\xe5\xb3\xaa\xc0\xcc\xc6\xae\xb4\xc2 \xbe\xc6\xb9\xab\xb3\xaa \xc0\xfc\xc1\xf7 \xb8\xf8\xc7\xcf\xb4\xc2\xb0\xc9\xb7\xce \xbe\xcb\xb0\xed\xc0\xd6\xbe\xfa\xb4\xc2\xb5\xa5.. ");
+					sprintf(msg, "Wow.. I heard not just anyone can become a Lord Knight.. ");
 					actor->SendMsg(NULL, AM_CHAT, (int)msg, 0, 0);
 					actor->SendMsg(NULL, AM_EMOTION, 23, 0, 0);
 					waitTime = 3500;
 				} else if (g_curStance == 3) {
-					sprintf(msg, "\xc0\xfc\xc1\xf7\xbd\xc3\xc7\xe8\xb0\xfc\xc0\xcc \xc0\xfa\xc7\xd1\xc5\xd7 \xc0\xe7\xb4\xc9\xc0\xcc \xc0\xd6\xb4\xd9\xb0\xed \xc7\xcf\xbd\xc3\xb4\xf5\xb4\xcf.. \xb7\xce\xb5\xe5\xb3\xaa\xc0\xcc\xc6\xae\xb7\xce \xc0\xfc\xc1\xf7\xc0\xbb \xc7\xcf\xb6\xf3\xb0\xed \xc7\xcf\xbd\xc3\xb4\xf5\xb6\xf3\xb1\xb8\xbf\xe4");
+					sprintf(msg, "The job examiner said I had talent.. and told me to become a Lord Knight");
 					boy->SendMsg(NULL, AM_CHAT, (int)msg, 0, 0);
 					boy->SendMsg(NULL, AM_EMOTION, 2, 0, 0);
 					waitTime = 3500;
 				} else if (g_curStance == 4) {
-					sprintf(msg, "\xbf\xcd~ \xc3\xe0\xc7\xcf\xb5\xe5\xb7\xc1\xbf\xe4");
+					sprintf(msg, "Wow~ Congrats");
 					actor->SendMsg(NULL, AM_CHAT, (int)msg, 0, 0);
 					actor->SendMsg(NULL, AM_EMOTION, 18, 0, 0);
 				} else if (g_curStance == 5) {
-					sprintf(msg, "\xc0\xcc\xc1\xa6 \xc5\xb8\xb3\xaa\xc5\xe4\xbd\xba\xb0\xa1 \xba\xce\xc8\xb0\xc7\xdf\xc0\xbb\xb6\xa7 \xc3\xb3\xb8\xae\xc7\xcf\xb1\xe2\xb8\xb8 \xc7\xcf\xb8\xe9 \xb5\xc9\xb0\xc5\xb0\xb0\xbe\xc6\xbf\xe4");
+					sprintf(msg, "Now I just need to deal with Thanatos when he revives");
 					boy->SendMsg(NULL, AM_CHAT, (int)msg, 0, 0);
 					waitTime = 3500;
 				} else if (g_curStance == 6) {
-					sprintf(msg, "\xc8\xad\xc0\xcc\xc6\xc3 ^^*");
+					sprintf(msg, "Go for it ^^*");
 					actor->SendMsg(NULL, AM_CHAT, (int)msg, 0, 0);
 					actor->SendMsg(NULL, AM_EMOTION, 2, 0, 0);
 				} else {
@@ -1306,25 +1306,25 @@ void UIWindowMgr::Aco_Travel()
 				}
 			} else if (g_curStory >= 94) {
 				if (g_curStance == 1) {
-					sprintf(msg, "%s\xb4\xd4 \xbf\xc0\xbc\xcc\xb3\xd7\xbf\xe4 ^^*", g_session.GetCharName());
+					sprintf(msg, "You came, %s ^^*", g_session.GetCharName());
 					boy->SendMsg(NULL, AM_CHAT, (int)msg, 0, 0);
 					boy->SendMsg(NULL, AM_EMOTION, 18, 0, 0);
 					waitTime = 3500;
 				} else if (g_curStance == 2) {
-					sprintf(msg, "\xc7\xec\xc7\xec.. \xba\xb8\xb0\xed\xbd\xcd\xbe\xee\xbc\xad \xbf\xd4\xbe\xee\xbf\xe4 ^^*");
+					sprintf(msg, "Hehe.. I missed you, so I came ^^*");
 					actor->SendMsg(NULL, AM_CHAT, (int)msg, 0, 0);
 					actor->SendMsg(NULL, AM_EMOTION, 18, 0, 0);
 					waitTime = 3500;
 				} else if (g_curStance == 3) {
-					sprintf(msg, "%s\xb4\xd4 \xbb\xe7\xb6\xfb\xc7\xd8\xbf\xe4...", g_session.GetCharName());
+					sprintf(msg, "I love you, %s...", g_session.GetCharName());
 					boy->SendMsg(NULL, AM_CHAT, (int)msg, 0, 0);
 					boy->SendMsg(NULL, AM_EMOTION, 40, 0, 0);
 					waitTime = 3500;
 				} else if (g_curStance == 4) {
-					sprintf(msg, "\xbe\xee\xb8\xd3\xb3\xaa... ");
+					sprintf(msg, "Oh my... ");
 					actor->SendMsg(NULL, AM_CHAT, (int)msg, 0, 0);
 				} else if (g_curStance == 5) {
-					sprintf(msg, "\xb1\xe2\xbb\xb5\xbf\xe4 ^^*");
+					sprintf(msg, "I'm so happy ^^*");
 					actor->SendMsg(NULL, AM_CHAT, (int)msg, 0, 0);
 					actor->SendMsg(NULL, AM_EMOTION, 40, 0, 0);
 					waitTime = 3500;
@@ -1334,31 +1334,31 @@ void UIWindowMgr::Aco_Travel()
 			} else {
 				if (g_curStance == 1) {
 					if (Boy_talked >= 2) {
-						sprintf(msg, "%s\xb4\xd4 \xb6\xc7 \xba\xcb\xb3\xd7\xbf\xe4 ^^;", g_session.GetCharName());
+						sprintf(msg, "Hi again, %s ^^;", g_session.GetCharName());
 					} else {
-						sprintf(msg, "\xb6\xc7 \xba\xcb\xb3\xd7\xbf\xe4 ^^;");
+						sprintf(msg, "Hi again ^^;");
 					}
 					boy->SendMsg(NULL, AM_CHAT, (int)msg, 0, 0);
 					boy->SendMsg(NULL, AM_EMOTION, 18, 0, 0);
 				} else if (g_curStance == 2) {
 					if (Boy_talked >= 2) {
-						sprintf(msg, "\xc4\xab\xc4\xab\xb7\xce\xc6\xae\xb4\xd4~ \xc1\xb6\xbe\xf0 \xc7\xcf\xb3\xaa \xc7\xd8\xc1\xd6\xbc\xbc\xbf\xe4~");
+						sprintf(msg, "Kakarot~ Give me some advice~");
 					} else {
-						sprintf(msg, "\xb3\xd7~ \xc1\xb6\xbe\xf0\xc7\xcf\xb3\xaa \xc7\xd8\xc1\xd6\xbc\xbc\xbf\xe4~");
+						sprintf(msg, "Hi~ Give me some advice~");
 					}
 					actor->SendMsg(NULL, AM_CHAT, (int)msg, 0, 0);
 					actor->SendMsg(NULL, AM_EMOTION, 2, 0, 0);
 				} else if (g_curStance == 3) {
 					short rnd = rand() % 2;
 					if (rnd == 0) {
-						sprintf(msg, "\xc0\xfc\xc5\xf5 \xc7\xd2\xb6\xa7\xb4\xc2 \xc8\xfa\xb0\xfa \xbe\xc6\xc4\xda\xc4\xe2\xb1\xa4\xc0\xbb \xc0\xdf \xbe\xb2\xb4\xc2\xb0\xd4 \xc1\xdf\xbf\xe4\xc7\xd8\xbf\xe4");
+						sprintf(msg, "In battle, using Heal and Aco Kaboom well is key");
 					} else {
-						sprintf(msg, "\xc1\xa6\xc1\xb6\xb8\xa6 \xc7\xd8\xbc\xad \xb9\xab\xb1\xe2\xb8\xa6 \xb8\xb8\xb5\xe7\xb4\xd9\xc0\xbd\xbf\xa1 \xc6\xc7\xb8\xc5\xb8\xa6 \xc7\xd8\xbc\xad \xbb\xfd\xc8\xb0\xba\xf1\xb8\xa6 \xb9\xfa\xbe\xee\xbe\xdf\xc7\xcf\xc1\xd2");
+						sprintf(msg, "Forge weapons, then sell them to pay the living costs");
 					}
 					boy->SendMsg(NULL, AM_CHAT, (int)msg, 0, 0);
 					boy->SendMsg(NULL, AM_EMOTION, 18, 0, 0);
 				} else if (g_curStance == 4) {
-					sprintf(msg, "\xc1\xb6\xbe\xf0 \xb0\xed\xb8\xb6\xbf\xf6\xbf\xe4 ^^;");
+					sprintf(msg, "Thanks for that ^^;");
 					actor->SendMsg(NULL, AM_CHAT, (int)msg, 0, 0);
 					actor->SendMsg(NULL, AM_EMOTION, 18, 0, 0);
 				} else {
@@ -1387,24 +1387,24 @@ void UIWindowMgr::Aco_Travel()
 				waitTime = 1000;
 			} else if (g_curStory == 41) {
 				if (g_curStance == 1) {
-					sprintf(msg, "\xbe\xc8\xb3\xe7\xc7\xcf\xbc\xbc\xbf\xe4~ \xb8\xf0\xb7\xce\xc5\xa9\xbf\xa1 \xbf\xc0\xbd\xc5\xb0\xc9 \xc8\xaf\xbf\xb5\xc7\xd5\xb4\xcf\xb4\xd9");
+					sprintf(msg, "Hello~ Welcome to Morroc");
 					boy->SendMsg(NULL, AM_CHAT, (int)msg, 0, 0);
 					boy->SendMsg(NULL, AM_EMOTION, 18, 0, 0);
 					boy->SetState(ST_ATTACKWAIT);
 				} else if (g_curStance == 2) {
-					sprintf(msg, "\xbc\xd2\xbf\xef\xb8\xb5\xc4\xbf\xb4\xd4 \xc0\xce\xc5\xa5\xb9\xf6\xbd\xba\xb8\xa6 \xc3\xb3\xc4\xa1\xc7\xd8\xbe\xdf\xc7\xcf\xb4\xc2\xb5\xa5.. \xb5\xb5\xbf\xcd\xc1\xd6\xbc\xbc\xbf\xe4 \xa4\xd0_\xa4\xd0");
+					sprintf(msg, "Soul Linker, I must defeat an Incubus.. please help T_T");
 					actor->SendMsg(NULL, AM_CHAT, (int)msg, 0, 0);
 					actor->SendMsg(NULL, AM_EMOTION, 28, 0, 0);
 				} else if (g_curStance == 3) {
-					sprintf(msg, "\xc0\xfa\xb4\xc2 \xbf\xb5\xc8\xa5\xb0\xe8\xbf\xad\xc0\xc7 \xbd\xba\xc5\xb3\xc0\xbb \xc2\xef\xc1\xf6 \xbe\xca\xbe\xd2\xb4\xe4\xb4\xcf\xb4\xd9; \xc1\xa6 \xb5\xbf\xb7\xe1\xc1\xdf\xbf\xa1 \xb9\xab\xb3\xab\xc0\xcc\xb0\xa1 \xbf\xb5\xc8\xa5\xb0\xe8\xbf\xad \xb8\xb6\xbd\xba\xc5\xcd \xc7\xdf\xb4\xc2\xb5\xa5..");
+					sprintf(msg, "I never learned Spirit skills; but my companion Munak mastered them..");
 					boy->SendMsg(NULL, AM_CHAT, (int)msg, 0, 0);
 					waitTime = 3500;
 				} else if (g_curStance == 4) {
-					sprintf(msg, "\xc1\xf6\xb1\xdd \xc7\xc1\xb7\xd0\xc5\xd7\xb6\xf3\xbf\xa1 \xb5\xbf\xbb\xfd \xc1\xd9 \xb9\xab\xb1\xe2\xb8\xa6 \xbb\xe7\xb0\xda\xb4\xd9\xb0\xed \xbf\xa9\xc7\xe0\xc0\xbb \xb6\xb0\xb3\xb5\xb3\xd7\xbf\xe4");
+					sprintf(msg, "She left for Prontera to buy her little brother a weapon");
 					boy->SendMsg(NULL, AM_CHAT, (int)msg, 0, 0);
 					waitTime = 3500;
 				} else if (g_curStance == 5) {
-					sprintf(msg, "\xc7\xc1\xb7\xd0\xc5\xd7\xb6\xf3\xb8\xe9 \xbe\xc6\xba\xfc\xb0\xa1\xb0\xd4\xbf\xa1\xb5\xb5 \xbf\xc3\xbc\xf6\xc0\xd6\xb0\xda\xb3\xd7\xbf\xe4... ^^; \xc1\xa4\xba\xb8 \xb0\xed\xb8\xb6\xbf\xf6\xbf\xe4~");
+					sprintf(msg, "Then she might come by Dad's shop... ^^; Thanks for the info~");
 					actor->SendMsg(NULL, AM_CHAT, (int)msg, 0, 0);
 					actor->SendMsg(NULL, AM_EMOTION, 18, 0, 0);
 					waitTime = 3500;
@@ -1414,23 +1414,23 @@ void UIWindowMgr::Aco_Travel()
 				}
 			} else if (g_curStory == 42) {
 				if (g_curStance == 1) {
-					sprintf(msg, "\xb6\xc7 \xbf\xc0\xbc\xcc\xb3\xd7\xbf\xe4~");
+					sprintf(msg, "Back again~");
 					boy->SendMsg(NULL, AM_CHAT, (int)msg, 0, 0);
 					boy->SendMsg(NULL, AM_EMOTION, 18, 0, 0);
 					boy->SetState(ST_ATTACKWAIT);
 				} else if (g_curStance == 2) {
-					sprintf(msg, "\xbc\xd2\xbf\xef\xb8\xb5\xc4\xbf \xb9\xab\xb3\xab\xb4\xd4 \xbe\xc6\xc1\xf7 \xbe\xca\xbf\xc0\xbc\xcc\xb3\xaa\xbf\xe4?");
+					sprintf(msg, "Hasn't Soul Linker Munak come yet?");
 					actor->SendMsg(NULL, AM_CHAT, (int)msg, 0, 0);
 					actor->SendMsg(NULL, AM_EMOTION, 1, 0, 0);
 				} else if (g_curStance == 3) {
-					sprintf(msg, "\xbf\xa9\xc0\xfc\xc8\xf7 \xc7\xc1\xb7\xd0\xc5\xd7\xb6\xf3\xbf\xa1 \xc0\xd6\xb4\xc2\xb0\xc5 \xb0\xb0\xb3\xd7\xbf\xe4..");
+					sprintf(msg, "Seems she's still in Prontera..");
 					boy->SendMsg(NULL, AM_CHAT, (int)msg, 0, 0);
 				} else if (g_curStance == 4) {
-					sprintf(msg, "\xb3\xd7~ \xbe\xc6\xba\xfc \xb0\xa1\xb0\xd4\xbf\xa1 \xbb\xa1\xb8\xae \xbf\xcd\xc1\xe0\xbe\xdf \xc7\xcf\xb4\xc2\xb5\xa5 \xa4\xd0_\xa4\xd0");
+					sprintf(msg, "Yes~ She has to come to Dad's shop soon T_T");
 					actor->SendMsg(NULL, AM_CHAT, (int)msg, 0, 0);
 					actor->SendMsg(NULL, AM_EMOTION, 28, 0, 0);
 				} else if (g_curStance == 5) {
-					sprintf(msg, "\xb5\xce\xba\xd0\xc0\xcc \xbb\xa1\xb8\xae \xb8\xb8\xb3\xaa\xbd\xc3\xb1\xe6 \xb9\xd9\xb6\xf6\xb2\xb2\xbf\xe4~");
+					sprintf(msg, "I hope you two meet soon~");
 					boy->SendMsg(NULL, AM_CHAT, (int)msg, 0, 0);
 					boy->SendMsg(NULL, AM_EMOTION, 18, 0, 0);
 				} else {
@@ -1438,39 +1438,39 @@ void UIWindowMgr::Aco_Travel()
 				}
 			} else if (g_curStory == 43) {
 				if (g_curStance == 1) {
-					sprintf(msg, "\xbc\xd2\xbf\xef\xb8\xb5\xc4\xbf \xb9\xab\xb3\xab\xb4\xd4 \xc0\xcc\xbd\xc3\xc1\xd2?");
+					sprintf(msg, "Are you Soul Linker Munak?");
 					actor->SendMsg(NULL, AM_CHAT, (int)msg, 0, 0);
 					actor->SendMsg(NULL, AM_EMOTION, 1, 0, 0);
 				} else if (g_curStance == 2) {
-					sprintf(msg, "\xb3\xd7 \xc1\xa6\xb0\xa1 \xc0\xcc\xbb\xdb\xc0\xcc~ \xb9\xab\xb3\xab\xc0\xcc\xbe\xee\xbf\xe4 ^^*");
+					sprintf(msg, "Yes, I'm the pretty Munak~ ^^*");
 					boy->SendMsg(NULL, AM_CHAT, (int)msg, 0, 0);
 					boy->SendMsg(NULL, AM_EMOTION, 18, 0, 0);
 				} else if (g_curStance == 3) {
-					sprintf(msg, "\xb9\xa6\xb8\xa3\xb4\xd2 \xbb\xea\xb8\xc6\xc0\xc7 \xc0\xce\xc5\xa5\xb9\xf6\xbd\xba \xb6\xa7\xb9\xae\xbf\xa1 \xb1\xd7\xb7\xaf\xb4\xc2\xb5\xa5 \xc1\xbb \xb5\xb5\xbf\xcd\xc1\xd6\xbc\xbc\xbf\xe4 \xa4\xd0_\xa4\xd0");
+					sprintf(msg, "It's about the Incubus on Mt. Mjolnir.. please help me T_T");
 					actor->SendMsg(NULL, AM_CHAT, (int)msg, 0, 0);
 					actor->SendMsg(NULL, AM_EMOTION, 28, 0, 0);
 				} else if (g_curStance == 4) {
-					sprintf(msg, "\xc8\xe5\xc0\xbd.. 1\xc2\xf7\xc1\xf7\xbe\xf7\xbf\xa1\xb0\xd4 \xbe\xb5\xbc\xf6\xc0\xd6\xb4\xc2 \xbf\xb5\xc8\xa5\xbd\xba\xc5\xb3\xc0\xcc \xbe\xf8\xb1\xe4\xc7\xd1\xb5\xa5.. \xc7\xd1\xb9\xf8 \xba\xb9\xbb\xe7\xb4\xd4\xc0\xc7 \xc0\xe7\xb4\xc9\xc0\xbb \xc8\xae\xc0\xce\xc7\xd8\xba\xbc\xb2\xb2\xbf\xe4");
+					sprintf(msg, "Hmm.. there are no Spirit skills for 1st jobs.. but let me check your talent, Acolyte");
 					boy->SendMsg(NULL, AM_CHAT, (int)msg, 0, 0);
 					waitTime = 3500;
 				} else if (g_curStance == 5) {
-					sprintf(msg, "\xbc\xbc\xbb\xf3\xc0\xc7 \xbf\xb5\xc8\xa5\xb5\xe9\xc0\xcc\xbf\xa9.. \xb1\xd7\xb3\xe0\xbf\xa1 \xb4\xeb\xc7\xd8...");
+					sprintf(msg, "Spirits of the world.. about her...");
 					boy->SendMsg(NULL, AM_CHAT, (int)msg, 0, 0);
 					waitTime = 3500;
 					PlayWave("effect\\T_\xb8\xb6\xb9\xfd\xb9\xdd\xbb\xe7.wav");
 					actor->LaunchEffect(419);
 				} else if (g_curStance == 6) {
-					sprintf(msg, "\xb3\xee\xb6\xf8\xb3\xd7\xbf\xe4... \xb8\xf9\xc5\xa9\xc0\xc7 \xbf\xb5\xc8\xa5\xb0\xfa \xc7\xc1\xb8\xae\xbd\xba\xc6\xae\xc0\xc7 \xbf\xb5\xc8\xa5\xb0\xfa 1\xc2\xf7\xbb\xf3\xc0\xa7\xc1\xf7\xbe\xf7\xc0\xc7 \xbf\xb5\xc8\xa5\xc0\xcc \xc0\xcc\xbe\xdf\xb1\xe2 \xc7\xd8\xbf\xc0\xb4\xd9\xb4\xcf..");
+					sprintf(msg, "Amazing... the Monk, Priest and 1st Transcendent Spirits are all speaking to me..");
 					boy->SendMsg(NULL, AM_CHAT, (int)msg, 0, 0);
 					boy->SendMsg(NULL, AM_EMOTION, 0, 0, 0);
 					waitTime = 4500;
 				} else if (g_curStance == 7) {
-					sprintf(msg, "\xb5\xb5\xbf\xcd\xb5\xe5\xb8\xb1\xbc\xf6 \xc0\xd6\xc0\xbb\xb2\xa8\xb0\xb0\xbe\xc6\xbf\xe4.. \xc1\xa6\xb0\xa1 \xb8\xb8\xb3\xb5\xb4\xf8 \xbb\xe7\xb6\xf7\xb5\xe9\xc1\xdf \xc0\xe1\xc0\xe7\xb4\xc9\xb7\xc2\xc0\xcc \xc1\xa6\xc0\xcf\xc0\xcc\xbd\xc3\xb3\xd7\xbf\xe4~");
+					sprintf(msg, "I think I can help.. you have the most potential of anyone I've met~");
 					boy->SendMsg(NULL, AM_CHAT, (int)msg, 0, 0);
 					boy->SendMsg(NULL, AM_EMOTION, 18, 0, 0);
 					waitTime = 4500;
 				} else if (g_curStance == 8) {
-					sprintf(msg, "\xb0\xed\xb8\xbf\xbd\xc0\xb4\xcf\xb4\xd9 ^^* \xb1\xd7\xb7\xb3 \xb9\xa6\xb8\xa3\xb4\xd2 \xbb\xea\xb8\xc6\xbf\xa1\xbc\xad \xba\xc1\xbf\xe4~");
+					sprintf(msg, "Thank you ^^* See you on Mt. Mjolnir then~");
 					actor->SendMsg(NULL, AM_CHAT, (int)msg, 0, 0);
 					actor->SendMsg(NULL, AM_EMOTION, 18, 0, 0);
 					actor->SendMsg(NULL, AM_DELETE_EFFECT, 419, 0, 0);
@@ -1481,23 +1481,23 @@ void UIWindowMgr::Aco_Travel()
 				}
 			} else if (actor->m_clevel % 3 == 0) {
 				if (g_curStance == 1) {
-					sprintf(msg, "\xb9\xab\xb3\xab\xb4\xd4 \xc7\xcf\xc0\xcc\xbf\xe4 ^^/");
+					sprintf(msg, "Hi Munak ^^/");
 					actor->SendMsg(NULL, AM_CHAT, (int)msg, 0, 0);
 					actor->SendMsg(NULL, AM_EMOTION, 18, 0, 0);
 				} else if (g_curStance == 2) {
-					sprintf(msg, "%s\xb4\xd4 \xba\xb0\xc0\xcf \xbe\xf8\xc1\xd2?", g_session.GetCharName());
+					sprintf(msg, "%s, all well?", g_session.GetCharName());
 					boy->SendMsg(NULL, AM_CHAT, (int)msg, 0, 0);
 					boy->SendMsg(NULL, AM_EMOTION, 1, 0, 0);
 				} else if (g_curStance == 3) {
-					sprintf(msg, "\xb3\xd7~~");
+					sprintf(msg, "Yep~");
 					actor->SendMsg(NULL, AM_CHAT, (int)msg, 0, 0);
 					actor->SendMsg(NULL, AM_EMOTION, 18, 0, 0);
 				} else if (g_curStance == 4) {
-					sprintf(msg, "\xc0\xfc \xb5\xbf\xbb\xfd \xb9\xe4 \xc7\xd8\xc1\xd6\xb7\xaf \xb8\xd5\xc0\xfa \xb0\xa1\xbf\xe4~");
+					sprintf(msg, "Off to cook my brother dinner~");
 					boy->SendMsg(NULL, AM_CHAT, (int)msg, 0, 0);
 					boy->SendMsg(NULL, AM_EMOTION, 2, 0, 0);
 				} else if (g_curStance == 5) {
-					sprintf(msg, "\xb9\xd9\xb9\xd9\xc0\xcc~");
+					sprintf(msg, "Bye bye~");
 					actor->SendMsg(NULL, AM_CHAT, (int)msg, 0, 0);
 					actor->SendMsg(NULL, AM_EMOTION, 12, 0, 0);
 				} else {
@@ -1505,7 +1505,7 @@ void UIWindowMgr::Aco_Travel()
 				}
 			} else if (actor->m_clevel % 3 == 1) {
 				if (g_curStance == 1) {
-					sprintf(msg, "\xb9\xab\xb3\xab\xb4\xd4 \xbe\xc8\xb3\xe7\xc7\xcf\xbc\xbc\xbf\xe4~");
+					sprintf(msg, "Hello, Munak~");
 					actor->SendMsg(NULL, AM_CHAT, (int)msg, 0, 0);
 					actor->SendMsg(NULL, AM_EMOTION, 18, 0, 0);
 				} else if (g_curStance == 2) {
@@ -1513,19 +1513,19 @@ void UIWindowMgr::Aco_Travel()
 					boy->SendMsg(NULL, AM_CHAT, (int)msg, 0, 0);
 					boy->SendMsg(NULL, AM_EMOTION, 18, 0, 0);
 				} else if (g_curStance == 3) {
-					sprintf(msg, "\xb8\xf9\xc5\xa9\xc0\xc7\xbf\xb5\xc8\xa5\xc0\xcc \xc1\xa6\xb0\xd4 \xb5\xe9\xbe\xee\xbf\xc0\xb8\xe9 \xbe\xee\xb6\xb2 \xc8\xbf\xb4\xc9\xc0\xcc \xc0\xd6\xb4\xc2\xb0\xc5\xbf\xb9\xbf\xe4?");
+					sprintf(msg, "What happens when the Monk Spirit enters me?");
 					actor->SendMsg(NULL, AM_CHAT, (int)msg, 0, 0);
 					actor->SendMsg(NULL, AM_EMOTION, 1, 0, 0);
 				} else if (g_curStance == 4) {
-					sprintf(msg, "\xbe\xc6\xc4\xda\xc4\xe2\xb1\xa4 \xb4\xeb\xbd\xc5 \xbe\xc6\xbc\xf6\xb6\xf3\xc6\xd0\xc8\xb2\xb1\xc7\xc0\xbb \xbe\xb2\xbd\xc7\xbc\xf6 \xc0\xd6\xb0\xd4\xb5\xc7\xb4\xc2\xb0\xc5 \xb0\xb0\xb3\xd7\xbf\xe4 ^^;");
+					sprintf(msg, "You can use Guillotine Fist instead of Aco Kaboom ^^;");
 					boy->SendMsg(NULL, AM_CHAT, (int)msg, 0, 0);
 					boy->SendMsg(NULL, AM_EMOTION, 2, 0, 0);
 				} else if (g_curStance == 5) {
-					sprintf(msg, "\xb1\xd7\xb7\xb8\xb1\xba\xbf\xe4 ^^; \xb0\xa1\xb8\xa3\xc3\xc4\xc1\xd6\xbc\xc5\xbc\xad \xb0\xed\xb8\xb6\xbf\xf6\xbf\xe4~");
+					sprintf(msg, "I see ^^; Thanks for teaching me~");
 					actor->SendMsg(NULL, AM_CHAT, (int)msg, 0, 0);
 					actor->SendMsg(NULL, AM_EMOTION, 33, 0, 0);
 				} else if (g_curStance == 6) {
-					sprintf(msg, "\xb9\xd9\xb9\xd9\xc0\xcc~ ^_^/");
+					sprintf(msg, "Bye bye~ ^_^/");
 					boy->SendMsg(NULL, AM_CHAT, (int)msg, 0, 0);
 					boy->SendMsg(NULL, AM_EMOTION, 12, 0, 0);
 				} else {
@@ -1533,7 +1533,7 @@ void UIWindowMgr::Aco_Travel()
 				}
 			} else {
 				if (g_curStance == 1) {
-					sprintf(msg, "\xb9\xab\xb3\xab\xb4\xd4 \xbe\xc8\xb3\xe7\xc7\xcf\xbc\xbc\xbf\xe4~");
+					sprintf(msg, "Hello, Munak~");
 					actor->SendMsg(NULL, AM_CHAT, (int)msg, 0, 0);
 					actor->SendMsg(NULL, AM_EMOTION, 18, 0, 0);
 				} else if (g_curStance == 2) {
@@ -1541,19 +1541,19 @@ void UIWindowMgr::Aco_Travel()
 					boy->SendMsg(NULL, AM_CHAT, (int)msg, 0, 0);
 					boy->SendMsg(NULL, AM_EMOTION, 18, 0, 0);
 				} else if (g_curStance == 3) {
-					sprintf(msg, "\xbf\xa1\xbd\xba\xbf\xec\xc0\xc7 \xc8\xbf\xb4\xc9\xc0\xba \xbe\xee\xb6\xb2\xb0\xc5\xbf\xb9\xbf\xe4?");
+					sprintf(msg, "What does Eswoo do?");
 					actor->SendMsg(NULL, AM_CHAT, (int)msg, 0, 0);
 					actor->SendMsg(NULL, AM_EMOTION, 1, 0, 0);
 				} else if (g_curStance == 4) {
-					sprintf(msg, "\xb8\xf3\xbd\xba\xc5\xcd\xb0\xa1 \xc0\xdb\xbe\xc6\xc1\xae\xbc\xad \xb0\xf8\xb0\xdd\xb7\xc2\xc0\xcc 1/3 \xbc\xf6\xc1\xd8\xc0\xb8\xb7\xce \xb3\xb7\xbe\xc6\xc1\xae\xbf\xe4");
+					sprintf(msg, "The monster shrinks and its attack drops to 1/3");
 					boy->SendMsg(NULL, AM_CHAT, (int)msg, 0, 0);
 					boy->SendMsg(NULL, AM_EMOTION, 2, 0, 0);
 				} else if (g_curStance == 5) {
-					sprintf(msg, "\xc7\xec\xbf\xa1 \xb1\xd7\xb7\xb8\xb1\xb8\xb3\xaa~");
+					sprintf(msg, "Ooh, I see~");
 					actor->SendMsg(NULL, AM_CHAT, (int)msg, 0, 0);
 					actor->SendMsg(NULL, AM_EMOTION, 33, 0, 0);
 				} else if (g_curStance == 6) {
-					sprintf(msg, "\xb1\xd7\xb7\xb3 \xbf\xad\xb7\xbe \xb5\xe6\xc5\xdb \xc7\xcf\xbc\xbc\xbf\xe4 ^^;");
+					sprintf(msg, "Happy leveling, good loot ^^;");
 					boy->SendMsg(NULL, AM_CHAT, (int)msg, 0, 0);
 					boy->SendMsg(NULL, AM_EMOTION, 12, 0, 0);
 				} else {
@@ -1598,31 +1598,31 @@ void UIWindowMgr::Aco_Travel()
 						actor->SendMsg(NULL, AM_CHAT, (int)msg, 0, 0);
 						actor->SendMsg(NULL, AM_EMOTION, 18, 0, 0);
 					} else if (g_curStance == 2) {
-						sprintf(msg, "\xbe\xc6.. \xbe\xc8\xb3\xe7\xc7\xcf\xbc\xbc\xbf\xe4..");
+						sprintf(msg, "Oh.. h-hello..");
 						boy->SendMsg(NULL, AM_CHAT, (int)msg, 0, 0);
 					} else if (g_curStance == 3) {
-						sprintf(msg, "\xc8\xa4\xbd\xc3 \xc4\xa7\xc5\xf5\xb0\xe6 \xbe\xb2\xbd\xc7\xbc\xf6 \xc0\xd6\xc0\xb8\xbd\xc5\xb0\xa1\xbf\xe4?_?");
+						sprintf(msg, "Can you use Occult Impaction?_?");
 						actor->SendMsg(NULL, AM_CHAT, (int)msg, 0, 0);
 						actor->SendMsg(NULL, AM_EMOTION, 1, 0, 0);
 					} else if (g_curStance == 4) {
-						sprintf(msg, "\xc0\xbd.. \xbf\xb9");
+						sprintf(msg, "Um.. yes");
 						boy->SendMsg(NULL, AM_CHAT, (int)msg, 0, 0);
 					} else if (g_curStance == 5) {
-						sprintf(msg, "\xbf\xec\xb5\xe7\xb0\xed\xb7\xbd \xb6\xa7\xb9\xae\xbf\xa1 \xb1\xd7\xb7\xaf\xb4\xc2\xb5\xa5 \xc0\xfa \xc1\xbb \xb5\xb5\xbf\xcd\xc1\xd6\xbd\xc7\xbc\xf6\xc0\xd6\xc0\xb8\xbc\xbc\xbf\xe4?");
+						sprintf(msg, "It's about a Wooden Golem.. could you help me out?");
 						actor->SendMsg(NULL, AM_CHAT, (int)msg, 0, 0);
 						actor->SendMsg(NULL, AM_EMOTION, 1, 0, 0);
 						waitTime = 3500;
 					} else if (g_curStance == 6) {
-						sprintf(msg, "\xbf\xec\xb5\xe7\xb0\xed\xb7\xbd \xc0\xcc\xb8\xe9 SP\xbc\xd2\xb8\xf0\xb0\xa1 \xbd\xc9\xc7\xcf\xb1\xe4 \xc7\xcf\xc1\xf6\xb8\xb8 \xc4\xa7\xc5\xf5\xb0\xe6\xc0\xcc \xc8\xbf\xb0\xfa\xc0\xfb\xc0\xcc\xc1\xd2.");
+						sprintf(msg, "Occult Impaction works well on a Wooden Golem, though it eats SP.");
 						boy->SendMsg(NULL, AM_CHAT, (int)msg, 0, 0);
 						waitTime = 3500;
 					} else if (g_curStance == 7) {
-						sprintf(msg, "\xb2\xc7\xc2\xa5\xb7\xce\xb4\xc2 \xc8\xfb\xb5\xe9\xb0\xed\xbf\xe4, \xb8\xf9\xc5\xa9\xbf\xeb \xc1\xc1\xc0\xba\xb9\xab\xb1\xe2\xb8\xa6 \xc7\xcf\xb3\xaa \xc1\xd6\xbd\xc3\xb8\xe9 \xb5\xb5\xbf\xcd\xb5\xe5\xb8\xb1\xb2\xb2\xbf\xe4~");
+						sprintf(msg, "Not for free, though. Give me a good Monk weapon and I'll help~");
 						boy->SendMsg(NULL, AM_CHAT, (int)msg, 0, 0);
 						boy->SendMsg(NULL, AM_EMOTION, 2, 0, 0);
 						waitTime = 3500;
 					} else if (g_curStance == 8) {
-						sprintf(msg, "\xb8\xf9\xc5\xa9\xbf\xeb \xc1\xc1\xc0\xba \xb9\xab\xb1\xe2\xbf\xe4?.. \xc8\xec.. \xbe\xc6\xba\xfc\xc7\xd1\xc5\xd7 \xba\xce\xc5\xb9\xc7\xd8\xbe\xdf\xb0\xda\xb3\xd7\xbf\xe4 \xa4\xd0_\xa4\xd0");
+						sprintf(msg, "A good Monk weapon?.. Hmm.. I'll have to ask Dad T_T");
 						actor->SendMsg(NULL, AM_CHAT, (int)msg, 0, 0);
 						actor->SendMsg(NULL, AM_EMOTION, 28, 0, 0);
 					} else if (g_curStance == 9) {
@@ -1637,11 +1637,11 @@ void UIWindowMgr::Aco_Travel()
 						actor->SendMsg(NULL, AM_CHAT, (int)msg, 0, 0);
 						actor->SendMsg(NULL, AM_EMOTION, 18, 0, 0);
 					} else if (g_curStance == 2) {
-						sprintf(msg, "\xb8\xf9\xc5\xa9\xbf\xeb \xc1\xc1\xc0\xba \xb9\xab\xb1\xe2 \xb1\xb8\xc7\xcf\xbc\xcc\xbe\xee\xbf\xe4?");
+						sprintf(msg, "Did you get a good Monk weapon?");
 						boy->SendMsg(NULL, AM_CHAT, (int)msg, 0, 0);
 						boy->SendMsg(NULL, AM_EMOTION, 1, 0, 0);
 					} else if (g_curStance == 3) {
-						sprintf(msg, "\xbe\xc6\xc1\xf7\xbf\xe4 \xa4\xd0_\xa4\xd0  \xbe\xc6\xba\xfc\xb0\xa1 \xbf\xad\xbd\xc9\xc8\xf7 \xc1\xa6\xc0\xdb\xc1\xdf\xc0\xcc\xbd\xc7\xb0\xc5\xbf\xb9\xbf\xe4.");
+						sprintf(msg, "Not yet T_T  Dad must be working hard on it.");
 						actor->SendMsg(NULL, AM_CHAT, (int)msg, 0, 0);
 						actor->SendMsg(NULL, AM_EMOTION, 28, 0, 0);
 					} else if (g_curStance == 4) {
@@ -1655,11 +1655,11 @@ void UIWindowMgr::Aco_Travel()
 					}
 				} else if (story == 53) {
 					if (g_curStance == 1) {
-						sprintf(msg, "\xbe\xc8\xb3\xe7\xc7\xcf\xbc\xbc\xbf\xe4~ \xb9\xab\xb1\xe2 \xb0\xa1\xc1\xae\xbf\xd4\xbe\xee\xbf\xe4 ^_^");
+						sprintf(msg, "Hello~ I brought the weapon ^_^");
 						actor->SendMsg(NULL, AM_CHAT, (int)msg, 0, 0);
 						actor->SendMsg(NULL, AM_EMOTION, 18, 0, 0);
 					} else if (g_curStance == 2) {
-						sprintf(msg, "\xbf\xc0.. \xb0\xa8\xbb\xe7\xc7\xd5\xb4\xcf\xb4\xd9.");
+						sprintf(msg, "Oh.. thank you.");
 						boy->SendMsg(NULL, AM_CHAT, (int)msg, 0, 0);
 						boy->SendMsg(NULL, AM_EMOTION, 18, 0, 0);
 
@@ -1672,26 +1672,26 @@ void UIWindowMgr::Aco_Travel()
 								char msg[256];
 								char itemName[64];
 								itemInfo.GetItemName(itemName);
-								sprintf(msg, "%s\xb8\xa6 \xb8\xcd\xb7\xe6\xbf\xa1\xb0\xd4 \xc0\xfc\xb4\xde\xc7\xdf\xbd\xc0\xb4\xcf\xb4\xd9", itemName);
+								sprintf(msg, "Gave %s to Maengryong", itemName);
 								g_windowMgr.SendMsg(UIM_PUSHINTOCHATHISTORY, (int)msg, 0xffff00, 0, 0);
 								g_session.DecItem(itemInfo.m_itemIndex, 1);
 								break;
 							}
 						}
 					} else if (g_curStance == 3) {
-						sprintf(msg, "\xb1\xd7\xb7\xb3 \xbe\xd5\xc0\xb8\xb7\xce\xb4\xc2 \xb0\xc5\xba\xcf\xbc\xb6\xbf\xa1 \xb0\xa1\xbd\xc7\xb6\xa7 \xc1\xa6\xb0\xa1 \xb5\xb5\xbf\xcd\xb5\xe5\xb8\xb1\xb2\xb2\xbf\xe4 ^_^");
+						sprintf(msg, "From now on I'll help you on Turtle Island ^_^");
 						boy->SendMsg(NULL, AM_CHAT, (int)msg, 0, 0);
 						boy->SendMsg(NULL, AM_EMOTION, 2, 0, 0);
 					} else if (g_curStance == 4) {
-						sprintf(msg, "\xc0\xdf\xba\xce\xc5\xb9\xb5\xe5\xb7\xc1\xbf\xe4~ \xc0\xfa\xb4\xc2 %s \xbf\xb9\xbf\xe4", g_session.GetCharName());
+						sprintf(msg, "Nice to meet you~ I'm %s", g_session.GetCharName());
 						actor->SendMsg(NULL, AM_CHAT, (int)msg, 0, 0);
 						actor->SendMsg(NULL, AM_EMOTION, 18, 0, 0);
 					} else if (g_curStance == 5) {
-						sprintf(msg, "\xc0\xfc \xb8\xcd\xb7\xe6 \xc0\xcc\xb6\xf3\xb0\xed \xc7\xd5\xb4\xcf\xb4\xd9~");
+						sprintf(msg, "My name is Maengryong~");
 						boy->SendMsg(NULL, AM_CHAT, (int)msg, 0, 0);
 						boy->SendMsg(NULL, AM_EMOTION, 18, 0, 0);
 					} else if (g_curStance == 6) {
-						sprintf(msg, "\xb0\xc5\xba\xcf\xbc\xb6\xbf\xa1\xbc\xad \xba\xc6\xbf\xe4 ^^; \xb9\xd9\xb9\xd9\xc0\xcc~");
+						sprintf(msg, "See you on Turtle Island ^^; Bye~");
 						actor->SendMsg(NULL, AM_CHAT, (int)msg, 0, 0);
 						actor->SendMsg(NULL, AM_EMOTION, 12, 0, 0);
 					} else {
@@ -1700,7 +1700,7 @@ void UIWindowMgr::Aco_Travel()
 					}
 				} else {
 					if (g_curStance == 1) {
-						sprintf(msg, "\xb8\xcd\xb7\xe6\xb4\xd4 \xbe\xc8\xb3\xe7\xc7\xcf\xbc\xbc\xbf\xe4~");
+						sprintf(msg, "Hello, Maengryong~");
 						actor->SendMsg(NULL, AM_CHAT, (int)msg, 0, 0);
 						actor->SendMsg(NULL, AM_EMOTION, 18, 0, 0);
 					} else if (g_curStance == 2) {
@@ -1708,23 +1708,23 @@ void UIWindowMgr::Aco_Travel()
 						boy->SendMsg(NULL, AM_CHAT, (int)msg, 0, 0);
 						boy->SendMsg(NULL, AM_EMOTION, 18, 0, 0);
 					} else if (g_curStance == 3) {
-						sprintf(msg, "\xb5\xbf\xb1\xdb\xb5\xbf\xb1\xdb\xc7\xd1 \xb1\xe2\xb1\xb8\xc3\xbc\xc0\xc7 \xc8\xbf\xb4\xc9\xc0\xba \xbe\xee\xb6\xb2\xb0\xc5\xbf\xb9\xbf\xe4?");
+						sprintf(msg, "What do those round Spirit Spheres do?");
 						actor->SendMsg(NULL, AM_CHAT, (int)msg, 0, 0);
 						actor->SendMsg(NULL, AM_EMOTION, 1, 0, 0);
 					} else if (g_curStance == 4) {
-						sprintf(msg, "\xc7\xcf\xb3\xaa\xb4\xe7 \xb9\xab\xb1\xe2\xc0\xc7 \xb0\xf8\xb0\xdd\xb7\xc2\xc0\xc7 1/5 \xc1\xa4\xb5\xb5\xc0\xc7 \xb0\xf8\xb0\xdd\xb7\xc2 \xc1\xf5\xb0\xa1\xc8\xbf\xb0\xfa\xb0\xa1 \xc0\xd6\xbe\xee\xbf\xe4");
+						sprintf(msg, "Each one adds about 1/5 of your weapon's attack power");
 						boy->SendMsg(NULL, AM_CHAT, (int)msg, 0, 0);
 						boy->SendMsg(NULL, AM_EMOTION, 2, 0, 0);
 					} else if (g_curStance == 5) {
-						sprintf(msg, "\xc7\xec\xbf\xa1 \xb1\xd7\xb7\xb8\xb1\xb8\xb3\xaa~");
+						sprintf(msg, "Ooh, I see~");
 						actor->SendMsg(NULL, AM_CHAT, (int)msg, 0, 0);
 						actor->SendMsg(NULL, AM_EMOTION, 33, 0, 0);
 					} else if (g_curStance == 6) {
-						sprintf(msg, "\xb1\xd7\xb7\xb1\xb0\xc5\xc1\xf6\xbf\xe4~");
+						sprintf(msg, "That's right~");
 						boy->SendMsg(NULL, AM_CHAT, (int)msg, 0, 0);
 						boy->SendMsg(NULL, AM_EMOTION, 2, 0, 0);
 					} else if (g_curStance == 7) {
-						sprintf(msg, "\xb1\xd7\xb7\xb3 \xc0\xfc \xc7\xc1\xb7\xd0\xc5\xd7\xb6\xf3\xb7\xce \xb5\xb9\xbe\xc6\xb0\xa1\xbf\xe4~ \xb9\xd9\xb9\xd9\xc0\xcc");
+						sprintf(msg, "I'll head back to Prontera~ Bye bye");
 						actor->SendMsg(NULL, AM_CHAT, (int)msg, 0, 0);
 						actor->SendMsg(NULL, AM_EMOTION, 12, 0, 0);
 					} else {
@@ -1755,10 +1755,10 @@ void UIWindowMgr::Aco_Travel()
 				}
 			} else if (g_Aco_Job == JT_PRIEST_H) {
 				if (g_curStance == 1) {
-					sprintf(msg, "\xc5\xb8\xb3\xaa\xc5\xe4\xbd\xba\xb8\xa6 \xb2\xc0 \xc3\xb3\xc4\xa1\xc7\xd8\xbe\xdf\xb5\xc8\xb4\xd9");
+					sprintf(msg, "You must defeat Thanatos");
 					mob->SendMsg(NULL, AM_CHAT, (int)msg, 0, 0);
 				} else if (g_curStance == 2) {
-					sprintf(msg, "\xb9\xb0\xb7\xd0\xc0\xcc\xbf\xb9\xbf\xe4.. \xc4\xab\xc4\xab\xb7\xce\xc6\xae\xb4\xd4\xc0\xcc \xc0\xfd \xc7\xcf\xc0\xcc\xc7\xc1\xb8\xae\xbd\xba\xc6\xae\xb7\xce \xb8\xb8\xb5\xe9\xb1\xe2\xc0\xa7\xc7\xd8 \xc8\xf1\xbb\xfd\xc7\xcf\xbc\xcc\xb4\xc2\xb5\xa5..");
+					sprintf(msg, "Of course.. Kakarot gave his life to make me a High Priest..");
 					actor->SendMsg(NULL, AM_CHAT, (int)msg, 0, 0);
 					actor->SendMsg(NULL, AM_EMOTION, 0, 0, 0);
 					waitTime = 4000;
@@ -1767,38 +1767,38 @@ void UIWindowMgr::Aco_Travel()
 				}
 			} else if (g_curStory == 95) {
 				if (g_curStance == 1) {
-					sprintf(msg, "\xb9\xdf\xc5\xb0\xb8\xae\xb4\xd4 \xbe\xc8\xb3\xe7\xc7\xcf\xbc\xbc\xbf\xe4~");
+					sprintf(msg, "Hello, Valkyrie~");
 					actor->SendMsg(NULL, AM_CHAT, (int)msg, 0, 0);
 					actor->SendMsg(NULL, AM_EMOTION, 18, 0, 0);
 				} else if (g_curStance == 2) {
-					sprintf(msg, "\xc7\xcf\xc0\xcc\xc7\xc1\xb8\xae\xbd\xba\xc6\xae\xb0\xa1 \xb5\xc7\xb0\xed\xbd\xcd\xc0\xba\xb0\xa1?...");
+					sprintf(msg, "Do you wish to be a High Priest?...");
 					mob->SendMsg(NULL, AM_CHAT, (int)msg, 0, 0);
 					mob->SendMsg(NULL, AM_EMOTION, 1, 0, 0);
 					waitTime = 3500;
 				} else if (g_curStance == 3) {
-					sprintf(msg, "\xb3\xd7! \xc7\xcf\xc7\xc1\xb0\xa1 \xb5\xc7\xbc\xad \xc5\xb8\xb3\xaa\xc5\xe4\xbd\xba\xb7\xce\xba\xce\xc5\xcd \xc0\xfa\xc8\xf1 \xb8\xb6\xc0\xbb\xb5\xe9\xc0\xbb \xc1\xf6\xc5\xb0\xb0\xed \xbd\xcd\xbe\xee\xbf\xe4.");
+					sprintf(msg, "Yes! I want to be a High Priest and guard our towns from Thanatos.");
 					actor->SendMsg(NULL, AM_CHAT, (int)msg, 0, 0);
 					waitTime = 3500;
 				} else if (g_curStance == 4) {
-					sprintf(msg, "\xb3\xca\xb4\xc2 \xc7\xcf\xc7\xc1\xb0\xa1 \xb5\xc9\xbc\xf6\xc0\xd6\xb4\xc2 \xc0\xe7\xb4\xc9\xc0\xcc \xc3\xe6\xba\xd0\xc7\xcf\xb4\xd9.");
+					sprintf(msg, "You have talent enough to be a High Priest.");
 					mob->SendMsg(NULL, AM_CHAT, (int)msg, 0, 0);
 					waitTime = 3500;
 				} else if (g_curStance == 5) {
-					sprintf(msg, "\xb3\xb2\xc0\xba\xb0\xc7 \xc4\xab\xc4\xab\xb7\xce\xc6\xae \xb3\xca\xc0\xc7 \xb0\xe1\xbd\xc9\xc0\xcc\xb4\xd9. \xc0\xfc\xbf\xa1 \xbf\xd4\xc0\xbb\xb6\xa7 \xc0\xcc\xbe\xdf\xb1\xe2 \xc7\xdf\xbe\xfa\xc1\xf6.. \xb3\xaa\xc0\xc7 \xb8\xb6\xb7\xc2\xbf\xa1 \xb0\xfc\xc7\xd8.. ");
+					sprintf(msg, "What remains is your resolve, Kakarot. As I said when you came before.. about my magic.. ");
 					mob->SendMsg(NULL, AM_CHAT, (int)msg, 0, 0);
 					waitTime = 3500;
 				} else if (g_curStance == 6) {
-					sprintf(msg, "\xb3\xd7, \xc0\xfc \xc1\xd8\xba\xf1\xb0\xa1 \xb5\xc7\xbe\xee\xc0\xd6\xbd\xc0\xb4\xcf\xb4\xd9. \xc0\xfa\xba\xb8\xb4\xd9\xb4\xc2 \xc0\xfa\xc8\xf1 \xb8\xb6\xc0\xbb\xc0\xcc, \xc0\xfa\xc8\xf1 \xbc\xbc\xb0\xe8\xb0\xa1 \xc1\xdf\xbf\xe4\xc7\xd5\xb4\xcf\xb4\xd9.");
+					sprintf(msg, "Yes, I am ready. Our town, our world, matters more than I do.");
 					boy->SendMsg(NULL, AM_CHAT, (int)msg, 0, 0);
 					boy->SendMsg(NULL, AM_EMOTION, 0, 0, 0);
 					waitTime = 3500;
 				} else if (g_curStance == 7) {
-					sprintf(msg, "\xc4\xab\xc4\xab\xb7\xce\xc6\xae\xb4\xd4\xc0\xba \xbe\xee\xb6\xb2 \xc1\xd8\xba\xf1\xb8\xa6 \xc7\xcf\xbc\xc5\xbe\xdf \xb5\xc7\xb4\xc2\xb0\xc5\xbf\xb9\xbf\xe4?");
+					sprintf(msg, "Kakarot, what do you have to get ready for?");
 					actor->SendMsg(NULL, AM_CHAT, (int)msg, 0, 0);
 					actor->SendMsg(NULL, AM_EMOTION, 1, 0, 0);
 					waitTime = 3500;
 				} else if (g_curStance == 8) {
-					sprintf(msg, "\xba\xb0\xc0\xcf \xbe\xc6\xb4\xcf\xbf\xb9\xbf\xe4. %s\xb4\xd4\xc0\xcc \xc5\xb8\xb3\xaa\xc5\xe4\xbd\xba\xb8\xb8 \xc3\xb3\xb8\xae\xc7\xd8\xc1\xd6\xbd\xc3\xb8\xe9 \xc0\xfa\xb4\xc2 \xc7\xe0\xba\xb9\xc7\xd2\xb0\xcc\xb4\xcf\xb4\xd9 ^^*", g_session.GetCharName());
+					sprintf(msg, "It's nothing. If you just take care of Thanatos, %s, I'll be happy ^^*", g_session.GetCharName());
 					boy->SendMsg(NULL, AM_CHAT, (int)msg, 0, 0);
 					boy->SendMsg(NULL, AM_EMOTION, 18, 0, 0);
 					waitTime = 3500;
@@ -1819,21 +1819,21 @@ void UIWindowMgr::Aco_Travel()
 					g_session.GainSkill(28, 3, 1);
 					g_session.SetStatusData(actor);
 				} else if (g_curStance == 11) {
-					sprintf(msg, "\xc4\xab\xc4\xab\xb7\xce\xc6\xae\xb4\xd4!!");
+					sprintf(msg, "Kakarot!!");
 					actor->SendMsg(NULL, AM_CHAT, (int)msg, 0, 0);
 					actor->SendMsg(NULL, AM_EMOTION, 23, 0, 0);
 					waitTime = 3500;
 				} else if (g_curStance == 12) {
-					sprintf(msg, "\xc5\xb8\xb3\xaa\xc5\xe4\xbd\xba\xb6\xa7\xb9\xae\xbf\xa1 \xba\xd2\xbf\xcf\xc0\xfc\xc7\xd1 \xb3\xaa\xc0\xc7 \xb8\xb6\xb7\xc2\xc0\xbb \xb1\xd7\xb0\xa1 \xc0\xda\xbd\xc5\xc0\xc7 \xbb\xfd\xb8\xed\xb7\xc2\xc0\xb8\xb7\xce \xba\xb8\xc3\xe6\xc7\xd8\xc1\xd6\xbe\xfa\xb4\xdc\xb4\xd9.");
+					sprintf(msg, "He filled in my magic, weakened by Thanatos, with his own life force.");
 					mob->SendMsg(NULL, AM_CHAT, (int)msg, 0, 0);
 					mob->SendMsg(NULL, AM_EMOTION, 28, 0, 0);
 					waitTime = 3500;
 				} else if (g_curStance == 13) {
-					sprintf(msg, "\xb3\xca\xb4\xc2 \xb1\xd7\xb8\xa6 \xc0\xa7\xc7\xd8\xbc\xad\xb6\xf3\xb5\xb5 \xb2\xc0 \xc5\xb8\xb3\xaa\xc5\xe4\xbd\xba\xb8\xa6 \xbe\xb2\xb7\xaf\xc6\xae\xb7\xc1\xbe\xdf\xc7\xcf\xb0\xda\xb1\xb8\xb3\xaa. \xb0\xa1\xb0\xc5\xb6\xf3! \xc1\xd7\xc0\xbd\xc0\xc7\xc5\xbe\xc0\xb8\xb7\xce");
+					sprintf(msg, "For his sake as well, you must defeat Thanatos. Go! To the Death Tower");
 					mob->SendMsg(NULL, AM_CHAT, (int)msg, 0, 0);
 					waitTime = 3500;
 				} else if (g_curStance == 14) {
-					sprintf(msg, "\xc4\xab\xc4\xab\xb7\xce\xc6\xae\xb4\xd4.. \xc0\xcc\xb7\xb2\xbc\xf6\xb0\xa1.. \xc0\xcc\xb7\xb2\xc1\xd9\xc0\xba...");
+					sprintf(msg, "Kakarot.. no.. I never imagined...");
 					actor->SendMsg(NULL, AM_CHAT, (int)msg, 0, 0);
 					waitTime = 3500;
 				} else {
@@ -1842,68 +1842,68 @@ void UIWindowMgr::Aco_Travel()
 				}
 			} else if (g_curStory == 93) {
 				if (g_curStance == 1) {
-					sprintf(msg, "\xb9\xdf\xc5\xb0\xb8\xae\xb4\xd4 \xbe\xc8\xb3\xe7\xc7\xcf\xbc\xbc\xbf\xe4~");
+					sprintf(msg, "Hello, Valkyrie~");
 					actor->SendMsg(NULL, AM_CHAT, (int)msg, 0, 0);
 					actor->SendMsg(NULL, AM_EMOTION, 18, 0, 0);
 				} else if (g_curStance == 2) {
-					sprintf(msg, "\xc7\xcf\xc0\xcc\xc7\xc1\xb8\xae\xbd\xba\xc6\xae\xb0\xa1 \xb5\xc7\xb0\xed\xbd\xcd\xc0\xba\xb0\xa1?...");
+					sprintf(msg, "Do you wish to be a High Priest?...");
 					mob->SendMsg(NULL, AM_CHAT, (int)msg, 0, 0);
 					mob->SendMsg(NULL, AM_EMOTION, 1, 0, 0);
 					waitTime = 3500;
 				} else if (g_curStance == 3) {
-					sprintf(msg, "\xb3\xd7! \xc7\xcf\xc7\xc1\xb0\xa1 \xb5\xc7\xbc\xad \xc5\xb8\xb3\xaa\xc5\xe4\xbd\xba\xb7\xce\xba\xce\xc5\xcd \xc0\xfa\xc8\xf1 \xb8\xb6\xc0\xbb\xb5\xe9\xc0\xbb \xc1\xf6\xc5\xb0\xb0\xed \xbd\xcd\xbe\xee\xbf\xe4.");
+					sprintf(msg, "Yes! I want to be a High Priest and guard our towns from Thanatos.");
 					actor->SendMsg(NULL, AM_CHAT, (int)msg, 0, 0);
 					waitTime = 3500;
 				} else if (g_curStance == 4) {
-					sprintf(msg, "\xb3\xca\xb4\xc2 \xc7\xcf\xc7\xc1\xb0\xa1 \xb5\xc9\xbc\xf6\xc0\xd6\xb4\xc2 \xc0\xe7\xb4\xc9\xc0\xcc \xc3\xe6\xba\xd0\xc7\xcf\xb4\xd9.");
+					sprintf(msg, "You have talent enough to be a High Priest.");
 					mob->SendMsg(NULL, AM_CHAT, (int)msg, 0, 0);
 					waitTime = 3500;
 				} else if (g_curStance == 5) {
-					sprintf(msg, "\xb3\xb2\xc0\xba\xb0\xc7 \xc4\xab\xc4\xab\xb7\xce\xc6\xae \xb3\xca\xc0\xc7 \xb0\xe1\xbd\xc9\xc0\xcc\xb4\xd9. \xc0\xfc\xbf\xa1 \xbf\xd4\xc0\xbb\xb6\xa7 \xc0\xcc\xbe\xdf\xb1\xe2 \xc7\xdf\xbe\xfa\xc1\xf6.. \xb3\xaa\xc0\xc7 \xb8\xb6\xb7\xc2\xbf\xa1 \xb0\xfc\xc7\xd8.. ");
+					sprintf(msg, "What remains is your resolve, Kakarot. As I said when you came before.. about my magic.. ");
 					mob->SendMsg(NULL, AM_CHAT, (int)msg, 0, 0);
 					waitTime = 3500;
 				} else if (g_curStance == 6) {
-					sprintf(msg, "\xb3\xd7.... ");
+					sprintf(msg, "Yes.... ");
 					boy->SendMsg(NULL, AM_CHAT, (int)msg, 0, 0);
 					waitTime = 3500;
 				} else if (g_curStance == 7) {
-					sprintf(msg, "\xc4\xab\xc4\xab\xb7\xce\xc6\xae\xb4\xd4\xc0\xba \xbe\xee\xb6\xb2 \xc1\xd8\xba\xf1\xb8\xa6 \xc7\xcf\xbc\xc5\xbe\xdf \xb5\xc7\xb4\xc2\xb0\xc5\xbf\xb9\xbf\xe4?");
+					sprintf(msg, "Kakarot, what do you have to get ready for?");
 					actor->SendMsg(NULL, AM_CHAT, (int)msg, 0, 0);
 					actor->SendMsg(NULL, AM_EMOTION, 1, 0, 0);
 					waitTime = 3500;
 				} else if (g_curStance == 8) {
-					sprintf(msg, "\xc5\xa9\xc8\xe6... \xb9\xdf\xc5\xb0\xb8\xae\xb4\xd4 \xc1\xcb\xbc\xdb\xc7\xd5\xb4\xcf\xb4\xd9. \xc0\xfa \xbe\xc6\xb9\xab\xb7\xa1\xb5\xb5 %s\xb4\xd4\xc0\xbb \xc1\xbb \xb4\xf5 \xba\xb8\xb0\xed\xbd\xcd\xb3\xd7\xbf\xe4", g_session.GetCharName());
+					sprintf(msg, "Ugh... I'm sorry, Valkyrie. I think I want to see %s a little longer", g_session.GetCharName());
 					boy->SendMsg(NULL, AM_CHAT, (int)msg, 0, 0);
 					boy->SendMsg(NULL, AM_EMOTION, 28, 0, 0);
 					waitTime = 3500;
 				} else if (g_curStance == 9) {
-					sprintf(msg, "\xc1\xd7\xbe\xee\xb9\xf6\xb8\xae\xb8\xe9 %s\xb4\xd4\xc0\xc7 \xbb\xe7\xb6\xfb\xbd\xba\xb7\xaf\xbf\xee \xbe\xf3\xb1\xbc\xc0\xbb \xb4\xf5 \xb8\xf8\xba\xbb\xb4\xd9\xb4\xc2\xb0\xc9 \xbb\xfd\xb0\xa2\xc7\xcf\xb4\xcf\xb1\xee...", g_session.GetCharName());
+					sprintf(msg, "When I think that if I die, I'll never see %s's lovely face again...", g_session.GetCharName());
 					boy->SendMsg(NULL, AM_CHAT, (int)msg, 0, 0);
 					waitTime = 3500;
 				} else if (g_curStance == 10) {
-					sprintf(msg, "\xc1\xd7\xb4\xc2\xb4\xd9\xb4\xcf \xb9\xab\xbd\xbc \xb6\xe6\xc0\xcc\xbf\xb9\xbf\xe4?");
+					sprintf(msg, "What do you mean, die?");
 					actor->SendMsg(NULL, AM_CHAT, (int)msg, 0, 0);
 					actor->SendMsg(NULL, AM_EMOTION, 23, 0, 0);
 					waitTime = 3500;
 				} else if (g_curStance == 11) {
-					sprintf(msg, "\xc5\xb8\xb3\xaa\xc5\xe4\xbd\xba\xb6\xa7\xb9\xae\xbf\xa1 \xb3\xaa\xc0\xc7 \xb8\xb6\xb7\xc2\xc0\xcc \xbf\xcf\xc0\xfc\xc4\xa1 \xbe\xca\xb1\xe2\xbf\xa1 \xb3\xca\xb8\xa6 \xc7\xcf\xc0\xcc\xc7\xc1\xb8\xae\xbd\xba\xc6\xae\xb7\xce \xc0\xfc\xc1\xf7\xbd\xc3\xc5\xb0\xb7\xc1\xb8\xe9 \xc3\xdf\xb0\xa1\xb7\xce \xbb\xfd\xb8\xed\xb7\xc2\xc0\xcc \xc7\xca\xbf\xe4\xc7\xcf\xb4\xdc\xb4\xd9");
+					sprintf(msg, "Thanatos weakened my magic, so to make you a High Priest I need extra life force");
 					mob->SendMsg(NULL, AM_CHAT, (int)msg, 0, 0);
 					waitTime = 4500;
 				} else if (g_curStance == 12) {
-					sprintf(msg, "\xc7\xe4! \xc0\xfc \xc4\xab\xc4\xab\xb7\xce\xc6\xae\xb4\xd4\xc0\xbb \xc8\xf1\xbb\xfd\xc7\xd8\xbc\xad\xb1\xee\xc1\xf6 \xc7\xcf\xc0\xcc\xc7\xc1\xb8\xae\xbd\xba\xc6\xae\xb0\xa1 \xb5\xc7\xb0\xed\xbd\xcd\xc1\xf6\xb4\xc2 \xbe\xca\xbe\xc6\xbf\xe4.");
+					sprintf(msg, "What! I don't want to be a High Priest if it means sacrificing Kakarot.");
 					actor->SendMsg(NULL, AM_CHAT, (int)msg, 0, 0);
 					actor->SendMsg(NULL, AM_EMOTION, 23, 0, 0);
 					waitTime = 3500;
 				} else if (g_curStance == 13) {
-					sprintf(msg, "\xc7\xcf\xc0\xcc\xc7\xc1\xb8\xae\xbd\xba\xc6\xae\xb0\xa1 \xb5\xc7\xc1\xf6 \xbe\xca\xb0\xed\xb5\xb5 \xc5\xb8\xb3\xaa\xc5\xe4\xbd\xba\xbf\xa1\xb0\xd4 \xc0\xcc\xb1\xe6\xbc\xf6\xc0\xd6\xb4\xc2 \xb9\xe6\xb9\xfd\xc0\xcc \xc0\xd6\xc0\xbb\xb2\xa8\xbf\xb9\xbf\xe4. \xbf\xec\xb8\xae \xb0\xb0\xc0\xcc \xc8\xfb\xb3\xbb\xbf\xe4");
+					sprintf(msg, "There must be a way to beat Thanatos without becoming a High Priest. Let's do our best together");
 					actor->SendMsg(NULL, AM_CHAT, (int)msg, 0, 0);
 					actor->SendMsg(NULL, AM_EMOTION, 40, 0, 0);
 					waitTime = 4500;
 				} else if (g_curStance == 14) {
-					sprintf(msg, "\xb3\xd7 \xc1\xcb\xbc\xdb\xc7\xd8\xbf\xe4, \xb1\xd7\xb8\xae\xb0\xed ...");
+					sprintf(msg, "Yes, I'm sorry. And ...");
 					boy->SendMsg(NULL, AM_CHAT, (int)msg, 0, 0);
 				} else if (g_curStance == 15) {
-					sprintf(msg, "\xbb\xe7\xb6\xfb\xc7\xd5\xb4\xcf\xb4\xd9 ^^*");
+					sprintf(msg, "I love you ^^*");
 					boy->SendMsg(NULL, AM_CHAT, (int)msg, 0, 0);
 					boy->SendMsg(NULL, AM_EMOTION, 40, 0, 0);
 					waitTime = 4500;
@@ -1917,21 +1917,21 @@ void UIWindowMgr::Aco_Travel()
 				}
 			} else if (g_curStory == 94 && g_session.GetLevel() >= 151) {
 				if (g_curStance == 1) {
-					sprintf(msg, "\xb9\xdf\xc5\xb0\xb8\xae\xb4\xd4 \xbe\xc8\xb3\xe7\xc7\xcf\xbc\xbc\xbf\xe4~");
+					sprintf(msg, "Hello, Valkyrie~");
 					actor->SendMsg(NULL, AM_CHAT, (int)msg, 0, 0);
 					actor->SendMsg(NULL, AM_EMOTION, 18, 0, 0);
 				} else if (g_curStance == 2) {
-					sprintf(msg, "%s \xc0\xcc\xbf\xa9 \xb9\xab\xbd\xbc\xc0\xcf\xb7\xce \xb4\xd9\xbd\xc3 \xb3\xaa\xb8\xa6 \xc3\xa3\xbe\xc6\xbf\xd4\xb4\xc2\xb0\xa1?", g_session.GetCharName());
+					sprintf(msg, "%s, what brings you to me again?", g_session.GetCharName());
 					mob->SendMsg(NULL, AM_CHAT, (int)msg, 0, 0);
 					mob->SendMsg(NULL, AM_EMOTION, 1, 0, 0);
 					waitTime = 3500;
 				} else if (g_curStance == 3) {
-					sprintf(msg, "\xc7\xcf\xc0\xcc\xc7\xc1\xb8\xae\xbd\xba\xc6\xae\xb4\xc2 \xc4\xab\xc4\xab\xb7\xce\xc6\xae\xb4\xd4\xc0\xbb \xc8\xf1\xbb\xfd\xc7\xd8\xbe\xdf \xb5\xc7\xb1\xe2\xb6\xa7\xb9\xae\xbf\xa1 \xb0\xef\xb6\xf5\xc7\xcf\xc1\xf6\xb8\xb8, \xba\xb8\xc5\xeb \xc7\xc1\xb8\xae\xbd\xba\xc6\xae\xb7\xce \xc0\xfc\xc1\xf7\xc7\xcf\xb0\xed \xbd\xcd\xbe\xee\xbc\xad \xbf\xd4\xbe\xee\xbf\xe4");
+					sprintf(msg, "High Priest would mean sacrificing Kakarot, so I can't, but I came to become a regular Priest");
 					actor->SendMsg(NULL, AM_CHAT, (int)msg, 0, 0);
 					actor->SendMsg(NULL, AM_EMOTION, 2, 0, 0);
 					waitTime = 3500;
 				} else if (g_curStance == 4) {
-					sprintf(msg, "\xb0\xa1\xb4\xc9\xc7\xcf\xb4\xdc\xb4\xd9");
+					sprintf(msg, "That is possible");
 					mob->SendMsg(NULL, AM_CHAT, (int)msg, 0, 0);
 					waitTime = 3500;
 				} else if (g_curStance == 5) {
@@ -1949,7 +1949,7 @@ void UIWindowMgr::Aco_Travel()
 					boy->SendMsg(NULL, AM_EMOTION, 2, 0, 0);
 					g_session.SetStatusData(actor);
 				} else if (g_curStance == 7) {
-					sprintf(msg, "\xb0\xa8\xbb\xe7\xc7\xd5\xb4\xcf\xb4\xd9 ^^*");
+					sprintf(msg, "Thank you ^^*");
 					actor->SendMsg(NULL, AM_CHAT, (int)msg, 0, 0);
 					actor->SendMsg(NULL, AM_EMOTION, 18, 0, 0);
 					waitTime = 3500;
@@ -1959,15 +1959,15 @@ void UIWindowMgr::Aco_Travel()
 				}
 			} else {
 				if (g_curStance == 1) {
-					sprintf(msg, "\xb9\xdf\xc5\xb0\xb8\xae\xb4\xd4 \xbe\xc8\xb3\xe7\xc7\xcf\xbc\xbc\xbf\xe4~");
+					sprintf(msg, "Hello, Valkyrie~");
 					actor->SendMsg(NULL, AM_CHAT, (int)msg, 0, 0);
 					actor->SendMsg(NULL, AM_EMOTION, 18, 0, 0);
 				} else if (g_curStance == 2) {
-					sprintf(msg, "%s \xc0\xcc\xbf\xa9 \xb8\xf0\xb5\xce\xb0\xa1 \xb3\xd7\xb0\xa1 \xc5\xb8\xb3\xaa\xc5\xe4\xbd\xba\xb8\xa6 \xc3\xb3\xc4\xa1\xc7\xd8\xc1\xd6\xb1\xe6 \xb9\xd9\xb6\xf3\xb0\xed \xc0\xd6\xb4\xdc\xb4\xd9", g_session.GetCharName());
+					sprintf(msg, "%s, everyone is hoping you will defeat Thanatos", g_session.GetCharName());
 					mob->SendMsg(NULL, AM_CHAT, (int)msg, 0, 0);
 					waitTime = 3500;
 				} else if (g_curStance == 3) {
-					sprintf(msg, "\xb3\xd7!");
+					sprintf(msg, "Yes!");
 					actor->SendMsg(NULL, AM_CHAT, (int)msg, 0, 0);
 					actor->SendMsg(NULL, AM_EMOTION, 0, 0, 0);
 					waitTime = 3500;

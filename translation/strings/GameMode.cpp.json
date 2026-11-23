@@ -1,302 +1,402 @@
 {
  "261:25": {
-  "ko": "유저인터페이스\\map\\"
+  "ko": "유저인터페이스\\map\\",
+  "keep": "file name in the game data"
  },
  "630:14": {
-  "ko": "게임조작은 마우스와 키보드로 합니다"
+  "ko": "게임조작은 마우스와 키보드로 합니다",
+  "en": "Controls use the mouse and keyboard"
  },
  "632:14": {
-  "ko": "메뉴선택은 상하 키로 고른뒤에 A를 누르면 선택이 됩니다"
+  "ko": "메뉴선택은 상하 키로 고른뒤에 A를 누르면 선택이 됩니다",
+  "en": "Choose menu items with the Up/Down keys and press A"
  },
  "964:48": {
-  "ko": "이팩트\\숫자.act"
+  "ko": "이팩트\\숫자.act",
+  "keep": "file name in the game data"
  },
  "965:48": {
-  "ko": "이팩트\\숫자.spr"
+  "ko": "이팩트\\숫자.spr",
+  "keep": "file name in the game data"
  },
  "1048:46": {
-  "ko": "이팩트\\RankFont.act"
+  "ko": "이팩트\\RankFont.act",
+  "keep": "file name in the game data"
  },
  "1049:46": {
-  "ko": "이팩트\\RankFont.spr"
+  "ko": "이팩트\\RankFont.spr",
+  "keep": "file name in the game data"
  },
  "1156:46": {
-  "ko": "이팩트\\TimeFont.act"
+  "ko": "이팩트\\TimeFont.act",
+  "keep": "file name in the game data"
  },
  "1157:46": {
-  "ko": "이팩트\\TimeFont.spr"
+  "ko": "이팩트\\TimeFont.spr",
+  "keep": "file name in the game data"
  },
  "1242:46": {
-  "ko": "이팩트\\TimeAttack.act"
+  "ko": "이팩트\\TimeAttack.act",
+  "keep": "file name in the game data"
  },
  "1243:46": {
-  "ko": "이팩트\\TimeAttack.spr"
+  "ko": "이팩트\\TimeAttack.spr",
+  "keep": "file name in the game data"
  },
  "1400:61": {
-  "ko": "유저인터페이스\\map\\map_arrow.bmp"
+  "ko": "유저인터페이스\\map\\map_arrow.bmp",
+  "keep": "file name in the game data"
  },
  "1401:59": {
-  "ko": "유저인터페이스\\map\\map_arrow.bmp"
+  "ko": "유저인터페이스\\map\\map_arrow.bmp",
+  "keep": "file name in the game data"
  },
  "1700:55": {
-  "ko": "유저인터페이스\\map\\bossmonster.bmp"
+  "ko": "유저인터페이스\\map\\bossmonster.bmp",
+  "keep": "file name in the game data"
  },
  "1775:23": {
-  "ko": "이팩트\\mvp.spr"
+  "ko": "이팩트\\mvp.spr",
+  "keep": "file name in the game data"
  },
  "1776:23": {
-  "ko": "이팩트\\mvp.act"
+  "ko": "이팩트\\mvp.act",
+  "keep": "file name in the game data"
  },
  "1782:23": {
-  "ko": "이팩트\\손수레.spr"
+  "ko": "이팩트\\손수레.spr",
+  "keep": "file name in the game data"
  },
  "1783:23": {
-  "ko": "이팩트\\손수레.act"
+  "ko": "이팩트\\손수레.act",
+  "keep": "file name in the game data"
  },
  "1788:23": {
-  "ko": "이팩트\\손수레1.spr"
+  "ko": "이팩트\\손수레1.spr",
+  "keep": "file name in the game data"
  },
  "1789:23": {
-  "ko": "이팩트\\손수레1.act"
+  "ko": "이팩트\\손수레1.act",
+  "keep": "file name in the game data"
  },
  "1794:23": {
-  "ko": "이팩트\\손수레2.spr"
+  "ko": "이팩트\\손수레2.spr",
+  "keep": "file name in the game data"
  },
  "1795:23": {
-  "ko": "이팩트\\손수레2.act"
+  "ko": "이팩트\\손수레2.act",
+  "keep": "file name in the game data"
  },
  "1800:23": {
-  "ko": "이팩트\\손수레3.spr"
+  "ko": "이팩트\\손수레3.spr",
+  "keep": "file name in the game data"
  },
  "1801:23": {
-  "ko": "이팩트\\손수레3.act"
+  "ko": "이팩트\\손수레3.act",
+  "keep": "file name in the game data"
  },
  "1806:23": {
-  "ko": "이팩트\\손수레4.spr"
+  "ko": "이팩트\\손수레4.spr",
+  "keep": "file name in the game data"
  },
  "1807:23": {
-  "ko": "이팩트\\손수레4.act"
+  "ko": "이팩트\\손수레4.act",
+  "keep": "file name in the game data"
  },
  "1812:23": {
-  "ko": "이팩트\\슈노손수레.spr"
+  "ko": "이팩트\\슈노손수레.spr",
+  "keep": "file name in the game data"
  },
  "1813:23": {
-  "ko": "이팩트\\슈노손수레.act"
+  "ko": "이팩트\\슈노손수레.act",
+  "keep": "file name in the game data"
  },
  "1818:23": {
-  "ko": "이팩트\\손수레.spr"
+  "ko": "이팩트\\손수레.spr",
+  "keep": "file name in the game data"
  },
  "1819:23": {
-  "ko": "이팩트\\베이비손수레.act"
+  "ko": "이팩트\\베이비손수레.act",
+  "keep": "file name in the game data"
  },
  "1824:23": {
-  "ko": "이팩트\\손수레1.spr"
+  "ko": "이팩트\\손수레1.spr",
+  "keep": "file name in the game data"
  },
  "1825:23": {
-  "ko": "이팩트\\베이비손수레1.act"
+  "ko": "이팩트\\베이비손수레1.act",
+  "keep": "file name in the game data"
  },
  "1830:23": {
-  "ko": "이팩트\\손수레2.spr"
+  "ko": "이팩트\\손수레2.spr",
+  "keep": "file name in the game data"
  },
  "1831:23": {
-  "ko": "이팩트\\베이비손수레2.act"
+  "ko": "이팩트\\베이비손수레2.act",
+  "keep": "file name in the game data"
  },
  "1836:23": {
-  "ko": "이팩트\\손수레3.spr"
+  "ko": "이팩트\\손수레3.spr",
+  "keep": "file name in the game data"
  },
  "1837:23": {
-  "ko": "이팩트\\베이비손수레3.act"
+  "ko": "이팩트\\베이비손수레3.act",
+  "keep": "file name in the game data"
  },
  "1842:23": {
-  "ko": "이팩트\\손수레4.spr"
+  "ko": "이팩트\\손수레4.spr",
+  "keep": "file name in the game data"
  },
  "1843:23": {
-  "ko": "이팩트\\베이비손수레4.act"
+  "ko": "이팩트\\베이비손수레4.act",
+  "keep": "file name in the game data"
  },
  "1848:23": {
-  "ko": "이팩트\\슈노손수레.spr"
+  "ko": "이팩트\\슈노손수레.spr",
+  "keep": "file name in the game data"
  },
  "1849:23": {
-  "ko": "이팩트\\베이비슈노손수레.act"
+  "ko": "이팩트\\베이비슈노손수레.act",
+  "keep": "file name in the game data"
  },
  "1854:23": {
-  "ko": "이팩트\\매.spr"
+  "ko": "이팩트\\매.spr",
+  "keep": "file name in the game data"
  },
  "1855:23": {
-  "ko": "이팩트\\매.act"
+  "ko": "이팩트\\매.act",
+  "keep": "file name in the game data"
  },
  "1860:23": {
-  "ko": "이팩트\\매2.spr"
+  "ko": "이팩트\\매2.spr",
+  "keep": "file name in the game data"
  },
  "1861:23": {
-  "ko": "이팩트\\매2.act"
+  "ko": "이팩트\\매2.act",
+  "keep": "file name in the game data"
  },
  "1866:23": {
-  "ko": "이팩트\\매.spr"
+  "ko": "이팩트\\매.spr",
+  "keep": "file name in the game data"
  },
  "1867:23": {
-  "ko": "이팩트\\베이비매.act"
+  "ko": "이팩트\\베이비매.act",
+  "keep": "file name in the game data"
  },
  "1872:23": {
-  "ko": "몬스터\\demon_pungus.spr"
+  "ko": "몬스터\\demon_pungus.spr",
+  "keep": "file name in the game data"
  },
  "1873:23": {
-  "ko": "몬스터\\demon_pungus.act"
+  "ko": "몬스터\\demon_pungus.act",
+  "keep": "file name in the game data"
  },
  "1878:23": {
-  "ko": "몬스터\\explosion.spr"
+  "ko": "몬스터\\explosion.spr",
+  "keep": "file name in the game data"
  },
  "1879:23": {
-  "ko": "몬스터\\explosion.act"
+  "ko": "몬스터\\explosion.act",
+  "keep": "file name in the game data"
  },
  "1884:23": {
-  "ko": "몬스터\\lude.spr"
+  "ko": "몬스터\\lude.spr",
+  "keep": "file name in the game data"
  },
  "1885:23": {
-  "ko": "몬스터\\lude.act"
+  "ko": "몬스터\\lude.act",
+  "keep": "file name in the game data"
  },
  "1890:23": {
-  "ko": "이팩트\\emotion.spr"
+  "ko": "이팩트\\emotion.spr",
+  "keep": "file name in the game data"
  },
  "1891:23": {
-  "ko": "이팩트\\emotion.act"
+  "ko": "이팩트\\emotion.act",
+  "keep": "file name in the game data"
  },
  "1896:23": {
-  "ko": "이팩트\\얼음땡.spr"
+  "ko": "이팩트\\얼음땡.spr",
+  "keep": "file name in the game data"
  },
  "1897:23": {
-  "ko": "이팩트\\얼음땡.act"
+  "ko": "이팩트\\얼음땡.act",
+  "keep": "file name in the game data"
  },
  "1902:23": {
-  "ko": "이팩트\\얼음땡.spr"
+  "ko": "이팩트\\얼음땡.spr",
+  "keep": "file name in the game data"
  },
  "1903:23": {
-  "ko": "이팩트\\얼음땡.act"
+  "ko": "이팩트\\얼음땡.act",
+  "keep": "file name in the game data"
  },
  "1908:23": {
-  "ko": "이팩트\\smoke.spr"
+  "ko": "이팩트\\smoke.spr",
+  "keep": "file name in the game data"
  },
  "1909:23": {
-  "ko": "이팩트\\smoke.act"
+  "ko": "이팩트\\smoke.act",
+  "keep": "file name in the game data"
  },
  "1914:23": {
-  "ko": "이팩트\\Status-curse.spr"
+  "ko": "이팩트\\Status-curse.spr",
+  "keep": "file name in the game data"
  },
  "1915:23": {
-  "ko": "이팩트\\Status-curse.act"
+  "ko": "이팩트\\Status-curse.act",
+  "keep": "file name in the game data"
  },
  "1920:23": {
-  "ko": "이팩트\\Status-sleep.spr"
+  "ko": "이팩트\\Status-sleep.spr",
+  "keep": "file name in the game data"
  },
  "1921:23": {
-  "ko": "이팩트\\Status-sleep.act"
+  "ko": "이팩트\\Status-sleep.act",
+  "keep": "file name in the game data"
  },
  "1926:23": {
-  "ko": "이팩트\\Status-stun.spr"
+  "ko": "이팩트\\Status-stun.spr",
+  "keep": "file name in the game data"
  },
  "1927:23": {
-  "ko": "이팩트\\Status-stun.act"
+  "ko": "이팩트\\Status-stun.act",
+  "keep": "file name in the game data"
  },
  "1932:23": {
-  "ko": "이팩트\\emotion.spr"
+  "ko": "이팩트\\emotion.spr",
+  "keep": "file name in the game data"
  },
  "1933:23": {
-  "ko": "이팩트\\emotion.act"
+  "ko": "이팩트\\emotion.act",
+  "keep": "file name in the game data"
  },
  "1938:23": {
-  "ko": "이팩트\\msg.spr"
+  "ko": "이팩트\\msg.spr",
+  "keep": "file name in the game data"
  },
  "1939:23": {
-  "ko": "이팩트\\msg.act"
+  "ko": "이팩트\\msg.act",
+  "keep": "file name in the game data"
  },
  "1944:23": {
-  "ko": "이팩트\\msg.spr"
+  "ko": "이팩트\\msg.spr",
+  "keep": "file name in the game data"
  },
  "1945:23": {
-  "ko": "이팩트\\msg.act"
+  "ko": "이팩트\\msg.act",
+  "keep": "file name in the game data"
  },
  "1950:23": {
-  "ko": "이팩트\\msg.spr"
+  "ko": "이팩트\\msg.spr",
+  "keep": "file name in the game data"
  },
  "1951:23": {
-  "ko": "이팩트\\msg.act"
+  "ko": "이팩트\\msg.act",
+  "keep": "file name in the game data"
  },
  "1956:23": {
-  "ko": "이팩트\\bluemsg.spr"
+  "ko": "이팩트\\bluemsg.spr",
+  "keep": "file name in the game data"
  },
  "1957:23": {
-  "ko": "이팩트\\msg.act"
+  "ko": "이팩트\\msg.act",
+  "keep": "file name in the game data"
  },
  "1962:23": {
-  "ko": "이팩트\\msg.spr"
+  "ko": "이팩트\\msg.spr",
+  "keep": "file name in the game data"
  },
  "1963:23": {
-  "ko": "이팩트\\msg.act"
+  "ko": "이팩트\\msg.act",
+  "keep": "file name in the game data"
  },
  "1968:23": {
-  "ko": "이팩트\\msg.spr"
+  "ko": "이팩트\\msg.spr",
+  "keep": "file name in the game data"
  },
  "1969:23": {
-  "ko": "이팩트\\msg.act"
+  "ko": "이팩트\\msg.act",
+  "keep": "file name in the game data"
  },
  "1982:23": {
-  "ko": "이팩트\\msg.spr"
+  "ko": "이팩트\\msg.spr",
+  "keep": "file name in the game data"
  },
  "1983:23": {
-  "ko": "이팩트\\msg.act"
+  "ko": "이팩트\\msg.act",
+  "keep": "file name in the game data"
  },
  "2002:22": {
-  "ko": "이팩트\\msg.spr"
+  "ko": "이팩트\\msg.spr",
+  "keep": "file name in the game data"
  },
  "2003:22": {
-  "ko": "이팩트\\msg.act"
+  "ko": "이팩트\\msg.act",
+  "keep": "file name in the game data"
  },
  "2057:22": {
-  "ko": "이팩트\\emotion.spr"
+  "ko": "이팩트\\emotion.spr",
+  "keep": "file name in the game data"
  },
  "2058:22": {
-  "ko": "이팩트\\emotion.act"
+  "ko": "이팩트\\emotion.act",
+  "keep": "file name in the game data"
  },
  "4916:9": {
-  "ko": "네~ 가던길로 갈께요 ^_^*"
+  "ko": "네~ 가던길로 갈께요 ^_^*",
+  "en": "OK~ I'll keep going ^_^*"
  },
  "4926:10": {
-  "ko": "지금은 그길로 가면 위험할거 같아요. 다음에 갈께요 ㅠ_ㅠ"
+  "ko": "지금은 그길로 가면 위험할거 같아요. 다음에 갈께요 ㅠ_ㅠ",
+  "en": "That way looks dangerous right now. I'll go next time T_T"
  },
  "4933:10": {
-  "ko": "네~ 옆길로 갈께요~ ^^;"
+  "ko": "네~ 옆길로 갈께요~ ^^;",
+  "en": "OK~ Side path it is~ ^^;"
  },
  "7876:22": {
-  "ko": "아버지와 딸의 행동이 모두 끝나면 하루가 끝나게됩니다!"
+  "ko": "아버지와 딸의 행동이 모두 끝나면 하루가 끝나게됩니다!",
+  "en": "The day ends when father and daughter have both acted!"
  },
  "7970:38": {
-  "ko": "힐 배웠어요~ 이쁘죠? *^_^*  저를 더블클릭하면 써져요~"
+  "ko": "힐 배웠어요~ 이쁘죠? *^_^*  저를 더블클릭하면 써져요~",
+  "en": "I learned Heal~ Pretty? *^_^*  Double-click me to use it~"
  },
  "7974:38": {
-  "ko": "이제부터 아코스매쉬 쓰면 마우스 휠을 위로 굴려줘요~"
+  "ko": "이제부터 아코스매쉬 쓰면 마우스 휠을 위로 굴려줘요~",
+  "en": "From now on, roll the wheel up to use Aco Smash~"
  },
  "7977:38": {
-  "ko": "스킬창을 열고 마우스 우클릭 해서 설명을 잘 읽어줘요 ㅠ_ㅠ"
+  "ko": "스킬창을 열고 마우스 우클릭 해서 설명을 잘 읽어줘요 ㅠ_ㅠ",
+  "en": "Open the skill window and right-click to read the info T_T"
  },
  "7982:39": {
-  "ko": "이제 워프포탈로 다치기전에 집에 돌아갈래요 ^_^"
+  "ko": "이제 워프포탈로 다치기전에 집에 돌아갈래요 ^_^",
+  "en": "Now I can Warp Portal home before I get hurt ^_^"
  },
  "7986:39": {
-  "ko": "이젠 독에 걸려도 걱정 끝이예요 ^^*"
+  "ko": "이젠 독에 걸려도 걱정 끝이예요 ^^*",
+  "en": "No more worrying about poison now ^^*"
  },
  "7990:39": {
-  "ko": "안젤루스 배웠어여~ 이쁘죠? ^^*"
+  "ko": "안젤루스 배웠어여~ 이쁘죠? ^^*",
+  "en": "Learned Angelus~ Pretty, right? ^^*"
  },
  "7994:39": {
-  "ko": "기리에를 배웠답니다 헤헤~"
+  "ko": "기리에를 배웠답니다 헤헤~",
+  "en": "I learned Kyrie Eleison, hehe~"
  },
  "7998:39": {
-  "ko": "아코회오리 배웠어요~ ^^;"
+  "ko": "아코회오리 배웠어요~ ^^;",
+  "en": "I learned Aco Tornado~ ^^;"
  },
  "8022:16": {
-  "ko": "게펜필드의 다른지역으로 갈수있는 용기가 생겼습니다~!"
+  "ko": "게펜필드의 다른지역으로 갈수있는 용기가 생겼습니다~!",
+  "en": "You're now brave enough for other areas of Geffen Field~!"
  },
  "8035:16": {
-  "ko": "페이욘 던젼의 다른지역으로 갈수있는 용기가 생겼습니다~!"
+  "ko": "페이욘 던젼의 다른지역으로 갈수있는 용기가 생겼습니다~!",
+  "en": "You're now brave enough for other areas of Payon Cave~!"
  }
 }
