@@ -1,1264 +1,1682 @@
 {
  "40:21": {
-  "ko": "동의 하십니까?"
+  "ko": "동의 하십니까?",
+  "en": "Do you agree?"
  },
  "41:33": {
-  "ko": "서버 연결 실패"
+  "ko": "서버 연결 실패",
+  "en": "Connection failed"
  },
  "42:33": {
-  "ko": "서버와 연결이 끊어졌습니다."
+  "ko": "서버와 연결이 끊어졌습니다.",
+  "en": "Disconnected from the server."
  },
  "43:15": {
-  "ko": "서버와 연결이 끊어졌습니다."
+  "ko": "서버와 연결이 끊어졌습니다.",
+  "en": "Disconnected from the server."
  },
  "44:19": {
-  "ko": "서버 종료됨"
+  "ko": "서버 종료됨",
+  "en": "Server closed"
  },
  "45:32": {
-  "ko": "같은 계정으로 다른 사용자가 로그인 하였습니다."
+  "ko": "같은 계정으로 다른 사용자가 로그인 하였습니다.",
+  "en": "Someone has logged in with this account."
  },
  "46:25": {
-  "ko": "등록되지 않은 계정입니다. 다시 확인 바랍니다."
+  "ko": "등록되지 않은 계정입니다. 다시 확인 바랍니다.",
+  "en": "Unregistered ID. Please check and try again."
  },
  "47:27": {
-  "ko": "입력하신 비밀번호가 올바르지 않습니다."
+  "ko": "입력하신 비밀번호가 올바르지 않습니다.",
+  "en": "The password you entered is incorrect."
  },
  "48:19": {
-  "ko": "본 ID 는 사용기간이 만료 되었습니다"
+  "ko": "본 ID 는 사용기간이 만료 되었습니다",
+  "en": "This ID has expired."
  },
  "49:22": {
-  "ko": "서버 접근 거부"
+  "ko": "서버 접근 거부",
+  "en": "Server access denied"
  },
  "50:38": {
-  "ko": "같은 캐릭터 이름이 있습니다."
+  "ko": "같은 캐릭터 이름이 있습니다.",
+  "en": "Character name already exists."
  },
  "51:34": {
-  "ko": "캐릭터 생성 거부됨"
+  "ko": "캐릭터 생성 거부됨",
+  "en": "Character not created"
  },
  "52:32": {
-  "ko": "캐릭터 삭제 거부"
+  "ko": "캐릭터 삭제 거부",
+  "en": "Deletion denied"
  },
  "53:25": {
-  "ko": "방제목를 입력하세요."
+  "ko": "방제목를 입력하세요.",
+  "en": "Enter a room title."
  },
  "54:21": {
-  "ko": "불량단어가 검출되었습니다."
+  "ko": "불량단어가 검출되었습니다.",
+  "en": "Inappropriate word detected."
  },
  "55:23": {
-  "ko": "암호를 입력하세요."
+  "ko": "암호를 입력하세요.",
+  "en": "Enter a password."
  },
  "56:40": {
-  "ko": "암호를 영문 4자 이상 입력하세요."
+  "ko": "암호를 영문 4자 이상 입력하세요.",
+  "en": "Password must be 4+ English letters."
  },
  "57:35": {
-  "ko": "종료 하시겠습니까?"
+  "ko": "종료 하시겠습니까?",
+  "en": "Do you want to exit?"
  },
  "58:32": {
-  "ko": "4자 이상 입력해주세요. 사용자 계정이 없으신분들은 왼쪽 하단의 [신청] 버튼을 눌러 계정을 만드시기 바랍니다."
+  "ko": "4자 이상 입력해주세요. 사용자 계정이 없으신분들은 왼쪽 하단의 [신청] 버튼을 눌러 계정을 만드시기 바랍니다.",
+  "en": "Enter at least 4 characters. If you have no account, click [Register] at the bottom left to create one."
  },
  "59:25": {
-  "ko": "한 번 삭제된 캐릭터 및 관련 정보는      다시 복구되지 않습니다.                                 캐릭터를 삭제하시겠습니까?"
+  "ko": "한 번 삭제된 캐릭터 및 관련 정보는      다시 복구되지 않습니다.                                 캐릭터를 삭제하시겠습니까?",
+  "en": "Deleted characters and their data can never be restored. Do you really want to delete this character?"
  },
  "60:17": {
-  "ko": "불량단어가 검출되었습니다."
+  "ko": "불량단어가 검출되었습니다.",
+  "en": "Inappropriate word detected."
  },
  "61:36": {
-  "ko": "이름을 입력해 주세요.(한글 2자 영문 4자 이상)"
+  "ko": "이름을 입력해 주세요.(한글 2자 영문 4자 이상)",
+  "en": "Enter a name. (min. 2 Korean or 4 English chars)"
  },
  "62:21": {
-  "ko": "명령어 일람: /h"
+  "ko": "명령어 일람: /h",
+  "en": "Commands: /h"
  },
  "63:18": {
-  "ko": "이펙트 On"
+  "ko": "이펙트 On",
+  "en": "Effects On"
  },
  "64:19": {
-  "ko": "이펙트 Off"
+  "ko": "이펙트 Off",
+  "en": "Effects Off"
  },
  "65:24": {
-  "ko": "사운드 볼륨"
+  "ko": "사운드 볼륨",
+  "en": "Sound Volume"
  },
  "66:22": {
-  "ko": "배경음악 볼륨"
+  "ko": "배경음악 볼륨",
+  "en": "BGM Volume"
  },
  "67:17": {
-  "ko": "효과음 On"
+  "ko": "효과음 On",
+  "en": "Sound On"
  },
  "68:18": {
-  "ko": "효과음 Off"
+  "ko": "효과음 Off",
+  "en": "Sound Off"
  },
  "69:22": {
-  "ko": "프레임스킵 On"
+  "ko": "프레임스킵 On",
+  "en": "Frame Skip On"
  },
  "70:23": {
-  "ko": "프레임스킵 Off"
+  "ko": "프레임스킵 Off",
+  "en": "Frame Skip Off"
  },
  "71:15": {
-  "ko": "배경음악 On"
+  "ko": "배경음악 On",
+  "en": "BGM On"
  },
  "72:16": {
-  "ko": "배경음악 Off"
+  "ko": "배경음악 Off",
+  "en": "BGM Off"
  },
  "73:21": {
-  "ko": "/h or /help: 명령어 일람"
+  "ko": "/h or /help: 명령어 일람",
+  "en": "/h or /help: Command list"
  },
  "74:20": {
-  "ko": "/w or /who or /접속자 or /누구: 현재 접속자수 보기"
+  "ko": "/w or /who or /접속자 or /누구: 현재 접속자수 보기",
+  "en": "/w or /who: Show number of players online"
  },
  "75:22": {
-  "ko": "/음악 : 배경음악 On Off"
+  "ko": "/음악 : 배경음악 On Off",
+  "en": "/bgm : BGM On Off"
  },
  "76:22": {
-  "ko": "/효과음 : 효과음 On Off"
+  "ko": "/효과음 : 효과음 On Off",
+  "en": "/sound : Sound On Off"
  },
  "77:23": {
-  "ko": "/이펙트 : 이펙트 On Off"
+  "ko": "/이펙트 : 이펙트 On Off",
+  "en": "/effect : Effects On Off"
  },
  "78:20": {
-  "ko": "/좌표 or /장소: 현재 위치 표시"
+  "ko": "/좌표 or /장소: 현재 위치 표시",
+  "en": "/where : Show current location"
  },
  "79:26": {
-  "ko": "/skip : 프래임스킵 On Off"
+  "ko": "/skip : 프래임스킵 On Off",
+  "en": "/skip : Frame Skip On Off"
  },
  "80:28": {
-  "ko": "/v (0~127): 효과음 볼륨조정"
+  "ko": "/v (0~127): 효과음 볼륨조정",
+  "en": "/v (0~127): Sound effect volume"
  },
  "81:26": {
-  "ko": "/bv (0~127): 배경음악 볼륨조정"
+  "ko": "/bv (0~127): 배경음악 볼륨조정",
+  "en": "/bv (0~127): BGM volume"
  },
  "82:29": {
-  "ko": "/ex (캐릭터이름) or /차단 (캐릭터이름) : 해당캐릭터에 대해 귓말차단"
+  "ko": "/ex (캐릭터이름) or /차단 (캐릭터이름) : 해당캐릭터에 대해 귓말차단",
+  "en": "/ex (character name) : Block whispers from that character"
  },
  "83:39": {
-  "ko": "/ex or /차단 : 귓말차단 캐릭터 리스트"
+  "ko": "/ex or /차단 : 귓말차단 캐릭터 리스트",
+  "en": "/ex : Show whisper block list"
  },
  "84:27": {
-  "ko": "/in (캐릭터이름) or /해제 (캐릭터이름) : 해당캐릭터에 대해 귓말허용"
+  "ko": "/in (캐릭터이름) or /해제 (캐릭터이름) : 해당캐릭터에 대해 귓말허용",
+  "en": "/in (character name) : Allow whispers from that character"
  },
  "85:30": {
-  "ko": "/inall or /해제전부 : 모두에게 귓말허용"
+  "ko": "/inall or /해제전부 : 모두에게 귓말허용",
+  "en": "/inall : Allow whispers from everyone"
  },
  "86:31": {
-  "ko": "/exall or /차단전부 : 모두에게 귓말차단"
+  "ko": "/exall or /차단전부 : 모두에게 귓말차단",
+  "en": "/exall : Block whispers from everyone"
  },
  "87:21": {
-  "ko": "다른유저 캐릭터를 마우스 오른버튼을 누르고 있는 상태에서 왼버튼으로 클릭하면 그캐릭터이름이 귓말콤보박스에 저장됩니다."
+  "ko": "다른유저 캐릭터를 마우스 오른버튼을 누르고 있는 상태에서 왼버튼으로 클릭하면 그캐릭터이름이 귓말콤보박스에 저장됩니다.",
+  "en": "Hold the right mouse button on another player and left-click to save their name to the whisper box."
  },
  "88:21": {
-  "ko": "단축아이탬창(F12) 소비장비 아이템을 드래그한후 사용하세요. 사용키(F1F2F3F4F5F6F7F8F9)"
+  "ko": "단축아이탬창(F12) 소비장비 아이템을 드래그한후 사용하세요. 사용키(F1F2F3F4F5F6F7F8F9)",
+  "en": "Drag consumables or equipment into the hotkey bar (F12) to use them. Keys: F1F2F3F4F5F6F7F8F9"
  },
  "89:25": {
-  "ko": "같은말을 3번이상 연속해서 전송할 수 없습니다."
+  "ko": "같은말을 3번이상 연속해서 전송할 수 없습니다.",
+  "en": "You cannot send the same message 3+ times in a row."
  },
  "90:31": {
-  "ko": "불량단어 검출로 전송이 중단 되었습니다."
+  "ko": "불량단어 검출로 전송이 중단 되었습니다.",
+  "en": "Message blocked: inappropriate word found."
  },
  "91:35": {
-  "ko": "같은아이템은 한번만 올릴수 있습니다."
+  "ko": "같은아이템은 한번만 올릴수 있습니다.",
+  "en": "The same item can only be added once."
  },
  "92:37": {
-  "ko": "무게가 초과하여 아이템을 가질 수 없습니다."
+  "ko": "무게가 초과하여 아이템을 가질 수 없습니다.",
+  "en": "You cannot carry the item: weight limit exceeded."
  },
  "93:22": {
-  "ko": "아이템을 가질 수 없습니다."
+  "ko": "아이템을 가질 수 없습니다.",
+  "en": "You cannot pick up the item."
  },
  "94:21": {
-  "ko": "거래가 잘 이루어졌습니다."
+  "ko": "거래가 잘 이루어졌습니다.",
+  "en": "The deal was successful."
  },
  "95:27": {
-  "ko": "돈이 부족합니다."
+  "ko": "돈이 부족합니다.",
+  "en": "Not enough Zeny."
  },
  "96:20": {
-  "ko": "무게가 초과 되었습니다."
+  "ko": "무게가 초과 되었습니다.",
+  "en": "Weight limit exceeded."
  },
  "97:18": {
-  "ko": "거래가 실패 했습니다."
+  "ko": "거래가 실패 했습니다.",
+  "en": "The deal has failed."
  },
  "98:24": {
-  "ko": "모두에게 귓말거부상태로됨"
+  "ko": "모두에게 귓말거부상태로됨",
+  "en": "Now blocking all whispers"
  },
  "99:33": {
-  "ko": "모두에게 귓말거부요청 실패함"
+  "ko": "모두에게 귓말거부요청 실패함",
+  "en": "Failed to block all whispers"
  },
  "100:17": {
-  "ko": "모두에게 귓말가능상태가됨"
+  "ko": "모두에게 귓말가능상태가됨",
+  "en": "Now accepting all whispers"
  },
  "101:26": {
-  "ko": "모두에게 귓말가능요청 실패함"
+  "ko": "모두에게 귓말가능요청 실패함",
+  "en": "Failed to allow all whispers"
  },
  "102:28": {
-  "ko": "귓말 거부 리스트가 없습니다"
+  "ko": "귓말 거부 리스트가 없습니다",
+  "en": "Your whisper block list is empty"
  },
  "103:25": {
-  "ko": "-귓말 거부 리스트-"
+  "ko": "-귓말 거부 리스트-",
+  "en": "-Whisper Block List-"
  },
  "104:21": {
-  "ko": "방이 잘 만들어 졌습니다."
+  "ko": "방이 잘 만들어 졌습니다.",
+  "en": "Chat room created."
  },
  "105:22": {
-  "ko": "방갯수가 허용갯수를 초과 하였습니다."
+  "ko": "방갯수가 허용갯수를 초과 하였습니다.",
+  "en": "Too many chat rooms already exist."
  },
  "106:24": {
-  "ko": "같은 방제목이 있습니다."
+  "ko": "같은 방제목이 있습니다.",
+  "en": "That room title is taken."
  },
  "107:32": {
-  "ko": "인원초과로 방에 들어갈 수 없습니다."
+  "ko": "인원초과로 방에 들어갈 수 없습니다.",
+  "en": "The room is full; you cannot enter."
  },
  "108:38": {
-  "ko": "강제로 퇴장된 방입니다."
+  "ko": "강제로 퇴장된 방입니다.",
+  "en": "Kicked out of this room."
  },
  "109:20": {
-  "ko": "교환요청을 거절 했습니다."
+  "ko": "교환요청을 거절 했습니다.",
+  "en": "Deal request declined."
  },
  "110:24": {
-  "ko": "교환가능거리를 벗어났습니다."
+  "ko": "교환가능거리를 벗어났습니다.",
+  "en": "Too far away to trade."
  },
  "111:31": {
-  "ko": "해당 캐릭터가 없습니다."
+  "ko": "해당 캐릭터가 없습니다.",
+  "en": "No such character."
  },
  "112:29": {
-  "ko": "다른캐릭터와 교환중입니다."
+  "ko": "다른캐릭터와 교환중입니다.",
+  "en": "Trading with someone else."
  },
  "113:33": {
-  "ko": "상태캐릭터 중량초과로 올려놓을수가 없습니다."
+  "ko": "상태캐릭터 중량초과로 올려놓을수가 없습니다.",
+  "en": "The other character is overweight; cannot add it."
  },
  "114:25": {
-  "ko": "거래가 취소 되었습니다."
+  "ko": "거래가 취소 되었습니다.",
+  "en": "The deal has been canceled."
  },
  "115:21": {
-  "ko": "아이템 교환이 잘 되었습니다."
+  "ko": "아이템 교환이 잘 되었습니다.",
+  "en": "Item trade completed successfully."
  },
  "116:20": {
-  "ko": "아이템 교환이 실패 하였습니다."
+  "ko": "아이템 교환이 실패 하였습니다.",
+  "en": "The item trade has failed."
  },
  "117:27": {
-  "ko": "파티가 만들어졌습니다."
+  "ko": "파티가 만들어졌습니다.",
+  "en": "Party has been created."
  },
  "118:24": {
-  "ko": "같은 파티이름이 있습니다."
+  "ko": "같은 파티이름이 있습니다.",
+  "en": "That party name is taken."
  },
  "119:33": {
-  "ko": "이미 파티에 속해있습니다."
+  "ko": "이미 파티에 속해있습니다.",
+  "en": "You are already in a party."
  },
  "120:38": {
-  "ko": "다른파티에 가입되어 있습니다."
+  "ko": "다른파티에 가입되어 있습니다.",
+  "en": "Already in another party."
  },
  "121:30": {
-  "ko": "파티가입을 거부했습니다."
+  "ko": "파티가입을 거부했습니다.",
+  "en": "Party invitation declined."
  },
  "122:30": {
-  "ko": "파티가입을 수락했습니다."
+  "ko": "파티가입을 수락했습니다.",
+  "en": "Party invitation accepted."
  },
  "123:33": {
-  "ko": "파티정원을 초과했습니다."
+  "ko": "파티정원을 초과했습니다.",
+  "en": "The party is full."
  },
  "124:29": {
-  "ko": "파티에서 탈퇴하였습니다."
+  "ko": "파티에서 탈퇴하였습니다.",
+  "en": "You have left the party."
  },
  "125:20": {
-  "ko": "전체에게 보냄"
+  "ko": "전체에게 보냄",
+  "en": "Send to All"
  },
  "126:22": {
-  "ko": "파티에게 보냄"
+  "ko": "파티에게 보냄",
+  "en": "Send to Party"
  },
  "127:22": {
-  "ko": "님과의 거래요청"
+  "ko": "님과의 거래요청",
+  "en": "Request a Deal"
  },
  "128:23": {
-  "ko": "님 파티에 가입요청"
+  "ko": "님 파티에 가입요청",
+  "en": "Invite to Party"
  },
  "129:21": {
-  "ko": "비공개 : "
+  "ko": "비공개 : ",
+  "en": "Private : "
  },
  "130:20": {
-  "ko": "공개 : "
+  "ko": "공개 : ",
+  "en": "Public : "
  },
  "131:20": {
-  "ko": "마지막 체크지점부터 시작하려면 '재시작'을 캐릭터 선택으로 돌아가려면 '종료'를 눌러주세요."
+  "ko": "마지막 체크지점부터 시작하려면 '재시작'을 캐릭터 선택으로 돌아가려면 '종료'를 눌러주세요.",
+  "en": "Press 'Restart' to return to your last save point, or 'Exit' to return to character select."
  },
  "132:25": {
-  "ko": "원하는 거래를 선택하세요."
+  "ko": "원하는 거래를 선택하세요.",
+  "en": "Choose the deal you want."
  },
  "133:21": {
-  "ko": "님이 거래를 요청했습니다."
+  "ko": "님이 거래를 요청했습니다.",
+  "en": " requests a deal."
  },
  "134:27": {
-  "ko": " 파티에서 초청 메시지가 왔습니다. 합류하겠습니까?"
+  "ko": " 파티에서 초청 메시지가 왔습니다. 합류하겠습니까?",
+  "en": " party has sent you an invite. Will you join?"
  },
  "135:24": {
-  "ko": "명령이 틀렸습니다."
+  "ko": "명령이 틀렸습니다.",
+  "en": "Invalid command."
  },
  "136:20": {
-  "ko": "탈퇴하기"
+  "ko": "탈퇴하기",
+  "en": "Leave"
  },
  "137:14": {
-  "ko": "제명시키기"
+  "ko": "제명시키기",
+  "en": "Expel"
  },
  "138:12": {
-  "ko": "쪽지보내기"
+  "ko": "쪽지보내기",
+  "en": "Send Message"
  },
  "139:13": {
-  "ko": "1:1 대화"
+  "ko": "1:1 대화",
+  "en": "1:1 Chat"
  },
  "140:23": {
-  "ko": "정보"
+  "ko": "정보",
+  "en": "Info"
  },
  "141:22": {
-  "ko": "파티설정"
+  "ko": "파티설정",
+  "en": "Party Setup"
  },
  "142:15": {
-  "ko": "친구"
+  "ko": "친구",
+  "en": "Friend"
  },
  "143:14": {
-  "ko": "파티"
+  "ko": "파티",
+  "en": "Party"
  },
  "144:21": {
-  "ko": "장착아이템"
+  "ko": "장착아이템",
+  "en": "Equipment"
  },
  "145:15": {
-  "ko": "스테이터스"
+  "ko": "스테이터스",
+  "en": "Status"
  },
  "146:13": {
-  "ko": "소지아이템"
+  "ko": "소지아이템",
+  "en": "Inventory"
  },
  "147:22": {
-  "ko": "/결성 [파티이름] : 파티결성 /탈퇴 : 파티탈퇴"
+  "ko": "/결성 [파티이름] : 파티결성 /탈퇴 : 파티탈퇴",
+  "en": "/organize [name]: Form party /leave: Leave party"
  },
  "148:21": {
-  "ko": "자신이 파티리더일때 캐릭터를 오른버튼으로 클릭하면 파티에 가입요청하기 메뉴가 뜹니다."
+  "ko": "자신이 파티리더일때 캐릭터를 오른버튼으로 클릭하면 파티에 가입요청하기 메뉴가 뜹니다.",
+  "en": "When you are party leader, right-click a character to see the party invite menu."
  },
  "149:16": {
-  "ko": "회복"
+  "ko": "회복",
+  "en": "Restore"
  },
  "150:15": {
-  "ko": "공격"
+  "ko": "공격",
+  "en": "Attack"
  },
  "151:16": {
-  "ko": "보조"
+  "ko": "보조",
+  "en": "Support"
  },
  "152:12": {
-  "ko": "전체"
+  "ko": "전체",
+  "en": "All"
  },
  "153:15": {
-  "ko": "무기"
+  "ko": "무기",
+  "en": "Weapon"
  },
  "154:16": {
-  "ko": "방어"
+  "ko": "방어",
+  "en": "Armor"
  },
  "155:14": {
-  "ko": "수"
+  "ko": "수",
+  "en": "Water"
  },
  "156:14": {
-  "ko": "지"
+  "ko": "지",
+  "en": "Earth"
  },
  "157:13": {
-  "ko": "화"
+  "ko": "화",
+  "en": "Fire"
  },
  "158:13": {
-  "ko": "풍"
+  "ko": "풍",
+  "en": "Wind"
  },
  "159:27": {
-  "ko": "같은종류의 장비아이템은 한번에 한개만 살 수 있습니다."
+  "ko": "같은종류의 장비아이템은 한번에 한개만 살 수 있습니다.",
+  "en": "You can buy only one equipment item of the same kind at a time."
  },
  "160:35": {
-  "ko": "창모드에서 실행 할때는 16비트 컬러로 맞춰주세요."
+  "ko": "창모드에서 실행 할때는 16비트 컬러로 맞춰주세요.",
+  "en": "In window mode, please set your color depth to 16-bit."
  },
  "161:26": {
-  "ko": "잠시만 기다려 주세요."
+  "ko": "잠시만 기다려 주세요.",
+  "en": "Please wait a moment."
  },
  "162:37": {
-  "ko": "잠시만 기다려 주세요."
+  "ko": "잠시만 기다려 주세요.",
+  "en": "Please wait a moment."
  },
  "163:25": {
-  "ko": "잠시만 기다려 주세요."
+  "ko": "잠시만 기다려 주세요.",
+  "en": "Please wait a moment."
  },
  "164:27": {
-  "ko": "잠시만 기다려 주세요."
+  "ko": "잠시만 기다려 주세요.",
+  "en": "Please wait a moment."
  },
  "165:20": {
-  "ko": "방 만들기"
+  "ko": "방 만들기",
+  "en": "Create Room"
  },
  "166:28": {
-  "ko": "방셋팅 바꾸기"
+  "ko": "방셋팅 바꾸기",
+  "en": "Room Setup"
  },
  "167:12": {
-  "ko": "강퇴시키기"
+  "ko": "강퇴시키기",
+  "en": "Kick"
  },
  "168:29": {
-  "ko": "방장권한 주기"
+  "ko": "방장권한 주기",
+  "en": "Give Ownership"
  },
  "169:37": {
-  "ko": "정보보기"
+  "ko": "정보보기",
+  "en": "View Info"
  },
  "170:18": {
-  "ko": "대화방"
+  "ko": "대화방",
+  "en": "Chat Room"
  },
  "171:29": {
-  "ko": "명"
+  "ko": "명",
+  "en": "People"
  },
  "172:20": {
-  "ko": "/앉기 or /sit : 앉기. 앉아있을때 서기"
+  "ko": "/앉기 or /sit : 앉기. 앉아있을때 서기",
+  "en": "/sit : Sit. Stand up if sitting"
  },
  "173:22": {
-  "ko": "/서기 or /stand : 서기. 서있을때 앉기"
+  "ko": "/서기 or /stand : 서기. 서있을때 앉기",
+  "en": "/stand : Stand. Sit if standing"
  },
  "174:26": {
-  "ko": "/채팅방 or /chat : 채팅방 만들기창 띄우기"
+  "ko": "/채팅방 or /chat : 채팅방 만들기창 띄우기",
+  "en": "/chat : Open the chat room window"
  },
  "175:31": {
-  "ko": "/q : 채팅방 나가기."
+  "ko": "/q : 채팅방 나가기.",
+  "en": "/q : Leave chat room."
  },
  "176:21": {
-  "ko": "/거래 [캐릭터이름] or /교환 [캐릭터이름] or /deal [캐릭터이름] : 해당 캐릭터와 거래요청"
+  "ko": "/거래 [캐릭터이름] or /교환 [캐릭터이름] or /deal [캐릭터이름] : 해당 캐릭터와 거래요청",
+  "en": "/deal [character name] : Request a deal with that character"
  },
  "177:31": {
-  "ko": "/결성 [파티이름] or /organize [파티이름] : 파티결성"
+  "ko": "/결성 [파티이름] or /organize [파티이름] : 파티결성",
+  "en": "/organize [party name] : Create a party"
  },
  "178:28": {
-  "ko": "/탈퇴 or /leave : 파티 탈퇴"
+  "ko": "/탈퇴 or /leave : 파티 탈퇴",
+  "en": "/leave : Leave the party"
  },
  "179:35": {
-  "ko": "/제명 [캐릭터이름] or /expel [캐릭터이름] : 해당캐릭터를 파티에서 제명시킴"
+  "ko": "/제명 [캐릭터이름] or /expel [캐릭터이름] : 해당캐릭터를 파티에서 제명시킴",
+  "en": "/expel [character name] : Expel that character from the party"
  },
  "180:21": {
-  "ko": "[Alt] + [End] : 플레이어 hp/sp 게이지 On Off"
+  "ko": "[Alt] + [End] : 플레이어 hp/sp 게이지 On Off",
+  "en": "[Alt] + [End] : Player HP/SP bar On Off"
  },
  "181:21": {
-  "ko": "[Alt] + [Home] : 지면 커서 표시 On Off"
+  "ko": "[Alt] + [Home] : 지면 커서 표시 On Off",
+  "en": "[Alt] + [Home] : Ground cursor On Off"
  },
  "182:21": {
-  "ko": "[Insert] : 앉기 서기"
+  "ko": "[Insert] : 앉기 서기",
+  "en": "[Insert] : Sit / Stand"
  },
  "183:29": {
-  "ko": "MVP가 되셨습니다!! MVP 아이템은 "
+  "ko": "MVP가 되셨습니다!! MVP 아이템은 ",
+  "en": "You are the MVP!! MVP item: "
  },
  "185:28": {
-  "ko": "MVP가 되셨습니다!! 특별경험치 "
+  "ko": "MVP가 되셨습니다!! 특별경험치 ",
+  "en": "You are the MVP!! Received "
  },
  "186:29": {
-  "ko": " 획득!!"
+  "ko": " 획득!!",
+  "en": " bonus EXP!!"
  },
  "187:26": {
-  "ko": "MVP가 되셨습니다만 무게초과로 MVP 아이템을 가질 수 없었습니다!!"
+  "ko": "MVP가 되셨습니다만 무게초과로 MVP 아이템을 가질 수 없었습니다!!",
+  "en": "You are the MVP, but you are too heavy to receive the MVP item!!"
  },
  "188:28": {
-  "ko": " 없는 캐릭터 이름 입니다."
+  "ko": " 없는 캐릭터 이름 입니다.",
+  "en": " is not a valid character name."
  },
  "189:24": {
-  "ko": " 수신 거부 상태입니다."
+  "ko": " 수신 거부 상태입니다.",
+  "en": " is not accepting whispers."
  },
  "190:32": {
-  "ko": " 모든 캐릭터에 대해 수신 거부 상태 입니다."
+  "ko": " 모든 캐릭터에 대해 수신 거부 상태 입니다.",
+  "en": " is not accepting whispers from anyone."
  },
  "191:37": {
-  "ko": "캐릭터 접속끊기 성공."
+  "ko": "캐릭터 접속끊기 성공.",
+  "en": "Character disconnected."
  },
  "192:34": {
-  "ko": "캐릭터 접속끊기 실패."
+  "ko": "캐릭터 접속끊기 실패.",
+  "en": "Failed to disconnect."
  },
  "193:17": {
-  "ko": "%s %d 개 획득"
+  "ko": "%s %d 개 획득",
+  "en": "Got %s x %d"
  },
  "194:21": {
-  "ko": "[Alt] + [=] : 알파벳 간격이 넓어졌을때 되돌리기."
+  "ko": "[Alt] + [=] : 알파벳 간격이 넓어졌을때 되돌리기.",
+  "en": "[Alt] + [=] : Fix wide letter spacing."
  },
  "195:21": {
-  "ko": "[F10] : 채팅창 크기조정 [Alt] + [F10] : 채팅창 On Off"
+  "ko": "[F10] : 채팅창 크기조정 [Alt] + [F10] : 채팅창 On Off",
+  "en": "[F10] : Resize chat window  [Alt] + [F10] : Chat window On Off"
  },
  "196:21": {
-  "ko": "귓속말 하는법 : 채팅창 왼쪽 입력란에 캐릭터이름을 입력하고 오른쪽 입력란에 말을 입력하면 됩니다. TAB키로 두입력란 사이로 커서를 이동할 수 있습니다."
+  "ko": "귓속말 하는법 : 채팅창 왼쪽 입력란에 캐릭터이름을 입력하고 오른쪽 입력란에 말을 입력하면 됩니다. TAB키로 두입력란 사이로 커서를 이동할 수 있습니다.",
+  "en": "How to whisper: type the character's name in the left box of the chat window and your message in the right box. Press TAB to switch between the boxes."
  },
  "197:22": {
   "ko": "/! /? /기쁨 /하트 /땀 /아하 /짜증 /화 /돈 /... /가위 /바위 /보 : Alt + (1~9) Ctrl + (-=\\) 에 대응되는 명령어 입니다."
  },
  "198:22": {
-  "ko": "파티원에게 말하는법 : 말의 제일앞에 '%'를 붙이면 파티원에게 말이 갑니다. (예: \"%안녕\")"
+  "ko": "파티원에게 말하는법 : 말의 제일앞에 '%'를 붙이면 파티원에게 말이 갑니다. (예: \"%안녕\")",
+  "en": "To talk to your party, put '%' at the start of your message. (e.g. \"%Hello\")"
  },
  "199:30": {
-  "ko": "스킬레벨이 부족합니다. 교환 불능."
+  "ko": "스킬레벨이 부족합니다. 교환 불능.",
+  "en": "Skill level too low. Cannot trade."
  },
  "200:30": {
-  "ko": "스킬레벨이 부족합니다. 이모션 불능."
+  "ko": "스킬레벨이 부족합니다. 이모션 불능.",
+  "en": "Skill level too low. Cannot use emotions."
  },
  "201:30": {
-  "ko": "스킬레벨이 부족합니다. 앉기 불능."
+  "ko": "스킬레벨이 부족합니다. 앉기 불능.",
+  "en": "Skill level too low. Cannot sit."
  },
  "202:30": {
-  "ko": "스킬레벨이 부족합니다. 채팅방만들기 불능."
+  "ko": "스킬레벨이 부족합니다. 채팅방만들기 불능.",
+  "en": "Skill level too low. Cannot create chat rooms."
  },
  "203:30": {
-  "ko": "스킬레벨이 부족합니다. 파티만들기 불능"
+  "ko": "스킬레벨이 부족합니다. 파티만들기 불능",
+  "en": "Skill level too low. Cannot create a party"
  },
  "204:30": {
-  "ko": "스킬레벨이 부족합니다. 외치기 불능"
+  "ko": "스킬레벨이 부족합니다. 외치기 불능",
+  "en": "Skill level too low. Cannot shout"
  },
  "205:30": {
-  "ko": "스킬레벨이 부족합니다. pk 불능"
+  "ko": "스킬레벨이 부족합니다. pk 불능",
+  "en": "Skill level too low. Cannot PK"
  },
  "206:22": {
-  "ko": "사고자하는 품목"
+  "ko": "사고자하는 품목",
+  "en": "Items to Buy"
  },
  "207:19": {
-  "ko": "아이템 상점"
+  "ko": "아이템 상점",
+  "en": "Item Shop"
  },
  "208:23": {
-  "ko": "팔고자하는 품목"
+  "ko": "팔고자하는 품목",
+  "en": "Items to Sell"
  },
  "209:29": {
-  "ko": "보관아이템"
+  "ko": "보관아이템",
+  "en": "Storage"
  },
  "210:24": {
-  "ko": " 장비가 장착 되었습니다."
+  "ko": " 장비가 장착 되었습니다.",
+  "en": " has been equipped."
  },
  "211:24": {
-  "ko": " 장비가 해제 되었습니다."
+  "ko": " 장비가 해제 되었습니다.",
+  "en": " has been unequipped."
  },
  "212:33": {
-  "ko": "귓말리스트에 이름넣기"
+  "ko": "귓말리스트에 이름넣기",
+  "en": "Add to Whisper List"
  },
  "213:22": {
-  "ko": "스크린샷 찍는법 : [Print Screen]키나 [Scroll Lock]키를 누르면 됩니다."
+  "ko": "스크린샷 찍는법 : [Print Screen]키나 [Scroll Lock]키를 누르면 됩니다.",
+  "en": "To take a screenshot, press [Print Screen] or [Scroll Lock]."
  },
  "214:20": {
-  "ko": "오늘의 팁"
+  "ko": "오늘의 팁",
+  "en": "Tip of the Day"
  },
  "215:19": {
-  "ko": "^3850a0알고 계셨습니까... ^000000  //^709fed"
+  "ko": "^3850a0알고 계셨습니까... ^000000  //^709fed",
+  "en": "^3850a0Did you know... ^000000  //^709fed"
  },
  "216:26": {
-  "ko": "시작할때 열기"
+  "ko": "시작할때 열기",
+  "en": "Show at startup"
  },
  "217:24": {
-  "ko": "/tip : 오늘의팁 열기"
+  "ko": "/tip : 오늘의팁 열기",
+  "en": "/tip : Open daily tip"
  },
  "218:18": {
-  "ko": "현재 접속자 %d명"
+  "ko": "현재 접속자 %d명",
+  "en": "Players online: %d"
  },
  "219:25": {
-  "ko": "(%s)님이 입장 하였습니다."
+  "ko": "(%s)님이 입장 하였습니다.",
+  "en": "(%s) has entered."
  },
  "220:28": {
-  "ko": "(%s)님이 퇴장 하였습니다."
+  "ko": "(%s)님이 퇴장 하였습니다.",
+  "en": "(%s) has left."
  },
  "221:35": {
-  "ko": "(%s)님이 강제 퇴장 되었습니다."
+  "ko": "(%s)님이 강제 퇴장 되었습니다.",
+  "en": "(%s) was kicked out."
  },
  "222:11": {
-  "ko": " %d 개"
+  "ko": " %d 개",
+  "en": " x %d"
  },
  "223:12": {
-  "ko": "%s : %d 개"
+  "ko": "%s : %d 개",
+  "en": "%s : %d ea"
  },
  "224:12": {
-  "ko": "%s %s : %d 개"
+  "ko": "%s %s : %d 개",
+  "en": "%s %s : %d ea"
  },
  "225:24": {
-  "ko": "팔 수 있는 품목"
+  "ko": "팔 수 있는 품목",
+  "en": "Items You Can Sell"
  },
  "226:18": {
-  "ko": "상점에서 파는 품목"
+  "ko": "상점에서 파는 품목",
+  "en": "Items Sold Here"
  },
  "227:16": {
-  "ko": "알 수 없는곳"
+  "ko": "알 수 없는곳",
+  "en": "Unknown Area"
  },
  "228:27": {
-  "ko": "서버와 언어가 맞지 않습니다."
+  "ko": "서버와 언어가 맞지 않습니다.",
+  "en": "Language doesn't match the server."
  },
  "229:22": {
-  "ko": "아이템을 버릴려면 장비창을 닫으세요."
+  "ko": "아이템을 버릴려면 장비창을 닫으세요.",
+  "en": "Close the equipment window to drop items."
  },
  "230:20": {
-  "ko": "영어만 됩니다."
+  "ko": "영어만 됩니다.",
+  "en": "English only."
  },
  "231:24": {
-  "ko": "지금은 지원되지 않습니다."
+  "ko": "지금은 지원되지 않습니다.",
+  "en": "Not supported yet."
  },
  "232:22": {
-  "ko": "귓말 리스트가 없습니다."
+  "ko": "귓말 리스트가 없습니다.",
+  "en": "No whisper list."
  },
  "233:29": {
-  "ko": " 에게 귓말거부상태로됨"
+  "ko": " 에게 귓말거부상태로됨",
+  "en": " : Whispers blocked"
  },
  "234:29": {
-  "ko": " 에게 귓말거부 요청실패함"
+  "ko": " 에게 귓말거부 요청실패함",
+  "en": " : Failed to block whispers"
  },
  "235:29": {
-  "ko": " 에게 귓말거부 요청실패함 (인원초과)"
+  "ko": " 에게 귓말거부 요청실패함 (인원초과)",
+  "en": " : Failed to block whispers (list full)"
  },
  "236:31": {
-  "ko": " 에게 귓말가능상태로됨"
+  "ko": " 에게 귓말가능상태로됨",
+  "en": " : Whispers allowed"
  },
  "237:31": {
-  "ko": " 에게 귓말가능 요청실패함"
+  "ko": " 에게 귓말가능 요청실패함",
+  "en": " : Failed to allow whispers"
  },
  "238:31": {
-  "ko": " 에게 귓말가능 요청실패함 (인원초과)"
+  "ko": " 에게 귓말가능 요청실패함 (인원초과)",
+  "en": " : Failed to allow whispers (list full)"
  },
  "239:25": {
-  "ko": "이름의 처음과 마지막에는 공백문자를 사용할 수 없습니다."
+  "ko": "이름의 처음과 마지막에는 공백문자를 사용할 수 없습니다.",
+  "en": "Names cannot begin or end with a space."
  },
  "240:22": {
-  "ko": "비공개"
+  "ko": "비공개",
+  "en": "Private"
  },
  "241:21": {
-  "ko": "공개"
+  "ko": "공개",
+  "en": "Public"
  },
  "242:38": {
-  "ko": "SP가 부족합니다."
+  "ko": "SP가 부족합니다.",
+  "en": "Not enough SP."
  },
  "243:38": {
-  "ko": "HP가 부족합니다."
+  "ko": "HP가 부족합니다.",
+  "en": "Not enough HP."
  },
  "244:30": {
-  "ko": "스킬사용 실패."
+  "ko": "스킬사용 실패.",
+  "en": "Skill failed."
  },
  "245:19": {
-  "ko": "훔치기 실패."
+  "ko": "훔치기 실패.",
+  "en": "Steal failed."
  },
  "246:17": {
-  "ko": "교환창"
+  "ko": "교환창",
+  "en": "Trade"
  },
  "247:20": {
-  "ko": "독걸기 실패."
+  "ko": "독걸기 실패.",
+  "en": "Envenom failed."
  },
  "248:20": {
-  "ko": "이 아이디로는 이 서버에 접속할 수 없습니다."
+  "ko": "이 아이디로는 이 서버에 접속할 수 없습니다.",
+  "en": "This ID cannot connect to this server."
  },
  "249:16": {
-  "ko": "스피드가 향상되었습니다."
+  "ko": "스피드가 향상되었습니다.",
+  "en": "Your speed has increased."
  },
  "250:18": {
-  "ko": "스피드가 감소되었습니다."
+  "ko": "스피드가 감소되었습니다.",
+  "en": "Your speed has decreased."
  },
  "251:22": {
-  "ko": "/기억 : 워프할 장소 기억(워프 스킬이 있는경우)"
+  "ko": "/기억 : 워프할 장소 기억(워프 스킬이 있는경우)",
+  "en": "/memo : Memorize warp point (needs Warp Portal)"
  },
  "252:19": {
-  "ko": "임의의 위치"
+  "ko": "임의의 위치",
+  "en": "Random Location"
  },
  "253:26": {
-  "ko": "워프 할 위치를 선택하세요."
+  "ko": "워프 할 위치를 선택하세요.",
+  "en": "Choose where to warp."
  },
  "254:28": {
-  "ko": "스킬레벨이 부족합니다."
+  "ko": "스킬레벨이 부족합니다.",
+  "en": "Skill level too low."
  },
  "255:32": {
-  "ko": "저장된 워프할 장소가 없습니다."
+  "ko": "저장된 워프할 장소가 없습니다.",
+  "en": "No memorized warp points."
  },
  "256:20": {
-  "ko": "워프 관련 스킬이 없습니다."
+  "ko": "워프 관련 스킬이 없습니다.",
+  "en": "You have no warp skill."
  },
  "257:24": {
-  "ko": "워프 장소로 저장됨."
+  "ko": "워프 장소로 저장됨.",
+  "en": "Warp point saved."
  },
  "258:15": {
-  "ko": "취소"
+  "ko": "취소",
+  "en": "Cancel"
  },
  "259:22": {
-  "ko": "스킬 사용후 시간이 충분히 지나지 않았습니다."
+  "ko": "스킬 사용후 시간이 충분히 지나지 않았습니다.",
+  "en": "The skill cannot be used again yet."
  },
  "260:36": {
-  "ko": "한번에 가질 수 있는 아이템 종류수를 초과하여 아이템을 가질 수 없습니다."
+  "ko": "한번에 가질 수 있는 아이템 종류수를 초과하여 아이템을 가질 수 없습니다.",
+  "en": "You cannot pick up the item: too many kinds of items in your inventory."
  },
  "261:32": {
-  "ko": "아이템 최대 종류수를 초과 하였습니다."
+  "ko": "아이템 최대 종류수를 초과 하였습니다.",
+  "en": "Maximum number of item kinds exceeded."
  },
  "262:21": {
-  "ko": "수레아이템"
+  "ko": "수레아이템",
+  "en": "Cart Items"
  },
  "263:16": {
-  "ko": "수레 벗기"
+  "ko": "수레 벗기",
+  "en": "Remove Cart"
  },
  "264:26": {
-  "ko": "노점 개설"
+  "ko": "노점 개설",
+  "en": "Open Shop"
  },
  "265:25": {
-  "ko": "노점이름을 입력하세요."
+  "ko": "노점이름을 입력하세요.",
+  "en": "Enter your shop name."
  },
  "266:22": {
-  "ko": "나의 노점"
+  "ko": "나의 노점",
+  "en": "My Shop"
  },
  "267:28": {
-  "ko": "상인 아이템 상점"
+  "ko": "상인 아이템 상점",
+  "en": "Merchant Shop"
  },
  "268:36": {
-  "ko": "상인에게 사고자하는 품목"
+  "ko": "상인에게 사고자하는 품목",
+  "en": "Items to Buy from Merchant"
  },
  "269:36": {
-  "ko": "%s 사기 실패 %s"
+  "ko": "%s 사기 실패 %s",
+  "en": "Failed to buy %s %s"
  },
  "270:27": {
-  "ko": "재고 부족."
+  "ko": "재고 부족.",
+  "en": "Out of stock."
  },
  "271:21": {
-  "ko": "%s %d 개 팔림."
+  "ko": "%s %d 개 팔림.",
+  "en": "%s x %d sold."
  },
  "272:27": {
-  "ko": "노점에서 팔 수 있는 아이템"
+  "ko": "노점에서 팔 수 있는 아이템",
+  "en": "Items You Can Vend"
  },
  "273:25": {
-  "ko": "돈이 부족해서 스킬을 쓸 수 없습니다."
+  "ko": "돈이 부족해서 스킬을 쓸 수 없습니다.",
+  "en": "Not enough Zeny to use this skill."
  },
  "274:21": {
-  "ko": "사용할 대상을 선택하세요"
+  "ko": "사용할 대상을 선택하세요",
+  "en": "Select a target"
  },
  "276:19": {
-  "ko": "노점"
+  "ko": "노점",
+  "en": "Vending"
  },
  "277:23": {
-  "ko": "수레 아이템 [Alt+W]"
+  "ko": "수레 아이템 [Alt+W]",
+  "en": "Cart Items [Alt+W]"
  },
  "278:21": {
-  "ko": "기본정보"
+  "ko": "기본정보",
+  "en": "Basic Info"
  },
  "279:42": {
-  "ko": "이무기로는 이스킬을 사용할수 없습니다."
+  "ko": "이무기로는 이스킬을 사용할수 없습니다.",
+  "en": "This skill cannot be used with this weapon."
  },
  "280:45": {
-  "ko": "%s 사기 실패 재고 부족 현재 재고 %d 개."
+  "ko": "%s 사기 실패 재고 부족 현재 재고 %d 개.",
+  "en": "Failed to buy %s: only %d left in stock."
  },
  "281:18": {
-  "ko": "서버와 동기화가 틀려 연결이 끊어졌습니다."
+  "ko": "서버와 동기화가 틀려 연결이 끊어졌습니다.",
+  "en": "Disconnected: out of sync with the server."
  },
  "282:25": {
-  "ko": "화살을 장착하세요"
+  "ko": "화살을 장착하세요",
+  "en": "Equip arrows first"
  },
  "283:26": {
-  "ko": "중량과다로 공격이나 스킬을 사용할 수 없습니다."
+  "ko": "중량과다로 공격이나 스킬을 사용할 수 없습니다.",
+  "en": "You are overweight: cannot attack or use skills."
  },
  "284:25": {
-  "ko": "중량과다로 스킬을 사용할 수 없습니다."
+  "ko": "중량과다로 스킬을 사용할 수 없습니다.",
+  "en": "You are overweight: cannot use skills."
  },
  "285:36": {
-  "ko": "화살이 장착되었습니다."
+  "ko": "화살이 장착되었습니다.",
+  "en": "Arrows have been equipped."
  },
  "286:25": {
-  "ko": "레드젬스톤이 필요합니다."
+  "ko": "레드젬스톤이 필요합니다.",
+  "en": "A Red Gemstone is required."
  },
  "287:26": {
-  "ko": "블루젬스톤이 필요합니다."
+  "ko": "블루젬스톤이 필요합니다.",
+  "en": "A Blue Gemstone is required."
  },
  "288:17": {
-  "ko": "힘 파라메터"
+  "ko": "힘 파라메터",
+  "en": "Strength"
  },
  "289:17": {
-  "ko": "민첩성 파라메터"
+  "ko": "민첩성 파라메터",
+  "en": "Agility"
  },
  "290:17": {
-  "ko": "체력 파라메터"
+  "ko": "체력 파라메터",
+  "en": "Vitality"
  },
  "291:17": {
-  "ko": "지력 파라메터"
+  "ko": "지력 파라메터",
+  "en": "Intelligence"
  },
  "292:17": {
-  "ko": "손재주 파라메터"
+  "ko": "손재주 파라메터",
+  "en": "Dexterity"
  },
  "293:17": {
-  "ko": "운 파라메터"
+  "ko": "운 파라메터",
+  "en": "Luck"
  },
  "294:17": {
-  "ko": "공격력"
+  "ko": "공격력",
+  "en": "Attack"
  },
  "295:17": {
-  "ko": "방어력"
+  "ko": "방어력",
+  "en": "Defense"
  },
  "296:17": {
-  "ko": "명중률"
+  "ko": "명중률",
+  "en": "Hit Rate"
  },
  "297:17": {
-  "ko": "필살공격률"
+  "ko": "필살공격률",
+  "en": "Critical Rate"
  },
  "298:19": {
-  "ko": "소속길드"
+  "ko": "소속길드",
+  "en": "Guild"
  },
  "299:19": {
-  "ko": "각 파라메터 레벨업에 사용되는 포인트"
+  "ko": "각 파라메터 레벨업에 사용되는 포인트",
+  "en": "Points used to raise each stat"
  },
  "300:18": {
-  "ko": "마법공격력"
+  "ko": "마법공격력",
+  "en": "Magic Attack"
  },
  "301:18": {
-  "ko": "마법방어력"
+  "ko": "마법방어력",
+  "en": "Magic Defense"
  },
  "302:18": {
-  "ko": "회피율"
+  "ko": "회피율",
+  "en": "Flee Rate"
  },
  "303:18": {
-  "ko": "공격스피드"
+  "ko": "공격스피드",
+  "en": "Attack Speed"
  },
  "304:20": {
-  "ko": "지역당 수용인원 초과로 접속할 수 없습니다."
+  "ko": "지역당 수용인원 초과로 접속할 수 없습니다.",
+  "en": "This area is full; you cannot connect."
  },
  "305:18": {
-  "ko": "옵션"
+  "ko": "옵션",
+  "en": "Options"
  },
  "306:32": {
-  "ko": "E-MAIL 인증이 되지않았거나 블럭된 계정입니다."
+  "ko": "E-MAIL 인증이 되지않았거나 블럭된 계정입니다.",
+  "en": "E-mail not verified, or the account is blocked."
  },
  "307:33": {
-  "ko": "비밀번호가 틀립니다."
+  "ko": "비밀번호가 틀립니다.",
+  "en": "Incorrect password."
  },
  "308:26": {
-  "ko": "머리모양 선택"
+  "ko": "머리모양 선택",
+  "en": "Select Hairstyle"
  },
  "309:12": {
-  "ko": "공격력"
+  "ko": "공격력",
+  "en": "Attack"
  },
  "310:12": {
-  "ko": "방어력"
+  "ko": "방어력",
+  "en": "Defense"
  },
  "311:23": {
-  "ko": "공격스냅 On"
+  "ko": "공격스냅 On",
+  "en": "Attack Snap On"
  },
  "312:24": {
-  "ko": "공격스냅 Off"
+  "ko": "공격스냅 Off",
+  "en": "Attack Snap Off"
  },
  "313:22": {
-  "ko": "스킬스냅 On"
+  "ko": "스킬스냅 On",
+  "en": "Skill Snap On"
  },
  "314:23": {
-  "ko": "스킬스냅 Off"
+  "ko": "스킬스냅 Off",
+  "en": "Skill Snap Off"
  },
  "315:21": {
-  "ko": "/스냅 or /snap: 몬스터 공격시 스냅 On Off  /스킬스냅 or /skillsnap: 스킬로 몬스터 공격시 스냅 On Off  /아이템스냅 or /itemsnap: 아이템 주울때 스냅 On Off"
+  "ko": "/스냅 or /snap: 몬스터 공격시 스냅 On Off  /스킬스냅 or /skillsnap: 스킬로 몬스터 공격시 스냅 On Off  /아이템스냅 or /itemsnap: 아이템 주울때 스냅 On Off",
+  "en": "/snap: Snap On Off when attacking monsters  /skillsnap: Snap On Off when using skills on monsters  /itemsnap: Snap On Off when picking up items"
  },
  "316:21": {
-  "ko": "아이템스냅 On"
+  "ko": "아이템스냅 On",
+  "en": "Item Snap On"
  },
  "317:22": {
-  "ko": "아이템스냅 Off"
+  "ko": "아이템스냅 Off",
+  "en": "Item Snap Off"
  },
  "318:13": {
-  "ko": "스냅"
+  "ko": "스냅",
+  "en": "Snap"
  },
  "319:40": {
-  "ko": "한가지 아이템을 3만개 이상 가질수 없습니다."
+  "ko": "한가지 아이템을 3만개 이상 가질수 없습니다.",
+  "en": "You cannot hold 30,000 or more of one item."
  },
  "320:44": {
-  "ko": "레벨 30이상의 캐릭터는 삭제할 수 없습니다. 삭제를 원하시면 관계자에게 문의 하세요."
+  "ko": "레벨 30이상의 캐릭터는 삭제할 수 없습니다. 삭제를 원하시면 관계자에게 문의 하세요.",
+  "en": "Characters level 30 or higher cannot be deleted. Please contact staff to delete one."
  },
  "321:38": {
-  "ko": "이이템 교환중에는 아이템을 사고 팔 수 없습니다."
+  "ko": "이이템 교환중에는 아이템을 사고 팔 수 없습니다.",
+  "en": "You cannot buy or sell items during a trade."
  },
  "322:19": {
-  "ko": "상점명"
+  "ko": "상점명",
+  "en": "Shop Name"
  },
  "323:18": {
-  "ko": "스킬목록"
+  "ko": "스킬목록",
+  "en": "Skill List"
  },
  "324:19": {
-  "ko": "스킬포인트 : %d"
+  "ko": "스킬포인트 : %d",
+  "en": "Skill Points : %d"
  },
  "325:22": {
-  "ko": "스킬사용 실패"
+  "ko": "스킬사용 실패",
+  "en": "Skill failed"
  },
  "326:16": {
-  "ko": "패시브"
+  "ko": "패시브",
+  "en": "Passive"
  },
  "327:16": {
-  "ko": "각자 취득"
+  "ko": "각자 취득",
+  "en": "Each Take"
  },
  "328:16": {
-  "ko": "균등하게 분배"
+  "ko": "균등하게 분배",
+  "en": "Even Share"
  },
  "329:21": {
-  "ko": "각자 취득"
+  "ko": "각자 취득",
+  "en": "Each Take"
  },
  "330:21": {
-  "ko": "파티 전체 공유"
+  "ko": "파티 전체 공유",
+  "en": "Party Share"
  },
  "331:21": {
-  "ko": "파티 설정"
+  "ko": "파티 설정",
+  "en": "Party Setup"
  },
  "332:18": {
-  "ko": "경험치 분배방식"
+  "ko": "경험치 분배방식",
+  "en": "EXP Sharing"
  },
  "333:23": {
-  "ko": "아이템 수집방식"
+  "ko": "아이템 수집방식",
+  "en": "Item Sharing"
  },
  "334:25": {
-  "ko": "파티 리더만 설정할 수 있습니다."
+  "ko": "파티 리더만 설정할 수 있습니다.",
+  "en": "Only the party leader can change this."
  },
  "335:29": {
-  "ko": "아이템 갯수 안물어보기"
+  "ko": "아이템 갯수 안물어보기",
+  "en": "Don't ask item amount"
  },
  "336:32": {
-  "ko": "^ff0000%d^000000 초 후에 캐릭터가 지워집니다. 취소 하려면 취소 버튼을 누르세요."
+  "ko": "^ff0000%d^000000 초 후에 캐릭터가 지워집니다. 취소 하려면 취소 버튼을 누르세요.",
+  "en": "^ff0000%d^000000 seconds until the character is deleted. Press Cancel to stop."
  },
  "337:31": {
-  "ko": "교환할 수 있는 최대 아이템 갯수는 10가지 입니다."
+  "ko": "교환할 수 있는 최대 아이템 갯수는 10가지 입니다.",
+  "en": "You can trade at most 10 kinds of items at once."
  },
  "338:18": {
-  "ko": "이서버를 이용할 수 없는 나이입니다."
+  "ko": "이서버를 이용할 수 없는 나이입니다.",
+  "en": "You are too young to use this server."
  },
  "339:20": {
-  "ko": "이메일 주소를 입력하세요."
+  "ko": "이메일 주소를 입력하세요.",
+  "en": "Enter your e-mail address."
  },
  "340:28": {
-  "ko": "이메일 주소 입력하기"
+  "ko": "이메일 주소 입력하기",
+  "en": "Enter e-mail address"
  },
  "341:38": {
-  "ko": "이메일 주소가 틀려서 캐릭터가 삭제 되지 않았습니다."
+  "ko": "이메일 주소가 틀려서 캐릭터가 삭제 되지 않았습니다.",
+  "en": "Wrong e-mail address; the character was not deleted."
  },
  "342:32": {
-  "ko": "계정 비밀번호를 입력하세요."
+  "ko": "계정 비밀번호를 입력하세요.",
+  "en": "Enter your account password."
  },
  "343:50": {
-  "ko": "비밀번호가 틀려서 캐릭터가 삭제 되지 않았습니다."
+  "ko": "비밀번호가 틀려서 캐릭터가 삭제 되지 않았습니다.",
+  "en": "Wrong password; the character was not deleted."
  },
  "344:26": {
-  "ko": "한번에 15가지 이상의 아이템을 팔 수 없습니다."
+  "ko": "한번에 15가지 이상의 아이템을 팔 수 없습니다.",
+  "en": "You cannot sell more than 15 kinds of items at once."
  },
  "345:18": {
-  "ko": "나이제한 때문에 이계정으로 이서버에 접속할 수 없습니다."
+  "ko": "나이제한 때문에 이계정으로 이서버에 접속할 수 없습니다.",
+  "en": "Due to age limits, this account cannot connect to this server."
  },
  "346:30": {
-  "ko": "무게가 50 퍼센트 이상일때는 HP SP가 자연적으로 회복이 되지 않습니다."
+  "ko": "무게가 50 퍼센트 이상일때는 HP SP가 자연적으로 회복이 되지 않습니다.",
+  "en": "HP and SP do not recover naturally while at 50 percent weight or more."
  },
  "347:29": {
-  "ko": "무게가 90 퍼센트 이상일때는 공격과 스킬을 사용할 수 없습니다."
+  "ko": "무게가 90 퍼센트 이상일때는 공격과 스킬을 사용할 수 없습니다.",
+  "en": "You cannot attack or use skills while at 90 percent weight or more."
  },
  "348:39": {
-  "ko": "HP SP가 자연적으로 회복이 가능한 상태가 되었습니다."
+  "ko": "HP SP가 자연적으로 회복이 가능한 상태가 되었습니다.",
+  "en": "HP and SP can now recover naturally."
  },
  "349:38": {
-  "ko": "공격과 스킬이 가능한 상태가 되었습니다."
+  "ko": "공격과 스킬이 가능한 상태가 되었습니다.",
+  "en": "You can now attack and use skills."
  },
  "350:24": {
-  "ko": "서버 점검중입니다."
+  "ko": "서버 점검중입니다.",
+  "en": "Server maintenance."
  },
  "351:25": {
-  "ko": "아이템이 모두 팔렸습니다."
+  "ko": "아이템이 모두 팔렸습니다.",
+  "en": "All items have been sold."
  },
  "352:27": {
-  "ko": "채팅내용 파일로 저장하기"
+  "ko": "채팅내용 파일로 저장하기",
+  "en": "Save chat log to file"
  },
  "353:26": {
-  "ko": "/갈무리 or /savechat : 채팅 내용 파일로 저장하기."
+  "ko": "/갈무리 or /savechat : 채팅 내용 파일로 저장하기.",
+  "en": "/savechat : Save chat log to file."
  },
  "354:20": {
-  "ko": "계정 만들기"
+  "ko": "계정 만들기",
+  "en": "Create Account"
  },
  "355:20": {
-  "ko": "수신거부하기"
+  "ko": "수신거부하기",
+  "en": "Block Whispers"
  },
  "356:15": {
-  "ko": "수신거부해제하기"
+  "ko": "수신거부해제하기",
+  "en": "Unblock Whispers"
  },
  "357:23": {
-  "ko": "미스표시 On"
+  "ko": "미스표시 On",
+  "en": "Miss Display On"
  },
  "358:24": {
-  "ko": "미스표시 Off"
+  "ko": "미스표시 Off",
+  "en": "Miss Display Off"
  },
  "359:24": {
-  "ko": "카메라고정 On"
+  "ko": "카메라고정 On",
+  "en": "Camera Lock On"
  },
  "360:25": {
-  "ko": "카메라고정 Off"
+  "ko": "카메라고정 Off",
+  "en": "Camera Lock Off"
  },
  "361:28": {
-  "ko": "/camera : 플레이어에게 카메라고정 On Off /miss : 미스이펙트 On Off"
+  "ko": "/camera : 플레이어에게 카메라고정 On Off /miss : 미스이펙트 On Off",
+  "en": "/camera : Lock camera on player On Off /miss : Miss effect On Off"
  },
  "362:33": {
-  "ko": "스킬정보보기"
+  "ko": "스킬정보보기",
+  "en": "View Skill Info"
  },
  "363:26": {
-  "ko": "스킬이름바꾸기"
+  "ko": "스킬이름바꾸기",
+  "en": "Rename Skill"
  },
  "364:26": {
-  "ko": "스프라이트 해상도"
+  "ko": "스프라이트 해상도",
+  "en": "Sprite Resolution"
  },
  "365:27": {
-  "ko": "텍스쳐 해상도"
+  "ko": "텍스쳐 해상도",
+  "en": "Texture Resolution"
  },
  "366:23": {
-  "ko": "디테일 조정"
+  "ko": "디테일 조정",
+  "en": "Detail Settings"
  },
  "367:17": {
-  "ko": "%s Zeny 획득"
+  "ko": "%s Zeny 획득",
+  "en": "Got %s Zeny"
  },
  "368:18": {
-  "ko": "길드명"
+  "ko": "길드명",
+  "en": "Guild Name"
  },
  "369:19": {
-  "ko": "길드레벨"
+  "ko": "길드레벨",
+  "en": "Guild Level"
  },
  "370:26": {
-  "ko": "마스터이름"
+  "ko": "마스터이름",
+  "en": "Master"
  },
  "371:25": {
-  "ko": "조합원수"
+  "ko": "조합원수",
+  "en": "Members"
  },
  "372:31": {
-  "ko": "조합원 평균레벨"
+  "ko": "조합원 평균레벨",
+  "en": "Avg. Level"
  },
  "373:26": {
-  "ko": "관리영지"
+  "ko": "관리영지",
+  "en": "Territory"
  },
  "374:19": {
-  "ko": "성향"
+  "ko": "성향",
+  "en": "Tendency"
  },
  "375:18": {
-  "ko": "경험치"
+  "ko": "경험치",
+  "en": "EXP"
  },
  "376:21": {
-  "ko": "길드엠블렘"
+  "ko": "길드엠블렘",
+  "en": "Guild Emblem"
  },
  "377:20": {
-  "ko": "길드상납포인트"
+  "ko": "길드상납포인트",
+  "en": "Tax Points"
  },
  "378:19": {
-  "ko": "동맹길드"
+  "ko": "동맹길드",
+  "en": "Allied Guilds"
  },
  "379:24": {
-  "ko": "적대길드"
+  "ko": "적대길드",
+  "en": "Enemy Guilds"
  },
  "380:24": {
-  "ko": "길드정보"
+  "ko": "길드정보",
+  "en": "Guild Info"
  },
  "381:26": {
-  "ko": "조합원정보"
+  "ko": "조합원정보",
+  "en": "Members"
  },
  "382:28": {
-  "ko": "직위설정"
+  "ko": "직위설정",
+  "en": "Positions"
  },
  "383:19": {
-  "ko": "길드스킬"
+  "ko": "길드스킬",
+  "en": "Guild Skills"
  },
  "384:28": {
-  "ko": "추방자 리스트"
+  "ko": "추방자 리스트",
+  "en": "Expulsion List"
  },
  "385:20": {
-  "ko": "공지사항"
+  "ko": "공지사항",
+  "en": "Notice"
  },
  "386:23": {
-  "ko": "전체길드 리스트"
+  "ko": "전체길드 리스트",
+  "en": "All Guilds"
  },
  "387:23": {
-  "ko": "귓말 리스트"
+  "ko": "귓말 리스트",
+  "en": "Whisper List"
  },
  "388:27": {
-  "ko": "귓말창 열기"
+  "ko": "귓말창 열기",
+  "en": "Open Whisper"
  },
  "389:33": {
-  "ko": "귓말 리스트 창 여는법 : [Alt] + [H] 를 누르면 귓말 리스트 창이 열립니다."
+  "ko": "귓말 리스트 창 여는법 : [Alt] + [H] 를 누르면 귓말 리스트 창이 열립니다.",
+  "en": "To open the whisper list window, press [Alt] + [H]."
  },
  "390:31": {
-  "ko": "자동으로 귓말창 열기"
+  "ko": "자동으로 귓말창 열기",
+  "en": "Auto-open whisper window"
  },
  "391:15": {
-  "ko": "지우기"
+  "ko": "지우기",
+  "en": "Delete"
  },
  "392:17": {
-  "ko": "다음부터 열리지 않음"
+  "ko": "다음부터 열리지 않음",
+  "en": "Don't open next time"
  },
  "393:24": {
-  "ko": "마지막으로 접속한 시간"
+  "ko": "마지막으로 접속한 시간",
+  "en": "Last Login Time"
  },
  "394:22": {
-  "ko": "마지막으로 접속한 IP"
+  "ko": "마지막으로 접속한 IP",
+  "en": "Last Login IP"
  },
  "395:23": {
-  "ko": "친구 설정"
+  "ko": "친구 설정",
+  "en": "Friend Setup"
  },
  "396:34": {
-  "ko": "정말 지우시겠습니까?"
+  "ko": "정말 지우시겠습니까?",
+  "en": "Really delete?"
  },
  "397:33": {
-  "ko": "정말 탈퇴하시겠습니까?"
+  "ko": "정말 탈퇴하시겠습니까?",
+  "en": "Really leave?"
  },
  "398:32": {
-  "ko": "친구로 등록하기"
+  "ko": "친구로 등록하기",
+  "en": "Add as Friend"
  },
  "399:38": {
-  "ko": "친구일때 자동으로 1:1창 열기"
+  "ko": "친구일때 자동으로 1:1창 열기",
+  "en": "Auto-open 1:1 window for friends"
  },
  "400:25": {
-  "ko": "1:1창 열기"
+  "ko": "1:1창 열기",
+  "en": "Open 1:1 Chat"
  },
  "401:29": {
-  "ko": "친구가 아닐때 자동으로 1:1창 열기"
+  "ko": "친구가 아닐때 자동으로 1:1창 열기",
+  "en": "Auto-open 1:1 window for non-friends"
  },
  "402:27": {
-  "ko": "1:1창 열릴때 소리로 알림"
+  "ko": "1:1창 열릴때 소리로 알림",
+  "en": "Play sound on new 1:1 chat"
  },
  "403:33": {
-  "ko": "정말 제명시키시겠습니까?"
+  "ko": "정말 제명시키시겠습니까?",
+  "en": "Really expel?"
  },
  "404:24": {
-  "ko": "%s 님이 길드를 탈퇴했습니다."
+  "ko": "%s 님이 길드를 탈퇴했습니다.",
+  "en": "%s has left the guild."
  },
  "405:27": {
-  "ko": "탈퇴사유 : %s"
+  "ko": "탈퇴사유 : %s",
+  "en": "Reason: %s"
  },
  "406:34": {
-  "ko": "길드 해체 실패"
+  "ko": "길드 해체 실패",
+  "en": "Guild disband failed"
  },
  "407:31": {
-  "ko": "길드해체사유 : %s"
+  "ko": "길드해체사유 : %s",
+  "en": "Disband reason: %s"
  },
  "408:24": {
-  "ko": "해당 계정은 삭제된 아이디 입니다."
+  "ko": "해당 계정은 삭제된 아이디 입니다.",
+  "en": "This account has been deleted."
  },
  "409:18": {
-  "ko": "판매가 :"
+  "ko": "판매가 :",
+  "en": "Price :"
  },
  "410:18": {
-  "ko": "%s 님이 길드에서 추방되었습니다."
+  "ko": "%s 님이 길드에서 추방되었습니다.",
+  "en": "%s has been expelled from the guild."
  },
  "411:25": {
-  "ko": "추방사유 : %s"
+  "ko": "추방사유 : %s",
+  "en": "Reason: %s"
  },
  "412:27": {
-  "ko": "아이템을 착용할 수 없습니다."
+  "ko": "아이템을 착용할 수 없습니다.",
+  "en": "You cannot equip this item."
  },
  "413:39": {
-  "ko": "파티설정을 변경할 수 없습니다."
+  "ko": "파티설정을 변경할 수 없습니다.",
+  "en": "Party settings cannot be changed."
  },
  "414:27": {
-  "ko": "길드가 만들어 졌습니다."
+  "ko": "길드가 만들어 졌습니다.",
+  "en": "The guild has been created."
  },
  "415:34": {
-  "ko": "이미 길드에 속해있습니다."
+  "ko": "이미 길드에 속해있습니다.",
+  "en": "You are already in a guild."
  },
  "416:31": {
-  "ko": "같은이름의 길드가 존재합니다."
+  "ko": "같은이름의 길드가 존재합니다.",
+  "en": "A guild with that name exists."
  },
  "417:27": {
-  "ko": " 길드에서 초청 메시지가 왔습니다. 가입하겠습니까?"
+  "ko": " 길드에서 초청 메시지가 왔습니다. 가입하겠습니까?",
+  "en": " guild has sent you an invite. Will you join?"
  },
  "418:38": {
-  "ko": "다른길드에 가입되어 있습니다."
+  "ko": "다른길드에 가입되어 있습니다.",
+  "en": "Already in another guild."
  },
  "419:36": {
-  "ko": "길드가입을 거절 했습니다."
+  "ko": "길드가입을 거절 했습니다.",
+  "en": "Guild invitation declined."
  },
  "420:36": {
-  "ko": "길드가입을 수락했습니다."
+  "ko": "길드가입을 수락했습니다.",
+  "en": "Guild invitation accepted."
  },
  "421:33": {
-  "ko": "길드정원을 초과했습니다."
+  "ko": "길드정원을 초과했습니다.",
+  "en": "The guild is full."
  },
  "422:23": {
-  "ko": "(%s)님 길드에 가입요청"
+  "ko": "(%s)님 길드에 가입요청",
+  "en": "Invite (%s) to guild"
  },
  "423:36": {
-  "ko": "스킬 레벨이 모자라서 매너포인트를 줄 수 없습니다."
+  "ko": "스킬 레벨이 모자라서 매너포인트를 줄 수 없습니다.",
+  "en": "Skill level too low to give manner points."
  },
  "424:36": {
-  "ko": "돈벌기 난이도"
+  "ko": "돈벌기 난이도",
+  "en": "Income Difficulty"
  },
  "425:30": {
-  "ko": "오늘 이미 사용했습니다."
+  "ko": "오늘 이미 사용했습니다.",
+  "en": "Already used today."
  },
  "426:29": {
-  "ko": "이캐릭터에게 지급한지 한달이 지나지 않았습니다."
+  "ko": "이캐릭터에게 지급한지 한달이 지나지 않았습니다.",
+  "en": "A month has not passed since you gave this character one."
  },
  "427:34": {
-  "ko": "%s 님으로부터 플러스 매너 포인트를 받았습니다."
+  "ko": "%s 님으로부터 플러스 매너 포인트를 받았습니다.",
+  "en": "You got a plus manner point from %s."
  },
  "428:35": {
-  "ko": "%s 님으로부터 마이너스 매너 포인트를 받았습니다."
+  "ko": "%s 님으로부터 마이너스 매너 포인트를 받았습니다.",
+  "en": "You got a minus manner point from %s."
  },
  "429:31": {
-  "ko": "채팅 금지 시간 줄이기(풀기)"
+  "ko": "채팅 금지 시간 줄이기(풀기)",
+  "en": "Shorten chat ban (lift)"
  },
  "430:32": {
-  "ko": "채팅 금지 시간 늘이기(걸기)"
+  "ko": "채팅 금지 시간 늘이기(걸기)",
+  "en": "Extend chat ban (impose)"
  },
  "431:23": {
-  "ko": "(%s)님과의 거래요청"
+  "ko": "(%s)님과의 거래요청",
+  "en": "Deal request to (%s)"
  },
  "432:24": {
-  "ko": "(%s)님 파티에 가입요청"
+  "ko": "(%s)님 파티에 가입요청",
+  "en": "Invite (%s) to party"
  },
  "433:27": {
-  "ko": " 길드에서 동맹요청 메시지가 왔습니다. 동맹하겠습니까?"
+  "ko": " 길드에서 동맹요청 메시지가 왔습니다. 동맹하겠습니까?",
+  "en": " guild requests an alliance. Will you ally with them?"
  },
  "434:36": {
-  "ko": "이미 동맹되어 있습니다."
+  "ko": "이미 동맹되어 있습니다.",
+  "en": "Already allied."
  },
  "435:28": {
-  "ko": "동맹을 거절 했습니다."
+  "ko": "동맹을 거절 했습니다.",
+  "en": "Alliance declined."
  },
  "436:28": {
-  "ko": "동맹을 수락 했습니다."
+  "ko": "동맹을 수락 했습니다.",
+  "en": "Alliance accepted."
  },
  "437:30": {
-  "ko": "상대길드의 동맹길드의 수가 초과 되었습니다."
+  "ko": "상대길드의 동맹길드의 수가 초과 되었습니다.",
+  "en": "The other guild has too many allies."
  },
  "438:32": {
-  "ko": "길드의 동맹길드의 수가 초과 되었습니다."
+  "ko": "길드의 동맹길드의 수가 초과 되었습니다.",
+  "en": "Your guild has too many allies."
  },
  "439:23": {
-  "ko": "길드 동맹 요청"
+  "ko": "길드 동맹 요청",
+  "en": "Request Alliance"
  },
  "440:34": {
-  "ko": "길드가 성공적으로 해체 되었습니다."
+  "ko": "길드가 성공적으로 해체 되었습니다.",
+  "en": "The guild has been disbanded."
  },
  "441:37": {
-  "ko": "주민등록번호가 틀려서 길드가 해체되지 않았습니다."
+  "ko": "주민등록번호가 틀려서 길드가 해체되지 않았습니다.",
+  "en": "Wrong ID number; the guild was not disbanded."
  },
  "442:38": {
-  "ko": "길드맴버가 존재해서 길드가 해체되지 않았습니다."
+  "ko": "길드맴버가 존재해서 길드가 해체되지 않았습니다.",
+  "en": "Guild members remain; the guild was not disbanded."
  },
  "443:26": {
-  "ko": "길드 적대 요청"
+  "ko": "길드 적대 요청",
+  "en": "Set as Antagonist"
  },
  "444:26": {
-  "ko": "머리색깔 선택"
+  "ko": "머리색깔 선택",
+  "en": "Select Hair Color"
  },
  "445:35": {
-  "ko": "길드결성시 필요한 아이템이 없습니다."
+  "ko": "길드결성시 필요한 아이템이 없습니다.",
+  "en": "You lack the item needed to found a guild."
  },
  "446:28": {
-  "ko": "몬스터 정보"
+  "ko": "몬스터 정보",
+  "en": "Monster Info"
  },
  "447:13": {
-  "ko": "이름"
+  "ko": "이름",
+  "en": "Name"
  },
  "448:14": {
-  "ko": "레벨"
+  "ko": "레벨",
+  "en": "Level"
  },
  "450:13": {
-  "ko": "크기"
+  "ko": "크기",
+  "en": "Size"
  },
  "451:17": {
-  "ko": "종족"
+  "ko": "종족",
+  "en": "Race"
  },
  "453:17": {
-  "ko": "속성"
+  "ko": "속성",
+  "en": "Element"
  },
  "454:26": {
-  "ko": "無"
+  "ko": "無",
+  "en": "Neutral"
  },
  "455:23": {
-  "ko": "水"
+  "ko": "水",
+  "en": "Water"
  },
  "456:23": {
-  "ko": "地"
+  "ko": "地",
+  "en": "Earth"
  },
  "457:22": {
-  "ko": "火"
+  "ko": "火",
+  "en": "Fire"
  },
  "458:22": {
-  "ko": "風"
+  "ko": "風",
+  "en": "Wind"
  },
  "459:24": {
-  "ko": "毒"
+  "ko": "毒",
+  "en": "Poison"
  },
  "460:23": {
-  "ko": "聖"
+  "ko": "聖",
+  "en": "Holy"
  },
  "461:22": {
-  "ko": "暗"
+  "ko": "暗",
+  "en": "Shadow"
  },
  "462:24": {
   "ko": "念",
   "keep": "symbol, no words"
  },
  "463:24": {
-  "ko": "死"
+  "ko": "死",
+  "en": "Undead"
  },
  "464:23": {
   "ko": "현재는 아이템을 만들 수 없습니다."
@@ -1507,7 +1925,8 @@
   "ko": "길드탈퇴"
  },
  "549:20": {
-  "ko": "제명시키기"
+  "ko": "제명시키기",
+  "en": "Expel"
  },
  "550:14": {
   "ko": "서열"
@@ -1534,10 +1953,12 @@
   "ko": "길드이름"
  },
  "558:20": {
-  "ko": "길드레벨"
+  "ko": "길드레벨",
+  "en": "Guild Level"
  },
  "559:27": {
-  "ko": "조합원수"
+  "ko": "조합원수",
+  "en": "Members"
  },
  "560:16": {
   "ko": "랭킹"
@@ -2143,10 +2564,12 @@
   "ko": "아이템 분배 방식"
  },
  "779:17": {
-  "ko": "각자 취득"
+  "ko": "각자 취득",
+  "en": "Each Take"
  },
  "780:17": {
-  "ko": "균등하게 분배"
+  "ko": "균등하게 분배",
+  "en": "Even Share"
  },
  "782:35": {
   "ko": "Keyboard Driver가 검출되었습니다. \n\n키보드 보안 입력을 위해 추가기능을 설치하시겠습니까?    \n\n(추가기능 설치후, 시스템 reboot 필수)"
@@ -2734,7 +3157,8 @@
   "ko": "호문이 아사 직전입니다! 먹이를 주지 않으면 가출하게됩니다."
  },
  "1059:18": {
-  "ko": "경험치"
+  "ko": "경험치",
+  "en": "EXP"
  },
  "1060:21": {
   "ko": "[EVENT] 이벤트에 당첨되셨습니다. 게임내에서 아이템을 지급받으십시요."
