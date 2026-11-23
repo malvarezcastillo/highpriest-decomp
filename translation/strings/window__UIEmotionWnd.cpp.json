@@ -1,0 +1,26 @@
+{
+ "49:26": {
+  "ko": "유저인터페이스\\basic_interface\\sys_"
+ },
+ "62:25": {
+  "ko": "유저인터페이스\\"
+ },
+ "160:8": {
+  "ko": "유저인터페이스\\basic_interface\\titlebar_left.bmp"
+ },
+ "164:8": {
+  "ko": "유저인터페이스\\basic_interface\\titlebar_right.bmp"
+ },
+ "171:9": {
+  "ko": "유저인터페이스\\basic_interface\\titlebar_mid.bmp"
+ },
+ "186:9": {
+  "ko": "유저인터페이스\\basic_interface\\btnbar_mid2.bmp"
+ },
+ "191:8": {
+  "ko": "유저인터페이스\\basic_interface\\btnbar_left2.bmp"
+ },
+ "195:8": {
+  "ko": "유저인터페이스\\basic_interface\\btnbar_right2.bmp"
+ }
+}

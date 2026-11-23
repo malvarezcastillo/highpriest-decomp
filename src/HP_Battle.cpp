@@ -546,7 +546,7 @@ void UIWindowMgr::Aco_Battle()
 			}
 			g_session.SetStatusData(AcoActor);
 		} else {
-			char msg[100];
+			char msg[256];
 			sprintf(msg, "\xb5\xfe\xc0\xc7 SP\xb0\xa1 \xba\xce\xc1\xb7\xc7\xd8\xbc\xad \xbd\xba\xc5\xb3\xc0\xbb \xbe\xb5\xbc\xf6\xbe\xf8\xbd\xc0\xb4\xcf\xb4\xd9");
 			g_windowMgr.SendMsg(UIM_PUSHINTOCHATHISTORY, (int)msg, 0xc8c8ff, 0, 0);
 			PASS = 0;
@@ -1693,7 +1693,7 @@ void UIWindowMgr::All_CheckPos()
 
 void UIWindowMgr::Aco_ActinField()
 {
-	char msg[100];
+	char msg[256];
 	CGameMode* gameMode = g_modeMgr.GetGameMode();
 	CGameActor* actor = g_session.GetGameActorByAid(1);
 
@@ -2384,8 +2384,8 @@ void UIWindowMgr::RenderBackGround2D_Battle()
 void UIWindowMgr::RenderNextSkill()
 {
 	CMode* gameMode = g_modeMgr.GetGameMode();
-	char msg[100];
-	char temp[100];
+	char msg[256];
+	char temp[256];
 	RECT rect = {0, 0, 0xff, 0xff};
 
 	if (g_NextSkill > 0) {
@@ -2419,7 +2419,7 @@ void UIWindowMgr::RenderNextSkill()
 void UIWindowMgr::RenderAcoPosition()
 {
 	CMode* gameMode = g_modeMgr.GetGameMode();
-	char temp[100];
+	char temp[256];
 	RECT rect = {0, 0, 0xff, 0xff};
 	int alpha = 0xff;
 	int i;
@@ -2509,8 +2509,8 @@ void UIWindowMgr::RenderAcoPosition()
 void UIWindowMgr::RenderMenu()
 {
 	CMode* gameMode = g_modeMgr.GetGameMode();
-	char temp[100];
-	char msg[100];
+	char temp[256];
+	char msg[256];
 	RECT rect = {0, 0, 0xff, 0xff};
 
 	if (g_curScreen >= 100) {
@@ -2690,7 +2690,7 @@ void UIWindowMgr::RenderWhiteBlueRect(int X, int Y, int DX, int DY, int C, int C
 	int x = X;
 	int y = Y;
 	CMode* gameMode = g_modeMgr.GetGameMode();
-	char temp[100];
+	char temp[256];
 	RECT rect = {0, 0, 0xff, 0xff};
 
 	sprintf(temp, "effect\\white02.bmp");
@@ -2713,7 +2713,7 @@ void UIWindowMgr::RenderWhiteBlueRect(int X, int Y, int DX, int DY, int C, int C
 void UIWindowMgr::RenderThreeWay(int X, int Y, char* msg1, char* msg2, char* msg3, short xwidth)
 {
 	g_modeMgr.GetGameMode();
-	char msg[100];
+	char msg[256];
 	char temp[256];
 	RECT rect = {0, 0, 0xff, 0xff};
 
@@ -2802,7 +2802,7 @@ void UIWindowMgr::RenderThreeWay(int X, int Y, char* msg1, char* msg2, char* msg
 
 void UIWindowMgr::SetcurScreen(int F1)
 {
-	char msg[100];
+	char msg[256];
 	CGameMode* gameMode = g_modeMgr.GetGameMode();
 	g_curScreen = F1;
 
@@ -3081,7 +3081,7 @@ void UIWindowMgr::EndFight_Status()
 void UIWindowMgr::ExeMenu()
 {
 	ITEM_INFO itemInfo;
-	char msg[100];
+	char msg[256];
 	CGameActor* TheActor;
 
 	if (g_curScreen == 1) {

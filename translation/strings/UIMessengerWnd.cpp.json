@@ -1,0 +1,86 @@
+{
+ "109:28": {
+  "ko": "유저인터페이스\\basic_interface\\sys_"
+ },
+ "125:25": {
+  "ko": "유저인터페이스\\basic_interface\\"
+ },
+ "161:22": {
+  "ko": "유저인터페이스\\btn_resize.bmp"
+ },
+ "302:8": {
+  "ko": "유저인터페이스\\basic_interface\\titlebar_left.bmp"
+ },
+ "305:8": {
+  "ko": "유저인터페이스\\basic_interface\\titlebar_right.bmp"
+ },
+ "312:9": {
+  "ko": "유저인터페이스\\basic_interface\\titlebar_mid.bmp"
+ },
+ "317:8": {
+  "ko": "유저인터페이스\\basic_interface\\sys_base_off.bmp"
+ },
+ "329:8": {
+  "ko": "유저인터페이스\\basic_interface\\btnbar_left.bmp"
+ },
+ "332:8": {
+  "ko": "유저인터페이스\\basic_interface\\btnbar_right.bmp"
+ },
+ "337:9": {
+  "ko": "유저인터페이스\\basic_interface\\btnbar_mid.bmp"
+ },
+ "342:8": {
+  "ko": "유저인터페이스\\basic_interface\\mesbtn_left.bmp"
+ },
+ "345:8": {
+  "ko": "유저인터페이스\\basic_interface\\mesbtn_right.bmp"
+ },
+ "350:9": {
+  "ko": "유저인터페이스\\basic_interface\\mesbtn_mid.bmp"
+ },
+ "378:24": {
+  "ko": "유저인터페이스\\basic_interface\\grp_leader.bmp"
+ },
+ "380:24": {
+  "ko": "유저인터페이스\\basic_interface\\grp_online.bmp"
+ },
+ "937:2": {
+  "ko": "유저인터페이스\\checkbox_1.bmp"
+ },
+ "938:2": {
+  "ko": "유저인터페이스\\checkbox_0.bmp"
+ },
+ "950:2": {
+  "ko": "유저인터페이스\\checkbox_1.bmp"
+ },
+ "951:2": {
+  "ko": "유저인터페이스\\checkbox_0.bmp"
+ },
+ "963:2": {
+  "ko": "유저인터페이스\\checkbox_1.bmp"
+ },
+ "964:2": {
+  "ko": "유저인터페이스\\checkbox_0.bmp"
+ },
+ "975:28": {
+  "ko": "유저인터페이스\\basic_interface\\sys_"
+ },
+ "997:8": {
+  "ko": "유저인터페이스\\basic_interface\\titlebar_left.bmp"
+ },
+ "1001:8": {
+  "ko": "유저인터페이스\\basic_interface\\titlebar_right.bmp"
+ },
+ "1008:9": {
+  "ko": "유저인터페이스\\basic_interface\\titlebar_mid.bmp"
+ },
+ "1021:8": {
+  "ko": "유저인터페이스\\basic_interface\\btnbar_left2.bmp"
+ },
+ "1025:8": {
+  "ko": "유저인터페이스\\basic_interface\\btnbar_right2.bmp"
+ },
+ "1031:9": {
+  "ko": "유저인터페이스\\basic_interface\\btnbar_mid2.bmp"
+ }
+}

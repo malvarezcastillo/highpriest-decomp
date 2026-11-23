@@ -1,0 +1,26 @@
+{
+ "31:26": {
+  "ko": "유저인터페이스\\basic_interface\\sys_"
+ },
+ "48:36": {
+  "ko": "이팩트\\emotion.spr"
+ },
+ "49:37": {
+  "ko": "이팩트\\emotion_index3.act"
+ },
+ "164:53": {
+  "ko": "유저인터페이스\\basic_interface\\titlebar_left.bmp"
+ },
+ "167:41": {
+  "ko": "유저인터페이스\\basic_interface\\titlebar_right.bmp"
+ },
+ "172:42": {
+  "ko": "유저인터페이스\\basic_interface\\titlebar_mid.bmp"
+ },
+ "187:2": {
+  "ko": "유저인터페이스\\sysboxs_ld.bmp"
+ },
+ "188:2": {
+  "ko": "유저인터페이스\\sysboxs_rd.bmp"
+ }
+}

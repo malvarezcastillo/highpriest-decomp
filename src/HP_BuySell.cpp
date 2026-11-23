@@ -39,7 +39,7 @@ extern bool g_WordDisplay;
 
 void UIWindowMgr::SetcurStance_B(int F1)
 {
-	char msg[100];
+	char msg[256];
 
 	g_curStance_B = F1;
 	CGameActor* actor = g_session.GetGameActorByAid(2);
@@ -106,7 +106,7 @@ void UIWindowMgr::BS_Selling()
 	ITEM_INFO itemInfo;
 	char PASS = 0;
 	char iName[64];
-	char msg[100];
+	char msg[256];
 	short price = 0;
 
 	if (merchant) {
@@ -287,7 +287,7 @@ void UIWindowMgr::BS_Buying()
 {
 	CGameMode* gameMode = g_modeMgr.GetGameMode();
 	ITEM_INFO itemInfo;
-	char msg[100];
+	char msg[256];
 	CGameActor* merchant = g_session.GetGameActorByAid(2);
 	CGameActor* actor = g_session.GetGameActorByAid(11);
 
@@ -435,7 +435,7 @@ void UIWindowMgr::BS_Buying_Weapon()
 {
 	CGameMode* gameMode = g_modeMgr.GetGameMode();
 	ITEM_INFO itemInfo;
-	char msg[100];
+	char msg[256];
 
 	g_session.GetGameActorByAid(2);
 	CGameActor* actor = g_session.GetGameActorByAid(11);
@@ -497,7 +497,7 @@ void UIWindowMgr::BS_NotBuying()
 	CGameActor* actor = g_session.GetGameActorByAid(11);
 	PlayWave("effect\\rog_steal coin.wav");
 	g_session.SetGold(g_session.GetGold() - 100);
-	char msg[100];
+	char msg[256];
 	sprintf(msg, "\xc5\xda\xb7\xb9\xc6\xf7\xc6\xae \xbb\xf3\xc1\xa1 \xc3\xe2\xc0\xe5\xba\xf1\xbf\xeb\xc0\xba %d \xc1\xa6\xb4\xcf \xc0\xd4\xb4\xcf\xb4\xd9 ^_^", 100);
 	actor->SendMsg(NULL, AM_CHAT, (int)msg, 0, 0);
 	actor->SendMsg(NULL, AM_EMOTION, 0xf, 0, 0);
@@ -510,7 +510,7 @@ void UIWindowMgr::BS_NotAnswering()
 	CGameActor* actor = g_session.GetGameActorByAid(11);
 	PlayWave("effect\\rog_steal coin.wav");
 	g_session.SetGold(g_session.GetGold() - 1000);
-	char msg[100];
+	char msg[256];
 	sprintf(msg, "\xbb\xe7\xb6\xf7\xc0\xbb \xba\xd2\xb7\xb6\xc0\xb8\xb8\xe9 \xb8\xbb\xc0\xbb \xc7\xd8\xbe\xdf\xc1\xd2... \xc3\xe2\xc0\xe5\xba\xf1 %d \xc1\xa6\xb4\xcf\xb4\xc2 \xb0\xa1\xc1\xae\xb0\xa9\xb4\xcf\xb4\xd9 -_-", 1000);
 	actor->SendMsg(NULL, AM_CHAT, (int)msg, 0, 0);
 	actor->SendMsg(NULL, AM_EMOTION, 6, 0, 0);

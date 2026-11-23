@@ -1,0 +1,173 @@
+{
+ "990:15": {
+  "ko": "effect\\화염진.wav"
+ },
+ "1085:10": {
+  "ko": "외부소품\\트랩03_3.rsm"
+ },
+ "1087:10": {
+  "ko": "외부소품\\트랩02.rsm"
+ },
+ "1089:10": {
+  "ko": "외부소품\\트랩01.rsm"
+ },
+ "1091:10": {
+  "ko": "외부소품\\트랩03.rsm"
+ },
+ "1093:10": {
+  "ko": "외부소품\\트랩03_6.rsm"
+ },
+ "1095:10": {
+  "ko": "외부소품\\트랩03_4.rsm"
+ },
+ "1097:10": {
+  "ko": "외부소품\\트랩03_5.rsm"
+ },
+ "1099:10": {
+  "ko": "외부소품\\트랩03_2.rsm"
+ },
+ "1101:10": {
+  "ko": "외부소품\\트랩04.rsm"
+ },
+ "1103:10": {
+  "ko": "외부소품\\트랩05.rsm"
+ },
+ "2199:20": {
+  "ko": "이팩트\\숫자.spr"
+ },
+ "2200:20": {
+  "ko": "이팩트\\숫자.act"
+ },
+ "2233:19": {
+  "ko": "이팩트\\숫자.spr"
+ },
+ "2234:19": {
+  "ko": "이팩트\\숫자.act"
+ },
+ "2433:12": {
+  "ko": "몬스터\\mandragora_atk.spr"
+ },
+ "2434:12": {
+  "ko": "몬스터\\mandragora_atk.act"
+ },
+ "2444:12": {
+  "ko": "몬스터\\mandragora_atk.spr"
+ },
+ "2445:12": {
+  "ko": "몬스터\\mandragora_atk.act"
+ },
+ "2485:14": {
+  "ko": "몬스터\\hydra_atk.spr"
+ },
+ "2486:14": {
+  "ko": "몬스터\\hydra_atk.act"
+ },
+ "2490:14": {
+  "ko": "몬스터\\tha_odium_ef.spr"
+ },
+ "2491:14": {
+  "ko": "몬스터\\tha_odium_ef.act"
+ },
+ "2494:14": {
+  "ko": "몬스터\\drosera_bullet.spr"
+ },
+ "2495:14": {
+  "ko": "몬스터\\drosera_bullet.act"
+ },
+ "2499:14": {
+  "ko": "몬스터\\MAVKA_BULLET.spr"
+ },
+ "2500:14": {
+  "ko": "몬스터\\MAVKA_BULLET.act"
+ },
+ "2507:14": {
+  "ko": "몬스터\\ENTWEIHEN_BULLET.spr"
+ },
+ "2508:14": {
+  "ko": "몬스터\\ENTWEIHEN_BULLET.act"
+ },
+ "2511:14": {
+  "ko": "몬스터\\mandragora_atk.spr"
+ },
+ "2512:14": {
+  "ko": "몬스터\\mandragora_atk.act"
+ },
+ "2633:15": {
+  "ko": "몬스터\\PARASITE_BULLET.spr"
+ },
+ "2634:15": {
+  "ko": "몬스터\\PARASITE_BULLET.act"
+ },
+ "2638:15": {
+  "ko": "몬스터\\STONE_SHOOTER_BULLET.spr"
+ },
+ "2639:15": {
+  "ko": "몬스터\\STONE_SHOOTER_BULLET.act"
+ },
+ "2643:15": {
+  "ko": "몬스터\\WOOTAN_SHOOTER_BULLET.spr"
+ },
+ "2644:15": {
+  "ko": "몬스터\\WOOTAN_SHOOTER_BULLET.act"
+ },
+ "2648:15": {
+  "ko": "몬스터\\PEACH_TREE_BULLET.spr"
+ },
+ "2649:15": {
+  "ko": "몬스터\\PEACH_TREE_BULLET.act"
+ },
+ "2653:15": {
+  "ko": "몬스터\\GINSENG_BULLET.spr"
+ },
+ "2654:15": {
+  "ko": "몬스터\\GINSENG_BULLET.act"
+ },
+ "2658:15": {
+  "ko": "몬스터\\CANON_BULLET.spr"
+ },
+ "2659:15": {
+  "ko": "몬스터\\CANON_BULLET.act"
+ },
+ "2663:15": {
+  "ko": "몬스터\\CANON_BULLET_1.spr"
+ },
+ "2664:15": {
+  "ko": "몬스터\\CANON_BULLET_1.act"
+ },
+ "2668:15": {
+  "ko": "몬스터\\CANON_BULLET_2.spr"
+ },
+ "2669:15": {
+  "ko": "몬스터\\CANON_BULLET_2.act"
+ },
+ "2673:15": {
+  "ko": "몬스터\\CANON_BULLET_3.spr"
+ },
+ "2674:15": {
+  "ko": "몬스터\\CANON_BULLET_3.act"
+ },
+ "2678:15": {
+  "ko": "몬스터\\LADY_TANEE_BULLET.spr"
+ },
+ "2679:15": {
+  "ko": "몬스터\\LADY_TANEE_BULLET.act"
+ },
+ "2683:15": {
+  "ko": "몬스터\\RAGGED_ZOMBIE_BULLET.spr"
+ },
+ "2684:15": {
+  "ko": "몬스터\\RAGGED_ZOMBIE_BULLET.act"
+ },
+ "2688:15": {
+  "ko": "몬스터\\skel_archer_arrow.spr"
+ },
+ "2689:15": {
+  "ko": "몬스터\\skel_archer_arrow.act"
+ },
+ "2708:14": {
+  "ko": "몬스터\\skel_archer_arrow.spr"
+ },
+ "2709:14": {
+  "ko": "몬스터\\skel_archer_arrow.act"
+ }
+}

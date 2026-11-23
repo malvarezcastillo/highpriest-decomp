@@ -60,7 +60,7 @@ void UIWindowMgr::HP_SaveGame(char F1)
 	short sData;
 	int iData;
 	unsigned long timeCalc;
-	char msgZ[100];
+	char msgZ[256];
 
 	CGameActor* actor = g_session.GetGameActorByAid(1);
 	FILE* fp;

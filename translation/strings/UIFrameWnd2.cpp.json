@@ -1,0 +1,704 @@
+{
+ "411:29": {
+  "ko": "유저인터페이스\\btn_cancel.bmp"
+ },
+ "412:29": {
+  "ko": "유저인터페이스\\btn_cancel_a.bmp"
+ },
+ "413:29": {
+  "ko": "유저인터페이스\\btn_cancel_b.bmp"
+ },
+ "447:53": {
+  "ko": "유저인터페이스\\win_msgbox.bmp"
+ },
+ "479:17": {
+  "ko": "유저인터페이스\\loading00.jpg"
+ },
+ "485:17": {
+  "ko": "유저인터페이스\\loading00.jpg"
+ },
+ "517:26": {
+  "ko": "유저인터페이스\\basic_interface\\btn_"
+ },
+ "537:27": {
+  "ko": "유저인터페이스\\basic_interface\\sys_"
+ },
+ "648:54": {
+  "ko": "유저인터페이스\\basic_interface\\basewin_mini.bmp"
+ },
+ "677:54": {
+  "ko": "유저인터페이스\\basic_interface\\basewin_bg.bmp"
+ },
+ "871:24": {
+  "ko": "유저인터페이스\\"
+ },
+ "939:27": {
+  "ko": "유저인터페이스\\basic_interface\\sys_"
+ },
+ "954:23": {
+  "ko": "유저인터페이스\\basic_interface\\"
+ },
+ "972:23": {
+  "ko": "유저인터페이스\\basic_interface\\"
+ },
+ "1195:8": {
+  "ko": "유저인터페이스\\basic_interface\\titlebar_fix.bmp"
+ },
+ "1213:8": {
+  "ko": "유저인터페이스\\basic_interface\\equipwin_bg.bmp"
+ },
+ "1225:10": {
+  "ko": "유저인터페이스\\basic_interface\\item_invert.bmp"
+ },
+ "1234:10": {
+  "ko": "유저인터페이스\\basic_interface\\item_invert.bmp"
+ },
+ "1349:22": {
+  "ko": "_요정의귀"
+ },
+ "1351:22": {
+  "ko": "_눈가리개"
+ },
+ "1353:22": {
+  "ko": "_헬름"
+ },
+ "1356:18": {
+  "ko": "sprite\\악세사리\\%s\\%s%s.act"
+ },
+ "1359:18": {
+  "ko": "sprite\\악세사리\\%s\\%s%s.spr"
+ },
+ "1638:27": {
+  "ko": "유저인터페이스\\basic_interface\\sys_"
+ },
+ "1656:26": {
+  "ko": "유저인터페이스\\basic_interface\\arw_right.bmp"
+ },
+ "1773:56": {
+  "ko": "유저인터페이스\\basic_interface\\titlebar_fix.bmp"
+ },
+ "1783:44": {
+  "ko": "유저인터페이스\\basic_interface\\statwin0_bg.bmp"
+ },
+ "1954:28": {
+  "ko": "유저인터페이스\\basic_interface\\sys_"
+ },
+ "1975:23": {
+  "ko": "유저인터페이스\\"
+ },
+ "2029:2": {
+  "ko": "유저인터페이스\\checkbox_1.bmp"
+ },
+ "2030:2": {
+  "ko": "유저인터페이스\\checkbox_0.bmp"
+ },
+ "2047:8": {
+  "ko": "유저인터페이스\\basic_interface\\titlebar_fix.bmp"
+ },
+ "2051:8": {
+  "ko": "유저인터페이스\\basic_interface\\btnbar_left2.bmp"
+ },
+ "2055:8": {
+  "ko": "유저인터페이스\\basic_interface\\btnbar_right2.bmp"
+ },
+ "2061:9": {
+  "ko": "유저인터페이스\\basic_interface\\btnbar_mid2.bmp"
+ },
+ "2217:27": {
+  "ko": "유저인터페이스\\basic_interface\\sys_"
+ },
+ "2258:2": {
+  "ko": "유저인터페이스\\checkbox_1.bmp"
+ },
+ "2259:2": {
+  "ko": "유저인터페이스\\checkbox_0.bmp"
+ },
+ "2268:2": {
+  "ko": "유저인터페이스\\checkbox_1.bmp"
+ },
+ "2269:2": {
+  "ko": "유저인터페이스\\checkbox_0.bmp"
+ },
+ "2278:2": {
+  "ko": "유저인터페이스\\checkbox_1.bmp"
+ },
+ "2279:2": {
+  "ko": "유저인터페이스\\checkbox_0.bmp"
+ },
+ "2288:2": {
+  "ko": "유저인터페이스\\checkbox_1.bmp"
+ },
+ "2289:2": {
+  "ko": "유저인터페이스\\checkbox_0.bmp"
+ },
+ "2298:2": {
+  "ko": "유저인터페이스\\checkbox_1.bmp"
+ },
+ "2299:2": {
+  "ko": "유저인터페이스\\checkbox_0.bmp"
+ },
+ "2308:2": {
+  "ko": "유저인터페이스\\checkbox_1.bmp"
+ },
+ "2309:2": {
+  "ko": "유저인터페이스\\checkbox_0.bmp"
+ },
+ "2335:53": {
+  "ko": "유저인터페이스\\basic_interface\\titlebar_fix.bmp"
+ },
+ "2342:43": {
+  "ko": "유저인터페이스\\basic_interface\\optwin0_bg.bmp"
+ },
+ "2344:43": {
+  "ko": "유저인터페이스\\basic_interface\\txtbox_btn_a.bmp"
+ },
+ "2347:43": {
+  "ko": "유저인터페이스\\basic_interface\\optwin1_bg.bmp"
+ },
+ "2815:23": {
+  "ko": "유저인터페이스\\"
+ },
+ "2886:23": {
+  "ko": "유저인터페이스\\"
+ },
+ "2950:23": {
+  "ko": "유저인터페이스\\"
+ },
+ "3023:23": {
+  "ko": "유저인터페이스\\"
+ },
+ "3083:23": {
+  "ko": "유저인터페이스\\"
+ },
+ "3232:25": {
+  "ko": "유저인터페이스\\"
+ },
+ "3309:27": {
+  "ko": "유저인터페이스\\basic_interface\\sys_"
+ },
+ "3323:24": {
+  "ko": "유저인터페이스\\"
+ },
+ "3345:8": {
+  "ko": "유저인터페이스\\basic_interface\\collection_bg.bmp"
+ },
+ "3374:38": {
+  "ko": "유저인터페이스\\empty_card_slot.bmp"
+ },
+ "3514:14": {
+  "ko": "유저인터페이스\\collection\\"
+ },
+ "3575:10": {
+  "ko": "이름 변경됨"
+ },
+ "3577:10": {
+  "ko": "이름 변경되지않음"
+ },
+ "3581:9": {
+  "ko": "레벨 : "
+ },
+ "3586:9": {
+  "ko": "만복도 : "
+ },
+ "3591:9": {
+  "ko": "친밀도 : "
+ },
+ "3596:10": {
+  "ko": "악세사리 : 장착됨"
+ },
+ "3598:10": {
+  "ko": "악세사리 : 장착안됨"
+ },
+ "3696:27": {
+  "ko": "유저인터페이스\\basic_interface\\sys_"
+ },
+ "3712:53": {
+  "ko": "유저인터페이스\\basic_interface\\skillcollection.bmp"
+ },
+ "3754:16": {
+  "ko": "유저인터페이스\\item\\"
+ },
+ "3803:27": {
+  "ko": "유저인터페이스\\basic_interface\\que_"
+ },
+ "3819:25": {
+  "ko": "유저인터페이스\\basic_interface\\"
+ },
+ "3850:8": {
+  "ko": "유저인터페이스\\basic_interface\\quest_window.bmp"
+ },
+ "3992:27": {
+  "ko": "유저인터페이스\\basic_interface\\sys_"
+ },
+ "4007:8": {
+  "ko": "유저인터페이스\\basic_interface\\titlebar_left.bmp"
+ },
+ "4011:8": {
+  "ko": "유저인터페이스\\basic_interface\\titlebar_right.bmp"
+ },
+ "4017:9": {
+  "ko": "유저인터페이스\\basic_interface\\titlebar_mid.bmp"
+ },
+ "4056:14": {
+  "ko": "유저인터페이스\\cardBmp\\"
+ },
+ "4100:24": {
+  "ko": "유저인터페이스\\"
+ },
+ "4199:24": {
+  "ko": "유저인터페이스\\"
+ },
+ "4220:25": {
+  "ko": "유저인터페이스\\"
+ },
+ "4353:24": {
+  "ko": "유저인터페이스\\"
+ },
+ "4374:25": {
+  "ko": "유저인터페이스\\"
+ },
+ "4406:8": {
+  "ko": "유저인터페이스\\basic_interface\\titlebar_left.bmp"
+ },
+ "4410:8": {
+  "ko": "유저인터페이스\\basic_interface\\titlebar_right.bmp"
+ },
+ "4417:9": {
+  "ko": "유저인터페이스\\basic_interface\\titlebar_mid.bmp"
+ },
+ "4430:8": {
+  "ko": "유저인터페이스\\basic_interface\\btnbar_left2.bmp"
+ },
+ "4434:8": {
+  "ko": "유저인터페이스\\basic_interface\\btnbar_right2.bmp"
+ },
+ "4440:9": {
+  "ko": "유저인터페이스\\basic_interface\\btnbar_mid2.bmp"
+ },
+ "4745:24": {
+  "ko": "유저인터페이스\\"
+ },
+ "4773:53": {
+  "ko": "유저인터페이스\\win_msgbox.bmp"
+ },
+ "4804:24": {
+  "ko": "유저인터페이스\\"
+ },
+ "4834:53": {
+  "ko": "유저인터페이스\\win_msgbox.bmp"
+ },
+ "4872:24": {
+  "ko": "유저인터페이스\\"
+ },
+ "4934:53": {
+  "ko": "유저인터페이스\\win_msgbox.bmp"
+ },
+ "4942:24": {
+  "ko": "유저인터페이스\\"
+ },
+ "4985:53": {
+  "ko": "유저인터페이스\\win_msgbox.bmp"
+ },
+ "5023:24": {
+  "ko": "유저인터페이스\\"
+ },
+ "5180:22": {
+  "ko": "유저인터페이스\\"
+ },
+ "5239:2": {
+  "ko": "유저인터페이스\\checkbox_1.bmp"
+ },
+ "5240:2": {
+  "ko": "유저인터페이스\\checkbox_0.bmp"
+ },
+ "5262:53": {
+  "ko": "유저인터페이스\\basic_interface\\titlebar_left.bmp"
+ },
+ "5266:41": {
+  "ko": "유저인터페이스\\basic_interface\\titlebar_right.bmp"
+ },
+ "5271:42": {
+  "ko": "유저인터페이스\\basic_interface\\titlebar_mid.bmp"
+ },
+ "5280:42": {
+  "ko": "유저인터페이스\\basic_interface\\itemwin_left.bmp"
+ },
+ "5286:42": {
+  "ko": "유저인터페이스\\basic_interface\\itemwin_right.bmp"
+ },
+ "5317:41": {
+  "ko": "유저인터페이스\\basic_interface\\btnbar_left2.bmp"
+ },
+ "5321:41": {
+  "ko": "유저인터페이스\\basic_interface\\btnbar_right2.bmp"
+ },
+ "5326:42": {
+  "ko": "유저인터페이스\\basic_interface\\btnbar_mid2.bmp"
+ },
+ "5717:28": {
+  "ko": "유저인터페이스\\basic_interface\\sys_"
+ },
+ "5732:25": {
+  "ko": "유저인터페이스\\"
+ },
+ "5758:25": {
+  "ko": "유저인터페이스\\basic_interface\\"
+ },
+ "5836:53": {
+  "ko": "유저인터페이스\\basic_interface\\titlebar_fix.bmp"
+ },
+ "5839:41": {
+  "ko": "유저인터페이스\\basic_interface\\chatwin0_bg.bmp"
+ },
+ "6099:26": {
+  "ko": "유저인터페이스\\btn_"
+ },
+ "6137:8": {
+  "ko": "유저인터페이스\\basic_interface\\titlebar_fix.bmp"
+ },
+ "6141:8": {
+  "ko": "유저인터페이스\\basic_interface\\exchange_bg.bmp"
+ },
+ "6217:26": {
+  "ko": "유저인터페이스\\btn_"
+ },
+ "6590:25": {
+  "ko": "유저인터페이스\\"
+ },
+ "6628:28": {
+  "ko": "유저인터페이스\\basic_interface\\sys_"
+ },
+ "6768:22": {
+  "ko": "유저인터페이스\\btn_resize.bmp"
+ },
+ "6791:28": {
+  "ko": "유저인터페이스\\basic_interface\\sys_"
+ },
+ "6814:8": {
+  "ko": "유저인터페이스\\basic_interface\\titlebar_left.bmp"
+ },
+ "6818:8": {
+  "ko": "유저인터페이스\\basic_interface\\titlebar_right.bmp"
+ },
+ "6825:9": {
+  "ko": "유저인터페이스\\basic_interface\\titlebar_mid.bmp"
+ },
+ "6835:8": {
+  "ko": "유저인터페이스\\basic_interface\\btnbar_left.bmp"
+ },
+ "6839:8": {
+  "ko": "유저인터페이스\\basic_interface\\btnbar_right.bmp"
+ },
+ "6845:9": {
+  "ko": "유저인터페이스\\basic_interface\\btnbar_mid.bmp"
+ },
+ "7069:27": {
+  "ko": "유저인터페이스\\map\\map_"
+ },
+ "7119:27": {
+  "ko": "유저인터페이스\\basic_interface\\"
+ },
+ "7170:27": {
+  "ko": "유저인터페이스\\basic_interface\\"
+ },
+ "7283:8": {
+  "ko": "유저인터페이스\\basic_interface\\sysboxs_lu.bmp"
+ },
+ "7286:8": {
+  "ko": "유저인터페이스\\basic_interface\\sysboxs_ld.bmp"
+ },
+ "7289:8": {
+  "ko": "유저인터페이스\\basic_interface\\sysboxs_ru.bmp"
+ },
+ "7292:8": {
+  "ko": "유저인터페이스\\basic_interface\\sysboxs_rd.bmp"
+ },
+ "7652:26": {
+  "ko": "유저인터페이스\\basic_interface\\sys_"
+ },
+ "7681:32": {
+  "ko": "이팩트\\손수레.spr"
+ },
+ "7682:33": {
+  "ko": "이팩트\\손수레.act"
+ },
+ "7691:32": {
+  "ko": "이팩트\\손수레1.spr"
+ },
+ "7692:33": {
+  "ko": "이팩트\\손수레1.act"
+ },
+ "7700:32": {
+  "ko": "이팩트\\손수레2.spr"
+ },
+ "7701:33": {
+  "ko": "이팩트\\손수레2.act"
+ },
+ "7709:32": {
+  "ko": "이팩트\\손수레3.spr"
+ },
+ "7710:33": {
+  "ko": "이팩트\\손수레3.act"
+ },
+ "7718:32": {
+  "ko": "이팩트\\손수레4.spr"
+ },
+ "7719:33": {
+  "ko": "이팩트\\손수레4.act"
+ },
+ "7729:32": {
+  "ko": "이팩트\\손수레.spr"
+ },
+ "7730:33": {
+  "ko": "이팩트\\손수레.act"
+ },
+ "7738:32": {
+  "ko": "이팩트\\손수레1.spr"
+ },
+ "7739:33": {
+  "ko": "이팩트\\손수레1.act"
+ },
+ "7747:32": {
+  "ko": "이팩트\\손수레2.spr"
+ },
+ "7748:33": {
+  "ko": "이팩트\\손수레2.act"
+ },
+ "7756:32": {
+  "ko": "이팩트\\손수레3.spr"
+ },
+ "7757:33": {
+  "ko": "이팩트\\손수레3.act"
+ },
+ "7767:32": {
+  "ko": "이팩트\\손수레.spr"
+ },
+ "7768:33": {
+  "ko": "이팩트\\손수레.act"
+ },
+ "7776:32": {
+  "ko": "이팩트\\손수레1.spr"
+ },
+ "7777:33": {
+  "ko": "이팩트\\손수레1.act"
+ },
+ "7785:32": {
+  "ko": "이팩트\\손수레2.spr"
+ },
+ "7786:33": {
+  "ko": "이팩트\\손수레2.act"
+ },
+ "7796:32": {
+  "ko": "이팩트\\손수레.spr"
+ },
+ "7797:33": {
+  "ko": "이팩트\\손수레.act"
+ },
+ "7805:32": {
+  "ko": "이팩트\\손수레1.spr"
+ },
+ "7806:33": {
+  "ko": "이팩트\\손수레1.act"
+ },
+ "7816:32": {
+  "ko": "이팩트\\손수레.spr"
+ },
+ "7817:33": {
+  "ko": "이팩트\\손수레.act"
+ },
+ "7836:8": {
+  "ko": "유저인터페이스\\basic_interface\\titlebar_left.bmp"
+ },
+ "7840:8": {
+  "ko": "유저인터페이스\\basic_interface\\titlebar_right.bmp"
+ },
+ "7847:9": {
+  "ko": "유저인터페이스\\basic_interface\\titlebar_mid.bmp"
+ },
+ "7860:2": {
+  "ko": "유저인터페이스\\sysboxs_ld.bmp"
+ },
+ "7861:2": {
+  "ko": "유저인터페이스\\sysboxs_rd.bmp"
+ },
+ "7933:8": {
+  "ko": "유저인터페이스\\basic_interface\\titlebar_left.bmp"
+ },
+ "7937:8": {
+  "ko": "유저인터페이스\\basic_interface\\titlebar_right.bmp"
+ },
+ "7943:9": {
+  "ko": "유저인터페이스\\basic_interface\\titlebar_mid.bmp"
+ },
+ "7956:8": {
+  "ko": "유저인터페이스\\basic_interface\\btnbar_left2.bmp"
+ },
+ "7960:8": {
+  "ko": "유저인터페이스\\basic_interface\\btnbar_right2.bmp"
+ },
+ "7966:9": {
+  "ko": "유저인터페이스\\basic_interface\\btnbar_mid2.bmp"
+ },
+ "8068:22": {
+  "ko": "유저인터페이스\\"
+ },
+ "8115:9": {
+  "ko": "유저인터페이스\\basic_interface\\titlebar_mid.bmp"
+ },
+ "8120:8": {
+  "ko": "유저인터페이스\\basic_interface\\titlebar_left.bmp"
+ },
+ "8124:8": {
+  "ko": "유저인터페이스\\basic_interface\\titlebar_right.bmp"
+ },
+ "8135:9": {
+  "ko": "유저인터페이스\\basic_interface\\btnbar_mid2.bmp"
+ },
+ "8140:8": {
+  "ko": "유저인터페이스\\basic_interface\\btnbar_left2.bmp"
+ },
+ "8144:8": {
+  "ko": "유저인터페이스\\basic_interface\\btnbar_right2.bmp"
+ },
+ "8191:26": {
+  "ko": "유저인터페이스\\basic_interface\\sys_"
+ },
+ "8212:25": {
+  "ko": "유저인터페이스\\basic_interface\\"
+ },
+ "8237:8": {
+  "ko": "유저인터페이스\\basic_interface\\titlebar_left.bmp"
+ },
+ "8241:8": {
+  "ko": "유저인터페이스\\basic_interface\\titlebar_right.bmp"
+ },
+ "8247:9": {
+  "ko": "유저인터페이스\\basic_interface\\titlebar_mid.bmp"
+ },
+ "8262:2": {
+  "ko": "유저인터페이스\\sysboxs_ld.bmp"
+ },
+ "8263:2": {
+  "ko": "유저인터페이스\\sysboxs_rd.bmp"
+ },
+ "8287:16": {
+  "ko": "ProhibitTime : %d분   LogTime : %d년 %d월 %d일   %d시 %d분 %d초"
+ },
+ "8391:2": {
+  "ko": "책갈피"
+ },
+ "8392:2": {
+  "ko": "책왼쪽"
+ },
+ "8393:2": {
+  "ko": "책오른쪽"
+ },
+ "8394:2": {
+  "ko": "책닫기"
+ },
+ "8424:8": {
+  "ko": "유저인터페이스\\basic_interface\\titlebar_left.bmp"
+ },
+ "8428:8": {
+  "ko": "유저인터페이스\\basic_interface\\titlebar_right.bmp"
+ },
+ "8434:9": {
+  "ko": "유저인터페이스\\basic_interface\\titlebar_mid.bmp"
+ },
+ "8819:26": {
+  "ko": "유저인터페이스\\basic_interface\\sys_"
+ },
+ "8842:53": {
+  "ko": "유저인터페이스\\basic_interface\\titlebar_left.bmp"
+ },
+ "8845:41": {
+  "ko": "유저인터페이스\\basic_interface\\titlebar_right.bmp"
+ },
+ "8850:42": {
+  "ko": "유저인터페이스\\basic_interface\\titlebar_mid.bmp"
+ },
+ "8865:42": {
+  "ko": "유저인터페이스\\basic_interface\\itemwin_left.bmp"
+ },
+ "8871:42": {
+  "ko": "유저인터페이스\\basic_interface\\itemwin_right.bmp"
+ },
+ "8878:41": {
+  "ko": "유저인터페이스\\basic_interface\\btnbar_left.bmp"
+ },
+ "8881:41": {
+  "ko": "유저인터페이스\\basic_interface\\btnbar_right.bmp"
+ },
+ "8886:42": {
+  "ko": "유저인터페이스\\basic_interface\\btnbar_mid.bmp"
+ },
+ "8967:47": {
+  "ko": "유저인터페이스\\basic_interface\\grp_online.bmp"
+ },
+ "8969:47": {
+  "ko": "유저인터페이스\\basic_interface\\grp_offline.bmp"
+ },
+ "9341:23": {
+  "ko": "유저인터페이스\\"
+ },
+ "9404:27": {
+  "ko": "유저인터페이스\\basic_interface\\close2"
+ },
+ "9492:26": {
+  "ko": "유저인터페이스\\basic_interface\\inputzeny"
+ },
+ "9504:26": {
+  "ko": "유저인터페이스\\basic_interface\\setzeny"
+ },
+ "9516:26": {
+  "ko": "유저인터페이스\\basic_interface\\send"
+ },
+ "9528:26": {
+  "ko": "유저인터페이스\\basic_interface\\cancel2"
+ },
+ "9548:45": {
+  "ko": "유저인터페이스\\basic_interface\\maillist1_bg.bmp"
+ },
+ "9551:45": {
+  "ko": "유저인터페이스\\basic_interface\\maillist2_bg.bmp"
+ },
+ "9573:62": {
+  "ko": "유저인터페이스\\basic_interface\\envelop.bmp"
+ },
+ "9765:11": {
+  "ko": "불량단어가 검출되어 메일을 보낼수 없습니다."
+ },
+ "9968:27": {
+  "ko": "유저인터페이스\\basic_interface\\close2"
+ },
+ "9989:24": {
+  "ko": "유저인터페이스\\basic_interface\\return"
+ },
+ "10001:25": {
+  "ko": "유저인터페이스\\basic_interface\\remail"
+ },
+ "10013:25": {
+  "ko": "유저인터페이스\\basic_interface\\del"
+ },
+ "10041:56": {
+  "ko": "유저인터페이스\\basic_interface\\maillist3_bg.bmp"
+ },
+ "10584:11": {
+  "ko": "유저인터페이스\\basic_interface\\auction_menu"
+ },
+ "10714:27": {
+  "ko": "유저인터페이스\\basic_interface\\close"
+ },
+ "10737:25": {
+  "ko": "유저인터페이스\\basic_interface\\ok"
+ },
+ "10749:25": {
+  "ko": "유저인터페이스\\basic_interface\\cancel"
+ },
+ "10768:8": {
+  "ko": "유저인터페이스\\basic_interface\\auction_msg.bmp"
+ },
+ "10866:2": {
+  "ko": "유저인터페이스\\basic_interface\\auction_menu"
+ }
+}

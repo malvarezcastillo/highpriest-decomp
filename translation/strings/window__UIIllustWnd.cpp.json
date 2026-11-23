@@ -1,0 +1,23 @@
+{
+ "52:10": {
+  "ko": "유저인터페이스\\basic_interface\\titlebar_left.bmp"
+ },
+ "57:9": {
+  "ko": "유저인터페이스\\basic_interface\\titlebar_right.bmp"
+ },
+ "63:9": {
+  "ko": "유저인터페이스\\basic_interface\\titlebar_mid.bmp"
+ },
+ "85:16": {
+  "ko": "유저인터페이스\\Illust\\"
+ },
+ "93:18": {
+  "ko": "유저인터페이스\\cardbmp\\"
+ },
+ "101:61": {
+  "ko": "유저인터페이스\\basic_interface\\titlebar_left.bmp"
+ },
+ "122:28": {
+  "ko": "유저인터페이스\\basic_interface\\sys_"
+ }
+}

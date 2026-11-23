@@ -1,0 +1,80 @@
+{
+ "68:28": {
+  "ko": "유저인터페이스\\basic_interface\\sys_"
+ },
+ "93:8": {
+  "ko": "유저인터페이스\\basic_interface\\titlebar_left.bmp"
+ },
+ "97:8": {
+  "ko": "유저인터페이스\\basic_interface\\titlebar_right.bmp"
+ },
+ "104:9": {
+  "ko": "유저인터페이스\\basic_interface\\titlebar_mid.bmp"
+ },
+ "116:9": {
+  "ko": "유저인터페이스\\basic_interface\\btnbar_mid2.bmp"
+ },
+ "121:8": {
+  "ko": "유저인터페이스\\basic_interface\\btnbar_left2.bmp"
+ },
+ "125:8": {
+  "ko": "유저인터페이스\\basic_interface\\btnbar_right2.bmp"
+ },
+ "287:22": {
+  "ko": "유저인터페이스\\"
+ },
+ "326:2": {
+  "ko": "유저인터페이스\\basic_interface\\grp_online.bmp"
+ },
+ "767:3": {
+  "ko": "유저인터페이스\\basic_interface\\"
+ },
+ "786:25": {
+  "ko": "유저인터페이스\\"
+ },
+ "1507:4": {
+  "ko": "유저인터페이스\\checkbox_1.bmp"
+ },
+ "1508:4": {
+  "ko": "유저인터페이스\\checkbox_0.bmp"
+ },
+ "1519:4": {
+  "ko": "유저인터페이스\\checkbox_1.bmp"
+ },
+ "1520:4": {
+  "ko": "유저인터페이스\\checkbox_0.bmp"
+ },
+ "1567:25": {
+  "ko": "유저인터페이스\\"
+ },
+ "1831:22": {
+  "ko": "유저인터페이스\\checkbox_%d.bmp"
+ },
+ "1841:22": {
+  "ko": "유저인터페이스\\checkbox_%d.bmp"
+ },
+ "1994:28": {
+  "ko": "유저인터페이스\\basic_interface\\skill_up_a.bmp"
+ },
+ "1995:28": {
+  "ko": "유저인터페이스\\basic_interface\\skill_up_b.bmp"
+ },
+ "1996:28": {
+  "ko": "유저인터페이스\\basic_interface\\skill_up_c.bmp"
+ },
+ "2012:27": {
+  "ko": "유저인터페이스\\basic_interface\\arw_left.bmp"
+ },
+ "2028:27": {
+  "ko": "유저인터페이스\\basic_interface\\arw_right.bmp"
+ },
+ "2042:24": {
+  "ko": "유저인터페이스\\"
+ },
+ "2777:24": {
+  "ko": "유저인터페이스\\"
+ },
+ "3122:25": {
+  "ko": "유저인터페이스\\"
+ }
+}

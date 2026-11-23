@@ -1,0 +1,23 @@
+{
+ "64:37": {
+  "ko": "몬스터\\freezer.spr"
+ },
+ "65:37": {
+  "ko": "몬스터\\freezer.act"
+ },
+ "66:37": {
+  "ko": "몬스터\\garden_keeper.spr"
+ },
+ "67:37": {
+  "ko": "몬스터\\garden_keeper.act"
+ },
+ "68:37": {
+  "ko": "몬스터\\geographer.spr"
+ },
+ "69:37": {
+  "ko": "몬스터\\geographer.act"
+ },
+ "354:13": {
+  "ko": "effect\\버서크.wav"
+ }
+}

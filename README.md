@@ -9,6 +9,12 @@ size     3,338,345 bytes (PE32, i386)
 
 The source covers the game and the libraries the original linked statically: the Visual C++ runtime, Lua 5.0, the GameGuard client library, and the objects of the DirectX and Miles libraries. The DLLs the game imports are outside the scope.
 
+## This branch: English translation
+
+The `translation` branch replaces the Korean text compiled into the executable with English, so its build no longer equals the original and `make check` fails by design; use `make`. `main` is the byte-identical source.
+
+`translation/strings/` lists every Korean string literal of `main` by source file and position, with its English text or the reason it stays Korean (a file name inside the game data, a lookup key). `translation/tr.py apply` rewrites the literals from those tables, and `translation/tr.py status` counts what is still open. Names follow the international (iRO) client. Work in progress: see the status count.
+
 ## Building
 
 ```bash

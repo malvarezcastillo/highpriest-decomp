@@ -1,0 +1,98 @@
+{
+ "435:47": {
+  "ko": "유저인터페이스\\sml_button_up.bmp"
+ },
+ "438:47": {
+  "ko": "유저인터페이스\\sml_button_act.bmp"
+ },
+ "441:47": {
+  "ko": "유저인터페이스\\sml_button_down.bmp"
+ },
+ "868:18": {
+  "ko": "%s『%s』"
+ },
+ "878:18": {
+  "ko": "%s『%s』"
+ },
+ "1104:57": {
+  "ko": "유저인터페이스\\type_dialog_l.bmp"
+ },
+ "1107:45": {
+  "ko": "유저인터페이스\\type_dialog_m.bmp"
+ },
+ "1111:45": {
+  "ko": "유저인터페이스\\type_dialog_r.bmp"
+ },
+ "2213:22": {
+  "ko": "유저인터페이스\\basic_interface\\tab_itm_%02d.bmp"
+ },
+ "2218:22": {
+  "ko": "유저인터페이스\\basic_interface\\tab_cmd_%02d.bmp"
+ },
+ "2223:22": {
+  "ko": "유저인터페이스\\basic_interface\\tab_que_%02d.bmp"
+ },
+ "2254:54": {
+  "ko": "유저인터페이스\\radiobtn_off.bmp"
+ },
+ "2258:55": {
+  "ko": "유저인터페이스\\radiobtn_on1.bmp"
+ },
+ "2261:55": {
+  "ko": "유저인터페이스\\radiobtn_on.bmp"
+ },
+ "2326:53": {
+  "ko": "유저인터페이스\\sysbox_lu.bmp"
+ },
+ "2329:41": {
+  "ko": "유저인터페이스\\sysbox_ru.bmp"
+ },
+ "2334:42": {
+  "ko": "유저인터페이스\\sysbox_mu.bmp"
+ },
+ "2338:41": {
+  "ko": "유저인터페이스\\sysbox_ld.bmp"
+ },
+ "2341:41": {
+  "ko": "유저인터페이스\\sysbox_rd.bmp"
+ },
+ "2346:42": {
+  "ko": "유저인터페이스\\sysbox_md.bmp"
+ },
+ "2350:41": {
+  "ko": "유저인터페이스\\sysbox_arr_l.bmp"
+ },
+ "2354:42": {
+  "ko": "유저인터페이스\\chat_close.bmp"
+ },
+ "2356:42": {
+  "ko": "유저인터페이스\\chat_open.bmp"
+ },
+ "2424:53": {
+  "ko": "유저인터페이스\\sysbox_lu.bmp"
+ },
+ "2427:41": {
+  "ko": "유저인터페이스\\sysbox_ru.bmp"
+ },
+ "2432:42": {
+  "ko": "유저인터페이스\\sysbox_mu.bmp"
+ },
+ "2436:41": {
+  "ko": "유저인터페이스\\sysbox_ld.bmp"
+ },
+ "2439:41": {
+  "ko": "유저인터페이스\\sysbox_rd.bmp"
+ },
+ "2444:42": {
+  "ko": "유저인터페이스\\sysbox_md.bmp"
+ },
+ "2448:41": {
+  "ko": "유저인터페이스\\sysbox_arr_l.bmp"
+ },
+ "2451:41": {
+  "ko": "유저인터페이스\\shop.bmp"
+ },
+ "2592:52": {
+  "ko": "유저인터페이스\\전장적표시.bmp"
+ }
+}

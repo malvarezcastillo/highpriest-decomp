@@ -1,0 +1,353 @@
+{
+ "233:52": {
+  "ko": "유저인터페이스\\basic_interface\\itemwin_mid.bmp"
+ },
+ "242:54": {
+  "ko": "유저인터페이스\\sysbox_mu.bmp"
+ },
+ "246:53": {
+  "ko": "유저인터페이스\\sysbox_lu.bmp"
+ },
+ "249:41": {
+  "ko": "유저인터페이스\\sysbox_ru.bmp"
+ },
+ "253:42": {
+  "ko": "유저인터페이스\\sysbox_lm.bmp"
+ },
+ "258:42": {
+  "ko": "유저인터페이스\\sysbox_rm.bmp"
+ },
+ "263:42": {
+  "ko": "유저인터페이스\\sysbox_md.bmp"
+ },
+ "267:41": {
+  "ko": "유저인터페이스\\sysbox_ld.bmp"
+ },
+ "270:41": {
+  "ko": "유저인터페이스\\sysbox_rd.bmp"
+ },
+ "345:24": {
+  "ko": "유저인터페이스\\"
+ },
+ "397:53": {
+  "ko": "유저인터페이스\\win_msgbox.bmp"
+ },
+ "462:24": {
+  "ko": "유저인터페이스\\"
+ },
+ "573:53": {
+  "ko": "유저인터페이스\\win_msgbox.bmp"
+ },
+ "605:22": {
+  "ko": "유저인터페이스\\"
+ },
+ "672:8": {
+  "ko": "유저인터페이스\\login_interface\\win_service.bmp"
+ },
+ "674:31": {
+  "ko": "유저인터페이스\\login_interface\\win_service_ph.bmp"
+ },
+ "692:8": {
+  "ko": "유저인터페이스\\basic_interface\\btnbar_left2.bmp"
+ },
+ "696:8": {
+  "ko": "유저인터페이스\\basic_interface\\btnbar_right2.bmp"
+ },
+ "702:9": {
+  "ko": "유저인터페이스\\basic_interface\\btnbar_mid2.bmp"
+ },
+ "732:13": {
+  "ko": "버튼소리.wav"
+ },
+ "814:20": {
+  "ko": "유저인터페이스\\"
+ },
+ "815:24": {
+  "ko": "유저인터페이스\\login_interface\\"
+ },
+ "892:25": {
+  "ko": "유저인터페이스\\login_interface\\"
+ },
+ "1011:12": {
+  "ko": "버튼소리.wav"
+ },
+ "1089:43": {
+  "ko": "유저인터페이스\\login_interface\\win_login_K1.bmp"
+ },
+ "1091:43": {
+  "ko": "유저인터페이스\\login_interface\\win_login_K2.bmp"
+ },
+ "1094:42": {
+  "ko": "유저인터페이스\\login_interface\\win_login.bmp"
+ },
+ "1123:24": {
+  "ko": "유저인터페이스\\"
+ },
+ "1159:9": {
+  "ko": "공지사항파일없음"
+ },
+ "1166:9": {
+  "ko": "없으니만들자"
+ },
+ "1325:8": {
+  "ko": "유저인터페이스\\basic_interface\\titlebar_left.bmp"
+ },
+ "1329:8": {
+  "ko": "유저인터페이스\\basic_interface\\titlebar_right.bmp"
+ },
+ "1335:9": {
+  "ko": "유저인터페이스\\basic_interface\\titlebar_mid.bmp"
+ },
+ "1343:10": {
+  "ko": "유저인터페이스\\basic_interface\\itemwin_left.bmp"
+ },
+ "1350:10": {
+  "ko": "유저인터페이스\\basic_interface\\itemwin_right.bmp"
+ },
+ "1359:9": {
+  "ko": "유저인터페이스\\basic_interface\\btnbar_left2.bmp"
+ },
+ "1363:9": {
+  "ko": "유저인터페이스\\basic_interface\\btnbar_right2.bmp"
+ },
+ "1369:10": {
+  "ko": "유저인터페이스\\basic_interface\\btnbar_mid2.bmp"
+ },
+ "1407:12": {
+  "ko": "버튼소리.wav"
+ },
+ "1677:24": {
+  "ko": "유저인터페이스\\"
+ },
+ "1825:18": {
+  "ko": "유저인터페이스\\login_interface\\box_select.bmp"
+ },
+ "1836:30": {
+  "ko": "유저인터페이스\\scroll1left.bmp"
+ },
+ "1837:30": {
+  "ko": "유저인터페이스\\scroll1left.bmp"
+ },
+ "1838:30": {
+  "ko": "유저인터페이스\\scroll1left.bmp"
+ },
+ "1845:30": {
+  "ko": "유저인터페이스\\scroll1right.bmp"
+ },
+ "1846:30": {
+  "ko": "유저인터페이스\\scroll1right.bmp"
+ },
+ "1847:30": {
+  "ko": "유저인터페이스\\scroll1right.bmp"
+ },
+ "1855:25": {
+  "ko": "유저인터페이스\\login_interface\\"
+ },
+ "1966:8": {
+  "ko": "유저인터페이스\\login_interface\\win_select.bmp"
+ },
+ "1992:22": {
+  "ko": "_요정의귀"
+ },
+ "1994:22": {
+  "ko": "_눈가리개"
+ },
+ "1996:22": {
+  "ko": "_헬름"
+ },
+ "2000:18": {
+  "ko": "sprite\\악세사리\\%s\\%s%s.act"
+ },
+ "2005:18": {
+  "ko": "sprite\\악세사리\\%s\\%s%s.spr"
+ },
+ "2174:13": {
+  "ko": "버튼소리.wav"
+ },
+ "2510:27": {
+  "ko": "유저인터페이스\\login_interface\\name-edit.bmp"
+ },
+ "2551:8": {
+  "ko": "유저인터페이스\\login_interface\\win_make_HP.bmp"
+ },
+ "2664:16": {
+  "ko": "돈벌기 난이도  ="
+ },
+ "2670:17": {
+  "ko": "中"
+ },
+ "2672:17": {
+  "ko": "下"
+ },
+ "2682:22": {
+  "ko": "유저인터페이스\\"
+ },
+ "2729:23": {
+  "ko": "유저인터페이스\\"
+ },
+ "2762:23": {
+  "ko": "유저인터페이스\\"
+ },
+ "2795:23": {
+  "ko": "유저인터페이스\\"
+ },
+ "3127:22": {
+  "ko": "유저인터페이스\\basic_interface\\dialog_mid.bmp"
+ },
+ "3135:24": {
+  "ko": "유저인터페이스\\basic_interface\\"
+ },
+ "3296:9": {
+  "ko": "유저인터페이스\\basic_interface\\dialog_bg2.bmp"
+ },
+ "3303:8": {
+  "ko": "유저인터페이스\\basic_interface\\dialog_bg.bmp"
+ },
+ "3657:22": {
+  "ko": "유저인터페이스\\btn_resize.bmp"
+ },
+ "3686:28": {
+  "ko": "유저인터페이스\\basic_interface\\sys_"
+ },
+ "3732:8": {
+  "ko": "유저인터페이스\\basic_interface\\titlebar_left.bmp"
+ },
+ "3736:8": {
+  "ko": "유저인터페이스\\basic_interface\\titlebar_right.bmp"
+ },
+ "3742:9": {
+  "ko": "유저인터페이스\\basic_interface\\titlebar_mid.bmp"
+ },
+ "3752:8": {
+  "ko": "유저인터페이스\\basic_interface\\btnbar_left.bmp"
+ },
+ "3756:8": {
+  "ko": "유저인터페이스\\basic_interface\\btnbar_right.bmp"
+ },
+ "3762:9": {
+  "ko": "유저인터페이스\\basic_interface\\btnbar_mid.bmp"
+ },
+ "4066:12": {
+  "ko": "버튼소리.wav"
+ },
+ "4078:27": {
+  "ko": ")님이 입장 하였습니다."
+ },
+ "4079:26": {
+  "ko": ")님이 퇴장 하였습니다."
+ },
+ "4208:22": {
+  "ko": "유저인터페이스\\"
+ },
+ "4240:9": {
+  "ko": "유저인터페이스\\basic_interface\\titlebar_mid.bmp"
+ },
+ "4245:8": {
+  "ko": "유저인터페이스\\basic_interface\\titlebar_left.bmp"
+ },
+ "4249:8": {
+  "ko": "유저인터페이스\\basic_interface\\titlebar_right.bmp"
+ },
+ "4260:9": {
+  "ko": "유저인터페이스\\basic_interface\\btnbar_mid2.bmp"
+ },
+ "4265:8": {
+  "ko": "유저인터페이스\\basic_interface\\btnbar_left2.bmp"
+ },
+ "4269:8": {
+  "ko": "유저인터페이스\\basic_interface\\btnbar_right2.bmp"
+ },
+ "4383:18": {
+  "ko": "몬스터\\%s.spr"
+ },
+ "4384:18": {
+  "ko": "몬스터\\%s.act"
+ },
+ "4471:27": {
+  "ko": "유저인터페이스\\basic_interface\\sys_"
+ },
+ "4505:25": {
+  "ko": "유저인터페이스\\"
+ },
+ "4529:25": {
+  "ko": "유저인터페이스\\basic_interface\\"
+ },
+ "4576:8": {
+  "ko": "유저인터페이스\\basic_interface\\titlebar_left.bmp"
+ },
+ "4580:8": {
+  "ko": "유저인터페이스\\basic_interface\\titlebar_right.bmp"
+ },
+ "4586:9": {
+  "ko": "유저인터페이스\\basic_interface\\titlebar_mid.bmp"
+ },
+ "4595:2": {
+  "ko": "유저인터페이스\\sysboxs_ld.bmp"
+ },
+ "4596:2": {
+  "ko": "유저인터페이스\\sysboxs_rd.bmp"
+ },
+ "4664:19": {
+  "ko": "몬스터\\%s.spr"
+ },
+ "4665:19": {
+  "ko": "몬스터\\%s.act"
+ },
+ "4846:22": {
+  "ko": "유저인터페이스\\"
+ },
+ "4921:9": {
+  "ko": "유저인터페이스\\basic_interface\\titlebar_mid.bmp"
+ },
+ "4926:8": {
+  "ko": "유저인터페이스\\basic_interface\\titlebar_left.bmp"
+ },
+ "4930:8": {
+  "ko": "유저인터페이스\\basic_interface\\titlebar_right.bmp"
+ },
+ "4941:9": {
+  "ko": "유저인터페이스\\basic_interface\\btnbar_mid2.bmp"
+ },
+ "4946:8": {
+  "ko": "유저인터페이스\\basic_interface\\btnbar_left2.bmp"
+ },
+ "4950:8": {
+  "ko": "유저인터페이스\\basic_interface\\btnbar_right2.bmp"
+ },
+ "4983:23": {
+  "ko": "유저인터페이스\\"
+ },
+ "5042:27": {
+  "ko": "유저인터페이스\\basic_interface\\sys_"
+ },
+ "5076:25": {
+  "ko": "유저인터페이스\\btn_del"
+ },
+ "5088:25": {
+  "ko": "유저인터페이스\\btn_skill"
+ },
+ "5100:25": {
+  "ko": "유저인터페이스\\btn_feed"
+ },
+ "5112:25": {
+  "ko": "유저인터페이스\\btn_rewrite"
+ },
+ "5174:8": {
+  "ko": "유저인터페이스\\basic_interface\\homuninfo_bg.bmp"
+ },
+ "5234:17": {
+  "ko": "유저인터페이스\\item\\%s.bmp"
+ },
+ "5339:27": {
+  "ko": "유저인터페이스\\basic_interface\\sys_"
+ },
+ "5354:25": {
+  "ko": "유저인터페이스\\btn_fired"
+ },
+ "5366:25": {
+  "ko": "유저인터페이스\\btn_skill"
+ },
+ "5410:8": {
+  "ko": "유저인터페이스\\basic_interface\\homuninfo_bg.bmp"
+ }
+}
