@@ -1679,278 +1679,368 @@
   "en": "Undead"
  },
  "464:23": {
-  "ko": "현재는 아이템을 만들 수 없습니다."
+  "ko": "현재는 아이템을 만들 수 없습니다.",
+  "en": "You cannot make items right now."
  },
  "465:18": {
-  "ko": "제조 목록"
+  "ko": "제조 목록",
+  "en": "Make List"
  },
  "466:20": {
-  "ko": " 만들기"
+  "ko": " 만들기",
+  "en": " Creation"
  },
  "467:32": {
-  "ko": " 에 필요한 재료:"
+  "ko": " 에 필요한 재료:",
+  "en": " requires:"
  },
  "468:25": {
-  "ko": " 만들기 실패"
+  "ko": " 만들기 실패",
+  "en": " Creation Failed"
  },
  "469:29": {
-  "ko": " 만들기 성공"
+  "ko": " 만들기 성공",
+  "en": " Creation Success"
  },
  "470:29": {
-  "ko": "%s 만들기를 실패하였습니다."
+  "ko": "%s 만들기를 실패하였습니다.",
+  "en": "Failed to create %s."
  },
  "471:33": {
-  "ko": "%s 만들기를 성공했습니다."
+  "ko": "%s 만들기를 성공했습니다.",
+  "en": "Successfully created %s."
  },
  "472:25": {
-  "ko": "레벨이 부족합니다."
+  "ko": "레벨이 부족합니다.",
+  "en": "Your level is too low."
  },
  "473:23": {
-  "ko": "레벨이 너무 높습니다."
+  "ko": "레벨이 너무 높습니다.",
+  "en": "Your level is too high."
  },
  "474:27": {
-  "ko": "직업이 적합하지 않습니다."
+  "ko": "직업이 적합하지 않습니다.",
+  "en": "Your job is not suitable."
  },
  "475:23": {
-  "ko": "토키 박스 트랩 메세지"
+  "ko": "토키 박스 트랩 메세지",
+  "en": "Talkie Box Trap Message"
  },
  "476:27": {
-  "ko": "기록할 메세지를 입력하시기 바랍니다."
+  "ko": "기록할 메세지를 입력하시기 바랍니다.",
+  "en": "Please enter the message to record."
  },
  "477:22": {
-  "ko": "길드에게 보냄"
+  "ko": "길드에게 보냄",
+  "en": "Send to Guild"
  },
  "478:20": {
-  "ko": "결제된 계정이 아닙니다. 결제 페이지로 이동하시겠습니까?"
+  "ko": "결제된 계정이 아닙니다. 결제 페이지로 이동하시겠습니까?",
+  "en": "This account has not been paid for. Go to the payment page?"
  },
  "479:21": {
-  "ko": "서버가 혼잡한 관계로 잠시후 다시 시도해 주시기 바랍니다."
+  "ko": "서버가 혼잡한 관계로 잠시후 다시 시도해 주시기 바랍니다.",
+  "en": "The server is busy. Please try again in a moment."
  },
  "480:29": {
-  "ko": "지난 접속 정보가 남아 있습니다. 30초정도 지난뒤에 다시 시도해 주시기 바랍니다."
+  "ko": "지난 접속 정보가 남아 있습니다. 30초정도 지난뒤에 다시 시도해 주시기 바랍니다.",
+  "en": "Your last session data still remains. Please try again in about 30 seconds."
  },
  "481:16": {
-  "ko": "매 풀어주기"
+  "ko": "매 풀어주기",
+  "en": "Release Falcon"
  },
  "482:18": {
-  "ko": "페코페코 내리기"
+  "ko": "페코페코 내리기",
+  "en": "Dismount Peco Peco"
  },
  "483:19": {
-  "ko": "小"
+  "ko": "小",
+  "en": "Small"
  },
  "484:20": {
-  "ko": "中"
+  "ko": "中",
+  "en": "Medium"
  },
  "485:17": {
-  "ko": "大"
+  "ko": "大",
+  "en": "Large"
  },
  "486:15": {
-  "ko": "더블"
+  "ko": "더블",
+  "en": "Double"
  },
  "487:15": {
-  "ko": "트리플"
+  "ko": "트리플",
+  "en": "Triple"
  },
  "488:18": {
-  "ko": "쿼드로플"
+  "ko": "쿼드로플",
+  "en": "Quadruple"
  },
  "489:35": {
-  "ko": "%s 까지 로그인을 금지하고 있습니다."
+  "ko": "%s 까지 로그인을 금지하고 있습니다.",
+  "en": "Login is prohibited until %s."
  },
  "490:33": {
-  "ko": "의 "
+  "ko": "의 ",
+  "en": "'s "
  },
  "491:31": {
-  "ko": "의 파이어 "
+  "ko": "의 파이어 ",
+  "en": "'s Fire "
  },
  "492:30": {
-  "ko": "의 아이스 "
+  "ko": "의 아이스 ",
+  "en": "'s Ice "
  },
  "493:31": {
-  "ko": "의 윈드 "
+  "ko": "의 윈드 ",
+  "en": "'s Wind "
  },
  "494:32": {
-  "ko": "의 어스 "
+  "ko": "의 어스 ",
+  "en": "'s Earth "
  },
  "498:17": {
-  "ko": "%s 사용자 강제 종료"
+  "ko": "%s 사용자 강제 종료",
+  "en": "Disconnect user %s"
  },
  "499:22": {
-  "ko": "무지쎈 "
+  "ko": "무지쎈 ",
+  "en": "Very Strong "
  },
  "500:22": {
-  "ko": "무지무지쎈 "
+  "ko": "무지무지쎈 ",
+  "en": "Very Very Strong "
  },
  "501:24": {
-  "ko": "무무무쎈 "
+  "ko": "무무무쎈 ",
+  "en": "Extremely Strong "
  },
  "502:26": {
-  "ko": "길드 추방 사유"
+  "ko": "길드 추방 사유",
+  "en": "Reason for Expulsion"
  },
  "503:23": {
-  "ko": " 공격 속도가 증가했습니다."
+  "ko": " 공격 속도가 증가했습니다.",
+  "en": " Attack speed increased."
  },
  "504:23": {
-  "ko": " 공격 속도가 감소했습니다."
+  "ko": " 공격 속도가 감소했습니다.",
+  "en": " Attack speed decreased."
  },
  "505:24": {
-  "ko": " 무기의 공격력이 향상되었습니다."
+  "ko": " 무기의 공격력이 향상되었습니다.",
+  "en": " Weapon ATK increased."
  },
  "506:24": {
-  "ko": " 무기의 공격력이 감소되었습니다."
+  "ko": " 무기의 공격력이 감소되었습니다.",
+  "en": " Weapon ATK decreased."
  },
  "507:21": {
-  "ko": " 시전 딜레이가 줄었습니다."
+  "ko": " 시전 딜레이가 줄었습니다.",
+  "en": " Cast delay reduced."
  },
  "508:23": {
-  "ko": " 시전 딜레이가 정상으로 되었습니다."
+  "ko": " 시전 딜레이가 정상으로 되었습니다.",
+  "en": " Cast delay returned to normal."
  },
  "509:29": {
-  "ko": " 무기에 독속성이 부여되었습니다."
+  "ko": " 무기에 독속성이 부여되었습니다.",
+  "en": " Weapon endowed with Poison property."
  },
  "510:28": {
-  "ko": " 무기에 성속성이 부여되었습니다."
+  "ko": " 무기에 성속성이 부여되었습니다.",
+  "en": " Weapon endowed with Holy property."
  },
  "511:31": {
-  "ko": " 무기의 원래속성이 적용되었습니다."
+  "ko": " 무기의 원래속성이 적용되었습니다.",
+  "en": " Weapon's original property restored."
  },
  "512:27": {
-  "ko": " 방어구에 성속성이 부여되었습니다."
+  "ko": " 방어구에 성속성이 부여되었습니다.",
+  "en": " Armor endowed with Holy property."
  },
  "513:30": {
-  "ko": " 방어구의 원래속성이 적용되었습니다."
+  "ko": " 방어구의 원래속성이 적용되었습니다.",
+  "en": " Armor's original property restored."
  },
  "514:16": {
-  "ko": " 배리어 상태가 되었습니다."
+  "ko": " 배리어 상태가 되었습니다.",
+  "en": " Barrier activated."
  },
  "515:25": {
-  "ko": " 배리어 상태가 해제 되었습니다."
+  "ko": " 배리어 상태가 해제 되었습니다.",
+  "en": " Barrier has worn off."
  },
  "516:22": {
-  "ko": " 소형, 중형, 대형 몬스터에게 100% 공격력을 줍니다."
+  "ko": " 소형, 중형, 대형 몬스터에게 100% 공격력을 줍니다.",
+  "en": " Deals full damage (100%) to small, medium and large monsters."
  },
  "517:31": {
-  "ko": " 웨폰퍼펙션 모드가 해제 되었습니다."
+  "ko": " 웨폰퍼펙션 모드가 해제 되었습니다.",
+  "en": " Weapon Perfection has worn off."
  },
  "518:22": {
-  "ko": " 무기가 파괴될 가능성이 높아진 대신 무기의 공격력이 증가하였습니다."
+  "ko": " 무기가 파괴될 가능성이 높아진 대신 무기의 공격력이 증가하였습니다.",
+  "en": " Weapon ATK increased, but your weapon is more likely to break."
  },
  "519:31": {
-  "ko": " 오버트러스트 상태가 해제 되었습니다."
+  "ko": " 오버트러스트 상태가 해제 되었습니다.",
+  "en": " Over Thrust has worn off."
  },
  "520:17": {
-  "ko": " 무기의 최대 성능을 끌어냅니다."
+  "ko": " 무기의 최대 성능을 끌어냅니다.",
+  "en": " Weapon power maximized."
  },
  "521:26": {
-  "ko": " 맥시마이즈 상태가 해제 되었습니다."
+  "ko": " 맥시마이즈 상태가 해제 되었습니다.",
+  "en": " Maximize Power has worn off."
  },
  "522:28": {
-  "ko": "[신서버] "
+  "ko": "[신서버] ",
+  "en": "[New] "
  },
  "523:26": {
-  "ko": "(%d 명)"
+  "ko": "(%d 명)",
+  "en": "(%d players)"
  },
  "524:26": {
-  "ko": "(점검중)"
+  "ko": "(점검중)",
+  "en": "(Maintenance)"
  },
  "525:35": {
-  "ko": "길드멤버 %s님이 접속하셨습니다."
+  "ko": "길드멤버 %s님이 접속하셨습니다.",
+  "en": "Guild member %s has logged in."
  },
  "526:36": {
-  "ko": "길드멤버 %s님이 종료하셨습니다."
+  "ko": "길드멤버 %s님이 종료하셨습니다.",
+  "en": "Guild member %s has logged out."
  },
  "527:29": {
-  "ko": "경험치 %d 얻음"
+  "ko": "경험치 %d 얻음",
+  "en": "Gained %d EXP"
  },
  "528:33": {
-  "ko": "잡경험치 %d 얻음"
+  "ko": "잡경험치 %d 얻음",
+  "en": "Gained %d Job EXP"
  },
  "529:19": {
-  "ko": "길드에서 탈퇴 했습니다."
+  "ko": "길드에서 탈퇴 했습니다.",
+  "en": "You left the guild."
  },
  "530:23": {
-  "ko": "길드에서 추방 당했습니다."
+  "ko": "길드에서 추방 당했습니다.",
+  "en": "Expelled from the guild."
  },
  "531:31": {
-  "ko": "아이템 감정 성공"
+  "ko": "아이템 감정 성공",
+  "en": "Item Appraised"
  },
  "532:27": {
-  "ko": "아이템 감정 실패"
+  "ko": "아이템 감정 실패",
+  "en": "Appraisal Failed"
  },
  "533:34": {
-  "ko": "아이템 조합 성공"
+  "ko": "아이템 조합 성공",
+  "en": "Compound Success"
  },
  "534:30": {
-  "ko": "아이템 조합 실패"
+  "ko": "아이템 조합 실패",
+  "en": "Compound Failed"
  },
  "535:31": {
-  "ko": "길드 적대 성공"
+  "ko": "길드 적대 성공",
+  "en": "Antagonist set"
  },
  "536:31": {
-  "ko": "적대 길드수 초과로 길드 적대 실패"
+  "ko": "적대 길드수 초과로 길드 적대 실패",
+  "en": "Too many Antagonist guilds; failed."
  },
  "537:41": {
-  "ko": "이미 적대 길드 입니다"
+  "ko": "이미 적대 길드 입니다",
+  "en": "Already an Antagonist."
  },
  "538:31": {
-  "ko": "제련이 성공적으로 되었습니다."
+  "ko": "제련이 성공적으로 되었습니다.",
+  "en": "Refine succeeded."
  },
  "539:27": {
-  "ko": "제련이 실패하였습니다."
+  "ko": "제련이 실패하였습니다.",
+  "en": "Refine failed."
  },
  "540:33": {
-  "ko": "이곳에서는 순간이동이 불가능합니다."
+  "ko": "이곳에서는 순간이동이 불가능합니다.",
+  "en": "You cannot teleport in this area."
  },
  "541:31": {
-  "ko": "이 장소는 기억할 수 없습니다."
+  "ko": "이 장소는 기억할 수 없습니다.",
+  "en": "This location cannot be memorized."
  },
  "542:22": {
-  "ko": "지금은 종료할 수 없습니다."
+  "ko": "지금은 종료할 수 없습니다.",
+  "en": "You cannot exit right now."
  },
  "543:17": {
-  "ko": "직위"
+  "ko": "직위",
+  "en": "Position"
  },
  "544:12": {
-  "ko": "직업"
+  "ko": "직업",
+  "en": "Job"
  },
  "545:13": {
-  "ko": "메모"
+  "ko": "메모",
+  "en": "Note"
  },
  "546:21": {
-  "ko": "기여"
+  "ko": "기여",
+  "en": "Devotion"
  },
  "547:26": {
-  "ko": "상납경험치"
+  "ko": "상납경험치",
+  "en": "Tax EXP"
  },
  "548:20": {
-  "ko": "길드탈퇴"
+  "ko": "길드탈퇴",
+  "en": "Leave Guild"
  },
  "549:20": {
   "ko": "제명시키기",
   "en": "Expel"
  },
  "550:14": {
-  "ko": "서열"
+  "ko": "서열",
+  "en": "Rank"
  },
  "551:22": {
-  "ko": "직위명"
+  "ko": "직위명",
+  "en": "Title"
  },
  "552:23": {
-  "ko": "가입권한"
+  "ko": "가입권한",
+  "en": "Invite"
  },
  "553:25": {
-  "ko": "처벌권한"
+  "ko": "처벌권한",
+  "en": "Expel"
  },
  "554:29": {
-  "ko": "상납%"
+  "ko": "상납%",
+  "en": "Tax %"
  },
  "555:14": {
-  "ko": "제목"
+  "ko": "제목",
+  "en": "Title"
  },
  "556:17": {
-  "ko": "내용"
+  "ko": "내용",
+  "en": "Contents"
  },
  "557:19": {
-  "ko": "길드이름"
+  "ko": "길드이름",
+  "en": "Guild Name"
  },
  "558:20": {
   "ko": "길드레벨",
@@ -1961,607 +2051,808 @@
   "en": "Members"
  },
  "560:16": {
-  "ko": "랭킹"
+  "ko": "랭킹",
+  "en": "Ranking"
  },
  "561:22": {
-  "ko": "아이템 감정"
+  "ko": "아이템 감정",
+  "en": "Appraise Item"
  },
  "562:25": {
-  "ko": "아이템 조합"
+  "ko": "아이템 조합",
+  "en": "Compound Item"
  },
  "563:33": {
-  "ko": "탈퇴 사유를 입력해주세요."
+  "ko": "탈퇴 사유를 입력해주세요.",
+  "en": "Enter a reason for leaving."
  },
  "564:31": {
-  "ko": "추방 사유를 입력해주세요."
+  "ko": "추방 사유를 입력해주세요.",
+  "en": "Enter a reason for expulsion."
  },
  "565:27": {
-  "ko": "상점을 닫으세요."
+  "ko": "상점을 닫으세요.",
+  "en": "Close your shop."
  },
  "566:19": {
-  "ko": "스킬 이름"
+  "ko": "스킬 이름",
+  "en": "Skill Name"
  },
  "567:18": {
-  "ko": "아이템 이름"
+  "ko": "아이템 이름",
+  "en": "Item Name"
  },
  "569:24": {
-  "ko": "게임방에서 사용가능한 IP개수가 모두 사용중입니다. 개인 계정으로 결제 하시겠습니까?"
+  "ko": "게임방에서 사용가능한 IP개수가 모두 사용중입니다. 개인 계정으로 결제 하시겠습니까?",
+  "en": "All IPs available for this internet cafe are in use. Pay with your personal account instead?"
  },
  "570:20": {
-  "ko": "결제시간이 다되어 게임을 종료합니다."
+  "ko": "결제시간이 다되어 게임을 종료합니다.",
+  "en": "Paid time is up. The game will now close."
  },
  "571:28": {
-  "ko": "이름이 너무 깁니다. 한글 11자 영문 23자 이내로 써주십시오."
+  "ko": "이름이 너무 깁니다. 한글 11자 영문 23자 이내로 써주십시오.",
+  "en": "The name is too long. Use up to 23 English letters (11 Korean)."
  },
  "573:20": {
-  "ko": "귀하는 개인 정액제 사용자입니다."
+  "ko": "귀하는 개인 정액제 사용자입니다.",
+  "en": "You are a personal flat-rate user."
  },
  "574:20": {
-  "ko": "귀하는 개인정량제 사용자입니다."
+  "ko": "귀하는 개인정량제 사용자입니다.",
+  "en": "You are a personal metered user."
  },
  "575:20": {
-  "ko": "귀하는 개인 무료 사용자입니다."
+  "ko": "귀하는 개인 무료 사용자입니다.",
+  "en": "You are a personal free user."
  },
  "576:20": {
-  "ko": "귀하는 개인 무료 허용기간 사용자입니다."
+  "ko": "귀하는 개인 무료 허용기간 사용자입니다.",
+  "en": "You are a personal free-trial user."
  },
  "577:20": {
-  "ko": "귀하는 게임방 정액제 사용자입니다."
+  "ko": "귀하는 게임방 정액제 사용자입니다.",
+  "en": "You are an internet cafe flat-rate user."
  },
  "578:20": {
-  "ko": "귀하는 게임방 정량제 사용자입니다."
+  "ko": "귀하는 게임방 정량제 사용자입니다.",
+  "en": "You are an internet cafe metered user."
  },
  "579:20": {
-  "ko": "귀하는 게임방 무료 허용기간 사용자입니다."
+  "ko": "귀하는 게임방 무료 허용기간 사용자입니다.",
+  "en": "You are an internet cafe free-trial user."
  },
  "580:20": {
-  "ko": "귀하는 게임방 무료 사용자입니다."
+  "ko": "귀하는 게임방 무료 사용자입니다.",
+  "en": "You are an internet cafe free user."
  },
  "581:20": {
-  "ko": "귀하는 종량제 사이트 이용자입니다."
+  "ko": "귀하는 종량제 사이트 이용자입니다.",
+  "en": "You are a pay-per-use site user."
  },
  "582:21": {
-  "ko": "이모션 목록"
+  "ko": "이모션 목록",
+  "en": "Emotion List"
  },
  "583:21": {
-  "ko": "/이모션"
+  "ko": "/이모션",
+  "en": "/emotion"
  },
  "586:24": {
-  "ko": "/기쁨"
+  "ko": "/기쁨",
+  "en": "/ho"
  },
  "587:22": {
-  "ko": "/하트"
+  "ko": "/하트",
+  "en": "/heart"
  },
  "588:25": {
-  "ko": "/왕하트"
+  "ko": "/왕하트",
+  "en": "/lv2"
  },
  "589:22": {
-  "ko": "/땀"
+  "ko": "/땀",
+  "en": "/swt"
  },
  "590:20": {
-  "ko": "/아하"
+  "ko": "/아하",
+  "en": "/ic"
  },
  "591:21": {
-  "ko": "/짜증"
+  "ko": "/짜증",
+  "en": "/an"
  },
  "592:22": {
-  "ko": "/화"
+  "ko": "/화",
+  "en": "/ag"
  },
  "593:22": {
-  "ko": "/돈"
+  "ko": "/돈",
+  "en": "/$"
  },
  "595:23": {
-  "ko": "/감사"
+  "ko": "/감사",
+  "en": "/thx"
  },
  "596:20": {
-  "ko": "/꽥"
+  "ko": "/꽥",
+  "en": "/wah"
  },
  "597:22": {
-  "ko": "/죄송"
+  "ko": "/죄송",
+  "en": "/sry"
  },
  "598:22": {
-  "ko": "/웃음"
+  "ko": "/웃음",
+  "en": "/heh"
  },
  "599:32": {
-  "ko": "/뻘뻘"
+  "ko": "/뻘뻘",
+  "en": "/swt2"
  },
  "600:24": {
-  "ko": "/긁적"
+  "ko": "/긁적",
+  "en": "/hmm"
  },
  "601:21": {
-  "ko": "/최고"
+  "ko": "/최고",
+  "en": "/no1"
  },
  "602:28": {
-  "ko": "/두리번"
+  "ko": "/두리번",
+  "en": "/??"
  },
  "603:20": {
-  "ko": "/헉"
+  "ko": "/헉",
+  "en": "/omg"
  },
  "604:18": {
-  "ko": "/오"
+  "ko": "/오",
+  "en": "/oh"
  },
  "605:18": {
-  "ko": "/엑스"
+  "ko": "/엑스",
+  "en": "/X"
  },
  "606:21": {
-  "ko": "/헬프"
+  "ko": "/헬프",
+  "en": "/hlp"
  },
  "607:19": {
-  "ko": "/가"
+  "ko": "/가",
+  "en": "/go"
  },
  "608:20": {
-  "ko": "/엉엉"
+  "ko": "/엉엉",
+  "en": "/sob"
  },
  "609:20": {
-  "ko": "/킥킥"
+  "ko": "/킥킥",
+  "en": "/gg"
  },
  "610:21": {
-  "ko": "/쪽"
+  "ko": "/쪽",
+  "en": "/kis"
  },
  "611:25": {
-  "ko": "/쪽쪽"
+  "ko": "/쪽쪽",
+  "en": "/kis2"
  },
  "612:20": {
-  "ko": "/흥"
+  "ko": "/흥",
+  "en": "/pif"
  },
  "613:19": {
-  "ko": "/응"
+  "ko": "/응",
+  "en": "/ok"
  },
  "614:22": {
-  "ko": "단축키 목록"
+  "ko": "단축키 목록",
+  "en": "Shortcut List"
  },
  "615:24": {
-  "ko": "귀하의 계정은 보류되었습니다."
+  "ko": "귀하의 계정은 보류되었습니다.",
+  "en": "Your account has been suspended."
  },
  "616:23": {
-  "ko": "과금 정책 변경으로 인해 일시 종료됩니다. 다시 접속하여 주시기 바랍니다."
+  "ko": "과금 정책 변경으로 인해 일시 종료됩니다. 다시 접속하여 주시기 바랍니다.",
+  "en": "Disconnected due to a billing policy change. Please log in again."
  },
  "617:24": {
-  "ko": "어카운트 서버에 인증된 IP와 귀하의 IP가 달라 연결을 종료합니다."
+  "ko": "어카운트 서버에 인증된 IP와 귀하의 IP가 달라 연결을 종료합니다.",
+  "en": "Disconnected: your IP differs from the one verified by the account server."
  },
  "618:27": {
-  "ko": "게임방 IP에서 개인 종량제 과금을 막기 위해 연결을 종료합니다. 개인 종량제 과금을 사용하기 위해서는 게임방IP로 등록이 되지 않은 IP를 사용해 주세요."
+  "ko": "게임방 IP에서 개인 종량제 과금을 막기 위해 연결을 종료합니다. 개인 종량제 과금을 사용하기 위해서는 게임방IP로 등록이 되지 않은 IP를 사용해 주세요.",
+  "en": "Disconnected to block personal metered billing on an internet cafe IP. For metered billing, use an IP not registered to an internet cafe."
  },
  "619:21": {
-  "ko": "귀하는 운영자에 의해 강제 종료 되었습니다."
+  "ko": "귀하는 운영자에 의해 강제 종료 되었습니다.",
+  "en": "You have been disconnected by a GM."
  },
  "620:33": {
-  "ko": "무게가 90%를 초과하여 스킬을 사용할 수 없습니다."
+  "ko": "무게가 90%를 초과하여 스킬을 사용할 수 없습니다.",
+  "en": "You cannot use skills while your weight is over 90%."
  },
  "621:22": {
-  "ko": "무명"
+  "ko": "무명",
+  "en": "Unknown"
  },
  "622:20": {
-  "ko": "축하합니다. %s님의 현재 랭킹이 %d위로 상승하였습니다."
+  "ko": "축하합니다. %s님의 현재 랭킹이 %d위로 상승하였습니다.",
+  "en": "Congratulations! %s's ranking has risen to %d."
  },
  "623:21": {
-  "ko": "안타깝게도 %s님의 현재 랭킹이 %d위로 하락하였습니다."
+  "ko": "안타깝게도 %s님의 현재 랭킹이 %d위로 하락하였습니다.",
+  "en": "Unfortunately, %s's ranking has dropped to %d."
  },
  "625:19": {
-  "ko": "만복도"
+  "ko": "만복도",
+  "en": "Hunger"
  },
  "626:21": {
-  "ko": "친밀도"
+  "ko": "친밀도",
+  "en": "Intimacy"
  },
  "627:35": {
-  "ko": "상점과 채팅방을 동시에 열수 없습니다."
+  "ko": "상점과 채팅방을 동시에 열수 없습니다.",
+  "en": "Can't open a shop and a chat room at once."
  },
  "628:12": {
-  "ko": "개"
+  "ko": "개",
+  "en": "ea"
  },
  "629:14": {
-  "ko": "%s 를 전투불능으로 만들었습니다."
+  "ko": "%s 를 전투불능으로 만들었습니다.",
+  "en": "You knocked out %s."
  },
  "630:16": {
-  "ko": "%s 님에 의해 전투불능 상태가 되었습니다."
+  "ko": "%s 님에 의해 전투불능 상태가 되었습니다.",
+  "en": "You were knocked out by %s."
  },
  "631:27": {
-  "ko": "먹이 - '%s' 아이템이 존재하지 않습니다.."
+  "ko": "먹이 - '%s' 아이템이 존재하지 않습니다..",
+  "en": "Feeding - item '%s' is not in your inventory."
  },
  "632:20": {
-  "ko": "먹이 주기"
+  "ko": "먹이 주기",
+  "en": "Feed Pet"
  },
  "633:24": {
-  "ko": "퍼포먼스"
+  "ko": "퍼포먼스",
+  "en": "Performance"
  },
  "634:23": {
-  "ko": "알로 되돌리기"
+  "ko": "알로 되돌리기",
+  "en": "Return to Egg"
  },
  "635:20": {
-  "ko": "악세사리 해제"
+  "ko": "악세사리 해제",
+  "en": "Unequip Accessory"
  },
  "636:21": {
-  "ko": "Pet 상태 보기"
+  "ko": "Pet 상태 보기",
+  "en": "Check Pet Status"
  },
  "637:22": {
-  "ko": "악세사리"
+  "ko": "악세사리",
+  "en": "Accessory"
  },
  "638:21": {
-  "ko": "장착됨"
+  "ko": "장착됨",
+  "en": "Equipped"
  },
  "639:21": {
-  "ko": "펫 리스트"
+  "ko": "펫 리스트",
+  "en": "Pet List"
  },
  "640:23": {
-  "ko": "장착 안됨"
+  "ko": "장착 안됨",
+  "en": "Not Equipped"
  },
  "641:25": {
-  "ko": "정말로 먹이를 주시겠습니까?"
+  "ko": "정말로 먹이를 주시겠습니까?",
+  "en": "Really feed your pet?"
  },
  "642:30": {
-  "ko": "가격을 쓰실땐 숫자(0~9)만 써주십시오."
+  "ko": "가격을 쓰실땐 숫자(0~9)만 써주십시오.",
+  "en": "Use only numbers (0~9) for the price."
  },
  "643:36": {
-  "ko": "감정되지 않은 아이템은 판매할 수 없습니다."
+  "ko": "감정되지 않은 아이템은 판매할 수 없습니다.",
+  "en": "Unidentified items cannot be sold."
  },
  "644:35": {
-  "ko": "가격이 0 Zeny인 아이템이 존재합니다. 계속 하시겠습니까?"
+  "ko": "가격이 0 Zeny인 아이템이 존재합니다. 계속 하시겠습니까?",
+  "en": "An item is priced at 0 Zeny. Do you want to continue?"
  },
  "645:25": {
-  "ko": "[새로 추가된 이모션 리스트]"
+  "ko": "[새로 추가된 이모션 리스트]",
+  "en": "[Newly Added Emotions]"
  },
  "646:26": {
-  "ko": "일본쪽 베타 사용자들에게 전하는 메세지. -> 겅호에서 재가입 하세요."
+  "ko": "일본쪽 베타 사용자들에게 전하는 메세지. -> 겅호에서 재가입 하세요.",
+  "en": "Message for Japanese beta users. -> Please re-register with GungHo."
  },
  "647:26": {
-  "ko": "일본쪽 과금이 종료된 사용자들에게 전하는 메세지. -> 돈내라. 두 번내라."
+  "ko": "일본쪽 과금이 종료된 사용자들에게 전하는 메세지. -> 돈내라. 두 번내라.",
+  "en": "Message for Japanese users whose billing has ended. -> Pay up. Pay twice."
  },
  "648:32": {
-  "ko": "같은 계정의 캐릭터가 이미 가입되어있습니다."
+  "ko": "같은 계정의 캐릭터가 이미 가입되어있습니다.",
+  "en": "A character on this account is already a member."
  },
  "649:30": {
-  "ko": "(%d 명) - 만18세이상"
+  "ko": "(%d 명) - 만18세이상",
+  "en": "(%d players) - 18+"
  },
  "650:21": {
-  "ko": " 프로보크 상태가 되었습니다."
+  "ko": " 프로보크 상태가 되었습니다.",
+  "en": " Provoke activated."
  },
  "651:21": {
-  "ko": " 프로보크 상태가 해제되었습니다."
+  "ko": " 프로보크 상태가 해제되었습니다.",
+  "en": " Provoke has worn off."
  },
  "652:20": {
-  "ko": " 인듀어 상태가 되었습니다."
+  "ko": " 인듀어 상태가 되었습니다.",
+  "en": " Endure activated."
  },
  "653:20": {
-  "ko": " 인듀어 상태가 해제되었습니다."
+  "ko": " 인듀어 상태가 해제되었습니다.",
+  "en": " Endure has worn off."
  },
  "654:27": {
-  "ko": " 집중력 향상 상태가 되었습니다."
+  "ko": " 집중력 향상 상태가 되었습니다.",
+  "en": " Improve Concentration activated."
  },
  "655:27": {
-  "ko": " 집중력 향상 상태가 해제되었습니다."
+  "ko": " 집중력 향상 상태가 해제되었습니다.",
+  "en": " Improve Concentration has worn off."
  },
  "656:20": {
-  "ko": " 하이딩 상태가 되었습니다."
+  "ko": " 하이딩 상태가 되었습니다.",
+  "en": " Hiding activated."
  },
  "657:20": {
-  "ko": " 하이딩 상태가 해제되었습니다."
+  "ko": " 하이딩 상태가 해제되었습니다.",
+  "en": " Hiding has worn off."
  },
  "658:22": {
-  "ko": " 클로킹 상태가 되었습니다."
+  "ko": " 클로킹 상태가 되었습니다.",
+  "en": " Cloaking activated."
  },
  "659:22": {
-  "ko": " 클로킹 상태가 해제되었습니다."
+  "ko": " 클로킹 상태가 해제되었습니다.",
+  "en": " Cloaking has worn off."
  },
  "660:25": {
-  "ko": " 독을 반사 할 수 있는 상태가 되었습니다."
+  "ko": " 독을 반사 할 수 있는 상태가 되었습니다.",
+  "en": " You can now reflect poison."
  },
  "661:25": {
-  "ko": " 포이즌 리액트 상태가 해제되었습니다."
+  "ko": " 포이즌 리액트 상태가 해제되었습니다.",
+  "en": " Poison React has worn off."
  },
  "662:22": {
-  "ko": " 이동속도가 감소하였습니다."
+  "ko": " 이동속도가 감소하였습니다.",
+  "en": " Movement speed decreased."
  },
  "663:22": {
-  "ko": " 콰그마이어 상태가 해제되었습니다."
+  "ko": " 콰그마이어 상태가 해제되었습니다.",
+  "en": " Quagmire has worn off."
  },
  "664:21": {
-  "ko": " 방어력이 증가되었습니다."
+  "ko": " 방어력이 증가되었습니다.",
+  "en": " Defense increased."
  },
  "665:21": {
-  "ko": " 안젤루스 상태가 해제되었습니다."
+  "ko": " 안젤루스 상태가 해제되었습니다.",
+  "en": " Angelus has worn off."
  },
  "666:22": {
-  "ko": " 힘과 지능, 덱스가 증가하였습니다."
+  "ko": " 힘과 지능, 덱스가 증가하였습니다.",
+  "en": " STR, INT and DEX increased."
  },
  "667:22": {
-  "ko": " 블레싱 상태가 해제되었습니다."
+  "ko": " 블레싱 상태가 해제되었습니다.",
+  "en": " Blessing has worn off."
  },
  "668:20": {
-  "ko": " 시그넘 크루시스를 사용하였습니다."
+  "ko": " 시그넘 크루시스를 사용하였습니다.",
+  "en": " Signum Crucis was used."
  },
  "669:20": {
-  "ko": " 시그넘 크루시스 상태가 해제되었습니다."
+  "ko": " 시그넘 크루시스 상태가 해제되었습니다.",
+  "en": " Signum Crucis has worn off."
  },
  "670:24": {
-  "ko": " 독이 퍼지는 속도가 느려졌습니다."
+  "ko": " 독이 퍼지는 속도가 느려졌습니다.",
+  "en": " Poison is spreading more slowly."
  },
  "671:24": {
-  "ko": " 슬로우 포이즌 상태가 해제되었습니다."
+  "ko": " 슬로우 포이즌 상태가 해제되었습니다.",
+  "en": " Slow Poison has worn off."
  },
  "672:24": {
-  "ko": " SP의 회복 속도가 향상 되었습니다."
+  "ko": " SP의 회복 속도가 향상 되었습니다.",
+  "en": " SP recovery speed increased."
  },
  "673:24": {
-  "ko": " 마니피캇 상태가 해제되었습니다."
+  "ko": " 마니피캇 상태가 해제되었습니다.",
+  "en": " Magnificat has worn off."
  },
  "674:20": {
-  "ko": " 행운이 향상되었습니다."
+  "ko": " 행운이 향상되었습니다.",
+  "en": " LUK increased."
  },
  "675:20": {
-  "ko": " 글로리아 상태가 해제되었습니다."
+  "ko": " 글로리아 상태가 해제되었습니다.",
+  "en": " Gloria has worn off."
  },
  "676:24": {
-  "ko": " 1회 공격에 두 배 데미지를 받는 상태가 되었습니다."
+  "ko": " 1회 공격에 두 배 데미지를 받는 상태가 되었습니다.",
+  "en": " The next attack on you will deal double damage."
  },
  "677:24": {
-  "ko": " 렉스에테르나 상태가 해제되었습니다."
+  "ko": " 렉스에테르나 상태가 해제되었습니다.",
+  "en": " Lex Aeterna has worn off."
  },
  "678:24": {
-  "ko": " 공격속도가 증가하였습니다."
+  "ko": " 공격속도가 증가하였습니다.",
+  "en": " Attack speed increased."
  },
  "679:24": {
-  "ko": " 공격속도가 감소하였습니다."
+  "ko": " 공격속도가 감소하였습니다.",
+  "en": " Attack speed decreased."
  },
  "680:20": {
-  "ko": " 페코에 올라 탔습니다."
+  "ko": " 페코에 올라 탔습니다.",
+  "en": " You mounted a Peco Peco."
  },
  "681:20": {
-  "ko": " 페코에서 내렸습니다."
+  "ko": " 페코에서 내렸습니다.",
+  "en": " Dismounted the Peco Peco."
  },
  "682:20": {
-  "ko": " 팔콘을 장착하였습니다."
+  "ko": " 팔콘을 장착하였습니다.",
+  "en": " Falcon equipped."
  },
  "683:20": {
-  "ko": " 팔콘을 풀어주었습니다."
+  "ko": " 팔콘을 풀어주었습니다.",
+  "en": " Falcon released."
  },
  "684:23": {
-  "ko": " 죽은척하기 상태가 되었습니다."
+  "ko": " 죽은척하기 상태가 되었습니다.",
+  "en": " Play Dead activated."
  },
  "685:23": {
-  "ko": " 죽은척하기 상태가 해제되었습니다."
+  "ko": " 죽은척하기 상태가 해제되었습니다.",
+  "en": " Play Dead has worn off."
  },
  "686:19": {
-  "ko": " 힘이 강해졌습니다."
+  "ko": " 힘이 강해졌습니다.",
+  "en": " Strength increased."
  },
  "687:19": {
-  "ko": " 힘이 원래대로 돌아왔습니다."
+  "ko": " 힘이 원래대로 돌아왔습니다.",
+  "en": " Strength is back to normal."
  },
  "688:24": {
-  "ko": " 에너지코트 상태가 되었습니다."
+  "ko": " 에너지코트 상태가 되었습니다.",
+  "en": " Energy Coat activated."
  },
  "689:24": {
-  "ko": " 에너지코트 상태가 해제되었습니다."
+  "ko": " 에너지코트 상태가 해제되었습니다.",
+  "en": " Energy Coat has worn off."
  },
  "690:24": {
-  "ko": " 방어구가 파괴되었습니다."
+  "ko": " 방어구가 파괴되었습니다.",
+  "en": " Your armor is broken."
  },
  "692:26": {
-  "ko": " 무기가 파괴되었니다."
+  "ko": " 무기가 파괴되었니다.",
+  "en": " Your weapon is broken."
  },
  "694:22": {
-  "ko": " 환영상태가 되었습니다."
+  "ko": " 환영상태가 되었습니다.",
+  "en": " You are hallucinating."
  },
  "695:22": {
-  "ko": " 환영상태가 해제되었습니다."
+  "ko": " 환영상태가 해제되었습니다.",
+  "en": " Hallucination has worn off."
  },
  "696:31": {
-  "ko": "과금 정보 처리가 늦어지고 있어 접속이 지연되고 있습니다. 잠시 후에 다시 시도해 주시기 바랍니다."
+  "ko": "과금 정보 처리가 늦어지고 있어 접속이 지연되고 있습니다. 잠시 후에 다시 시도해 주시기 바랍니다.",
+  "en": "Billing data processing is delayed, so your connection is delayed. Please try again in a moment."
  },
  "697:22": {
-  "ko": "장착된 화살/탄환/수리검 을 해제해야합니다."
+  "ko": "장착된 화살/탄환/수리검 을 해제해야합니다.",
+  "en": "You must unequip your arrows/bullets/shuriken first."
  },
  "698:19": {
-  "ko": "화살 목록"
+  "ko": "화살 목록",
+  "en": "Arrow List"
  },
  "699:18": {
-  "ko": "카트 목록"
+  "ko": "카트 목록",
+  "en": "Cart List"
  },
  "700:24": {
-  "ko": "카트를 장착한 상태여야 합니다."
+  "ko": "카트를 장착한 상태여야 합니다.",
+  "en": "You must have a Pushcart equipped."
  },
  "701:28": {
-  "ko": "채팅방을 개설 할 수 없습니다."
+  "ko": "채팅방을 개설 할 수 없습니다.",
+  "en": "You cannot open a chat room."
  },
  "702:18": {
-  "ko": "라그나로크 홈페이지로 접속하여 계정을 만듭니다. 처음 계정을 만드시면 3일 동안은 무료로 이용하실 수 있습니다."
+  "ko": "라그나로크 홈페이지로 접속하여 계정을 만듭니다. 처음 계정을 만드시면 3일 동안은 무료로 이용하실 수 있습니다.",
+  "en": "Go to the Ragnarok homepage to create an account. New accounts can play free for the first 3 days."
  },
  "703:30": {
-  "ko": "앉은 상태에서는 이 아이템을 사용할 수 없습니다."
+  "ko": "앉은 상태에서는 이 아이템을 사용할 수 없습니다.",
+  "en": "You cannot use this item while sitting."
  },
  "704:26": {
-  "ko": "채팅, 스킬, 아이템 사용금지가 %d 분간 남아 있습니다."
+  "ko": "채팅, 스킬, 아이템 사용금지가 %d 분간 남아 있습니다.",
+  "en": "Chat, skill and item ban: %d minutes remaining."
  },
  "705:23": {
-  "ko": "채팅, 스킬, 아이템 사용금지가 해지 되었습니다."
+  "ko": "채팅, 스킬, 아이템 사용금지가 해지 되었습니다.",
+  "en": "Your chat, skill and item ban has been lifted."
  },
  "706:20": {
-  "ko": "-[장착안됨]"
+  "ko": "-[장착안됨]",
+  "en": "-[Not equipped]"
  },
  "707:20": {
-  "ko": "배고픔"
+  "ko": "배고픔",
+  "en": "Very Hungry"
  },
  "708:15": {
-  "ko": "출출함"
+  "ko": "출출함",
+  "en": "Hungry"
  },
  "709:15": {
-  "ko": "보통"
+  "ko": "보통",
+  "en": "Neutral"
  },
  "710:16": {
-  "ko": "배부름"
+  "ko": "배부름",
+  "en": "Satisfied"
  },
  "711:21": {
-  "ko": "아주 배부름"
+  "ko": "아주 배부름",
+  "en": "Stuffed"
  },
  "712:21": {
-  "ko": "서먹서먹함"
+  "ko": "서먹서먹함",
+  "en": "Awkward"
  },
  "713:16": {
-  "ko": "어색함"
+  "ko": "어색함",
+  "en": "Shy"
  },
  "714:17": {
-  "ko": "친함"
+  "ko": "친함",
+  "en": "Cordial"
  },
  "715:22": {
-  "ko": "절친함"
+  "ko": "절친함",
+  "en": "Loyal"
  },
  "716:16": {
-  "ko": "알수 없음"
+  "ko": "알수 없음",
+  "en": "Unknown"
  },
  "717:33": {
-  "ko": "(태국)귀하는 앞으로 %일 %d시간 %d분 사용이 가능합니다."
+  "ko": "(태국)귀하는 앞으로 %일 %d시간 %d분 사용이 가능합니다.",
+  "en": "(Thailand) You have %d days %d hours of play time left."
  },
  "718:49": {
-  "ko": "(태국)이 계정은 이미 다른 어카운트 서버로 접속한 상태입니다."
+  "ko": "(태국)이 계정은 이미 다른 어카운트 서버로 접속한 상태입니다.",
+  "en": "(Thailand) This account is already connected to another account server."
  },
  "719:29": {
-  "ko": "(태국)귀하는 앞으로 %d시간 %d분 사용이 가능합니다."
+  "ko": "(태국)귀하는 앞으로 %d시간 %d분 사용이 가능합니다.",
+  "en": "(Thailand) You have %d hours %d minutes of play time left."
  },
  "720:26": {
-  "ko": "(태국)귀하는 무료 사용자 입니다."
+  "ko": "(태국)귀하는 무료 사용자 입니다.",
+  "en": "(Thailand) You are a free user."
  },
  "721:36": {
-  "ko": "(태국)이 계정으로 사크라이에 접속할수 없습니다."
+  "ko": "(태국)이 계정으로 사크라이에 접속할수 없습니다.",
+  "en": "(Thailand) This account cannot connect to Sakray."
  },
  "722:21": {
-  "ko": "펫의 이름은 영문 23, 한글 11자 이내로 정해 주세요."
+  "ko": "펫의 이름은 영문 23, 한글 11자 이내로 정해 주세요.",
+  "en": "Pet names must be up to 23 English or 11 Korean characters."
  },
  "723:32": {
-  "ko": "이름은 단 한번만 바꿀수 있습니다. 펫 이름을 ^0000ff^0000ff %s^000000^000000 로 수정합니다. 계속 하시겠습니까?"
+  "ko": "이름은 단 한번만 바꿀수 있습니다. 펫 이름을 ^0000ff^0000ff %s^000000^000000 로 수정합니다. 계속 하시겠습니까?",
+  "en": "A pet can only be renamed once. Rename your pet to ^0000ff^0000ff %s^000000^000000? Continue?"
  },
  "724:25": {
-  "ko": "/폰트"
+  "ko": "/폰트",
+  "en": "/font"
  },
  "725:29": {
-  "ko": "길드에 남은 제니가 부족하여 작업이 실패하였습니다."
+  "ko": "길드에 남은 제니가 부족하여 작업이 실패하였습니다.",
+  "en": "Not enough Zeny left in the guild; the action failed."
  },
  "726:23": {
-  "ko": "길드가 소유할 수 있는 최대 금액을 초과하여 작업이 실패하였습니다."
+  "ko": "길드가 소유할 수 있는 최대 금액을 초과하여 작업이 실패하였습니다.",
+  "en": "The action failed: it would exceed the most Zeny a guild can hold."
  },
  "727:21": {
-  "ko": "이펙트 간략화 On"
+  "ko": "이펙트 간략화 On",
+  "en": "Simple Effects On"
  },
  "728:22": {
-  "ko": "이펙트 간략화 Off"
+  "ko": "이펙트 간략화 Off",
+  "en": "Simple Effects Off"
  },
  "729:16": {
-  "ko": "자본금"
+  "ko": "자본금",
+  "en": "Capital"
  },
  "730:30": {
-  "ko": "아이템을 바닥에 버리려면, 아이템 창을 열어 주십시오."
+  "ko": "아이템을 바닥에 버리려면, 아이템 창을 열어 주십시오.",
+  "en": "Open the Item window to drop items on the ground."
  },
  "731:23": {
-  "ko": "PC방 요금이 종료하여 개인 요금제로 전환합니다. 개인 요금으로 게임을 계속 하시겠습니까?"
+  "ko": "PC방 요금이 종료하여 개인 요금제로 전환합니다. 개인 요금으로 게임을 계속 하시겠습니까?",
+  "en": "Internet cafe time has ended; switching to your personal plan. Keep playing on your personal plan?"
  },
  "734:26": {
-  "ko": "돈이 모자라거나, 가질 수 있는 최대 금액을 초과하였습니다."
+  "ko": "돈이 모자라거나, 가질 수 있는 최대 금액을 초과하였습니다.",
+  "en": "Not enough Zeny, or you would exceed the maximum Zeny you can hold."
  },
  "735:29": {
-  "ko": "전투불능 상태가 되었습니다. esc키를 누르시면 선택창이 뜹니다."
+  "ko": "전투불능 상태가 되었습니다. esc키를 누르시면 선택창이 뜹니다.",
+  "en": "You have been knocked out. Press ESC to open the selection window."
  },
  "736:18": {
-  "ko": "  %d 개 획득"
+  "ko": "  %d 개 획득",
+  "en": "  %d obtained"
  },
  "737:19": {
-  "ko": "스펠 리스트"
+  "ko": "스펠 리스트",
+  "en": "Spell List"
  },
  "738:18": {
-  "ko": "/최소화"
+  "ko": "/최소화",
+  "en": "/mineffect"
  },
  "739:21": {
-  "ko": "이 아이템은 손상되어 있습니다.."
+  "ko": "이 아이템은 손상되어 있습니다..",
+  "en": "This item is damaged."
  },
  "740:24": {
-  "ko": "/noshift : 쉬프트를 누르지않고 힐로 적을 공격할수있게됩니다 On Off"
+  "ko": "/noshift : 쉬프트를 누르지않고 힐로 적을 공격할수있게됩니다 On Off",
+  "en": "/noshift : Attack enemies with Heal without holding Shift On Off"
  },
  "741:19": {
-  "ko": "시프트를 누르지 않고도 힐로 언데드를 공격할수 있습니다 [/ns ON]"
+  "ko": "시프트를 누르지 않고도 힐로 언데드를 공격할수 있습니다 [/ns ON]",
+  "en": "You can attack Undead with Heal without holding Shift [/ns ON]"
  },
  "742:20": {
-  "ko": "시프트를 눌러야 힐로 언데드를 공격할수 있습니다 [/ns OFF]"
+  "ko": "시프트를 눌러야 힐로 언데드를 공격할수 있습니다 [/ns OFF]",
+  "en": "You must hold Shift to attack Undead with Heal [/ns OFF]"
  },
  "750:21": {
-  "ko": "/aura : 오오라를 간략화 시킬수있습니다 On Off"
+  "ko": "/aura : 오오라를 간략화 시킬수있습니다 On Off",
+  "en": "/aura : Simplify auras On Off"
  },
  "751:16": {
-  "ko": "오오라가 정상적으로 표시됩니다 [오오라 ON]"
+  "ko": "오오라가 정상적으로 표시됩니다 [오오라 ON]",
+  "en": "Auras are displayed normally [Aura ON]"
  },
  "752:17": {
-  "ko": "오오라가 간략화되서 표시됩니다 [오오라 OFF]"
+  "ko": "오오라가 간략화되서 표시됩니다 [오오라 OFF]",
+  "en": "Auras are displayed simplified [Aura OFF]"
  },
  "753:21": {
-  "ko": "채팅금지 기록 %d 회"
+  "ko": "채팅금지 기록 %d 회",
+  "en": "Chat bans: %d"
  },
  "754:22": {
-  "ko": "채팅 금지 리스트"
+  "ko": "채팅 금지 리스트",
+  "en": "Chat Ban List"
  },
  "755:29": {
-  "ko": "/이름표시 or /showname : 캐릭터의 이름 표시 방식을 변경합니다."
+  "ko": "/이름표시 or /showname : 캐릭터의 이름 표시 방식을 변경합니다.",
+  "en": "/showname : Change how character names are displayed."
  },
  "756:23": {
-  "ko": "/noctrl : 콘트롤을 누르지않아도 자동공격이 됩니다. On Off"
+  "ko": "/noctrl : 콘트롤을 누르지않아도 자동공격이 됩니다. On Off",
+  "en": "/noctrl : Auto-attack without holding Ctrl On Off"
  },
  "757:18": {
-  "ko": "콘트롤을 누르지 않아도 자동공격을 합니다 [/nc ON]"
+  "ko": "콘트롤을 누르지 않아도 자동공격을 합니다 [/nc ON]",
+  "en": "You auto-attack without holding Ctrl [/nc ON]"
  },
  "758:19": {
-  "ko": "콘트롤을 눌러야 자동공격을 합니다 [/nc OFF]"
+  "ko": "콘트롤을 눌러야 자동공격을 합니다 [/nc OFF]",
+  "en": "You must hold Ctrl to auto-attack [/nc OFF]"
  },
  "759:24": {
-  "ko": "채팅 금지 주기"
+  "ko": "채팅 금지 주기",
+  "en": "Impose Chat Ban"
  },
  "760:23": {
-  "ko": "채팅 금지 완전 풀기 & 로그 삭제"
+  "ko": "채팅 금지 완전 풀기 & 로그 삭제",
+  "en": "Lift chat ban & clear log"
  },
  "761:24": {
-  "ko": "채팅 금지 시간 줄이기(로그 삭제 안됨)"
+  "ko": "채팅 금지 시간 줄이기(로그 삭제 안됨)",
+  "en": "Shorten chat ban (log kept)"
  },
  "762:20": {
-  "ko": "폰트가 정상적으로 바뀌었습니다 [이름표시방식 1]"
+  "ko": "폰트가 정상적으로 바뀌었습니다 [이름표시방식 1]",
+  "en": "Normal font restored [Name Display 1]"
  },
  "763:21": {
-  "ko": "폰트가 가늘게 바뀌면서 파티명도 표시됩니다 [이름표시방식 2]"
+  "ko": "폰트가 가늘게 바뀌면서 파티명도 표시됩니다 [이름표시방식 2]",
+  "en": "Thin font, party name also shown [Name Display 2]"
  },
  "764:25": {
-  "ko": "/doridori : 연속해서 이 명령어를 쳐주면 캐릭터가 도리도리 ^^;;"
+  "ko": "/doridori : 연속해서 이 명령어를 쳐주면 캐릭터가 도리도리 ^^;;",
+  "en": "/doridori : Type this repeatedly to make your character shake its head ^^;;"
  },
  "765:30": {
-  "ko": "인터넷 카페에서 과금을 하고 있습니다."
+  "ko": "인터넷 카페에서 과금을 하고 있습니다.",
+  "en": "You are being billed through an internet cafe."
  },
  "766:21": {
-  "ko": "정액제 과금은 %d일 %d시간 %d분이 남았습니다.\n종량제 과금은 %d시간 %d분이 남았습니다."
+  "ko": "정액제 과금은 %d일 %d시간 %d분이 남았습니다.\n종량제 과금은 %d시간 %d분이 남았습니다.",
+  "en": "Flat-rate time left: %d days %d hours %d minutes.\nMetered time left: %d hours %d minutes."
  },
  "767:25": {
-  "ko": "/bingbing : 연속해서 이 명령어를 쳐주면 캐릭터가 빙글빙글 ^^;;"
+  "ko": "/bingbing : 연속해서 이 명령어를 쳐주면 캐릭터가 빙글빙글 ^^;;",
+  "en": "/bingbing : Type this repeatedly to make your character spin around ^^;;"
  },
  "768:25": {
-  "ko": "/bangbang : 연속해서 이 명령어를 쳐주면 캐릭터가 뱅글뱅글 ^^;;"
+  "ko": "/bangbang : 연속해서 이 명령어를 쳐주면 캐릭터가 뱅글뱅글 ^^;;",
+  "en": "/bangbang : Type this repeatedly to make your character whirl around ^^;;"
  },
  "769:26": {
-  "ko": "/skillfail : 빨간색의 스킬사용 실패 메세지를 표시하지 않습니다 On Off"
+  "ko": "/skillfail : 빨간색의 스킬사용 실패 메세지를 표시하지 않습니다 On Off",
+  "en": "/skillfail : Hide the red skill failure messages On Off"
  },
  "770:21": {
-  "ko": "스킬사용 실패 메세지를 표시합니다 [/sf ON]"
+  "ko": "스킬사용 실패 메세지를 표시합니다 [/sf ON]",
+  "en": "Skill failure messages are shown [/sf ON]"
  },
  "771:22": {
-  "ko": "스킬사용 실패 메세지를 표시하지 않습니다 [/sf OFF]"
+  "ko": "스킬사용 실패 메세지를 표시하지 않습니다 [/sf OFF]",
+  "en": "Skill failure messages are hidden [/sf OFF]"
  },
  "772:26": {
-  "ko": "/notalkmsg : 채팅내용을 채팅창에 표시하지 않습니다 On Off"
+  "ko": "/notalkmsg : 채팅내용을 채팅창에 표시하지 않습니다 On Off",
+  "en": "/notalkmsg : Hide chat messages in the chat window On Off"
  },
  "773:21": {
-  "ko": "채팅내용을 채팅창에 표시합니다 [/nm ON]"
+  "ko": "채팅내용을 채팅창에 표시합니다 [/nm ON]",
+  "en": "Chat is shown in the chat window [/nm ON]"
  },
  "774:22": {
-  "ko": "채팅내용을 채팅창에 표시하지않습니다 [/nm OFF]"
+  "ko": "채팅내용을 채팅창에 표시하지않습니다 [/nm OFF]",
+  "en": "Chat is hidden in the chat window [/nm OFF]"
  },
  "776:20": {
-  "ko": "/fog : FOG이펙트를 키거나 끌수있습니다 On Off"
+  "ko": "/fog : FOG이펙트를 키거나 끌수있습니다 On Off",
+  "en": "/fog : Fog effect On Off"
  },
  "777:23": {
-  "ko": "  청혼을 해왔습니다. 승낙하시겠습니까?"
+  "ko": "  청혼을 해왔습니다. 승낙하시겠습니까?",
+  "en": "  has proposed to you. Do you accept?"
  },
  "778:19": {
-  "ko": "아이템 분배 방식"
+  "ko": "아이템 분배 방식",
+  "en": "Item Distribution"
  },
  "779:17": {
   "ko": "각자 취득",
@@ -2572,361 +2863,480 @@
   "en": "Even Share"
  },
  "782:35": {
-  "ko": "Keyboard Driver가 검출되었습니다. \n\n키보드 보안 입력을 위해 추가기능을 설치하시겠습니까?    \n\n(추가기능 설치후, 시스템 reboot 필수)"
+  "ko": "Keyboard Driver가 검출되었습니다. \n\n키보드 보안 입력을 위해 추가기능을 설치하시겠습니까?    \n\n(추가기능 설치후, 시스템 reboot 필수)",
+  "en": "Keyboard Driver detected. \n\nInstall the add-on for secure keyboard input?    \n\n(A system reboot is required after installing.)"
  },
  "783:24": {
-  "ko": "설치가 완료 되었습니다. \n\n시스템을 Reboot 합니다.    "
+  "ko": "설치가 완료 되었습니다. \n\n시스템을 Reboot 합니다.    ",
+  "en": "Installation complete. \n\nThe system will now reboot.    "
  },
  "784:29": {
-  "ko": "설치 실패. "
+  "ko": "설치 실패. ",
+  "en": "Install failed. "
  },
  "785:30": {
-  "ko": "키보드 보안을 적용하지 않고 계속합니다."
+  "ko": "키보드 보안을 적용하지 않고 계속합니다.",
+  "en": "Continuing without keyboard security."
  },
  "786:32": {
-  "ko": "키보드 보안에 필요한 파일이 존재하지 않습니다.  \n\n(npkeyc.vxd, npkeyc.sys, npkeycs.sys)"
+  "ko": "키보드 보안에 필요한 파일이 존재하지 않습니다.  \n\n(npkeyc.vxd, npkeyc.sys, npkeycs.sys)",
+  "en": "Files needed for keyboard security are missing.  \n\n(npkeyc.vxd, npkeyc.sys, npkeycs.sys)"
  },
  "787:29": {
-  "ko": "USB Keyboard가 검출되었습니다. \n\n키보드 보안 입력을 위해 추가기능을 설치하시겠습니까?    \n\n(추가기능 설치후, 시스템 reboot 필수)"
+  "ko": "USB Keyboard가 검출되었습니다. \n\n키보드 보안 입력을 위해 추가기능을 설치하시겠습니까?    \n\n(추가기능 설치후, 시스템 reboot 필수)",
+  "en": "USB Keyboard detected. \n\nInstall the add-on for secure keyboard input?    \n\n(A system reboot is required after installing.)"
  },
  "789:30": {
-  "ko": "FindHack이 정상적으로 설치가 되어있지 않습니다. ragnarok0226.exe 를 다운로드 하여 라그나로크가 설치된 폴더에 설치해 주시기 바랍니다.(%d)."
+  "ko": "FindHack이 정상적으로 설치가 되어있지 않습니다. ragnarok0226.exe 를 다운로드 하여 라그나로크가 설치된 폴더에 설치해 주시기 바랍니다.(%d).",
+  "en": "FindHack is not installed correctly. Download ragnarok0226.exe and install it in your Ragnarok folder.(%d)."
  },
  "790:31": {
-  "ko": "해킹툴이 존재하지만 치료가 정상적으로 되지 않았습니다. 라그나로크가 실행되지 않습니다."
+  "ko": "해킹툴이 존재하지만 치료가 정상적으로 되지 않았습니다. 라그나로크가 실행되지 않습니다.",
+  "en": "A hacking tool was found but could not be removed. Ragnarok will not run."
  },
  "791:30": {
-  "ko": "해킹툴 진단 프로그램이 정상적으로 다운로드 되지 않았습니다. ragnarok0226.exe 를 다운로드 하여 라그나로크가 설치된 폴더에 설치해 주시기 바랍니다."
+  "ko": "해킹툴 진단 프로그램이 정상적으로 다운로드 되지 않았습니다. ragnarok0226.exe 를 다운로드 하여 라그나로크가 설치된 폴더에 설치해 주시기 바랍니다.",
+  "en": "The hacking tool scanner did not download correctly. Download ragnarok0226.exe and install it in your Ragnarok folder."
  },
  "792:24": {
-  "ko": "NPX.DLL 등록에러 이거나 FindHack 구동에 필요한 파일이 없습니다. ragnarok0226.exe 를 다운로드 하여 라그나로크가 설치된 폴더에 설치해 주시기 바랍니다."
+  "ko": "NPX.DLL 등록에러 이거나 FindHack 구동에 필요한 파일이 없습니다. ragnarok0226.exe 를 다운로드 하여 라그나로크가 설치된 폴더에 설치해 주시기 바랍니다.",
+  "en": "NPX.DLL registration error, or files FindHack needs are missing. Download ragnarok0226.exe and install it in your Ragnarok folder."
  },
  "793:27": {
-  "ko": "예외사항이 발생했습니다. (02-3281-0361)로 문의해주세요. 리턴값(%d)"
+  "ko": "예외사항이 발생했습니다. (02-3281-0361)로 문의해주세요. 리턴값(%d)",
+  "en": "An exception occurred. Please contact (02-3281-0361). Return value (%d)"
  },
  "794:29": {
-  "ko": "종료버튼을 클릭 하셨습니다."
+  "ko": "종료버튼을 클릭 하셨습니다.",
+  "en": "You clicked the Exit button."
  },
  "795:30": {
-  "ko": "Findhack 업데이트 서버접근 실패하였습니다. 잠시 후에 다시 시도해 주시거나 그라비티 운영팀으로 연락해주시기 바랍니다."
+  "ko": "Findhack 업데이트 서버접근 실패하였습니다. 잠시 후에 다시 시도해 주시거나 그라비티 운영팀으로 연락해주시기 바랍니다.",
+  "en": "Could not reach the FindHack update server. Please try again later or contact the Gravity support team."
  },
  "796:18": {
-  "ko": "사랑받고있는 "
+  "ko": "사랑받고있는 ",
+  "en": "Beloved "
  },
  "797:34": {
-  "ko": "/report or /신고 : 신고용 갈무리 파일을 저장합니다."
+  "ko": "/report or /신고 : 신고용 갈무리 파일을 저장합니다.",
+  "en": "/report : Save a screenshot file for reporting."
  },
  "798:26": {
-  "ko": "이 파일은 (주)그라비티의 운영팀에서 게임내의 부정행위나 비매너 행위에 대한\n증거자료로 사용하게 됩니다.\n문서를 다른 문서 형식으로 저장하거나 내용을 변경하여 원본과 일치하지 않게\n 될 경우 그 문서는 증거 효력을 상실하게 됩니다."
+  "ko": "이 파일은 (주)그라비티의 운영팀에서 게임내의 부정행위나 비매너 행위에 대한\n증거자료로 사용하게 됩니다.\n문서를 다른 문서 형식으로 저장하거나 내용을 변경하여 원본과 일치하지 않게\n 될 경우 그 문서는 증거 효력을 상실하게 됩니다.",
+  "en": "This file is used by Gravity Co., Ltd.'s operations team as evidence of cheating\nor bad manners in the game.\nIf it is saved in another format or edited so it no longer matches the original,\n it loses its value as evidence."
  },
  "799:19": {
-  "ko": "당신을 사랑해요 ♡"
+  "ko": "당신을 사랑해요 ♡",
+  "en": "I love you ♡"
  },
  "800:23": {
-  "ko": "화면 또는 이펙트가 밝아서 눈에 부담이 되시는분들은 모니터의 밝기를 조정해주시기바랍니다."
+  "ko": "화면 또는 이펙트가 밝아서 눈에 부담이 되시는분들은 모니터의 밝기를 조정해주시기바랍니다.",
+  "en": "If the screen or effects are too bright for your eyes, please adjust your monitor's brightness."
  },
  "801:23": {
-  "ko": "전체화면모드가 잘안되는 경우에 게임실행후 ALT+TAB으로 화면을 전환하면 잘되는 기종도 있습니다"
+  "ko": "전체화면모드가 잘안되는 경우에 게임실행후 ALT+TAB으로 화면을 전환하면 잘되는 기종도 있습니다",
+  "en": "If fullscreen mode doesn't work well, switching screens with ALT+TAB after starting may help."
  },
  "802:28": {
-  "ko": "(%d 명) - 유료서버"
+  "ko": "(%d 명) - 유료서버",
+  "en": "(%d players) - Paid"
  },
  "803:29": {
-  "ko": "(%d 명) - 무료서버"
+  "ko": "(%d 명) - 무료서버",
+  "en": "(%d players) - Free"
  },
  "804:35": {
-  "ko": "무료 회원은 유료 서버로 접속할 수 없습니다."
+  "ko": "무료 회원은 유료 서버로 접속할 수 없습니다.",
+  "en": "Free members cannot connect to pay servers."
  },
  "805:22": {
-  "ko": "마우스 우클릭으로 F9에 저장한 스킬을 쓸수있습니다 [/q1 ON]"
+  "ko": "마우스 우클릭으로 F9에 저장한 스킬을 쓸수있습니다 [/q1 ON]",
+  "en": "Right-click to use the skill saved in F9 [/q1 ON]"
  },
  "806:23": {
-  "ko": "마우스 우클릭으로 스킬을 사용하지 못합니다 [/q1 OFF]"
+  "ko": "마우스 우클릭으로 스킬을 사용하지 못합니다 [/q1 OFF]",
+  "en": "Right-click no longer uses skills [/q1 OFF]"
  },
  "807:27": {
-  "ko": "/quickspell  : 마우스 우클릭으로 F9에 저장한 스킬을 사용합니다 On Off"
+  "ko": "/quickspell  : 마우스 우클릭으로 F9에 저장한 스킬을 사용합니다 On Off",
+  "en": "/quickspell  : Right-click to use the skill saved in F9 On Off"
  },
  "808:23": {
-  "ko": "마우스의 WHEEL을 사용해서 F7 과 F8에 저장한 스킬을 사용합니다 [/q2 ON]"
+  "ko": "마우스의 WHEEL을 사용해서 F7 과 F8에 저장한 스킬을 사용합니다 [/q2 ON]",
+  "en": "Scroll the mouse WHEEL to use the skills saved in F7 and F8 [/q2 ON]"
  },
  "809:24": {
-  "ko": "마우스 WHEEL로 스킬을 사용하지 못합니다 [/q2 OFF]"
+  "ko": "마우스 WHEEL로 스킬을 사용하지 못합니다 [/q2 OFF]",
+  "en": "The mouse WHEEL no longer uses skills [/q2 OFF]"
  },
  "810:28": {
-  "ko": "/quickspell2 : 마우스 WHEEL을 위,아래로 굴려서 F7과F8에 저장한 스킬을 사용합니다 On Off"
+  "ko": "/quickspell2 : 마우스 WHEEL을 위,아래로 굴려서 F7과F8에 저장한 스킬을 사용합니다 On Off",
+  "en": "/quickspell2 : Scroll the mouse WHEEL up or down to use the skills saved in F7 and F8 On Off"
  },
  "812:22": {
-  "ko": "/찌릿"
+  "ko": "/찌릿",
+  "en": "/bzz"
  },
  "813:23": {
-  "ko": "/밥"
+  "ko": "/밥",
+  "en": "/rice"
  },
  "814:21": {
-  "ko": "/멋져"
+  "ko": "/멋져",
+  "en": "/awsm"
  },
  "815:23": {
-  "ko": "/메롱"
+  "ko": "/메롱",
+  "en": "/meh"
  },
  "816:20": {
-  "ko": "/부끄"
+  "ko": "/부끄",
+  "en": "/shy"
  },
  "817:24": {
-  "ko": "/쓱쓱"
+  "ko": "/쓱쓱",
+  "en": "/pat"
  },
  "818:23": {
-  "ko": "/엠탐"
+  "ko": "/엠탐",
+  "en": "/mp"
  },
  "819:21": {
-  "ko": "/질질"
+  "ko": "/질질",
+  "en": "/slur"
  },
  "820:23": {
-  "ko": "/컴온"
+  "ko": "/컴온",
+  "en": "/com"
  },
  "821:23": {
-  "ko": "/하품"
+  "ko": "/하품",
+  "en": "/yawn"
  },
  "822:31": {
-  "ko": "/축하"
+  "ko": "/축하",
+  "en": "/grat"
  },
  "823:23": {
-  "ko": "/피탐"
+  "ko": "/피탐",
+  "en": "/hp"
  },
  "824:24": {
-  "ko": "/이모션 : 현재 사용가능한 이모션의 리스트를 보여줍니다."
+  "ko": "/이모션 : 현재 사용가능한 이모션의 리스트를 보여줍니다.",
+  "en": "/emotion : Show the list of emotions you can use."
  },
  "825:18": {
-  "ko": "키보드를 이용해서 스킬단축창 1,2,3의 스킬들을 사용합니다. [/bm ON]"
+  "ko": "키보드를 이용해서 스킬단축창 1,2,3의 스킬들을 사용합니다. [/bm ON]",
+  "en": "Use the skills in skill bars 1, 2 and 3 with the keyboard. [/bm ON]"
  },
  "826:19": {
-  "ko": "키보드를 이용해서 스킬단축창 1,2,3의 스킬들을 사용하지못합니다. [/bm OFF]"
+  "ko": "키보드를 이용해서 스킬단축창 1,2,3의 스킬들을 사용하지못합니다. [/bm OFF]",
+  "en": "You can no longer use the skills in skill bars 1, 2 and 3 with the keyboard. [/bm OFF]"
  },
  "827:23": {
-  "ko": "/battlemode : Q ~ O 를 누르면 스킬단축창2의 스킬들이 사용됩니다."
+  "ko": "/battlemode : Q ~ O 를 누르면 스킬단축창2의 스킬들이 사용됩니다.",
+  "en": "/battlemode : Press Q ~ O to use the skills in skill bar 2."
  },
  "828:24": {
-  "ko": "                    A ~ L 을 누르면 스킬단축창3의 스킬들이 사용됩니다."
+  "ko": "                    A ~ L 을 누르면 스킬단축창3의 스킬들이 사용됩니다.",
+  "en": "                    Press A ~ L to use the skills in skill bar 3."
  },
  "829:20": {
-  "ko": "라그나로크를 실행하실때 다른 프로그램을 띄우시면 게임이 느려질수도있습니다."
+  "ko": "라그나로크를 실행하실때 다른 프로그램을 띄우시면 게임이 느려질수도있습니다.",
+  "en": "Running other programs while playing Ragnarok may slow the game down."
  },
  "830:21": {
-  "ko": "천사님 제 목소리 들리세요? ^^;"
+  "ko": "천사님 제 목소리 들리세요? ^^;",
+  "en": "Guardian Angel, can you hear me? ^^;"
  },
  "831:21": {
-  "ko": "슈퍼노비스"
+  "ko": "슈퍼노비스",
+  "en": "I'm Super Novice"
  },
  "832:21": {
-  "ko": "예요~"
+  "ko": "예요~",
+  "en": "~"
  },
  "833:21": {
-  "ko": "저 좀 도와주세요~ ㅠ_ㅠ"
+  "ko": "저 좀 도와주세요~ ㅠ_ㅠ",
+  "en": "Please help me~ T_T"
  },
  "834:21": {
-  "ko": "님께서 당신을 입양시키고 싶어하십니다. 승낙하시겠습니까?"
+  "ko": "님께서 당신을 입양시키고 싶어하십니다. 승낙하시겠습니까?",
+  "en": " wishes to adopt you. Do you accept?"
  },
  "835:24": {
-  "ko": "                    Z ~ > 을 누르면 스킬단축창1의 스킬들이 사용됩니다. On Off"
+  "ko": "                    Z ~ > 을 누르면 스킬단축창1의 스킬들이 사용됩니다. On Off",
+  "en": "                    Press Z ~ > to use the skills in skill bar 1. On Off"
  },
  "836:24": {
-  "ko": "                    Space를 한번 누른뒤에 글자를 입력하면 채팅을 할수있습니다."
+  "ko": "                    Space를 한번 누른뒤에 글자를 입력하면 채팅을 할수있습니다.",
+  "en": "                    Press Space once, then type to chat."
  },
  "837:39": {
-  "ko": "게임가드 파일이 없거나 변조되었습니다. 게임가드 셋업 파일을 설치해보시기 바랍니다."
+  "ko": "게임가드 파일이 없거나 변조되었습니다. 게임가드 셋업 파일을 설치해보시기 바랍니다.",
+  "en": "GameGuard files are missing or modified. Please try reinstalling the GameGuard setup file."
  },
  "838:34": {
-  "ko": "윈도우의 일부 시스템 파일이 손상되었습니다. 인터넷 익스플로러(IE)를 다시 설치해보시기 바랍니다."
+  "ko": "윈도우의 일부 시스템 파일이 손상되었습니다. 인터넷 익스플로러(IE)를 다시 설치해보시기 바랍니다.",
+  "en": "Some Windows system files are damaged. Please try reinstalling Internet Explorer (IE)."
  },
  "839:32": {
-  "ko": "게임가드 실행에 실패했습니다. 게임가드 셋업 파일을 다시 설치해보시기 바랍니다."
+  "ko": "게임가드 실행에 실패했습니다. 게임가드 셋업 파일을 다시 설치해보시기 바랍니다.",
+  "en": "GameGuard failed to run. Please try reinstalling the GameGuard setup file."
  },
  "840:36": {
-  "ko": "불법 프로그램이 발견되었습니다. 불필요한 프로그램을 종료한 후 다시 실행해보시기 바랍니다."
+  "ko": "불법 프로그램이 발견되었습니다. 불필요한 프로그램을 종료한 후 다시 실행해보시기 바랍니다.",
+  "en": "An illegal program was found. Close unneeded programs and try running the game again."
  },
  "841:27": {
-  "ko": "게임가드 업데이트를 취소하셨습니다. 접속이 계속 되지 않을 경우 인터넷 및 방화벽 상태를 점검해보시기 바랍니다."
+  "ko": "게임가드 업데이트를 취소하셨습니다. 접속이 계속 되지 않을 경우 인터넷 및 방화벽 상태를 점검해보시기 바랍니다.",
+  "en": "You canceled the GameGuard update. If you still cannot connect, check your Internet and firewall settings."
  },
  "842:29": {
-  "ko": "게임가드 업데이트 서버 접속에 실패하였습니다. 잠시 후 재시도 해보거나, 인터넷 및 방화벽 상태를 점검해 보시기 바랍니다."
+  "ko": "게임가드 업데이트 서버 접속에 실패하였습니다. 잠시 후 재시도 해보거나, 인터넷 및 방화벽 상태를 점검해 보시기 바랍니다.",
+  "en": "Could not connect to the GameGuard update server. Try again later, or check your Internet and firewall settings."
  },
  "843:26": {
-  "ko": "게임가드 업데이트를 완료하지 못 했습니다. 바이러스 검사를 해보시거나, PC 관리 프로그램을 사용하시면 설정을 조정한 후 게임을 실행해 보시기 바랍니다."
+  "ko": "게임가드 업데이트를 완료하지 못 했습니다. 바이러스 검사를 해보시거나, PC 관리 프로그램을 사용하시면 설정을 조정한 후 게임을 실행해 보시기 바랍니다.",
+  "en": "The GameGuard update did not complete. Run a virus scan, or if you use a PC management program, adjust its settings and then run the game."
  },
  "844:24": {
-  "ko": "/notrade : 거래신청을 자동으로 거절합니다 On Off"
+  "ko": "/notrade : 거래신청을 자동으로 거절합니다 On Off",
+  "en": "/notrade : Automatically decline trade requests On Off"
  },
  "845:19": {
-  "ko": "거래신청과 친구등록요청을 자동으로 거절합니다 [/nt ON]"
+  "ko": "거래신청과 친구등록요청을 자동으로 거절합니다 [/nt ON]",
+  "en": "Trade and friend requests are automatically declined [/nt ON]"
  },
  "846:20": {
-  "ko": "거래신청과 친구등록요청을 정상적으로 받습니다 [/nt OFF]"
+  "ko": "거래신청과 친구등록요청을 정상적으로 받습니다 [/nt OFF]",
+  "en": "Trade and friend requests are received normally [/nt OFF]"
  },
  "847:23": {
-  "ko": "같은 아이템은 한번에 30000개 이상은 살수 없습니다."
+  "ko": "같은 아이템은 한번에 30000개 이상은 살수 없습니다.",
+  "en": "You cannot buy 30000 or more of the same item at once."
  },
  "848:26": {
-  "ko": "재료가 충분하지 않습니다."
+  "ko": "재료가 충분하지 않습니다.",
+  "en": "Not enough materials."
  },
  "849:24": {
-  "ko": "%s에 계정정보가 남아있습니다."
+  "ko": "%s에 계정정보가 남아있습니다.",
+  "en": "Account data still remains on %s."
  },
  "850:30": {
-  "ko": "계정도용 조사를 위해 로그인이 금지되었습니다. 자세한 문의는 계정도용 관련 문의 메일로 해주시기 바랍니다."
+  "ko": "계정도용 조사를 위해 로그인이 금지되었습니다. 자세한 문의는 계정도용 관련 문의 메일로 해주시기 바랍니다.",
+  "en": "Login blocked for an account theft investigation. Send questions to the account theft inquiry address."
  },
  "851:26": {
-  "ko": "귀하는 버그관련 조사중이므로 일시적으로 접속을 금합니다"
+  "ko": "귀하는 버그관련 조사중이므로 일시적으로 접속을 금합니다",
+  "en": "Access temporarily blocked: you are under a bug investigation."
  },
  "852:23": {
-  "ko": "수리가능한 아이템"
+  "ko": "수리가능한 아이템",
+  "en": "Repairable Items"
  },
  "853:29": {
-  "ko": "아이템 수리 성공"
+  "ko": "아이템 수리 성공",
+  "en": "Item Repair Success"
  },
  "854:25": {
-  "ko": "아이템 수리 실패 (재료 또는 상대와의 거리등을 확인해주십시요)"
+  "ko": "아이템 수리 실패 (재료 또는 상대와의 거리등을 확인해주십시요)",
+  "en": "Item repair failed (check the materials and your distance from the target)"
  },
  "855:24": {
-  "ko": "시스템 상황을 지속적으로 체크 합니다.[운영자모드] [/sc ON]"
+  "ko": "시스템 상황을 지속적으로 체크 합니다.[운영자모드] [/sc ON]",
+  "en": "Continuously checking system status. [GM Mode] [/sc ON]"
  },
  "856:25": {
-  "ko": "시스템 상황을 지속적으로 체크 하지 않습니다.[운영자모드] [/sc OFF]"
+  "ko": "시스템 상황을 지속적으로 체크 하지 않습니다.[운영자모드] [/sc OFF]",
+  "en": "No longer checking system status. [GM Mode] [/sc OFF]"
  },
  "857:29": {
-  "ko": "/systemcheck : 시스템 상황을 지속적으로 체크 합니다.[운영자모드] "
+  "ko": "/systemcheck : 시스템 상황을 지속적으로 체크 합니다.[운영자모드] ",
+  "en": "/systemcheck : Continuously check system status. [GM Mode] "
  },
  "858:28": {
-  "ko": "(%s)님이 친구 신청을 하셨습니다. 친구가 되시겠습니까?"
+  "ko": "(%s)님이 친구 신청을 하셨습니다. 친구가 되시겠습니까?",
+  "en": "(%s) wants to be your friend. Accept?"
  },
  "859:31": {
-  "ko": "더 이상 친구 등록을 하실수 없습니다."
+  "ko": "더 이상 친구 등록을 하실수 없습니다.",
+  "en": "You cannot add any more friends."
  },
  "860:34": {
-  "ko": "(%s)님이 더 이상 친구 등록을 하실수 없습니다."
+  "ko": "(%s)님이 더 이상 친구 등록을 하실수 없습니다.",
+  "en": "(%s) cannot add any more friends."
  },
  "861:27": {
-  "ko": "(%s)님과 친구가 되셨습니다."
+  "ko": "(%s)님과 친구가 되셨습니다.",
+  "en": "You are now friends with (%s)."
  },
  "862:25": {
-  "ko": "(%s)님이 친구 되기를 원하지 않습니다."
+  "ko": "(%s)님이 친구 되기를 원하지 않습니다.",
+  "en": "(%s) does not want to be friends."
  },
  "863:16": {
-  "ko": "이 캐릭터는 %s 까지 블럭되어있습니다."
+  "ko": "이 캐릭터는 %s 까지 블럭되어있습니다.",
+  "en": "This character is blocked until %s."
  },
  "864:18": {
-  "ko": "천만제니 이상 입력하셔도 가격은 천만제니로 판매됩니다."
+  "ko": "천만제니 이상 입력하셔도 가격은 천만제니로 판매됩니다.",
+  "en": "Prices above 10,000,000 Zeny are sold at 10,000,000 Zeny."
  },
  "865:19": {
-  "ko": "(적음)"
+  "ko": "(적음)",
+  "en": "(Low)"
  },
  "866:20": {
-  "ko": "(약간 적음)"
+  "ko": "(약간 적음)",
+  "en": "(Fairly Low)"
  },
  "867:19": {
-  "ko": "(보통)"
+  "ko": "(보통)",
+  "en": "(Normal)"
  },
  "868:17": {
-  "ko": "(많음)"
+  "ko": "(많음)",
+  "en": "(High)"
  },
  "869:21": {
-  "ko": "(매우 많음)"
+  "ko": "(매우 많음)",
+  "en": "(Very High)"
  },
  "870:28": {
-  "ko": "비매너에 의해 운영자로부터 채팅금지가 적용됩니다."
+  "ko": "비매너에 의해 운영자로부터 채팅금지가 적용됩니다.",
+  "en": "A GM has banned you from chatting for bad manners."
  },
  "871:29": {
-  "ko": "GM에 의한 채팅금지가 %d 분 남아 있습니다."
+  "ko": "GM에 의한 채팅금지가 %d 분 남아 있습니다.",
+  "en": "GM chat ban: %d minutes remaining."
  },
  "872:26": {
-  "ko": "GM에 의한 채팅금지가 해지 되었습니다."
+  "ko": "GM에 의한 채팅금지가 해지 되었습니다.",
+  "en": "The GM chat ban has been lifted."
  },
  "873:30": {
-  "ko": "도배 방지 시스템으로 인한 자동 채팅금지가 적용됩니다."
+  "ko": "도배 방지 시스템으로 인한 자동 채팅금지가 적용됩니다.",
+  "en": "The anti-spam system has automatically banned you from chatting."
  },
  "874:31": {
-  "ko": "도배 방지 시스템으로 인한 채팅금지가 %d 분 남아 있습니다."
+  "ko": "도배 방지 시스템으로 인한 채팅금지가 %d 분 남아 있습니다.",
+  "en": "Anti-spam chat ban: %d minutes remaining."
  },
  "875:28": {
-  "ko": "도배 방지 시스템으로 인한 채팅금지가 해지되었습니다. 게임진행 시에는 도배에 대해서 주의하여 주시기 바랍니다."
+  "ko": "도배 방지 시스템으로 인한 채팅금지가 해지되었습니다. 게임진행 시에는 도배에 대해서 주의하여 주시기 바랍니다.",
+  "en": "The anti-spam chat ban has been lifted. Please be careful not to spam while playing."
  },
  "876:16": {
-  "ko": "%s님과 %s님이 이혼하셨습니다."
+  "ko": "%s님과 %s님이 이혼하셨습니다.",
+  "en": "%s and %s have divorced."
  },
  "877:19": {
-  "ko": "拳聖 %s의 태양의 장소로 %s 가 지정됐습니다."
+  "ko": "拳聖 %s의 태양의 장소로 %s 가 지정됐습니다.",
+  "en": "Taekwon Master %s's Place of the Sun set to %s."
  },
  "878:19": {
-  "ko": "拳聖 %s의 달의 장소로 %s 가 지정됐습니다."
+  "ko": "拳聖 %s의 달의 장소로 %s 가 지정됐습니다.",
+  "en": "Taekwon Master %s's Place of the Moon set to %s."
  },
  "879:19": {
-  "ko": "拳聖 %s의 별의 장소로 %s 가 지정됐습니다."
+  "ko": "拳聖 %s의 별의 장소로 %s 가 지정됐습니다.",
+  "en": "Taekwon Master %s's Place of the Stars set to %s."
  },
  "880:19": {
-  "ko": "拳聖 %s의 태양의 장소는 %s 입니다"
+  "ko": "拳聖 %s의 태양의 장소는 %s 입니다",
+  "en": "%s's Place of the Sun is %s."
  },
  "881:19": {
-  "ko": "拳聖 %s의 달의 장소는 %s 입니다"
+  "ko": "拳聖 %s의 달의 장소는 %s 입니다",
+  "en": "%s's Place of the Moon is %s."
  },
  "882:19": {
-  "ko": "拳聖 %s의 별의 장소는 %s 입니다"
+  "ko": "拳聖 %s의 별의 장소는 %s 입니다",
+  "en": "%s's Place of the Stars is %s."
  },
  "883:21": {
-  "ko": "拳聖 %s의 태양의 몬스터로 %s 가 지정됐습니다."
+  "ko": "拳聖 %s의 태양의 몬스터로 %s 가 지정됐습니다.",
+  "en": "Taekwon Master %s's Monster of the Sun set to %s."
  },
  "884:21": {
-  "ko": "拳聖 %s의 달의 몬스터로 %s 가 지정됐습니다."
+  "ko": "拳聖 %s의 달의 몬스터로 %s 가 지정됐습니다.",
+  "en": "Taekwon Master %s's Monster of the Moon set to %s."
  },
  "885:21": {
-  "ko": "拳聖 %s의 별의 몬스터로 %s 가 지정됐습니다."
+  "ko": "拳聖 %s의 별의 몬스터로 %s 가 지정됐습니다.",
+  "en": "Taekwon Master %s's Monster of the Stars set to %s."
  },
  "886:21": {
-  "ko": "拳聖 %s의 태양의 몬스터는 %s 입니다"
+  "ko": "拳聖 %s의 태양의 몬스터는 %s 입니다",
+  "en": "%s's Monster of the Sun is %s."
  },
  "887:21": {
-  "ko": "拳聖 %s의 달의 몬스터는 %s 입니다"
+  "ko": "拳聖 %s의 달의 몬스터는 %s 입니다",
+  "en": "%s's Monster of the Moon is %s."
  },
  "888:21": {
-  "ko": "拳聖 %s의 별의 몬스터는 %s 입니다"
+  "ko": "拳聖 %s의 별의 몬스터는 %s 입니다",
+  "en": "%s's Monster of the Stars is %s."
  },
  "889:23": {
-  "ko": "/window : 창 위치 이동시 다른 창과 달라붙는 속성이 들어갑니다 On Off"
+  "ko": "/window : 창 위치 이동시 다른 창과 달라붙는 속성이 들어갑니다 On Off",
+  "en": "/window : Windows snap to other windows when moved On Off"
  },
  "890:18": {
-  "ko": "창 위치 이동시 다른 창과 잘 붙습니다 [/wi ON]"
+  "ko": "창 위치 이동시 다른 창과 잘 붙습니다 [/wi ON]",
+  "en": "Windows snap to other windows when moved [/wi ON]"
  },
  "891:19": {
-  "ko": "창 위치 이동시 다른 창과 붙으려는 속성을 가지지 않습니다 [/wi OFF]"
+  "ko": "창 위치 이동시 다른 창과 붙으려는 속성을 가지지 않습니다 [/wi OFF]",
+  "en": "Windows no longer snap to other windows when moved [/wi OFF]"
  },
  "892:25": {
-  "ko": "/pvpinfo : 자신의 PVP 승패와 PVP 포인트를 알 수 있습니다."
+  "ko": "/pvpinfo : 자신의 PVP 승패와 PVP 포인트를 알 수 있습니다.",
+  "en": "/pvpinfo : Show your PVP wins, losses and PVP points."
  },
  "893:17": {
-  "ko": "현재 %d승, %d패, PVP포인트는 %d입니다."
+  "ko": "현재 %d승, %d패, PVP포인트는 %d입니다.",
+  "en": "Currently %d wins, %d losses, %d PVP points."
  },
  "894:26": {
-  "ko": "매너 포인트를 성공적으로 보냈습니다."
+  "ko": "매너 포인트를 성공적으로 보냈습니다.",
+  "en": "Manner point sent successfully."
  },
  "895:15": {
-  "ko": "현재 이곳은 PK 가능 지역입니다. 불의의 공격에 유의 하시기 바랍니다."
+  "ko": "현재 이곳은 PK 가능 지역입니다. 불의의 공격에 유의 하시기 바랍니다.",
+  "en": "This is a PK area. Watch out for surprise attacks."
  },
  "896:33": {
-  "ko": "게임가드 업데이트가 바이러스나 스파이웨어와의 충돌로 실패했습니다. 백신 프로그램/스파이웨어 제거 프로그램을 사용한 후 접속해 주십시기 바랍니다"
+  "ko": "게임가드 업데이트가 바이러스나 스파이웨어와의 충돌로 실패했습니다. 백신 프로그램/스파이웨어 제거 프로그램을 사용한 후 접속해 주십시기 바랍니다",
+  "en": "The GameGuard update failed due to a conflict with a virus or spyware. Run an antivirus/anti-spyware program, then connect again."
  },
  "897:35": {
-  "ko": "윈도우 호환성 문제로 프로그램을 종료합니다. 게임을 다시 실행해 주시기 바랍니다"
+  "ko": "윈도우 호환성 문제로 프로그램을 종료합니다. 게임을 다시 실행해 주시기 바랍니다",
+  "en": "Closing the program due to a Windows compatibility problem. Please run the game again."
  },
  "898:17": {
-  "ko": "채팅, 스킬, 아이템을 사용할수없게 되었습니다."
+  "ko": "채팅, 스킬, 아이템을 사용할수없게 되었습니다.",
+  "en": "You can no longer chat, use skills or use items."
  },
  "899:22": {
-  "ko": "캐릭터 삭제 작업중이므로 접속이 일시적으로 제한됩니다."
+  "ko": "캐릭터 삭제 작업중이므로 접속이 일시적으로 제한됩니다.",
+  "en": "Access temporarily restricted while a character is being deleted."
  },
  "900:29": {
-  "ko": "결혼 상대자의 캐릭터 삭제 작업중이므로 접속이 일시적으로 제한됩니다."
+  "ko": "결혼 상대자의 캐릭터 삭제 작업중이므로 접속이 일시적으로 제한됩니다.",
+  "en": "Access temporarily restricted while your spouse's character is being deleted."
  },
  "927:22": {
-  "ko": "(%s)님을 아이로 입양신청"
+  "ko": "(%s)님을 아이로 입양신청",
+  "en": "Adopt (%s) as your child"
  },
  "928:22": {
-  "ko": "아이가 되면 전승을 할수없고 스텟은 80이상 올릴수없게되며 HP와 SP가 줄어듭니다. 그래도 괜찮습니까?"
+  "ko": "아이가 되면 전승을 할수없고 스텟은 80이상 올릴수없게되며 HP와 SP가 줄어듭니다. 그래도 괜찮습니까?",
+  "en": "If adopted, you can't be reborn, stats can't go above 80, and your HP and SP are reduced. Is that OK?"
  },
  "929:16": {
   "ko": "모든 나쁜 상태이상이 제거 되었습니다."
