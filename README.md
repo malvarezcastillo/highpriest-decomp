@@ -13,7 +13,15 @@ The source covers the game and the libraries the original linked statically: the
 
 The `translation` branch replaces the Korean text compiled into the executable with English, so its build no longer equals the original and `make check` fails by design; use `make`. `main` is the byte-identical source.
 
-`translation/strings/` lists every Korean string literal of `main` by source file and position, with its English text or the reason it stays Korean (a file name inside the game data, a lookup key). `translation/tr.py apply` rewrites the literals from those tables, and `translation/tr.py status` counts what is still open. Names follow the international (iRO) client. Work in progress: see the status count.
+What is translated: the minigame's dialogue, menus, hints, shop, endings and credits; the client's built-in message table (`src/MsgStrings.cpp`); the interface, error and debug strings scattered through the other sources; and the crash dialog in `src/res/SimpleAssert.rc`. Names follow the international (iRO) client: Guillotine Fist, Occult Impaction, Mastersmith, Swordman, Hatii, Zeny. The emotion commands take their iRO forms (`/swt`, `/gg`, `/no1`).
+
+What stays Korean, on purpose: 2,727 literals that are not text for the player. Most name files inside the game data (sprites, textures, sounds, palettes); the rest are the Korean chat commands, comparison keys, font names and GameGuard's encrypted strings. The author's credit line keeps his name in Hangul.
+
+What the executable cannot cover: item, skill, monster and map names and descriptions, and any text drawn into pictures, come from the game data, which this repository does not contain.
+
+`translation/strings/` lists every Korean string literal of `main` by source file and position, with its English text or the reason it is kept. `translation/tr.py apply` rewrites the literals from those tables, `translation/tr.py status` checks that every entry is accounted for and that printf conversions match, and `translation/tr.py extract` rebuilds the list from `main`. Three changes were made by hand because they are not string literals or needed room: the daughter's default name in `src/UIWindowMgr.cpp` (a list of character constants), the local text buffers of the `HP_*.cpp` sources (100 to 256 bytes) and the save-slot difficulty buffer in `src/HP_SaveLoad.cpp`.
+
+The English has been compiled and checked against buffer sizes and box widths in the code, but not yet seen running: that needs the game data.
 
 ## Building
 
